@@ -1,0 +1,1719 @@
+[
+  {
+    "trigger": "aardewerk",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "amfoor",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "amphora"
+  },
+  {
+    "trigger": "amforen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "amphora",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "amphorae",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "arretina"
+  },
+  {
+    "trigger": "arretine"
+  },
+  {
+    "trigger": "baksel",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "clay fabric/paste"
+  },
+  {
+    "trigger": "baksels",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "beaker",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "beakers",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "beker",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "beaker/cup"
+  },
+  {
+    "trigger": "drinkbeker",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "drinking cup (compound; \\bbeker\\b cannot match inside drinkbeker)"
+  },
+  {
+    "trigger": "drinkbekers",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "drinking cups"
+  },
+  {
+    "trigger": "bekers",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "onbekend",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "unknown form; recorded only as a bare finds-table row"
+  },
+  {
+    "trigger": "onbekende",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "indet",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "indeterminate (abbreviation); finds-table row"
+  },
+  {
+    "trigger": "indeterminate",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "finds-table row"
+  },
+  {
+    "trigger": "unknown",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "recorded only as a bare finds-table row"
+  },
+  {
+    "trigger": "bottle",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "bottles",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "bowl",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "bowls",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "burnished",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "calices",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "calix",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "goblet/cup"
+  },
+  {
+    "trigger": "categorie",
+    "language": "nl",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "ceramic",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "ceramics",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "class",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "coarseware",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "cup",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "common word, use with context"
+  },
+  {
+    "trigger": "cups",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "deksel",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "lid"
+  },
+  {
+    "trigger": "deksels",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "dish",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "common word, use with context"
+  },
+  {
+    "trigger": "dishes",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "dolia",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "dolium",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "large storage vessel"
+  },
+  {
+    "trigger": "fabric",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": "refers to clay fabric/paste in archaeological usage"
+  },
+  {
+    "trigger": "fabrics",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "fictile",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "fictilia",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "fineware",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "flagon",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "flagons",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "flask",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "flasks",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "fles",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "bottle/flask"
+  },
+  {
+    "trigger": "flessen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "form",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": "only valid as typology signal near a number or code (e.g. Form 37)"
+  },
+  {
+    "trigger": "gebakken",
+    "language": "nl",
+    "category": "production",
+    "strength": "weak",
+    "notes": "fired/baked; also used for bread — needs context"
+  },
+  {
+    "trigger": "gedraaid",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "wheel-thrown"
+  },
+  {
+    "trigger": "geglazuurd",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "glazed"
+  },
+  {
+    "trigger": "gladwandig",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "smooth-walled (fineware)"
+  },
+  {
+    "trigger": "glaze",
+    "language": "en",
+    "category": "production",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "glazed",
+    "language": "en",
+    "category": "production",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "grijsbakkend",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "grey-firing (reduced ware)"
+  },
+  {
+    "trigger": "groep",
+    "language": "nl",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "group",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "hand-made",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "handgevormd",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "hand-made"
+  },
+  {
+    "trigger": "handmade",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "jar",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "jars",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "jug",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "jugs",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kan",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "pitcher/jug; also auxiliary verb 'can' in Dutch — needs context"
+  },
+  {
+    "trigger": "kannen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "keramiek",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kiln",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kilns",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kom",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "bowl"
+  },
+  {
+    "trigger": "kommen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "krater",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kruik",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "jug/pitcher"
+  },
+  {
+    "trigger": "kruiken",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "lagena",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "flask/bottle"
+  },
+  {
+    "trigger": "lagenae",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "lid",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "very common word; only meaningful near other pottery triggers"
+  },
+  {
+    "trigger": "lids",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "mortaria",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "mortarium",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "mortarium",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "used as-is in Dutch archaeological texts"
+  },
+  {
+    "trigger": "native"
+  },
+  {
+    "trigger": "olla",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "cooking pot"
+  },
+  {
+    "trigger": "ollae",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "opus doliare",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "fired clay products including bricks/tiles/pottery"
+  },
+  {
+    "trigger": "oven",
+    "language": "nl",
+    "category": "production",
+    "strength": "weak",
+    "notes": "kiln; also means kitchen oven — needs context"
+  },
+  {
+    "trigger": "oxiderend",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "oxidation-fired"
+  },
+  {
+    "trigger": "patera",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "shallow dish used in ritual contexts"
+  },
+  {
+    "trigger": "paterae",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "pitcher",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "pitchers",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "strainer",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "cheese strainer / colander"
+  },
+  {
+    "trigger": "kookpot",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "cooking pot"
+  },
+  {
+    "trigger": "kogelpotaardewerk",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "globular pot ware (medieval); compound — needs its own trigger because \\baardewerk\\b cannot match inside kogelpot+aardewerk"
+  },
+  {
+    "trigger": "kogelpotten",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "globular pots"
+  },
+  {
+    "trigger": "kogelpot",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "globular pot (medieval handmade ware)"
+  },
+  {
+    "trigger": "kookpotten",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "cooking pots (plural)"
+  },
+  {
+    "trigger": "kruikwaar",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "jug ware (kruik + \\b does not match kruikwaar)"
+  },
+  {
+    "trigger": "kruikwaren",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "jug ware (plural)"
+  },
+  {
+    "trigger": "plate",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": "common word, use with context"
+  },
+  {
+    "trigger": "plates",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "pot",
+    "language": "en",
+    "category": "core",
+    "strength": "weak",
+    "notes": "common word, use only with nearby pottery context"
+  },
+  {
+    "trigger": "pot",
+    "language": "nl",
+    "category": "core",
+    "strength": "weak",
+    "notes": "same as English; needs context"
+  },
+  {
+    "trigger": "pots",
+    "language": "en",
+    "category": "core",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "potscherf",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "potscherven",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "potsherd",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "potsherds",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "potten",
+    "language": "nl",
+    "category": "core",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "pottenbakker",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "potter"
+  },
+  {
+    "trigger": "pottenbakkerij",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "pottery workshop/kiln site"
+  },
+  {
+    "trigger": "pottery",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "reducerend",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "reduction-fired (grey ware)"
+  },
+  {
+    "trigger": "roodbakkend",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "red-firing (oxidised ware)"
+  },
+  {
+    "trigger": "ruwwandig",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "rough-walled (coarseware)"
+  },
+  {
+    "trigger": "ruwwandige",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "rough-walled (inflected)"
+  },
+  {
+    "trigger": "gladwandige",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "smooth-walled (inflected)"
+  },
+  {
+    "trigger": "schaal",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "dish/plate"
+  },
+  {
+    "trigger": "schaaltje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of schaal (small dish)"
+  },
+  {
+    "trigger": "schaaltjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "kommetje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of kom (small bowl)"
+  },
+  {
+    "trigger": "kommetjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "bekertje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of beker (small beaker)"
+  },
+  {
+    "trigger": "bekertjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "kruikje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of kruik (small jug)"
+  },
+  {
+    "trigger": "kruikjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "urntje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of urn"
+  },
+  {
+    "trigger": "urntjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "potje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of pot"
+  },
+  {
+    "trigger": "potjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "kannetje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of kan (small jug)"
+  },
+  {
+    "trigger": "kannetjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "schoteltje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "saucer/small dish"
+  },
+  {
+    "trigger": "schoteltjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "bordje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive of bord (small plate)"
+  },
+  {
+    "trigger": "bordjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "diminutive plural"
+  },
+  {
+    "trigger": "schalen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "schenkkan",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "pouring jug"
+  },
+  {
+    "trigger": "scherf",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": "sherd"
+  },
+  {
+    "trigger": "scherven",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": "sherds (plural)"
+  },
+  {
+    "trigger": "scyphus",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "drinking cup"
+  },
+  {
+    "trigger": "serie",
+    "language": "nl",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "series",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "sherd",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "sherds",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "sigillata",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "used in all three languages"
+  },
+  {
+    "trigger": "slip",
+    "language": "en",
+    "category": "production",
+    "strength": "weak",
+    "notes": "ambiguous — only meaningful near pottery terms"
+  },
+  {
+    "trigger": "standamfoor",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "pedestalled amphora type common in Roman-period Netherlands"
+  },
+  {
+    "trigger": "steengoed",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": "stoneware"
+  },
+  {
+    "trigger": "storage jar",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "multi-word trigger"
+  },
+  {
+    "trigger": "tankard",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "temper",
+    "language": "en",
+    "category": "production",
+    "strength": "weak",
+    "notes": "only meaningful in archaeological context"
+  },
+  {
+    "trigger": "tempered",
+    "language": "en",
+    "category": "production",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "terra sigillata",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "multi-word trigger"
+  },
+  {
+    "trigger": "terra nigra",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "multi-word trigger; Gallo-Belgic fine ware"
+  },
+  {
+    "trigger": "terra rubra",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "multi-word trigger; Gallo-Belgic fine ware"
+  },
+  {
+    "trigger": "testa",
+    "language": "la",
+    "category": "core",
+    "strength": "strong",
+    "notes": "sherd/potsherd in Latin"
+  },
+  {
+    "trigger": "type",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": "only valid near a number or code (e.g. Type IIa)"
+  },
+  {
+    "trigger": "type",
+    "language": "nl",
+    "category": "typology",
+    "strength": "weak",
+    "notes": "same as English; only valid near a code or number"
+  },
+  {
+    "trigger": "urceus",
+    "language": "la",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "jug/pitcher"
+  },
+  {
+    "trigger": "urn",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "urns",
+    "language": "en",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "vaatwerk",
+    "language": "nl",
+    "category": "core",
+    "strength": "strong",
+    "notes": "vessels/tableware collectively"
+  },
+  {
+    "trigger": "variant",
+    "language": "en",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "variant",
+    "language": "nl",
+    "category": "typology",
+    "strength": "weak",
+    "notes": null
+  },
+  {
+    "trigger": "vat",
+    "language": "nl",
+    "category": "core",
+    "strength": "weak",
+    "notes": "vessel/container; also means 'barrel' in modern Dutch — context-dependent"
+  },
+  {
+    "trigger": "verschraling",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "temper/inclusions in clay"
+  },
+  {
+    "trigger": "vessel",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "vessels",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "voorraadpot",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "storage jar"
+  },
+  {
+    "trigger": "voorraadpotten",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "ware",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "wares",
+    "language": "en",
+    "category": "core",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "wheel thrown",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "wheel-thrown",
+    "language": "en",
+    "category": "production",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "witbakkend",
+    "language": "nl",
+    "category": "production",
+    "strength": "strong",
+    "notes": "white-firing"
+  },
+  {
+    "trigger": "wrijfschaal",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "Dutch word for mortarium (grinding bowl)"
+  },
+  {
+    "trigger": "wrijfschalen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "bord",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "plate"
+  },
+  {
+    "trigger": "borden",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "plates"
+  },
+  {
+    "trigger": "lamp",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": "oil lamp"
+  },
+  {
+    "trigger": "lampen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "olielamp",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "oil lamp"
+  },
+  {
+    "trigger": "olielampje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "olielampjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "firmalamp",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "firmalampje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "firmalampjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "honingpot",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "honey pot"
+  },
+  {
+    "trigger": "honingpotje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "honingpotjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "honingpotten",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kurkurn",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "cork urn"
+  },
+  {
+    "trigger": "kurkurnen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "wrijfkom",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "mortarium"
+  },
+  {
+    "trigger": "wrijfkommen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "wrijfschotel",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "mortarium"
+  },
+  {
+    "trigger": "wrijfschotels",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "pannetje",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "pan"
+  },
+  {
+    "trigger": "pannetjes",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "gordelbeker",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "girdle beaker"
+  },
+  {
+    "trigger": "gordelbekers",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "kruikamfoor",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": "flagon-amphora"
+  },
+  {
+    "trigger": "kruikamforen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "pingsdorf",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": "Pingsdorf ware"
+  },
+  {
+    "trigger": "pingsdorfer",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "badorf",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": "Badorf ware"
+  },
+  {
+    "trigger": "badorfer",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "siegburg",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": "Siegburg stoneware"
+  },
+  {
+    "trigger": "paffrath",
+    "language": "nl",
+    "category": "ware",
+    "strength": "strong",
+    "notes": "Paffrath ware"
+  },
+  {
+    "trigger": "andenne",
+    "language": "nl",
+    "category": "ware",
+    "strength": "medium",
+    "notes": "Andenne ware"
+  },
+  {
+    "trigger": "urnen",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "schotel",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "schotels",
+    "language": "nl",
+    "category": "vessel_form",
+    "strength": "strong",
+    "notes": null
+  },
+  {
+    "trigger": "assiette",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "assiettes",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "écuelle",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "écuelles",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "ecuelle",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "ecuelles",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "tasse",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "tasses",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "cruche",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "cruches",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "lampe",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "lampes",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "vase",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "vases",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "urne",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "urnes",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "amphore",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "amphores",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "gobelet",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "gobelets",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "pichet",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "sigillée",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "sigillee",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "terre cuite",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "terre rouge",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "terre sigillée",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "poterie",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "céramique",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  },
+  {
+    "trigger": "ceramique",
+    "language": "fr",
+    "category": "vessel_form",
+    "strength": "medium",
+    "notes": null
+  }
+]

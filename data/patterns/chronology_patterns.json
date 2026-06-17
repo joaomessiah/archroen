@@ -1,0 +1,200 @@
+[
+  {
+    "pattern_id": "chronology_C_001",
+    "chronology_id": "C_001",
+    "phase_code": "ROMVA",
+    "description": "Early Roman Period A / Vroeg-Romeinse tijd A",
+    "regex": "\\b(?:ROMVA|Early\\ Roman\\ Period\\ A|Vroeg\\-Romeinse\\ tijd\\ A|Augustan|Augusteïsch|12\\ BCE|25\\ CE|12\\ BC|AD\\ 25)\\b",
+    "canonical_hint": "C_001",
+    "preferred_label": "Early Roman Period A",
+    "date_start": -12,
+    "date_end": 25
+  },
+  {
+    "pattern_id": "chronology_C_002",
+    "chronology_id": "C_002",
+    "phase_code": "ROMVA",
+    "description": "Early Roman Period A / Vroeg-Romeinse tijd A",
+    "regex": "\\b(?:ROMVA|Early\\ Roman\\ Period\\ A|Vroeg\\-Romeinse\\ tijd\\ A|Early\\ Julio\\-Claudian|vroeg\\-Julisch\\-Claudisch|12\\ BCE|25\\ CE|12\\ BC|AD\\ 25)\\b",
+    "canonical_hint": "C_002",
+    "preferred_label": "Early Roman Period A",
+    "date_start": -12,
+    "date_end": 25
+  },
+  {
+    "pattern_id": "chronology_C_003",
+    "chronology_id": "C_003",
+    "phase_code": "ROMVB",
+    "description": "Early Roman Period B / Vroeg-Romeinse tijd B",
+    "regex": "\\b(?:ROMVB|Early\\ Roman\\ Period\\ B|Vroeg\\-Romeinse\\ tijd\\ B|Late\\ Julio\\-Claudian|laat\\-Julisch\\-Claudisch|25\\ CE|70\\ CE|AD\\ 25|AD\\ 70)\\b",
+    "canonical_hint": "C_003",
+    "preferred_label": "Early Roman Period B",
+    "date_start": 25,
+    "date_end": 70
+  },
+  {
+    "pattern_id": "chronology_C_004",
+    "chronology_id": "C_004",
+    "phase_code": "ROMVB",
+    "description": "Early Roman Period B / Vroeg-Romeinse tijd B",
+    "regex": "\\b(?:ROMVB|Early\\ Roman\\ Period\\ B|Vroeg\\-Romeinse\\ tijd\\ B|Pre\\-Flavian|Pre\\-Flavisch|25\\ CE|70\\ CE|AD\\ 25|AD\\ 70)\\b",
+    "canonical_hint": "C_004",
+    "preferred_label": "Early Roman Period B",
+    "date_start": 25,
+    "date_end": 70
+  },
+  {
+    "pattern_id": "chronology_C_005",
+    "chronology_id": "C_005",
+    "phase_code": "ROMMA",
+    "description": "Middle Roman Period A / Midden-Romeinse tijd A",
+    "regex": "\\b(?:ROMMA|Middle\\ Roman\\ Period\\ A|Midden\\-Romeinse\\ tijd\\ A|Flavian|Flavisch|70\\ CE|150\\ CE|AD\\ 70|AD\\ 150)\\b",
+    "canonical_hint": "C_005",
+    "preferred_label": "Middle Roman Period A",
+    "date_start": 70,
+    "date_end": 150
+  },
+  {
+    "pattern_id": "chronology_C_006",
+    "chronology_id": "C_006",
+    "phase_code": "ROMMA",
+    "description": "Middle Roman Period A / Midden-Romeinse tijd A",
+    "regex": "\\b(?:ROMMA|Middle\\ Roman\\ Period\\ A|Midden\\-Romeinse\\ tijd\\ A|Trajanic|Trajaans|70\\ CE|150\\ CE|AD\\ 70|AD\\ 150)\\b",
+    "canonical_hint": "C_006",
+    "preferred_label": "Middle Roman Period A",
+    "date_start": 70,
+    "date_end": 150
+  },
+  {
+    "pattern_id": "chronology_C_007",
+    "chronology_id": "C_007",
+    "phase_code": "ROMMA",
+    "description": "Middle Roman Period A / Midden-Romeinse tijd A",
+    "regex": "\\b(?:ROMMA|Middle\\ Roman\\ Period\\ A|Midden\\-Romeinse\\ tijd\\ A|Hadrianic|Hadrianisch|70\\ CE|150\\ CE|AD\\ 70|AD\\ 150)\\b",
+    "canonical_hint": "C_007",
+    "preferred_label": "Middle Roman Period A",
+    "date_start": 70,
+    "date_end": 150
+  },
+  {
+    "pattern_id": "chronology_C_008",
+    "chronology_id": "C_008",
+    "phase_code": "ROMMB",
+    "description": "Middle Roman Period B / Midden-Romeinse tijd B",
+    "regex": "\\b(?:ROMMB|Middle\\ Roman\\ Period\\ B|Midden\\-Romeinse\\ tijd\\ B|Antonine|Antonijns|150\\ CE|275\\ CE|AD\\ 150|AD\\ 275)\\b",
+    "canonical_hint": "C_008",
+    "preferred_label": "Middle Roman Period B",
+    "date_start": 150,
+    "date_end": 275
+  },
+  {
+    "pattern_id": "chronology_C_009",
+    "chronology_id": "C_009",
+    "phase_code": "ROMMB",
+    "description": "Middle Roman Period B / Midden-Romeinse tijd B",
+    "regex": "\\b(?:ROMMB|Middle\\ Roman\\ Period\\ B|Midden\\-Romeinse\\ tijd\\ B|Severan|Severisch|150\\ CE|275\\ CE|AD\\ 150|AD\\ 275)\\b",
+    "canonical_hint": "C_009",
+    "preferred_label": "Middle Roman Period B",
+    "date_start": 150,
+    "date_end": 275
+  },
+  {
+    "pattern_id": "chronology_C_010",
+    "chronology_id": "C_010",
+    "phase_code": "ROMMB",
+    "description": "Middle Roman Period B / Midden-Romeinse tijd B",
+    "regex": "\\b(?:ROMMB|Middle\\ Roman\\ Period\\ B|Midden\\-Romeinse\\ tijd\\ B|3rd\\-century\\ crisis|3e\\-eeuwse\\ crisis|150\\ CE|275\\ CE|AD\\ 150|AD\\ 275)\\b",
+    "canonical_hint": "C_010",
+    "preferred_label": "Middle Roman Period B",
+    "date_start": 150,
+    "date_end": 275
+  },
+  {
+    "pattern_id": "chronology_C_011",
+    "chronology_id": "C_011",
+    "phase_code": "ROMLA",
+    "description": "Late Roman Period A / Laat-Romeinse tijd A",
+    "regex": "\\b(?:ROMLA|Late\\ Roman\\ Period\\ A|Laat\\-Romeinse\\ tijd\\ A|Tetrarchic|Tetrarchisch|275\\ CE|350\\ CE|AD\\ 275|AD\\ 350)\\b",
+    "canonical_hint": "C_011",
+    "preferred_label": "Late Roman Period A",
+    "date_start": 275,
+    "date_end": 350
+  },
+  {
+    "pattern_id": "chronology_C_012",
+    "chronology_id": "C_012",
+    "phase_code": "ROMLA",
+    "description": "Late Roman Period A / Laat-Romeinse tijd A",
+    "regex": "\\b(?:ROMLA|Late\\ Roman\\ Period\\ A|Laat\\-Romeinse\\ tijd\\ A|Constantinian|Constantijns|275\\ CE|350\\ CE|AD\\ 275|AD\\ 350)\\b",
+    "canonical_hint": "C_012",
+    "preferred_label": "Late Roman Period A",
+    "date_start": 275,
+    "date_end": 350
+  },
+  {
+    "pattern_id": "chronology_C_013",
+    "chronology_id": "C_013",
+    "phase_code": "ROMLB",
+    "description": "Late Roman Period B / Laat-Romeinse tijd B",
+    "regex": "\\b(?:ROMLB|Late\\ Roman\\ Period\\ B|Laat\\-Romeinse\\ tijd\\ B|Post\\-Constantinian|post\\-Constantijns|350\\ CE|450\\ CE|AD\\ 350|AD\\ 450)\\b",
+    "canonical_hint": "C_013",
+    "preferred_label": "Late Roman Period B",
+    "date_start": 350,
+    "date_end": 450
+  },
+  {
+    "pattern_id": "chronology_C_014",
+    "chronology_id": "C_014",
+    "phase_code": "ROMLB",
+    "description": "Late Roman Period B / Laat-Romeinse tijd B",
+    "regex": "\\b(?:ROMLB|Late\\ Roman\\ Period\\ B|Laat\\-Romeinse\\ tijd\\ B|Late\\ Imperial|Laat\\-imperiaal|350\\ CE|450\\ CE|AD\\ 350|AD\\ 450)\\b",
+    "canonical_hint": "C_014",
+    "preferred_label": "Late Roman Period B",
+    "date_start": 350,
+    "date_end": 450
+  },
+  {
+    "pattern_id": "chronology_C_015",
+    "chronology_id": "C_015",
+    "phase_code": "ROM",
+    "description": "Roman period / Romeinse tijd",
+    "regex": "\\b(?:ROM|Roman\\ period|Romeinse\\ tijd|12\\ BCE|450\\ CE|12\\ BC|AD\\ 450)\\b",
+    "canonical_hint": "C_015",
+    "preferred_label": "Roman period",
+    "date_start": -12,
+    "date_end": 450
+  },
+  {
+    "pattern_id": "chronology_C_016",
+    "chronology_id": "C_016",
+    "phase_code": "ROMV",
+    "description": "Early Roman Period / Vroeg-Romeinse tijd",
+    "regex": "\\b(?:ROMV|Early\\ Roman\\ Period|Vroeg\\-Romeinse\\ tijd|12\\ BCE|70\\ CE|12\\ BC|AD\\ 70)\\b",
+    "canonical_hint": "C_016",
+    "preferred_label": "Early Roman Period",
+    "date_start": -12,
+    "date_end": 70
+  },
+  {
+    "pattern_id": "chronology_C_017",
+    "chronology_id": "C_017",
+    "phase_code": "ROMM",
+    "description": "Middle Roman Period / Midden-Romeinse tijd",
+    "regex": "\\b(?:ROMM|Middle\\ Roman\\ Period|Midden\\-Romeinse\\ tijd|70\\ CE|275\\ CE|AD\\ 70|AD\\ 275)\\b",
+    "canonical_hint": "C_017",
+    "preferred_label": "Middle Roman Period",
+    "date_start": 70,
+    "date_end": 275
+  },
+  {
+    "pattern_id": "chronology_C_018",
+    "chronology_id": "C_018",
+    "phase_code": "ROML",
+    "description": "Late Roman Period / Laat-Romeinse tijd",
+    "regex": "\\b(?:ROML|Late\\ Roman\\ Period|Laat\\-Romeinse\\ tijd|275\\ CE|450\\ CE|AD\\ 275|AD\\ 450)\\b",
+    "canonical_hint": "C_018",
+    "preferred_label": "Late Roman Period",
+    "date_start": 275,
+    "date_end": 450
+  }
+]

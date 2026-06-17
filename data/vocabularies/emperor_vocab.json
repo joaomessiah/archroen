@@ -1,0 +1,627 @@
+[
+ {
+  "label": "Augustus",
+  "start": -27,
+  "end": 14,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "augustus",
+   "augustan",
+   "augusteïsch",
+   "augusteisch",
+   "augustan period",
+   "augusteïsche periode",
+   "reign of augustus",
+   "regering van augustus",
+   "gaius julius caesar augustus"
+  ]
+ },
+ {
+  "label": "Tiberius",
+  "start": 14,
+  "end": 37,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "tiberius",
+   "tiberian",
+   "tiberisch",
+   "tiberische",
+   "tiberian period",
+   "tiberiaanse periode",
+   "reign of tiberius",
+   "regering van tiberius",
+   "tiberius julius caesar"
+  ]
+ },
+ {
+  "label": "Caligula",
+  "start": 37,
+  "end": 41,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "caligula",
+   "caligulan"
+  ]
+ },
+ {
+  "label": "Claudius",
+  "start": 41,
+  "end": 54,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "claudius",
+   "claudian",
+   "claudisch",
+   "claudische",
+   "claudian period",
+   "claudische periode",
+   "claudiaanse periode",
+   "claudianic period",
+   "reign of claudius",
+   "regering van claudius",
+   "tiberius claudius caesar"
+  ]
+ },
+ {
+  "label": "Nero",
+  "start": 54,
+  "end": 68,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "nero",
+   "neronian",
+   "neronisch",
+   "neronische",
+   "neronian period",
+   "neronische periode",
+   "neroïaanse periode",
+   "reign of nero",
+   "regering van nero",
+   "nero claudius caesar"
+  ]
+ },
+ {
+  "label": "Vespasian",
+  "start": 69,
+  "end": 79,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "vespasianus",
+   "vespasian",
+   "vespasianic",
+   "vespasianic period",
+   "vespasianische periode",
+   "reign of vespasian",
+   "regering van vespasianus",
+   "titus flavius vespasianus"
+  ]
+ },
+ {
+  "label": "Titus",
+  "start": 79,
+  "end": 81,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "titus"
+  ]
+ },
+ {
+  "label": "Domitian",
+  "start": 81,
+  "end": 96,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "domitianus",
+   "domitian",
+   "domitianic",
+   "domitianische",
+   "domitianic period",
+   "domitianische periode",
+   "reign of domitian",
+   "regering van domitianus"
+  ]
+ },
+ {
+  "label": "Nerva",
+  "start": 96,
+  "end": 98,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "nerva"
+  ]
+ },
+ {
+  "label": "Trajan",
+  "start": 98,
+  "end": 117,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "traianus",
+   "trajan",
+   "trajanus",
+   "trajanic",
+   "trajaans",
+   "trajaanse",
+   "trajanic period",
+   "reign of trajan",
+   "regering van trajanus",
+   "marcus ulpius traianus"
+  ]
+ },
+ {
+  "label": "Hadrian",
+  "start": 117,
+  "end": 138,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "hadrianus",
+   "hadrian",
+   "hadrianic",
+   "hadrianisch",
+   "hadrianische",
+   "hadrianic period",
+   "hadrianische periode",
+   "reign of hadrian",
+   "regering van hadrianus",
+   "publius aelius hadrianus"
+  ]
+ },
+ {
+  "label": "Antoninus Pius",
+  "start": 138,
+  "end": 161,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "antoninus pius",
+   "reign of antoninus pius",
+   "regering van antoninus pius",
+   "antoninus"
+  ]
+ },
+ {
+  "label": "Marcus Aurelius",
+  "start": 161,
+  "end": 180,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "marcus aurelius",
+   "marcus aurelius antoninus",
+   "marcus aurelius period",
+   "marcus aurelius periode",
+   "reign of marcus aurelius",
+   "regering van marcus aurelius"
+  ]
+ },
+ {
+  "label": "Commodus",
+  "start": 180,
+  "end": 192,
+  "kind": "emperor",
+  "prompt": true,
+  "terms": [
+   "commodus",
+   "commodan",
+   "commodisch",
+   "commodische periode",
+   "commodan period",
+   "reign of commodus",
+   "regering van commodus"
+  ]
+ },
+ {
+  "label": "Septimius Severus",
+  "start": 193,
+  "end": 211,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "septimius severus",
+   "reign of septimius severus"
+  ]
+ },
+ {
+  "label": "Caracalla",
+  "start": 198,
+  "end": 217,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "caracalla",
+   "antoninus (caracalla)"
+  ]
+ },
+ {
+  "label": "Geta",
+  "start": 209,
+  "end": 211,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "geta"
+  ]
+ },
+ {
+  "label": "Elagabalus",
+  "start": 218,
+  "end": 222,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "elagabalus",
+   "elagabal"
+  ]
+ },
+ {
+  "label": "Severus Alexander",
+  "start": 222,
+  "end": 235,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "severus alexander"
+  ]
+ },
+ {
+  "label": "Trajan Decius",
+  "start": 249,
+  "end": 251,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "trajan decius",
+   "trajanus decius",
+   "decius"
+  ]
+ },
+ {
+  "label": "Gallienus",
+  "start": 253,
+  "end": 268,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "gallienus"
+  ]
+ },
+ {
+  "label": "Postumus",
+  "start": 260,
+  "end": 269,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "postumus"
+  ]
+ },
+ {
+  "label": "Claudius II Gothicus",
+  "start": 268,
+  "end": 270,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "claudius ii",
+   "claudius gothicus"
+  ]
+ },
+ {
+  "label": "Aurelian",
+  "start": 270,
+  "end": 275,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "aurelian",
+   "aurelianus"
+  ]
+ },
+ {
+  "label": "Tetricus",
+  "start": 271,
+  "end": 274,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "tetricus"
+  ]
+ },
+ {
+  "label": "Tacitus",
+  "start": 275,
+  "end": 276,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "marcus claudius tacitus"
+  ]
+ },
+ {
+  "label": "Probus",
+  "start": 276,
+  "end": 282,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "probus",
+   "marcus aurelius probus"
+  ]
+ },
+ {
+  "label": "Diocletian",
+  "start": 284,
+  "end": 305,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "diocletian",
+   "diocletianus"
+  ]
+ },
+ {
+  "label": "Maximian",
+  "start": 286,
+  "end": 305,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "maximian",
+   "maximianus",
+   "marcus aurelius valerius maximianus"
+  ]
+ },
+ {
+  "label": "Constantine I",
+  "start": 306,
+  "end": 337,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "constantine",
+   "constantijn",
+   "constantinian",
+   "constantinische",
+   "flavius valerius constantinus"
+  ]
+ },
+ {
+  "label": "Valentinian I",
+  "start": 364,
+  "end": 375,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "valentinian",
+   "valentinianus"
+  ]
+ },
+ {
+  "label": "Valens",
+  "start": 364,
+  "end": 378,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "valens"
+  ]
+ },
+ {
+  "label": "Gratian",
+  "start": 367,
+  "end": 383,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "gratian",
+   "gratianus"
+  ]
+ },
+ {
+  "label": "Theodosius I",
+  "start": 379,
+  "end": 395,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "theodosius",
+   "flavius theodosius"
+  ]
+ },
+ {
+  "label": "Honorius",
+  "start": 395,
+  "end": 423,
+  "kind": "emperor",
+  "prompt": false,
+  "terms": [
+   "honorius"
+  ]
+ },
+ {
+  "label": "Julio-Claudian dynasty",
+  "start": -27,
+  "end": 68,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "julio-claudian",
+   "julisch-claudisch",
+   "julio-claudian dynasty",
+   "julisch-claudische dynastie",
+   "julio-claudian period",
+   "julisch-claudische periode"
+  ]
+ },
+ {
+  "label": "Early Julio-Claudian",
+  "start": -27,
+  "end": 37,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "early julio-claudian",
+   "vroeg-julisch-claudisch"
+  ]
+ },
+ {
+  "label": "Late Julio-Claudian",
+  "start": 41,
+  "end": 68,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "late julio-claudian",
+   "laat-julisch-claudisch",
+   "claudius-nero",
+   "claudius nero",
+   "claudisch-neronisch"
+  ]
+ },
+ {
+  "label": "Pre-Flavian",
+  "start": -27,
+  "end": 69,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "pre-flavian",
+   "pre-flavisch"
+  ]
+ },
+ {
+  "label": "Flavian dynasty",
+  "start": 69,
+  "end": 96,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "flavisch",
+   "flavische",
+   "flavian",
+   "flavische periode",
+   "flavian period",
+   "flavian dynasty",
+   "flavische dynastie"
+  ]
+ },
+ {
+  "label": "Trajano-Hadrianic",
+  "start": 98,
+  "end": 138,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "trajano-hadrianic",
+   "trajano-hadrianisch",
+   "trajanic-hadrianic",
+   "trajaans-hadrianisch"
+  ]
+ },
+ {
+  "label": "Trajan-Antonine",
+  "start": 98,
+  "end": 192,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "traianus-antonini",
+   "traianus-antoninus",
+   "trajan-antonine"
+  ]
+ },
+ {
+  "label": "Claudius-Vespasian",
+  "start": 41,
+  "end": 79,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "claudius-vespasianus",
+   "claudius-vespasian"
+  ]
+ },
+ {
+  "label": "Nerva-Antonine dynasty",
+  "start": 96,
+  "end": 192,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "nerva-antonine",
+   "nerva-antonijns",
+   "nerva-antonine dynasty"
+  ]
+ },
+ {
+  "label": "Antonine",
+  "start": 138,
+  "end": 192,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "antonine",
+   "antonijns",
+   "antonijnse",
+   "antonine period",
+   "antonine dynasty"
+  ]
+ },
+ {
+  "label": "Severan",
+  "start": 193,
+  "end": 235,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "severan",
+   "severisch",
+   "severan dynasty",
+   "severan period"
+  ]
+ },
+ {
+  "label": "Drusus (campaigns)",
+  "start": -12,
+  "end": -9,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "nero claudius drusus",
+   "drusus"
+  ]
+ },
+ {
+  "label": "Aetius",
+  "start": 433,
+  "end": 454,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "flavius aetius",
+   "aetius"
+  ]
+ },
+ {
+  "label": "Flavian-Hadrianic",
+  "start": 69,
+  "end": 138,
+  "kind": "period",
+  "prompt": false,
+  "terms": [
+   "flavisch-hadrianisch",
+   "flavian-hadrianic"
+  ]
+ }
+]

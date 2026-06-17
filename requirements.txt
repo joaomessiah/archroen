@@ -1,0 +1,18 @@
+# Core runtime dependencies for the chronology pipeline.
+# Install into a virtualenv:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+PyMuPDF==1.26.4     # PDF text extraction and page rendering (imported as `fitz`)
+requests==2.31.0    # HTTP client for the cloud LLM, Anthropic, and Google Vision REST APIs
+
+# Optional: only needed when LLM_PROVIDER = "ollama" (local LLM backend) in config.py.
+ollama==0.6.1
+
+# Charts & evaluation analysis (tools/scientific_report/generate_charts/ and the evaluation scripts).
+matplotlib==3.11.0  # renders the thesis chart figures (PNG)
+numpy==2.4.6        # numeric arrays used in the chart statistics
+pandas==3.0.3       # reads/aggregates the granular evaluation summaries
+
+# Roman-villa maps (tools/scientific_report/generate_maps_roman_villas/). Pulls in shapely + pyproj.
+geopandas==1.1.3    # geospatial dataframes for the province boundaries + villa points
+shapely==2.1.2      # geometry ops (study-area box / intersection in the inset)
+pyproj==3.7.2       # CRS handling (RD New / EPSG:28992)

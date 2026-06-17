@@ -1,0 +1,722 @@
+[
+  {
+    "pattern_id": "century_20_bc",
+    "description": "20th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:20th|twentieth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:20e|twintigste)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_20_BC",
+    "preferred_label": "20th century BC",
+    "date_start": -2000,
+    "date_end": -1900
+  },
+  {
+    "pattern_id": "century_19_bc",
+    "description": "19th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:19th|nineteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:19e|negentiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_19_BC",
+    "preferred_label": "19th century BC",
+    "date_start": -1900,
+    "date_end": -1800
+  },
+  {
+    "pattern_id": "century_18_bc",
+    "description": "18th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:18th|eighteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:18e|achttiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_18_BC",
+    "preferred_label": "18th century BC",
+    "date_start": -1800,
+    "date_end": -1700
+  },
+  {
+    "pattern_id": "century_17_bc",
+    "description": "17th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:17th|seventeenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:17e|zeventiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_17_BC",
+    "preferred_label": "17th century BC",
+    "date_start": -1700,
+    "date_end": -1600
+  },
+  {
+    "pattern_id": "century_16_bc",
+    "description": "16th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:16th|sixteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:16e|zestiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_16_BC",
+    "preferred_label": "16th century BC",
+    "date_start": -1600,
+    "date_end": -1500
+  },
+  {
+    "pattern_id": "century_15_bc",
+    "description": "15th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:15th|fifteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:15e|vijftiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_15_BC",
+    "preferred_label": "15th century BC",
+    "date_start": -1500,
+    "date_end": -1400
+  },
+  {
+    "pattern_id": "century_14_bc",
+    "description": "14th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:14th|fourteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:14e|veertiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_14_BC",
+    "preferred_label": "14th century BC",
+    "date_start": -1400,
+    "date_end": -1300
+  },
+  {
+    "pattern_id": "century_13_bc",
+    "description": "13th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:13th|thirteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:13e|dertiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_13_BC",
+    "preferred_label": "13th century BC",
+    "date_start": -1300,
+    "date_end": -1200
+  },
+  {
+    "pattern_id": "century_12_bc",
+    "description": "12th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:12th|twelfth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:12e|twaalfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_12_BC",
+    "preferred_label": "12th century BC",
+    "date_start": -1200,
+    "date_end": -1100
+  },
+  {
+    "pattern_id": "century_11_bc",
+    "description": "11th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:11th|eleventh)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:11e|elfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_11_BC",
+    "preferred_label": "11th century BC",
+    "date_start": -1100,
+    "date_end": -1000
+  },
+  {
+    "pattern_id": "century_10_bc",
+    "description": "10th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:10th|tenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:10e|tiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_10_BC",
+    "preferred_label": "10th century BC",
+    "date_start": -1000,
+    "date_end": -900
+  },
+  {
+    "pattern_id": "century_9_bc",
+    "description": "9th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:9th|ninth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:9e|negende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_9_BC",
+    "preferred_label": "9th century BC",
+    "date_start": -900,
+    "date_end": -800
+  },
+  {
+    "pattern_id": "century_8_bc",
+    "description": "8th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:8th|eighth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:8e|achtste)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_8_BC",
+    "preferred_label": "8th century BC",
+    "date_start": -800,
+    "date_end": -700
+  },
+  {
+    "pattern_id": "century_7_bc",
+    "description": "7th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:7th|seventh)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:7e|zevende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_7_BC",
+    "preferred_label": "7th century BC",
+    "date_start": -700,
+    "date_end": -600
+  },
+  {
+    "pattern_id": "century_6_bc",
+    "description": "6th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:6th|sixth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:6e|zesde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_6_BC",
+    "preferred_label": "6th century BC",
+    "date_start": -600,
+    "date_end": -500
+  },
+  {
+    "pattern_id": "century_5_bc",
+    "description": "5th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:5th|fifth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:5e|vijfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_5_BC",
+    "preferred_label": "5th century BC",
+    "date_start": -500,
+    "date_end": -400
+  },
+  {
+    "pattern_id": "century_4_bc",
+    "description": "4th century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:4th|fourth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:4e|vierde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_4_BC",
+    "preferred_label": "4th century BC",
+    "date_start": -400,
+    "date_end": -300
+  },
+  {
+    "pattern_id": "century_3_bc",
+    "description": "3rd century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:3rd|third)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:3e|derde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_3_BC",
+    "preferred_label": "3rd century BC",
+    "date_start": -300,
+    "date_end": -200
+  },
+  {
+    "pattern_id": "century_2_bc",
+    "description": "2nd century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:2nd|second)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:2e|tweede)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_2_BC",
+    "preferred_label": "2nd century BC",
+    "date_start": -200,
+    "date_end": -100
+  },
+  {
+    "pattern_id": "century_1_bc",
+    "description": "1st century BC (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+)?(?:1st|first)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:vroege?\\s+|late\\s+)?(?:1e|1ste|eerste)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_1_BC",
+    "preferred_label": "1st century BC",
+    "date_start": -100,
+    "date_end": 0
+  },
+  {
+    "pattern_id": "century_1_ad",
+    "description": "1st century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:1st|first)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:1e|1ste|eerste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_1_AD",
+    "preferred_label": "1st century AD",
+    "date_start": 1,
+    "date_end": 100
+  },
+  {
+    "pattern_id": "century_2_ad",
+    "description": "2nd century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:2nd|second)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:2e|tweede)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_2_AD",
+    "preferred_label": "2nd century AD",
+    "date_start": 101,
+    "date_end": 200
+  },
+  {
+    "pattern_id": "century_3_ad",
+    "description": "3rd century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:3rd|third)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:3e|derde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_3_AD",
+    "preferred_label": "3rd century AD",
+    "date_start": 201,
+    "date_end": 300
+  },
+  {
+    "pattern_id": "century_4_ad",
+    "description": "4th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:4th|fourth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:4e|vierde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_4_AD",
+    "preferred_label": "4th century AD",
+    "date_start": 301,
+    "date_end": 400
+  },
+  {
+    "pattern_id": "century_5_ad",
+    "description": "5th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:5th|fifth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:5e|vijfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_5_AD",
+    "preferred_label": "5th century AD",
+    "date_start": 401,
+    "date_end": 500
+  },
+  {
+    "pattern_id": "century_6_ad",
+    "description": "6th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:6th|sixth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:6e|zesde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_6_AD",
+    "preferred_label": "6th century AD",
+    "date_start": 501,
+    "date_end": 600
+  },
+  {
+    "pattern_id": "century_7_ad",
+    "description": "7th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:7th|seventh)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:7e|zevende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_7_AD",
+    "preferred_label": "7th century AD",
+    "date_start": 601,
+    "date_end": 700
+  },
+  {
+    "pattern_id": "century_8_ad",
+    "description": "8th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:8th|eighth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:8e|achtste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_8_AD",
+    "preferred_label": "8th century AD",
+    "date_start": 701,
+    "date_end": 800
+  },
+  {
+    "pattern_id": "century_9_ad",
+    "description": "9th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:9th|ninth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:9e|negende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_9_AD",
+    "preferred_label": "9th century AD",
+    "date_start": 801,
+    "date_end": 900
+  },
+  {
+    "pattern_id": "century_10_ad",
+    "description": "10th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:10th|tenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:10e|tiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_10_AD",
+    "preferred_label": "10th century AD",
+    "date_start": 901,
+    "date_end": 1000
+  },
+  {
+    "pattern_id": "century_11_ad",
+    "description": "11th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:11th|eleventh)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:11e|elfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_11_AD",
+    "preferred_label": "11th century AD",
+    "date_start": 1001,
+    "date_end": 1100
+  },
+  {
+    "pattern_id": "century_12_ad",
+    "description": "12th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:12th|twelfth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:12e|twaalfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_12_AD",
+    "preferred_label": "12th century AD",
+    "date_start": 1101,
+    "date_end": 1200
+  },
+  {
+    "pattern_id": "century_13_ad",
+    "description": "13th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:13th|thirteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:13e|dertiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_13_AD",
+    "preferred_label": "13th century AD",
+    "date_start": 1201,
+    "date_end": 1300
+  },
+  {
+    "pattern_id": "century_14_ad",
+    "description": "14th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:14th|fourteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:14e|veertiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_14_AD",
+    "preferred_label": "14th century AD",
+    "date_start": 1301,
+    "date_end": 1400
+  },
+  {
+    "pattern_id": "century_15_ad",
+    "description": "15th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:15th|fifteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:15e|vijftiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_15_AD",
+    "preferred_label": "15th century AD",
+    "date_start": 1401,
+    "date_end": 1500
+  },
+  {
+    "pattern_id": "century_16_ad",
+    "description": "16th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:16th|sixteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:16e|zestiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_16_AD",
+    "preferred_label": "16th century AD",
+    "date_start": 1501,
+    "date_end": 1600
+  },
+  {
+    "pattern_id": "century_17_ad",
+    "description": "17th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:17th|seventeenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:17e|zeventiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_17_AD",
+    "preferred_label": "17th century AD",
+    "date_start": 1601,
+    "date_end": 1700
+  },
+  {
+    "pattern_id": "century_18_ad",
+    "description": "18th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:18th|eighteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:18e|achttiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_18_AD",
+    "preferred_label": "18th century AD",
+    "date_start": 1701,
+    "date_end": 1800
+  },
+  {
+    "pattern_id": "century_19_ad",
+    "description": "19th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:19th|nineteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:19e|negentiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_19_AD",
+    "preferred_label": "19th century AD",
+    "date_start": 1801,
+    "date_end": 1900
+  },
+  {
+    "pattern_id": "century_20_ad",
+    "description": "20th century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:20th|twentieth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:20e|twintigste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_20_AD",
+    "preferred_label": "20th century AD",
+    "date_start": 1901,
+    "date_end": 2000
+  },
+  {
+    "pattern_id": "century_21_ad",
+    "description": "21st century AD (EN + NL)",
+    "regex": "\\b(?:early\\s+|late\\s+|mid-?)?(?:21st|twenty-first)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:vroege?\\s+|late\\s+)?(?:21e|eenentwintigste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?|na\\s+Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_21_AD",
+    "preferred_label": "21st century AD",
+    "date_start": 2001,
+    "date_end": 2100
+  },
+  {
+    "pattern_id": "century_range_20_19_bc",
+    "description": "20th–19th century BC range (EN + NL)",
+    "regex": "\\b(?:20th|twentieth)\\s+and\\s+(?:19th|nineteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:20e|twintigste)\\s+en\\s+(?:19e|negentiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_20_19_BC",
+    "preferred_label": "20th–19th century BC",
+    "date_start": -2000,
+    "date_end": -1800
+  },
+  {
+    "pattern_id": "century_range_19_18_bc",
+    "description": "19th–18th century BC range (EN + NL)",
+    "regex": "\\b(?:19th|nineteenth)\\s+and\\s+(?:18th|eighteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:19e|negentiende)\\s+en\\s+(?:18e|achttiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_19_18_BC",
+    "preferred_label": "19th–18th century BC",
+    "date_start": -1900,
+    "date_end": -1700
+  },
+  {
+    "pattern_id": "century_range_18_17_bc",
+    "description": "18th–17th century BC range (EN + NL)",
+    "regex": "\\b(?:18th|eighteenth)\\s+and\\s+(?:17th|seventeenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:18e|achttiende)\\s+en\\s+(?:17e|zeventiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_18_17_BC",
+    "preferred_label": "18th–17th century BC",
+    "date_start": -1800,
+    "date_end": -1600
+  },
+  {
+    "pattern_id": "century_range_17_16_bc",
+    "description": "17th–16th century BC range (EN + NL)",
+    "regex": "\\b(?:17th|seventeenth)\\s+and\\s+(?:16th|sixteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:17e|zeventiende)\\s+en\\s+(?:16e|zestiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_17_16_BC",
+    "preferred_label": "17th–16th century BC",
+    "date_start": -1700,
+    "date_end": -1500
+  },
+  {
+    "pattern_id": "century_range_16_15_bc",
+    "description": "16th–15th century BC range (EN + NL)",
+    "regex": "\\b(?:16th|sixteenth)\\s+and\\s+(?:15th|fifteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:16e|zestiende)\\s+en\\s+(?:15e|vijftiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_16_15_BC",
+    "preferred_label": "16th–15th century BC",
+    "date_start": -1600,
+    "date_end": -1400
+  },
+  {
+    "pattern_id": "century_range_15_14_bc",
+    "description": "15th–14th century BC range (EN + NL)",
+    "regex": "\\b(?:15th|fifteenth)\\s+and\\s+(?:14th|fourteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:15e|vijftiende)\\s+en\\s+(?:14e|veertiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_15_14_BC",
+    "preferred_label": "15th–14th century BC",
+    "date_start": -1500,
+    "date_end": -1300
+  },
+  {
+    "pattern_id": "century_range_14_13_bc",
+    "description": "14th–13th century BC range (EN + NL)",
+    "regex": "\\b(?:14th|fourteenth)\\s+and\\s+(?:13th|thirteenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:14e|veertiende)\\s+en\\s+(?:13e|dertiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_14_13_BC",
+    "preferred_label": "14th–13th century BC",
+    "date_start": -1400,
+    "date_end": -1200
+  },
+  {
+    "pattern_id": "century_range_13_12_bc",
+    "description": "13th–12th century BC range (EN + NL)",
+    "regex": "\\b(?:13th|thirteenth)\\s+and\\s+(?:12th|twelfth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:13e|dertiende)\\s+en\\s+(?:12e|twaalfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_13_12_BC",
+    "preferred_label": "13th–12th century BC",
+    "date_start": -1300,
+    "date_end": -1100
+  },
+  {
+    "pattern_id": "century_range_12_11_bc",
+    "description": "12th–11th century BC range (EN + NL)",
+    "regex": "\\b(?:12th|twelfth)\\s+and\\s+(?:11th|eleventh)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:12e|twaalfde)\\s+en\\s+(?:11e|elfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_12_11_BC",
+    "preferred_label": "12th–11th century BC",
+    "date_start": -1200,
+    "date_end": -1000
+  },
+  {
+    "pattern_id": "century_range_11_10_bc",
+    "description": "11th–10th century BC range (EN + NL)",
+    "regex": "\\b(?:11th|eleventh)\\s+and\\s+(?:10th|tenth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:11e|elfde)\\s+en\\s+(?:10e|tiende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_11_10_BC",
+    "preferred_label": "11th–10th century BC",
+    "date_start": -1100,
+    "date_end": -900
+  },
+  {
+    "pattern_id": "century_range_10_9_bc",
+    "description": "10th–9th century BC range (EN + NL)",
+    "regex": "\\b(?:10th|tenth)\\s+and\\s+(?:9th|ninth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:10e|tiende)\\s+en\\s+(?:9e|negende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_10_9_BC",
+    "preferred_label": "10th–9th century BC",
+    "date_start": -1000,
+    "date_end": -800
+  },
+  {
+    "pattern_id": "century_range_9_8_bc",
+    "description": "9th–8th century BC range (EN + NL)",
+    "regex": "\\b(?:9th|ninth)\\s+and\\s+(?:8th|eighth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:9e|negende)\\s+en\\s+(?:8e|achtste)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_9_8_BC",
+    "preferred_label": "9th–8th century BC",
+    "date_start": -900,
+    "date_end": -700
+  },
+  {
+    "pattern_id": "century_range_8_7_bc",
+    "description": "8th–7th century BC range (EN + NL)",
+    "regex": "\\b(?:8th|eighth)\\s+and\\s+(?:7th|seventh)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:8e|achtste)\\s+en\\s+(?:7e|zevende)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_8_7_BC",
+    "preferred_label": "8th–7th century BC",
+    "date_start": -800,
+    "date_end": -600
+  },
+  {
+    "pattern_id": "century_range_7_6_bc",
+    "description": "7th–6th century BC range (EN + NL)",
+    "regex": "\\b(?:7th|seventh)\\s+and\\s+(?:6th|sixth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:7e|zevende)\\s+en\\s+(?:6e|zesde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_7_6_BC",
+    "preferred_label": "7th–6th century BC",
+    "date_start": -700,
+    "date_end": -500
+  },
+  {
+    "pattern_id": "century_range_6_5_bc",
+    "description": "6th–5th century BC range (EN + NL)",
+    "regex": "\\b(?:6th|sixth)\\s+and\\s+(?:5th|fifth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:6e|zesde)\\s+en\\s+(?:5e|vijfde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_6_5_BC",
+    "preferred_label": "6th–5th century BC",
+    "date_start": -600,
+    "date_end": -400
+  },
+  {
+    "pattern_id": "century_range_5_4_bc",
+    "description": "5th–4th century BC range (EN + NL)",
+    "regex": "\\b(?:5th|fifth)\\s+and\\s+(?:4th|fourth)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:5e|vijfde)\\s+en\\s+(?:4e|vierde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_5_4_BC",
+    "preferred_label": "5th–4th century BC",
+    "date_start": -500,
+    "date_end": -300
+  },
+  {
+    "pattern_id": "century_range_4_3_bc",
+    "description": "4th–3rd century BC range (EN + NL)",
+    "regex": "\\b(?:4th|fourth)\\s+and\\s+(?:3rd|third)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:4e|vierde)\\s+en\\s+(?:3e|derde)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_4_3_BC",
+    "preferred_label": "4th–3rd century BC",
+    "date_start": -400,
+    "date_end": -200
+  },
+  {
+    "pattern_id": "century_range_3_2_bc",
+    "description": "3rd–2nd century BC range (EN + NL)",
+    "regex": "\\b(?:3rd|third)\\s+and\\s+(?:2nd|second)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:3e|derde)\\s+en\\s+(?:2e|tweede)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_3_2_BC",
+    "preferred_label": "3rd–2nd century BC",
+    "date_start": -300,
+    "date_end": -100
+  },
+  {
+    "pattern_id": "century_range_2_1_bc",
+    "description": "2nd–1st century BC range (EN + NL)",
+    "regex": "\\b(?:2nd|second)\\s+and\\s+(?:1st|first)\\s+centur(?:y|ies)\\s+(?:BC|BCE)\\b|\\b(?:2e|tweede)\\s+en\\s+(?:1e|1ste|eerste)\\s+eeuw\\s+(?:v\\.?\\s*Chr\\.?|voor\\s+Chr\\.?)\\b",
+    "canonical_hint": "CENTURY_RANGE_2_1_BC",
+    "preferred_label": "2nd–1st century BC",
+    "date_start": -200,
+    "date_end": 0
+  },
+  {
+    "pattern_id": "century_range_1_2_ad",
+    "description": "1st–2nd century AD range (EN + NL)",
+    "regex": "\\b(?:1st|first)\\s+and\\s+(?:2nd|second)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:1e|1ste|eerste)\\s+en\\s+(?:2e|tweede)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_1_2_AD",
+    "preferred_label": "1st–2nd century AD",
+    "date_start": 1,
+    "date_end": 200
+  },
+  {
+    "pattern_id": "century_range_2_3_ad",
+    "description": "2nd–3rd century AD range (EN + NL)",
+    "regex": "\\b(?:2nd|second)\\s+and\\s+(?:3rd|third)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:2e|tweede)\\s+en\\s+(?:3e|derde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_2_3_AD",
+    "preferred_label": "2nd–3rd century AD",
+    "date_start": 100,
+    "date_end": 300
+  },
+  {
+    "pattern_id": "century_range_3_4_ad",
+    "description": "3rd–4th century AD range (EN + NL)",
+    "regex": "\\b(?:3rd|third)\\s+and\\s+(?:4th|fourth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:3e|derde)\\s+en\\s+(?:4e|vierde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_3_4_AD",
+    "preferred_label": "3rd–4th century AD",
+    "date_start": 200,
+    "date_end": 400
+  },
+  {
+    "pattern_id": "century_range_4_5_ad",
+    "description": "4th–5th century AD range (EN + NL)",
+    "regex": "\\b(?:4th|fourth)\\s+and\\s+(?:5th|fifth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:4e|vierde)\\s+en\\s+(?:5e|vijfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_4_5_AD",
+    "preferred_label": "4th–5th century AD",
+    "date_start": 300,
+    "date_end": 500
+  },
+  {
+    "pattern_id": "century_range_5_6_ad",
+    "description": "5th–6th century AD range (EN + NL)",
+    "regex": "\\b(?:5th|fifth)\\s+and\\s+(?:6th|sixth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:5e|vijfde)\\s+en\\s+(?:6e|zesde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_5_6_AD",
+    "preferred_label": "5th–6th century AD",
+    "date_start": 400,
+    "date_end": 600
+  },
+  {
+    "pattern_id": "century_range_6_7_ad",
+    "description": "6th–7th century AD range (EN + NL)",
+    "regex": "\\b(?:6th|sixth)\\s+and\\s+(?:7th|seventh)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:6e|zesde)\\s+en\\s+(?:7e|zevende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_6_7_AD",
+    "preferred_label": "6th–7th century AD",
+    "date_start": 500,
+    "date_end": 700
+  },
+  {
+    "pattern_id": "century_range_7_8_ad",
+    "description": "7th–8th century AD range (EN + NL)",
+    "regex": "\\b(?:7th|seventh)\\s+and\\s+(?:8th|eighth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:7e|zevende)\\s+en\\s+(?:8e|achtste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_7_8_AD",
+    "preferred_label": "7th–8th century AD",
+    "date_start": 600,
+    "date_end": 800
+  },
+  {
+    "pattern_id": "century_range_8_9_ad",
+    "description": "8th–9th century AD range (EN + NL)",
+    "regex": "\\b(?:8th|eighth)\\s+and\\s+(?:9th|ninth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:8e|achtste)\\s+en\\s+(?:9e|negende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_8_9_AD",
+    "preferred_label": "8th–9th century AD",
+    "date_start": 700,
+    "date_end": 900
+  },
+  {
+    "pattern_id": "century_range_9_10_ad",
+    "description": "9th–10th century AD range (EN + NL)",
+    "regex": "\\b(?:9th|ninth)\\s+and\\s+(?:10th|tenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:9e|negende)\\s+en\\s+(?:10e|tiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_9_10_AD",
+    "preferred_label": "9th–10th century AD",
+    "date_start": 800,
+    "date_end": 1000
+  },
+  {
+    "pattern_id": "century_range_10_11_ad",
+    "description": "10th–11th century AD range (EN + NL)",
+    "regex": "\\b(?:10th|tenth)\\s+and\\s+(?:11th|eleventh)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:10e|tiende)\\s+en\\s+(?:11e|elfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_10_11_AD",
+    "preferred_label": "10th–11th century AD",
+    "date_start": 900,
+    "date_end": 1100
+  },
+  {
+    "pattern_id": "century_range_11_12_ad",
+    "description": "11th–12th century AD range (EN + NL)",
+    "regex": "\\b(?:11th|eleventh)\\s+and\\s+(?:12th|twelfth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:11e|elfde)\\s+en\\s+(?:12e|twaalfde)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_11_12_AD",
+    "preferred_label": "11th–12th century AD",
+    "date_start": 1000,
+    "date_end": 1200
+  },
+  {
+    "pattern_id": "century_range_12_13_ad",
+    "description": "12th–13th century AD range (EN + NL)",
+    "regex": "\\b(?:12th|twelfth)\\s+and\\s+(?:13th|thirteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:12e|twaalfde)\\s+en\\s+(?:13e|dertiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_12_13_AD",
+    "preferred_label": "12th–13th century AD",
+    "date_start": 1100,
+    "date_end": 1300
+  },
+  {
+    "pattern_id": "century_range_13_14_ad",
+    "description": "13th–14th century AD range (EN + NL)",
+    "regex": "\\b(?:13th|thirteenth)\\s+and\\s+(?:14th|fourteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:13e|dertiende)\\s+en\\s+(?:14e|veertiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_13_14_AD",
+    "preferred_label": "13th–14th century AD",
+    "date_start": 1200,
+    "date_end": 1400
+  },
+  {
+    "pattern_id": "century_range_14_15_ad",
+    "description": "14th–15th century AD range (EN + NL)",
+    "regex": "\\b(?:14th|fourteenth)\\s+and\\s+(?:15th|fifteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:14e|veertiende)\\s+en\\s+(?:15e|vijftiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_14_15_AD",
+    "preferred_label": "14th–15th century AD",
+    "date_start": 1300,
+    "date_end": 1500
+  },
+  {
+    "pattern_id": "century_range_15_16_ad",
+    "description": "15th–16th century AD range (EN + NL)",
+    "regex": "\\b(?:15th|fifteenth)\\s+and\\s+(?:16th|sixteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:15e|vijftiende)\\s+en\\s+(?:16e|zestiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_15_16_AD",
+    "preferred_label": "15th–16th century AD",
+    "date_start": 1400,
+    "date_end": 1600
+  },
+  {
+    "pattern_id": "century_range_16_17_ad",
+    "description": "16th–17th century AD range (EN + NL)",
+    "regex": "\\b(?:16th|sixteenth)\\s+and\\s+(?:17th|seventeenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:16e|zestiende)\\s+en\\s+(?:17e|zeventiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_16_17_AD",
+    "preferred_label": "16th–17th century AD",
+    "date_start": 1500,
+    "date_end": 1700
+  },
+  {
+    "pattern_id": "century_range_17_18_ad",
+    "description": "17th–18th century AD range (EN + NL)",
+    "regex": "\\b(?:17th|seventeenth)\\s+and\\s+(?:18th|eighteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:17e|zeventiende)\\s+en\\s+(?:18e|achttiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_17_18_AD",
+    "preferred_label": "17th–18th century AD",
+    "date_start": 1600,
+    "date_end": 1800
+  },
+  {
+    "pattern_id": "century_range_18_19_ad",
+    "description": "18th–19th century AD range (EN + NL)",
+    "regex": "\\b(?:18th|eighteenth)\\s+and\\s+(?:19th|nineteenth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:18e|achttiende)\\s+en\\s+(?:19e|negentiende)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_18_19_AD",
+    "preferred_label": "18th–19th century AD",
+    "date_start": 1700,
+    "date_end": 1900
+  },
+  {
+    "pattern_id": "century_range_19_20_ad",
+    "description": "19th–20th century AD range (EN + NL)",
+    "regex": "\\b(?:19th|nineteenth)\\s+and\\s+(?:20th|twentieth)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:19e|negentiende)\\s+en\\s+(?:20e|twintigste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_19_20_AD",
+    "preferred_label": "19th–20th century AD",
+    "date_start": 1800,
+    "date_end": 2000
+  },
+  {
+    "pattern_id": "century_range_20_21_ad",
+    "description": "20th–21st century AD range (EN + NL)",
+    "regex": "\\b(?:20th|twentieth)\\s+and\\s+(?:21st|twenty-first)\\s+centur(?:y|ies)(?!\\s+(?:BC|BCE)\\b)(?:\\s+(?:AD|CE))?\\b|\\b(?:20e|twintigste)\\s+en\\s+(?:21e|eenentwintigste)\\s+eeuw(?:\\s+(?:n\\.?\\s*Chr\\.?))?\\b",
+    "canonical_hint": "CENTURY_RANGE_20_21_AD",
+    "preferred_label": "20th–21st century AD",
+    "date_start": 1900,
+    "date_end": 2100
+  }
+]

@@ -1,0 +1,19 @@
+CHRONOLOGY_ID,Code,Phase Name (EN),Phase (NL),Historical keyword (EN),Historical keyword (NL),Start (numeric),End (numeric),Start (BCE/CE),End (BCE/CE),Start (BC/AD),End (BC/AD)
+C_001,ROMVA,Early Roman Period A,Vroeg-Romeinse tijd A,Augustan,Augusteïsch,-12,25,12 BCE,25 CE,12 BC,AD 25
+C_002,ROMVA,Early Roman Period A,Vroeg-Romeinse tijd A,Early Julio-Claudian,vroeg-Julisch-Claudisch,-12,25,12 BCE,25 CE,12 BC,AD 25
+C_003,ROMVB,Early Roman Period B,Vroeg-Romeinse tijd B,Late Julio-Claudian,laat-Julisch-Claudisch,25,70,25 CE,70 CE,AD 25,AD 70
+C_004,ROMVB,Early Roman Period B,Vroeg-Romeinse tijd B,Pre-Flavian,Pre-Flavisch,25,70,25 CE,70 CE,AD 25,AD 70
+C_005,ROMMA,Middle Roman Period A,Midden-Romeinse tijd A,Flavian,Flavisch,70,150,70 CE,150 CE,AD 70,AD 150
+C_006,ROMMA,Middle Roman Period A,Midden-Romeinse tijd A,Trajanic,Trajaans,70,150,70 CE,150 CE,AD 70,AD 150
+C_007,ROMMA,Middle Roman Period A,Midden-Romeinse tijd A,Hadrianic,Hadrianisch,70,150,70 CE,150 CE,AD 70,AD 150
+C_008,ROMMB,Middle Roman Period B,Midden-Romeinse tijd B,Antonine,Antonijns,150,275,150 CE,275 CE,AD 150,AD 275
+C_009,ROMMB,Middle Roman Period B,Midden-Romeinse tijd B,Severan,Severisch,150,275,150 CE,275 CE,AD 150,AD 275
+C_010,ROMMB,Middle Roman Period B,Midden-Romeinse tijd B,3rd-century crisis,3e-eeuwse crisis,150,275,150 CE,275 CE,AD 150,AD 275
+C_011,ROMLA,Late Roman Period A,Laat-Romeinse tijd A,Tetrarchic,Tetrarchisch,275,350,275 CE,350 CE,AD 275,AD 350
+C_012,ROMLA,Late Roman Period A,Laat-Romeinse tijd A,Constantinian,Constantijns,275,350,275 CE,350 CE,AD 275,AD 350
+C_013,ROMLB,Late Roman Period B,Laat-Romeinse tijd B,Post-Constantinian,post-Constantijns,350,450,350 CE,450 CE,AD 350,AD 450
+C_014,ROMLB,Late Roman Period B,Laat-Romeinse tijd B,Late Imperial,Laat-imperiaal,350,450,350 CE,450 CE,AD 350,AD 450
+C_015,ROM,Roman period,Romeinse tijd,,,-12,450,12 BCE,450 CE,12 BC,AD 450
+C_016,ROMV,Early Roman Period,Vroeg-Romeinse tijd,,,-12,70,12 BCE,70 CE,12 BC,AD 70
+C_017,ROMM,Middle Roman Period,Midden-Romeinse tijd,,,70,275,70 CE,275 CE,AD 70,AD 275
+C_018,ROML,Late Roman Period,Laat-Romeinse tijd,,,275,450,275 CE,450 CE,AD 275,AD 450
