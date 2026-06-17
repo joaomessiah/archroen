@@ -1,0 +1,600 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+table_4,,1,Pottery,Oberaden 83,Oberaden 83,Pottery,,-11,-7,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Baetica defrutum amphora,Haltern 70,Haltern 70,Baetica defrutum amphora,,-50,100,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11,Spanish fish sauce amphora,,-30,60,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Spanish fish sauce amphora,Dressel 7,Dressel 7,Spanish fish sauce amphora,,-30,60,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11,Spanish fish sauce amphora,,-30,60,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Spanish fish sauce amphora,Dressel 12,Dressel 12,Spanish fish sauce amphora,,-20,80,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Tarraconensian wine amphora,Pascual 1,Pascual 1,Tarraconensian wine amphora,,-100,-20,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Italian wine amphora,Dressel 1B,Dressel 1B,Italian wine amphora,,-150,-10,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Adriatic wine amphora,Lamboglia 2/Dressel 6A,Lamboglia 2/Dressel 6A,Adriatic wine amphora,,-130,-30,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf."
+table_4,,1,Italian/spanish wine amphora,Dressel 2-5,Dressel 2-5,Italian/spanish wine amphora,,-30,150,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lindhagen 2009; Carre et al. 2014)
+wine
+4
+Dressel 2-5
+wine
+7
+Camulodunum 184
+Pompeii 38
+unknown
+unknown
+wine
+6
+wine
+1
+wine
+1
+wine
+1
+62
+Table 2. The amphorae from the western part of the youngest Augustan fortress (after: Van den Berg et al. 2017)."
+table_4,,1,Coarse ware vessel,Camulodunum 184,Camulodunum 184,Coarse ware vessel,,43,250,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lindhagen 2009; Carre et al. 2014)
+wine
+4
+Dressel 2-5
+wine
+7
+Camulodunum 184
+Pompeii 38
+unknown
+unknown
+wine
+6
+wine
+1
+wine
+1
+wine
+1
+62
+Table 2. The amphorae from the western part of the youngest Augustan fortress (after: Van den Berg et al. 2017)."
+table_4,,1,Knidian wine amphora,Pompeii 38,Pompeii 38,Knidian wine amphora,,-50,100,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lindhagen 2009; Carre et al. 2014)
+wine
+4
+Dressel 2-5
+wine
+7
+Camulodunum 184
+Pompeii 38
+unknown
+unknown
+wine
+6
+wine
+1
+wine
+1
+wine
+1
+62
+Table 2. The amphorae from the western part of the youngest Augustan fortress (after: Van den Berg et al. 2017)."
+table_4,,1,Amphorae,,amphorae,Amphorae,,-27,14,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Lindhagen 2009; Carre et al. 2014)
+wine
+4
+Dressel 2-5
+wine
+7
+Camulodunum 184
+Pompeii 38
+unknown
+unknown
+wine
+6
+wine
+1
+wine
+1
+wine
+1
+62
+Table 2. The amphorae from the western part of the youngest Augustan fortress (after: Van den Berg et al. 2017)."
+table_4,,1,Jug,Stuart 103/ Oberaden 43,Stuart 103/ Oberaden 43,Jug,,-10,-10,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Flagon Stuart 103/
+Oberaden 43 (fig. 2.13) is the best represented."
+table_4,,1,Jug,Stuart 133/Oberaden 52,Stuart 133/Oberaden 52,Jug,,70,250,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In addition, flagons Stuart 133/Oberaden 52 (fig. 2.14), Stuart 131/
+Oberaden 48-49 (fig. 2.15) and the so-called 'honey pots'
+Stuart 146 were also common (Niemeijer 2017, 17)."
+table_4,,1,Smooth-walled jug,Stuart 131/ Oberaden 48,Stuart 131/ Oberaden 48,Smooth-walled jug,,120,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In addition, flagons Stuart 133/Oberaden 52 (fig. 2.14), Stuart 131/
+Oberaden 48-49 (fig. 2.15) and the so-called 'honey pots'
+Stuart 146 were also common (Niemeijer 2017, 17)."
+table_4,,1,Pottery,Oberaden 48-49,Oberaden 48-49,Pottery,,-11,-7,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In addition, flagons Stuart 133/Oberaden 52 (fig. 2.14), Stuart 131/
+Oberaden 48-49 (fig. 2.15) and the so-called 'honey pots'
+Stuart 146 were also common (Niemeijer 2017, 17)."
+table_4,,1,Smooth-walled honey pot,Stuart 146,Stuart 146,Smooth-walled honey pot,,100,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In addition, flagons Stuart 133/Oberaden 52 (fig. 2.14), Stuart 131/
+Oberaden 48-49 (fig. 2.15) and the so-called 'honey pots'
+Stuart 146 were also common (Niemeijer 2017, 17)."
+table_4,,1,Pottery,Oberaden 21,Oberaden 21,Pottery,,-10,-10,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Rare are the Oberaden 21 plates in Pompeian red
+ware (Niemeijer 2017, 17), which were used to bake
+or heat food in an oven."
+table_4,,1,Amphora,Haltern 59,Haltern 59,Amphora,,-15,25,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"On larger scale, sherds
+of mortaria with vertical rim Haltern 59"
+table_4,,1,Amphora,,amphora,Amphora,,-10,-10,text_explicit,present,6,name from ware match,8,classified present,9,explicit date stated in the passage,8,"The amphora sherds give
+a good picture of the contacts between Nijmegen and
+other parts of the Roman Empire between 20 and 10 BC.
+They also show that in this early period the soldiers in
+the fortress were supplied with olive oil, fish sauce and
+wine (table 2)."
+table_4,,1,Pompeian red ware,,Pompeian red ware,Pompeian red ware,,-10,-10,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"Rare are the Oberaden 21 plates in Pompeian red
+ware (Niemeijer 2017, 17), which were used to bake
+or heat food in an oven."
+table_4,,1,Mortaria,,mortaria,Mortaria,,-27,14,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"On larger scale, sherds
+of mortaria with vertical rim Haltern 59"
+table_4,,1,Pottery,Stuart 147,Stuart 147,Pottery,,70,250,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In
+addition, several fragments of large handmade dolia
+Stuart 147 with a wheelthrown rim with a black coating."
+table_4,,1,handmade,,handmade,handmade,,-27,14,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"In
+addition, several fragments of large handmade dolia
+Stuart 147 with a wheelthrown rim with a black coating."
+table_4,,1,Dolia,,dolia,Dolia,,-27,14,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"In
+addition, several fragments of large handmade dolia
+Stuart 147 with a wheelthrown rim with a black coating."
+table_4,,1,Dolia,,dolia,Dolia,,-27,14,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Whether these early dolia
+came from the löss area between Tienen in Belgium and
+Cologne in Germany (Borgers 2023, 628) will have to be
+determined by future research."
+table_4,,1,Dolia,,dolia,Dolia,,-27,14,section_phase,present,6,name from ware match,8,classified present,6,inherited from the section/phase date,7,"Furthermore, several
+sherds of dolia with a small twisted Wulstrand were
+found (fig. 2.19-20), which can be specifically dated to
+this early period."
+table_4,,1,Terra sigillata,,terra sigillata,Terra sigillata,,-27,14,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Among
+the tableware, the low proportion of terra sigillata is
+striking; the tableware is strongly dominated by the
+fine ware beakers."

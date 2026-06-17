@@ -1,0 +1,34 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+old_rep_2,Houten,1,Pottery,,AARDEWERK,Pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Houten,1,Terra sigillata,,terra sigillata,Terra sigillata,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Houten,1,Belgian pottery,,Belgisch aardewerk,Belgian pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Houten,1,Varnished pottery,,gevernist aardewerk,Varnished pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Houten,1,Smooth-walled pottery,,gladwandig aardewerk,Smooth-walled pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Houten,1,Rough-walled pottery,,ruwwandig aardewerk,Rough-walled pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig aardewerk."
+old_rep_2,Kerkrade,1,Sherd with stamp,,scherf met het stempel,Sherd with stamp,,20,20,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"De
+oudste vondst was
+toen een
+scherf
+met het stempel van de Italiaanse pottenbakker
+„Cnaeus Ateius"", die tot
+uiterlijk 20 na
+Christus
+naar onze streken exporteerde."

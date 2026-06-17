@@ -1114,7 +1114,7 @@ def _build_pottery_rows(
         # Site name, in priority order:
         #   1. site from the section heading — spaced-caps ("A M B I J." → Ambij) or
         #      inline ("Houten (Utr.).") — computed in structure.split_into_sections
-        #   2. inventory-table site code forward-filled onto the find (e.g. table2)
+        #   2. inventory-table site code forward-filled onto the find (e.g. table_2)
         site_name = (primary.get("section_site", "")
                      or _site_from_spaced_heading(primary.get("section_title", ""))
                      or primary.get("site_code", ""))
@@ -1288,7 +1288,7 @@ def export_pottery_summary(
     # Win #4 (narrow): a catalogue number is a unique find ID, so the same number with the
     # same typology can only be ONE object — collapse repeats (the recap mentions detected
     # at different positions). Restricted to pure catalogue-number names ("--/27-3-17/5260")
-    # so distinct same-named finds (e.g. table1's seven separate "jar" rows) are untouched.
+    # so distinct same-named finds (e.g. table_1's seven separate "jar" rows) are untouched.
     # Drop UNTYPED ware mentions found in a bibliography citation or an early-modern
     # ("Nieuwe tijd") section — both are out-of-scope false positives (B1). Typed finds
     # are kept (a Drag code next to a citation is still a real find).
@@ -1336,7 +1336,7 @@ def export_pottery_summary(
         # Key on (pottery name, SITE) so a "general" row is dropped only when a SPECIFIC
         # find of the same pot exists AT THE SAME SITE. In a prose report all finds share
         # one site, so genuine re-mentions collapse; in an inventory report each find sits
-        # under its own site-code, so distinct per-site finds (e.g. table2's "aardewerk"
+        # under its own site-code, so distinct per-site finds (e.g. table_2's "aardewerk"
         # at codes 508067, 500383, …) are never mistaken for re-mentions of one another.
         # Only UNTYPED ware mentions participate: a typed find is distinct by its code, so
         # it is never suppressed and never counts as the "specific" twin of another. This

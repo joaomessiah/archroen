@@ -1,0 +1,11 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+old_rep_3,,5,Pottery,,aardewerk,Pottery,,301,400,text_century,absent,6,name from ware match,9,classified absent,9,century stated in the passage,8,"In ieder geval zijn ze te klein om te kunnen
+denken dat er aardewerk in gebakken is en ontbreken vondsten die bijvoor-beeld op metaal-verwerking kunnen duiden."
+old_rep_3,,5,Bowl,,Bowl,Bowl,,326,375,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,kom van met radstempels versierde terra sigillata
+old_rep_3,,5,Bowl,,Bowl,Bowl,,326,375,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,kom van handgemaakt aardewerk
+old_rep_3,,6,Pottery,,aardewerk,Pottery,,284,305,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Dat dit laatste geen toeval is
+wordt bovendien bewezen door bijna twintig fragmenten vrij goed dateerbaar
+aardewerk, de terra sigillata met radstempelversiering."
+old_rep_3,,6,Terra sigillata,,terra sigillata,Terra sigillata,,284,305,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Dat dit laatste geen toeval is
+wordt bovendien bewezen door bijna twintig fragmenten vrij goed dateerbaar
+aardewerk, de terra sigillata met radstempelversiering."

@@ -1,0 +1,6067 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+table_1,,1,Amphora,Mayen R19,Mayen R19,Amphora,,365,435,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman bowl,Alzey 28,Alzey 28,Late roman bowl,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage vessel,Alzey 29,Alzey 29,Late roman storage vessel,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Coarse ware bowl,NB 104,NB 104,Coarse ware bowl,,100,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Trier bowl,"Trier III, 40a","Trier III, 40a",Trier bowl,,280,355,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman cooking pot,Alzey 27,Alzey 27,Late roman cooking pot,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage jar,Alzey 30,Alzey 30,Late roman storage jar,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman lid,Alzey 34,Alzey 34,Late roman lid,,300,420,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman bowl,Alzey 28,Alzey 28,Late roman bowl,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman cooking pot,Alzey 27,Alzey 27,Late roman cooking pot,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage vessel,Alzey 29,Alzey 29,Late roman storage vessel,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Coarse ware bowl,NB 104,NB 104,Coarse ware bowl,,100,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage jar,Alzey 30,Alzey 30,Late roman storage jar,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman bowl,Alzey 28,Alzey 28,Late roman bowl,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Cheese strainer,FG1a,FG1a,Cheese strainer,,40,120,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman cooking pot,Alzey 27,Alzey 27,Late roman cooking pot,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Coarse ware cooking pot,NB 89,NB 89,Coarse ware cooking pot,,150,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage jar,Alzey 30,Alzey 30,Late roman storage jar,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage vessel,Alzey 29,Alzey 29,Late roman storage vessel,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Trier bowl,"Trier III, 40a","Trier III, 40a",Trier bowl,,280,355,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman storage vessel,Alzey 29,Alzey 29,Late roman storage vessel,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman dish,Alzey 33,Alzey 33,Late roman dish,,350,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Late roman cooking pot,Alzey 27,Alzey 27,Late roman cooking pot,,300,450,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware group
+Fabric
+Form
+Type
+N
+MNI
+MNI_r(ims)
+Coarse oxidized
+Eifel region (Mayen)
+-
+-
+47
+45
+-
+amphora
+Mayen R19
+1
+1
+1
+bowl
+Alzey 28
+29
+15
+15
+bowl
+Alzey 29
+5
+5
+5
+bowl
+NB 104
+1
+1
+1
+bowl
+Trier III, 40a
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+dolium
+proled shoulder
+2
+1
+1
+jar
+-
+8
+6
+-
+jar
+Alzey 27
+41
+13
+13
+jug
+-
+4
+4
+-
+jug
+Alzey 30
+25
+8
+7
+plate
+-
+1
+1
+-
+plate
+Alzey 34
+5
+3
+3
+Rhineland/Eifel region
+-
+-
+6
+5
+-
+bowl
+-
+1
+1
+-
+bowl
+Alzey 28 cf.
+1
+1
+1
+bowl/jar
+-
+1
+1
+1
+jar
+Alzey 27
+1
+1
+1
+jug
+-
+1
+1
+1
+plate
+-
+1
+1
+-
+plate
+Alzey 29
+5
+2
+2
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+NB 104 cf.
+1
+1
+1
+jar
+-
+6
+2
+1
+jar
+Alzey 30
+1
+1
+1
+regional (Meuse valley?)
+jar
+-
+1
+1
+-
+other
+-
+-
+1
+1
+-
+plate
+-
+1
+1
+1
+Coarse reduced
+Eifel region (Mayen)
+-
+-
+21
+17
+-
+bowl
+Alzey 28
+1
+1
+1
+cheese strainer
+FG1a
+1
+1
+1
+jar
+-
+11
+4
+-
+jar
+Alzey 27
+14
+11
+10
+jar
+NB 89
+1
+1
+1
+jug
+Alzey 30
+1
+1
+1
+plate
+Alzey 29
+2
+2
+2
+Rhineland/Eifel region
+-
+-
+1
+1
+-
+bowl
+Trier III, 40a
+1
+1
+1
+jar
+-
+1
+1
+-
+Meuse valley/Rhineland
+-
+-
+1
+1
+-
+bowl
+Alzey 29
+1
+1
+1
+jar
+-
+1
+1
+-
+regional (Meuse valley?)
+-
+-
+5
+2
+-
+jar
+-
+2
+1
+-
+jar
+Alzey 33 cf.
+8
+1
+1
+other
+-
+-
+2
+2
+-
+jar
+Alzey 27
+1
+1
+1
+Total
+275
+176
+78"
+table_1,,1,Amphora,,amphora,Amphora,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,amphora
+table_1,,1,Bowl/jar,,Bowl/jar,Bowl/jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,bowl/jar
+table_1,,1,Dolium,,dolium,Dolium,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,dolium
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Jug,,Jug,Jug,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jug
+table_1,,1,Plate,,Plate,Plate,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,plate
+table_1,,1,Bowl,,Bowl,Bowl,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,bowl
+table_1,,1,Bowl/jar,,Bowl/jar,Bowl/jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,bowl/jar
+table_1,,1,Jug,,Jug,Jug,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jug
+table_1,,1,Plate,,Plate,Plate,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,plate
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Plate,,Plate,Plate,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,plate
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar
+table_1,,1,Jar,,Jar,Jar,,270,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,jar

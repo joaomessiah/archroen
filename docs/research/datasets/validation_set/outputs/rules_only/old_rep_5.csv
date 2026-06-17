@@ -1,0 +1,16 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+old_rep_5,,1,Dishes,,schaaltjes,Dishes,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en an-dere voorwerpen voor den dag, die ontegenzeggelijk
+uit Romeinsche brandgraven afkomstig waren."
+old_rep_5,,1,Bowls,,kommetjes,Bowls,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en an-dere voorwerpen voor den dag, die ontegenzeggelijk
+uit Romeinsche brandgraven afkomstig waren."
+old_rep_5,,1,Beakers,,bekertjes,Beakers,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en an-dere voorwerpen voor den dag, die ontegenzeggelijk
+uit Romeinsche brandgraven afkomstig waren."
+old_rep_5,,1,Jugs,,kruikjes,Jugs,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en an-dere voorwerpen voor den dag, die ontegenzeggelijk
+uit Romeinsche brandgraven afkomstig waren."
+old_rep_5,,1,Urns,,urntjes,Urns,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en an-dere voorwerpen voor den dag, die ontegenzeggelijk
+uit Romeinsche brandgraven afkomstig waren."

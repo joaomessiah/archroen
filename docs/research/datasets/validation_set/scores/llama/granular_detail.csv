@@ -1,0 +1,250 @@
+report,site_name_verdict,site_name_gold,site_name_workflow,pottery_verdict,pottery_gold,pottery_workflow,typology_verdict,typology_gold,typology_workflow,start_date_verdict,start_date_gold,start_date_workflow,end_date_verdict,end_date_gold,end_date_workflow
+old_rep_1,incorrect,Ambij,Maastricht,exact,Terra sigillata,Terra sigillata,exact,,,exact,-12,-12,exact,450,450
+old_rep_1,incorrect,Ambij,Maastricht,acceptable,Roman ware,Roman pottery,exact,,,exact,-12,-12,exact,450,450
+old_rep_2,exact,Houten,Houten,exact,Terra sigillata,Terra sigillata,exact,,,exact,-12,-12,exact,450,450
+old_rep_2,exact,Houten,Houten,exact,Belgic ware,Belgic ware,exact,,,exact,-12,-12,exact,450,450
+old_rep_2,exact,Houten,Houten,acceptable,Smooth-walled ware,Smooth-walled pottery,exact,,,exact,-12,-12,exact,450,450
+old_rep_2,exact,Houten,Houten,acceptable,Coarse ware,Coarse pottery,exact,,,exact,-12,-12,exact,450,450
+old_rep_2,incorrect,Kerkrade,Houten,acceptable,Pottery,Glossy pottery,exact,,,acceptable,1,-12,incorrect,50,450
+old_rep_2,missing,Houten,,missing,Colour-coated ware,,missing,,,missing,-12,,missing,450,
+old_rep_2,missing,Kerkrade,,missing,Terra sigillata,,missing,,,missing,-27,,missing,20,
+old_rep_2,overclaim,,Kerkrade,overclaim,,Pottery with the stamp of Cnaeus Ateius,overclaim,,,overclaim,,-20,overclaim,,20
+old_rep_3,exact,Voerendaal,Voerendaal,exact,Handmade pottery,Handmade pottery,exact,,,incorrect,270,350,exact,400,400
+old_rep_3,exact,Voerendaal,Voerendaal,acceptable,Terra sigillata ,Terra sigillata bowl,exact,,,acceptable,325,350,acceptable,375,400
+old_rep_3,missing,Voerendaal,,missing,Terra sigillata ,,missing,,,missing,350,,missing,420,
+old_rep_3,missing,Voerendaal,,missing,Terra sigillata ,,missing,Hübener Group 3,,missing,340,,missing,370,
+old_rep_3,missing,Voerendaal,,missing,Pottery,,missing,,,missing,-800,,missing,-12,
+old_rep_4,exact,Heerlen,Heerlen,exact,Terra sigillata cup,Terra sigillata cup,exact,Dragendorff 33,Dragendorff 33,exact,40,40,exact,300,300
+old_rep_4,exact,Heerlen,Heerlen,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+old_rep_4,exact,Heerlen,Heerlen,exact,Terra sigillata plate,Terra sigillata plate,incorrect,Dragendorff 18/31,Dragendorff 31,incorrect,70,100,incorrect,200,260
+old_rep_4,exact,Heerlen,Heerlen,exact,Terra nigra,Terra nigra,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,exact,Terra rubra,Terra rubra,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,exact,Mortarium with pouring spout,Mortarium with pouring spout,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,exact,Mortarium without pouring spout,Mortarium without pouring spout,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,exact,Lid,Lid,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,acceptable,Smooth-walled ware,Smooth-walled pottery,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,acceptable,Coarse ware,Coarse pottery,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,exact,Heerlen,Heerlen,acceptable,Terra sigillata,Terra sigillata plate,incorrect,,Dragendorff 18,incorrect,-12,40,incorrect,450,120
+old_rep_4,exact,Heerlen,Heerlen,acceptable,Colour-coated ware without barbotine decoration,Glossy pottery without barbotine decoration,exact,,,exact,-12,-12,exact,450,450
+old_rep_4,missing,Heerlen,,missing,Colour-coated ware with barbotine decoration,,missing,,,missing,-12,,missing,450,
+old_rep_4,missing,Heerlen,,missing,Coarse ware,,missing,,,missing,-12,,missing,450,
+old_rep_4,overclaim,,Heerlen,overclaim,,Glossy pottery with barbotine decoration,overclaim,,,overclaim,,-12,overclaim,,450
+old_rep_4,overclaim,,Heerlen,overclaim,,Mortarium,overclaim,,,overclaim,,-12,overclaim,,450
+old_rep_5,exact,Eygelshoven,Eygelshoven,exact,Dish,Dish,exact,,,acceptable,101,100,exact,200,200
+old_rep_5,exact,Eygelshoven,Eygelshoven,exact,Bowl,Bowl,exact,,,acceptable,101,100,exact,200,200
+old_rep_5,exact,Eygelshoven,Eygelshoven,exact,Beaker,Beaker,exact,,,acceptable,101,100,exact,200,200
+old_rep_5,exact,Eygelshoven,Eygelshoven,exact,Jug,Jug,exact,,,acceptable,101,100,exact,200,200
+old_rep_5,exact,Eygelshoven,Eygelshoven,exact,Urn,Urn,exact,,,acceptable,101,100,exact,200,200
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,amphora,amphora,exact,Mayen R19,Mayen R19,exact,365,365,exact,435,435
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman bowl,Late Roman bowl,exact,Alzey 28,Alzey 28,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage vessel,Late Roman storage vessel,exact,Alzey 29,Alzey 29,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Coarse ware bowl,Coarse ware bowl,exact,Niederbieber 104,Niederbieber 104,exact,100,100,exact,300,300
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Trier bowl,Trier bowl,exact,"Trier III, 40a","Trier III, 40a",exact,280,280,exact,355,355
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman cooking pot,Late Roman cooking pot,exact,Alzey 27,Alzey 27,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage jar,Late Roman storage jar,exact,Alzey 30,Alzey 30,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman lid,Late Roman lid,exact,Alzey 34,Alzey 34,exact,300,300,exact,420,420
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman bowl,Late Roman bowl,exact,Alzey 28,Alzey 28 cf.,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman cooking pot,Late Roman cooking pot,exact,Alzey 27,Alzey 27,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage vessel,Late Roman storage vessel,exact,Alzey 29,Alzey 29,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Coarse ware bowl,Coarse ware bowl,exact,Niederbieber 104 cf.,Niederbieber 104 cf.,exact,100,100,exact,300,300
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage jar,Late Roman storage jar,exact,Alzey 30,Alzey 30,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman bowl,Late Roman bowl,exact,Alzey 28 cf.,Alzey 28,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Cheese strainer,Cheese strainer,exact,FG1a,FG1a,exact,40,40,exact,120,120
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman cooking pot,Late Roman cooking pot,exact,Alzey 27,Alzey 27,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Coarse ware cooking pot,Coarse ware cooking pot,exact,Niederbieber 89,Niederbieber 89,exact,150,150,exact,300,300
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage jar,Late Roman storage jar,exact,Alzey 30,Alzey 30,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage vessel,Late Roman storage vessel,exact,Alzey 29,Alzey 29,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Trier bowl,Trier bowl,exact,"Trier III, 40a","Trier III, 40a",exact,280,280,exact,355,355
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman storage vessel,Late Roman storage vessel,exact,Alzey 29,Alzey 29,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman dish,Late Roman dish,exact,Alzey 33 cf,Alzey 33 cf.,exact,350,350,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Late Roman cooking pot,Late Roman cooking pot,exact,Alzey 27,Alzey 27,exact,300,300,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Bowl,Bowl,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Bowl/Jar,Bowl/Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Bowl/Jar,Bowl/Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Dolium,Dolium,incorrect,,pro…led shoulder,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jar,Jar,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jug,Jug,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Jug,Jug,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Plate,Plate,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Plate,Plate,exact,,,exact,270,270,exact,450,450
+table_1,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Plate,Plate,exact,,,exact,270,270,exact,450,450
+table_2,exact,508067,508067,exact,Pottery,Pottery,exact,,,exact,-12,-12,exact,450,450
+table_2,incorrect,508067,500230,exact,Pottery,Pottery,exact,,,incorrect,70,-12,incorrect,270,450
+table_2,incorrect,500203,500383,exact,Pottery,Pottery,exact,,,exact,-12,-12,exact,450,450
+table_2,exact,500227,500227,exact,Terra sigillata,Terra sigillata,exact,,,exact,-12,-12,exact,450,450
+table_2,exact,500227,500227,exact,Cooking pot,Cooking pot,exact,,,exact,-12,-12,exact,450,450
+table_2,exact,500227,500227,exact,Flagon ware,Flagon ware,exact,,,exact,-12,-12,exact,450,450
+table_2,exact,500227,500227,acceptable,Dolium,Dolia,exact,,,exact,-12,-12,exact,450,450
+table_2,incorrect,500205,508040,acceptable,Pottery,Handmade pottery,exact,,,incorrect,-12,-800,incorrect,450,-12
+table_2,missing,500218,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+table_2,missing,500219,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+table_2,missing,500383,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+table_2,missing,500050,,missing,Pottery,,missing,,,missing,-250,,missing,-12,
+table_2,missing,508040,,missing,Handmade ware pot,,missing,,,missing,-250,,missing,-12,
+table_3,exact,Nijmegen,Nijmegen,exact,Arretina,Arretina,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Fine ware,Fine ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Gallo-Belgic ware,Gallo-Belgic ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Pompeian red ware,Pompeian red ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Smooth ware,Smooth ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Coarse ware,Coarse ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Cork ware,Cork ware,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,exact,Handmade pottery,Handmade pottery,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,acceptable,Amphora,Amphorae,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,acceptable,Dolium,Dolia,exact,,,exact,-19,-19,exact,-16,-16
+table_3,exact,Nijmegen,Nijmegen,acceptable,Mortarium,Mortaria,exact,,,exact,-19,-19,exact,-16,-16
+table_4,exact,Nijmegen,Nijmegen,exact,Baetica defrutum amphora,Baetica defrutum amphora,exact,Haltern 70,Haltern 70,exact,-50,-50,exact,100,100
+table_4,exact,Nijmegen,Nijmegen,exact,Spanish fish sauce amphora,Spanish fish sauce amphora,exact,Dressel 7-11,Dressel 7-11,exact,-20,-20,exact,90,90
+table_4,exact,Nijmegen,Nijmegen,exact,Spanish fish sauce amphora,Spanish fish sauce amphora,exact,Dressel 7,Dressel 7,exact,-30,-30,exact,60,60
+table_4,exact,Nijmegen,Nijmegen,exact,Spanish fish sauce amphora,Spanish fish sauce amphora,exact,Dressel 7-11,Dressel 7-11,exact,-20,-20,exact,90,90
+table_4,exact,Nijmegen,Nijmegen,exact,Spanish fish sauce amphora,Spanish fish sauce amphora,exact,Dressel 12,Dressel 12,exact,-20,-20,exact,80,80
+table_4,exact,Nijmegen,Nijmegen,exact,Italian wine amphora,Italian wine amphora,exact,Dressel 1B,Dressel 1B,exact,-130,-130,exact,-10,-10
+table_4,exact,Nijmegen,Nijmegen,acceptable,Amphora,Adriatic wine amphora,exact,Lamboglia 2/Dressel 6A,Lamboglia 2/Dressel 6A,exact,-130,-130,exact,70,70
+table_4,exact,Nijmegen,Nijmegen,acceptable,Amphora,Italian/Spanish wine amphora,exact,Dressel 2-5,Dressel 2-5,exact,-30,-30,exact,250,250
+table_4,exact,Nijmegen,Nijmegen,exact,pottery,pottery,exact,Oberaden 83,Oberaden 83,exact,-11,-11,exact,-7,-7
+table_4,exact,Nijmegen,Nijmegen,exact,Coarse ware vessel,Coarse ware vessel,exact,Camulodunum 184,Camulodunum 184,exact,43,43,exact,250,250
+table_4,exact,Nijmegen,Nijmegen,exact,Knidian wine amphora,Knidian wine amphora,exact,Pompeii 38,Pompeii 38,exact,-50,-50,exact,100,100
+table_4,exact,Nijmegen,Nijmegen,exact,Tarraconensian wine amphora,Tarraconensian wine amphora,exact,Pascual 1,Pascual 1,exact,-100,-100,exact,-20,-20
+table_4,exact,Nijmegen,Nijmegen,exact,Amphora,Amphora,exact,Haltern 59,Haltern 59,exact,-15,-15,exact,25,25
+table_4,exact,Nijmegen,Nijmegen,exact,pottery,pottery,exact,Oberaden 21,Oberaden 21,exact,-11,-11,exact,-7,-7
+table_4,exact,Nijmegen,Nijmegen,exact,jug,jug,exact,Stuart 103/Oberaden 43,Stuart 103/Oberaden 43,exact,70,70,exact,250,250
+table_4,exact,Nijmegen,Nijmegen,exact,Smooth-walled honey pot,Smooth-walled honey pot,exact,Stuart 146,Stuart 146,exact,100,100,exact,300,300
+table_4,exact,Nijmegen,Nijmegen,exact,pottery,pottery,exact,Stuart 147,Stuart 147,exact,70,70,exact,250,250
+table_4,exact,Nijmegen,Nijmegen,exact,Cooking pot,Cooking pot,exact,,,acceptable,-27,-20,acceptable,14,-10
+table_4,missing,Nijmegen,,missing,Amphora,,missing,,,missing,-20,,missing,-10,
+table_4,missing,Nijmegen,,missing,Amphora,,missing,,,missing,-20,,missing,-10,
+table_4,missing,Nijmegen,,missing,Amphora,,missing,,,missing,-20,,missing,-10,
+table_4,missing,Nijmegen,,missing,Amphora,,missing,,,missing,-20,,missing,-10,
+table_4,missing,Nijmegen,,missing,Smooth-walled jug,,missing,Stuart 131/Oberaden 48-49,,missing,120,,missing,300,
+table_4,missing,Nijmegen,,missing,Flagon,,missing,Stuart 133/Oberaden 52,,missing,70,,missing,250,
+table_4,missing,Nijmegen,,missing,Dolium,,missing,,,missing,-27,,missing,14,
+table_4,missing,Nijmegen,,missing,Terra sigillata,,missing,,,missing,-27,,missing,14,
+table_4,missing,Nijmegen,,missing,Beaker,,missing,,,missing,-27,,missing,14,
+table_4,missing,Nijmegen,,missing,Pot,,missing,,,missing,-20,,missing,-10,
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Terra nigra flask-shaped pot,Terra nigra flask-shaped pot,exact,Holwerda 25,Holwerda 25,exact,-30,-30,exact,70,70
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Terra nigra round-oval pot,Terra nigra round-oval pot,exact,Holwerda 27,Holwerda 27,exact,-25,-25,exact,70,70
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,rough-walled Nijmegen pottery,rough-walled Nijmegen pottery,exact,Holwerda 66,Holwerda 66,exact,-20,-20,exact,120,120
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Terra nigra plate,Terra nigra plate,exact,Holwerda 81,Holwerda 81,exact,-30,-30,exact,70,70
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Handmade cork urn,Handmade cork urn,exact,Holwerda 94,Holwerda 94,exact,-100,-100,exact,80,80
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Color-coated beaker,Color-coated beaker,exact,Niederbieber 33,Niederbieber 33,exact,150,150,exact,300,300
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,exact,Terra nigra,Terra nigra,exact,,,exact,1,1,incorrect,300,100
+table_5,exact,Kerkrade-Holzkuil,Kerkrade-Holzkuil,acceptable,Beaker,White beaker,exact,,,exact,1,1,incorrect,300,100
+table_5,missing,Kerkrade-Holzkuil,,missing,Terra nigra pot,,missing,,,missing,1,,missing,300,
+table_5,missing,Kerkrade-Holzkuil,,missing,Terra nigra,,missing,,,missing,1,,missing,300,
+table_5,missing,Kerkrade-Holzkuil,,missing,Indeterminate,,missing,,,missing,1,,missing,300,
+table_5,overclaim,,Kerkrade-Holzkuil,overclaim,,Pot,overclaim,,,overclaim,,1,overclaim,,100
+table_5,overclaim,,Kerkrade-Holzkuil,overclaim,,Unknown,overclaim,,,overclaim,,1,overclaim,,100
+table_5,overclaim,,Kerkrade-Holzkuil,overclaim,,Cork urn,overclaim,,,overclaim,,1,overclaim,,100
+table_5,overclaim,,Kerkrade-Holzkuil,overclaim,,Handmade cork urn,overclaim,,Holwerda 94,overclaim,,-100,overclaim,,80
+ocr_1,exact,Englum,Englum,acceptable,Arretine ware plate,Plate,incorrect,Conspectus 11,Consp. 11 (Haltern 1b/Service Ia),incorrect,-30,-100,incorrect,30,-1
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,22-3-6/4056,22-3-6/4056,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,513-2/20-1-67,513-2/20-1-67,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,514-3/20-3-63,514-3/20-3-63,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,711-1/13-1-27,711-1/13-1-27,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,757-10/109-2-5,757-10/109-2-5,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,768-1/15-2-19,768-1/15-2-19,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,768-2/15-2-19,768-2/15-2-19,exact,,,acceptable,270,275,exact,450,450
+ocr_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,791-1/95-2-22,791-1/95-2-22,exact,,,acceptable,270,275,exact,450,450
+ocr_3,missing,Heerlen,,missing,Roman ware,,missing,,,missing,101,,missing,200,
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 32,Dragendorff 32,exact,150,150,exact,300,300
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata mortarium,Terra sigillata mortarium,exact,Dragendorff 45,Dragendorff 45,exact,150,150,exact,400,400
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 29,Dragendorff 29,exact,15,15,exact,100,100
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata,Terra sigillata,exact,,,exact,-12,-12,exact,450,450
+ocr_4,exact,Heerlen,Heerlen,exact,Beaker,Beaker,exact,,,exact,-12,-12,exact,450,450
+ocr_4,exact,Heerlen,Heerlen,exact,Terra sigillata,Terra sigillata,exact,,,exact,-12,-12,exact,450,450
+ocr_4,exact,Heerlen,Heerlen,acceptable,Native ware,Native Roman ware,exact,,,exact,-12,-12,exact,450,450
+ocr_5,exact,Coriovallum,Coriovallum,acceptable,Beaker,Drink beaker,exact,,,exact,-27,-27,acceptable,20,14
+ocr_5,exact,Coriovallum,Coriovallum,acceptable,Beaker,ACO beaker,exact,,,exact,-27,-27,exact,14,14
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Baetican olive oil amphora,Baetican olive oil amphora,exact,Dressel 20,Dressel 20,exact,-10,-10,exact,260,260
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Red coarse ware,Red coarse ware,exact,,,exact,,,exact,,
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Dolium,Dolium,exact,,,exact,,,exact,,
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Olive oil amphora,Olive oil amphora,exact,,,exact,,,exact,,
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Mortarium,Mortarium,incorrect,Brunsting 37,,incorrect,70,100,exact,200,200
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Dolium,Dolium,exact,,,exact,,,exact,,
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,exact,Mortarium,Mortarium,exact,,,incorrect,101,160,exact,450,450
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,acceptable,Beaker,Painted beaker,exact,,,acceptable,101,100,exact,200,200
+new_rep_1,incorrect,GasUnie trench,Alphen-Ekeren,acceptable,Gallic wine amphora,Gauloise amphora,incorrect,Gauloise 4,,incorrect,75,,incorrect,300,
+new_rep_1,missing,GasUnie trench,,missing,White smooth-walled ware,,missing,,,missing,,,missing,,
+new_rep_1,missing,GasUnie trench,,missing,Pottery,,missing,,,missing,,,missing,,
+new_rep_1,overclaim,,Alphen-Ekeren,overclaim,,White fine ware,overclaim,,,overclaim,,,overclaim,,
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 29,Dragendorff 29,exact,15,15,exact,100,100
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 29,Dragendorff 29,exact,15,15,exact,100,100
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 29,Dragendorff 29,exact,15,15,exact,100,100
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,acceptable,Terra sigillata decorated beaker,Terra sigillata decorated bowl,exact,Dragendorff 30,Dragendorff 30,exact,20,20,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,acceptable,Terra sigillata,Terra sigillata cup,exact,Dragendorff 27g,Dragendorff 27g,exact,60,60,exact,90,90
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18,Dragendorff 18,exact,40,40,exact,120,120
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata cup,Terra sigillata cup,exact,Dragendorff 27,Dragendorff 27,exact,15,15,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18r,Dragendorff 18R,exact,70,70,exact,180,180
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata cup,Terra sigillata cup,exact,Dragendorff 27,Dragendorff 27,exact,15,15,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18/31,Dragendorff 18/31,exact,70,70,exact,200,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 31,Dragendorff 31,exact,100,100,exact,260,260
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 18,Dragendorff 18,exact,40,40,exact,120,120
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,exact,Dragendorff 32,Dragendorff 32,exact,150,150,exact,300,300
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata cup,Terra sigillata cup,incorrect,,Dragendorff 27,incorrect,85,15,incorrect,100,200
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,incorrect,Dragendorff 18/31,Dragendorff 18/31 or Dragendorff. 31,incorrect,70,40,incorrect,200,120
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,incorrect,Dragendorff 18/31,Dragendorff 18/31 or Dragendorff. 31,incorrect,70,40,incorrect,200,120
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,exact,Terra sigillata plate,Terra sigillata plate,incorrect,Dragendorff 31,Dragendorff 18/31 or Dragendorff. 31,incorrect,100,40,incorrect,260,120
+new_rep_2,exact,Voerendaal-Ten Hove,Voerendaal-Ten Hove,acceptable,Terra sigillata decorated bowl,East Gaulish terra sigillata plate,incorrect,Dragendorff 37,Ludowici SB,incorrect,70,120,incorrect,300,260
+new_rep_2,missing,Voerendaal-Ten Hove,,missing,Terra sigillata dish,,missing,,,missing,65,,missing,85,
+new_rep_2,missing,Voerendaal-Ten Hove,,missing,Terra sigillata,,missing,Dragendorff 27g,,missing,60,,missing,90,
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,exact,Terra sigillata,Terra sigillata,exact,,,acceptable,101,100,exact,200,200
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,exact,Painted cup,Painted cup,exact,,,acceptable,101,100,exact,300,300
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,exact,Dolia,Dolia,exact,,,exact,,,exact,,
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,acceptable,Amphorae,Amphora,exact,,,exact,1,1,exact,100,100
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,acceptable,mortaria,Mortarium,exact,,,exact,,,exact,,
+new_rep_3,exact,Mook-Plasmolen,Mook-Plasmolen,acceptable,jugs,Jug,exact,,,exact,,,exact,,
+new_rep_4,exact,Stein,Stein,exact,Argonnian terra sigillata bowl,Argonnian terra sigillata bowl,exact,Chenet 320,Chenet 320,exact,300,300,exact,420,420
+new_rep_4,exact,Stein,Stein,exact,Terra sigillata cup,Terra sigillata cup,exact,Dragendorff 33,Dragendorff 33,exact,40,40,exact,300,300
+new_rep_4,exact,Stein,Stein,exact,Terra sigillata decorated bowl,Terra sigillata decorated bowl,exact,Dragendorff 37,Dragendorff 37,exact,70,70,exact,300,300
+new_rep_4,missing,Stein,,missing,Terra sigillata plate,,missing,Dragendorff 18/31,,missing,70,,missing,200,
+new_rep_4,missing,Stein,,missing,Terra sigillata mortarium,,missing,Dragendorff 45,,missing,150,,missing,400,
+new_rep_5,incorrect,Margraten,419663,exact,Pottery,Pottery,exact,,,exact,-12,-12,exact,450,450
+new_rep_5,acceptable,Margraten,Eijsden-Margraten,acceptable,Pottery,Roman pottery,exact,,,exact,-12,-12,incorrect,1200,450
+new_rep_5,incorrect,Margraten,419663,acceptable,Pottery,Painted pottery,exact,,,exact,-12,-12,incorrect,1200,450
+new_rep_5,missing,Margraten,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+new_rep_5,missing,Margraten,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+new_rep_5,missing,Margraten,,missing,Pottery,,missing,,,missing,-12,,missing,450,
+new_rep_5,missing,Margraten,,missing,Pottery,,missing,,,missing,-12,,missing,1200,
+new_rep_5,missing,Margraten,,missing,Painted ware,,missing,,,missing,-12,,missing,450,

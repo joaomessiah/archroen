@@ -1,0 +1,35 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+new_rep_4,,2,Terra sigillata decorated bowl,Dragendorff 37,Drag. 37,Terra sigillata decorated bowl,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"The terra sigillata comprises cups bowls Drag.
+37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
+fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410.
+Furthermore a prismatic glass bottle Isings 50, mural
+fragments and a coin struck under the reign of Hadrianus
+are in the RMO collection."
+new_rep_4,,2,Terra sigillata cup,Dragendorff 33,Drag. 33,Terra sigillata cup,,40,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"The terra sigillata comprises cups bowls Drag.
+37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
+fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410.
+Furthermore a prismatic glass bottle Isings 50, mural
+fragments and a coin struck under the reign of Hadrianus
+are in the RMO collection."
+new_rep_4,,2,Terra sigillata plate,Dragendorff 18/31,Drag.18/31,Terra sigillata plate,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"The terra sigillata comprises cups bowls Drag.
+37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
+fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410.
+Furthermore a prismatic glass bottle Isings 50, mural
+fragments and a coin struck under the reign of Hadrianus
+are in the RMO collection."
+new_rep_4,,2,Terra sigillata mortarium,Dragendorff 45,Drag. 45,Terra sigillata mortarium,,150,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"The terra sigillata comprises cups bowls Drag.
+37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
+fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410.
+Furthermore a prismatic glass bottle Isings 50, mural
+fragments and a coin struck under the reign of Hadrianus
+are in the RMO collection."
+new_rep_4,,2,Argonnian terra sigillata bowl,Chenet 320,Chenet 320,Argonnian terra sigillata bowl,,300,420,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"The terra sigillata comprises cups bowls Drag.
+37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
+fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410.
+Furthermore a prismatic glass bottle Isings 50, mural
+fragments and a coin struck under the reign of Hadrianus
+are in the RMO collection."
+new_rep_4,,2,Terra sigillata,,terra sigillata,Terra sigillata,,117,138,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Only terra sigillata has been
+collected."
+new_rep_4,,2,Terra sigillata,,terra sigillata,Terra sigillata,,117,138,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,collected. The terra sigillata comprises cups bowls Drag.
+new_rep_4,,2,Mortaria,,mortaria,Mortaria,,117,138,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two"

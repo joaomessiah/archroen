@@ -1,0 +1,49 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+old_rep_4,,1,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/ 31,Terra sigillata plate,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Terra sigillata cup,Dragendorff 33,Dragendorff 33,Terra sigillata cup,,40,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,Terra sigillata decorated bowl,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Op 16 en 17 maart 1967 werden tijdens grondwerkzaamheden op de per·
+celen E 2283, 2284 en 5209 in de Uilegats te Heerlen door de Gemeente·
+lijke oudheidkundige dienst naast een bronzen draadfibulafragment tal
+van aardewerkfragmenten verzameld."
+old_rep_4,,1,Varnished pottery,,gevernist aardewerk,Varnished pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Terra nigra,,terra nigra,Terra nigra,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Terra rubra,,terra rubra,Terra rubra,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Smooth-walled pottery,,gladwandig,Smooth-walled pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Rough-walled pottery,,ruwwandig,Rough-walled pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Grinding bowl,,wrijfschaal,Grinding bowl,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,1,Lid,,deksel,Lid,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra
+rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uit·
+schenkrand en dekselfragmenten."
+old_rep_4,,2,Rough-walled pottery,,ruwwandige,Rough-walled pottery,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Over het gehele perceel liggen dakpanfragmenten, ruwwandige en terra
+sigillatascherven verspreid."
+old_rep_4,,2,Terra sigillata,,terra sigillata,Terra sigillata,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Over het gehele perceel liggen dakpanfragmenten, ruwwandige en terra
+sigillatascherven verspreid."

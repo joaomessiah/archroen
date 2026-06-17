@@ -369,7 +369,7 @@ _FIND_SCHEMA = {
 
 def _extract_tables_md(pdf_path) -> str:
     """Recover finds TABLES as markdown grids (PyMuPDF find_tables) so the model can count rows
-    that prose-flattening destroys (e.g. table1's 'amphora|Mayen R19|N=1', table5's indeterminate
+    that prose-flattening destroys (e.g. table_1's 'amphora|Mayen R19|N=1', table_5's indeterminate
     'Belgische waar' rows). Returns "" for image-only/OCR PDFs with no text-layer tables."""
     try:
         import fitz

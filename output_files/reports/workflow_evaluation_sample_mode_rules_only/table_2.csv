@@ -1,0 +1,18 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+table_2,508067,1,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,Romeinse tijd: aardewerk.
+table_2,500203,2,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
+table_2,500205,2,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
+table_2,500218,2,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: vermoedelijk Romeinse villa, concentratie dakpanfragmenten, aardewerk."
+table_2,500219,2,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
+table_2,500227,3,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa, concentratie van dakpannen, hypocausttegels, tubuli, mortel en vloerbeton."
+table_2,500227,3,Terra sigillata,,terra sigillata,Terra sigillata,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa, concentratie van dakpannen, hypocausttegels, tubuli, mortel en vloerbeton."
+table_2,500227,3,Dolia,,dolia,Dolia,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa, concentratie van dakpannen, hypocausttegels, tubuli, mortel en vloerbeton."
+table_2,500227,3,Cooking pots,,kookpotten,Cooking pots,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa, concentratie van dakpannen, hypocausttegels, tubuli, mortel en vloerbeton."
+table_2,500227,3,Flagon ware,,kruikwaar,Flagon ware,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa, concentratie van dakpannen, hypocausttegels, tubuli, mortel en vloerbeton."
+table_2,500383,3,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"ls, tubuli, mortel en vloerbeton.
+500230
+Veldprospectie (1976); NK: 150 m
+Romeinse tijd: bouwmateriaal, vermoedelijk een Romeinse villa.
+500383
+Veldprospectie (1974); NK: 150 m
+Romeinse tijd: aardewerk, bouwmateriaal."

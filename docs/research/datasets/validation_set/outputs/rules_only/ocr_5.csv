@@ -1,0 +1,30 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+ocr_5,,1,Aco beaker barbotine type,ACO-beker,ACO-beker,Aco beaker barbotine type,,-25,50,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Deze zijn van
+een ACO-beker en schuin tegen-over het badhuis gevonden."
+ocr_5,,1,Drinking cup,,drinkbeker,Drinking cup,,-12,70,chron_vocab,present,6,name from ware match,8,classified present,8,named dated period/ware,7,"Scherven brengen geluk! Deze vroeg-Romeinse drinkbeker
+van aardewerk is in Coriovallum gevonden, maar gemaakt in
+het Franse Lyon."
+ocr_5,,1,Pottery,,aardewerk,Pottery,,-12,70,chron_vocab,present,6,name from ware match,8,classified present,8,named dated period/ware,7,"Scherven brengen geluk! Deze vroeg-Romeinse drinkbeker
+van aardewerk is in Coriovallum gevonden, maar gemaakt in
+het Franse Lyon."
+ocr_5,,1,Pottery,,aardewerk,Pottery,,-12,70,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"De productie van aardewerk in Coriovallum
+kwam pas halverwege de eerste eeuw op gang."
+ocr_5,,1,Pottery,,aardewerk,Pottery,,-27,14,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Voor die tijd
+werd het meeste aardewerk van ver aan-gevoerd, zoals dus deze beker.
+► Soms kunnen kleine scherfjes
+heel belangrijk zijn."
+ocr_5,,1,Beaker,,beker,Beaker,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Voor die tijd
+werd het meeste aardewerk van ver aan-gevoerd, zoals dus deze beker.
+► Soms kunnen kleine scherfjes
+heel belangrijk zijn."
+ocr_5,,1,Beakers,,bekers,Beakers,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Bij-zonder is de vroege datering van
+dit type bekers: ze werden voor-namelijk tijdens het bewind van
+keizer Augustus gemaakt en
+gebruikt."
+ocr_5,,1,Beakers,,bekers,Beakers,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Bovendien gebruikten
+vooral officiers in het Romeinse
+leger dit type bekers."
+ocr_5,,1,Bowl,,schaal,Bowl,,80,80,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"Het was rond die
+schaal altijd een groezelige bedoening."
+ocr_5,,1,Pottery,,aardewerk,Pottery,,1,200,section_phase,present,6,name from ware match,8,classified present,6,inherited from the section/phase date,7,"Daarvoor kijken archeologen naar de
+vondsten die rond het badhuis zijn gedaan, zoals munten, bepaalde vormen van aardewerk en mantelspelden."

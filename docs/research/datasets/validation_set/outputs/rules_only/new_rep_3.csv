@@ -1,0 +1,19 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+new_rep_3,,3,Terra sigillata,,terra sigillata,Terra sigillata,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Among the pottery, terra
+sigillata dates from the 2nd century, painted cups from
+the 2nd and 3rd centuries, amphorae (of which one comes
+from Campania) date to the 1st century."
+new_rep_3,,3,Painted cups,,painted cups,Painted cups,,101,300,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Among the pottery, terra
+sigillata dates from the 2nd century, painted cups from
+the 2nd and 3rd centuries, amphorae (of which one comes
+from Campania) date to the 1st century."
+new_rep_3,,3,Amphorae,,amphorae,Amphorae,,1,100,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Among the pottery, terra
+sigillata dates from the 2nd century, painted cups from
+the 2nd and 3rd centuries, amphorae (of which one comes
+from Campania) date to the 1st century."
+new_rep_3,,3,Dolia,,dolia,Dolia,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Other pottery
+derives from dolia, mortaria and jugs."
+new_rep_3,,3,Mortaria,,mortaria,Mortaria,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Other pottery
+derives from dolia, mortaria and jugs."
+new_rep_3,,3,jugs,,jugs,jugs,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Other pottery
+derives from dolia, mortaria and jugs."

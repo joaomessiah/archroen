@@ -148,7 +148,7 @@ def consolidate_finds(rows: List[Dict], use_llm: bool = True) -> Tuple[List[Dict
         # Require an authoritative finds-table cell in the group: recaps are only collapsed
         # INTO a structured find. Pure-prose groups (no table) are left alone — merging two
         # narrative mentions on meaning alone is the unanchored, error-prone case (it cost a
-        # real find on ocr5: "…zoals dus deze beker" merged away a gold cup).
+        # real find on ocr_5: "…zoals dus deze beker" merged away a gold cup).
         if not any(rows[i].get("_table_cell") for i in idxs):
             continue
         is_generic = key[1] == "generic"

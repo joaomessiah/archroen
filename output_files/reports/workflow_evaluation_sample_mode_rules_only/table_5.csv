@@ -1,0 +1,312 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+table_5,,1,Color-coated beaker,Niederbieber 33,Niederbieber 33,Color-coated beaker,,1,100,text_century,present,8,name from typology code,10,classified present,9,century stated in the passage,9,"In de kelder van het
+hoofdgebouw zijn fragmenten aangetroffen
+van deze late terra nigra en wel een deukbe-ker van het type Niederbieber 33, die door
+Holwerda in zijn publicatie De Belgische
+waar in Nijmegen uit 1941 als het type 66
+beschreven is.16 In de kelder zijn eveneens
+nog een paar ‘flinters’ aangetroffen die
+mogelijk tot deze late f"
+table_5,,1,Terra rubra,,terra rubra,Terra rubra,,1,100,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Van terra rubra is op de Holzkuil geen enkel
+fragment aangetroffen."
+table_5,,1,Terra rubra,,terra rubra,Terra rubra,,1,100,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Dat zou kunnen
+komen vanwege het feit dat terra rubra
+vroeg in de 1e eeuw voorkomt en verdwijnt
+rond de jaren 70. Deze vroege periode lijkt
+op de Holzkuil niet sterk vertegenwoordigd."
+table_5,,1,Terra nigra,,Terra nigra,Terra nigra,,1,100,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Dat zou kunnen
+komen vanwege het feit dat terra rubra
+vroeg in de 1e eeuw voorkomt en verdwijnt
+rond de jaren 70. Deze vroege periode lijkt
+op de Holzkuil niet sterk vertegenwoordigd.
+Terra nigra blijft wat langer in gebruik en is
+op de Holzkuil in bescheiden mate aange-troffen."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,1,100,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"Naast de kwalitatief goede terra nigra uit de
+1e eeuw en de wat mindere producten uit de
+2e en begin 3e eeuw bestaat er ook zoge-naamde late terra nigra."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,1,100,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"van deze late terra nigra en wel een deukbe-ker van het type Niederbieber 33, die door"
+table_5,,1,Terra nigra flask-shaped pot,holwerda 25,holwerda 25,Terra nigra flask-shaped pot,,-30,70,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Mogelijk
+zijn de scherven afkomstig van een
+Belgische beker.
+materiaal
+categorie
+type
+MAI
+aantal
+totaal
+Belgische waar
+terra nigra
+holwerda 25?
+1
+1
+117
+Holwerda 27
+1
+3
+Holwerda 66
+2
+Holwerda 81
+2
+3
+pot
+1
+1
+onbekend
+1
+1
+indet
+106
+kurkurn
+Holwerda 94
+2
+3
+4
+indet
+1
+wit
+beker
+8
+8
+Eindtotaal
+129
+Tabel 6.6 Kerkrade-Holzkuil: overzicht van fragmenten Belgische waar per vormtype."
+table_5,,1,Terra nigra round-oval pot,Holwerda 27,Holwerda 27,Terra nigra round-oval pot,,-25,70,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Mogelijk
+zijn de scherven afkomstig van een
+Belgische beker.
+materiaal
+categorie
+type
+MAI
+aantal
+totaal
+Belgische waar
+terra nigra
+holwerda 25?
+1
+1
+117
+Holwerda 27
+1
+3
+Holwerda 66
+2
+Holwerda 81
+2
+3
+pot
+1
+1
+onbekend
+1
+1
+indet
+106
+kurkurn
+Holwerda 94
+2
+3
+4
+indet
+1
+wit
+beker
+8
+8
+Eindtotaal
+129
+Tabel 6.6 Kerkrade-Holzkuil: overzicht van fragmenten Belgische waar per vormtype."
+table_5,,1,Rough-walled nijmegen pottery,Holwerda 66,Holwerda 66,Rough-walled nijmegen pottery,,-20,120,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Mogelijk
+zijn de scherven afkomstig van een
+Belgische beker.
+materiaal
+categorie
+type
+MAI
+aantal
+totaal
+Belgische waar
+terra nigra
+holwerda 25?
+1
+1
+117
+Holwerda 27
+1
+3
+Holwerda 66
+2
+Holwerda 81
+2
+3
+pot
+1
+1
+onbekend
+1
+1
+indet
+106
+kurkurn
+Holwerda 94
+2
+3
+4
+indet
+1
+wit
+beker
+8
+8
+Eindtotaal
+129
+Tabel 6.6 Kerkrade-Holzkuil: overzicht van fragmenten Belgische waar per vormtype."
+table_5,,1,Terra nigra plate,Holwerda 81,Holwerda 81,Terra nigra plate,,-30,70,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Mogelijk
+zijn de scherven afkomstig van een
+Belgische beker.
+materiaal
+categorie
+type
+MAI
+aantal
+totaal
+Belgische waar
+terra nigra
+holwerda 25?
+1
+1
+117
+Holwerda 27
+1
+3
+Holwerda 66
+2
+Holwerda 81
+2
+3
+pot
+1
+1
+onbekend
+1
+1
+indet
+106
+kurkurn
+Holwerda 94
+2
+3
+4
+indet
+1
+wit
+beker
+8
+8
+Eindtotaal
+129
+Tabel 6.6 Kerkrade-Holzkuil: overzicht van fragmenten Belgische waar per vormtype."
+table_5,,1,Handmade cork urn,Holwerda 94,Holwerda 94,Handmade cork urn,,-100,80,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Mogelijk
+zijn de scherven afkomstig van een
+Belgische beker.
+materiaal
+categorie
+type
+MAI
+aantal
+totaal
+Belgische waar
+terra nigra
+holwerda 25?
+1
+1
+117
+Holwerda 27
+1
+3
+Holwerda 66
+2
+Holwerda 81
+2
+3
+pot
+1
+1
+onbekend
+1
+1
+indet
+106
+kurkurn
+Holwerda 94
+2
+3
+4
+indet
+1
+wit
+beker
+8
+8
+Eindtotaal
+129
+Tabel 6.6 Kerkrade-Holzkuil: overzicht van fragmenten Belgische waar per vormtype."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,terra nigra
+table_5,,1,Beaker,,beker,Beaker,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,Belgische beker.
+table_5,,1,pot,,pot,pot,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,pot
+table_5,,1,onbekend,,onbekend,onbekend,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,onbekend
+table_5,,1,indet,,indet,indet,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,indet
+table_5,,1,indet,,indet,indet,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,indet
+table_5,,1,Beaker,,beker,Beaker,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,beker
+table_5,,1,Cork urn,,kurkurn,Cork urn,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,kurkurn die tijdens opgravingen op
+table_5,,1,Pottery,,aardewerk,Pottery,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Het ontleent zijn vor-menscala aan zowel het inheemse aardewerk
+als aardewerk van mediterrane origine (zoals
+terra sigillata)."
+table_5,,1,Terra sigillata,,terra sigillata,Terra sigillata,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Het ontleent zijn vor-menscala aan zowel het inheemse aardewerk
+als aardewerk van mediterrane origine (zoals
+terra sigillata)."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"De meest voor-komende soorten baksels zijn terra nigra
+(wit/grijs baksel met een grijze/zwarte
+deklaag) en terra rubra (oranje/bruin baksel
+met een meestal rode/bruine deklaag)."
+table_5,,1,Terra rubra,,terra rubra,Terra rubra,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"De meest voor-komende soorten baksels zijn terra nigra
+(wit/grijs baksel met een grijze/zwarte
+deklaag) en terra rubra (oranje/bruin baksel
+met een meestal rode/bruine deklaag)."
+table_5,,1,Cork urns,,kurkurnen,Cork urns,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Daarnaast wordt de zogenaamde ‘kurkurnen’
+ook tot de Belgische waar gerekend."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,201,300,text_century,uncertain,6,name from ware match,7,classified uncertain,9,century stated in the passage,7,"aar in Nijmegen uit 1941 als het type 66
+beschreven is.16 In de kelder zijn eveneens
+nog een paar ‘flinters’ aangetroffen die
+mogelijk tot deze late fijne, grijze terra nigra
+bekers behoort hebben."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,201,300,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De scherven waren
+echter verbrand en erg verweerd waardoor
+het onduidelijk blijft of het daadwerkelijk om
+terra nigra gaat of om verbrande geverfde
+bekers."
+table_5,,1,Painted beakers,,geverfde bekers,Painted beakers,,201,300,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De scherven waren
+echter verbrand en erg verweerd waardoor
+het onduidelijk blijft of het daadwerkelijk om
+terra nigra gaat of om verbrande geverfde
+bekers."
+table_5,,1,Terra nigra,,terra nigra,Terra nigra,,201,300,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De late terra nigra vormen dateren
+vanaf de 3e eeuw tot in de 4e eeuw.17
+Een aparte groep wordt gevormd door de
+zogenaamde kurkurnen, die hun naam dan-ken aan het poreuze met kalksteen gema-gerde baksel van de vroege exemplaren
+(Holwerda 1941, type 94)."
+table_5,,1,Cork urns,,kurkurnen,Cork urns,,201,300,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De late terra nigra vormen dateren
+vanaf de 3e eeuw tot in de 4e eeuw.17
+Een aparte groep wordt gevormd door de
+zogenaamde kurkurnen, die hun naam dan-ken aan het poreuze met kalksteen gema-gerde baksel van de vroege exemplaren
+(Holwerda 1941, type 94)."
+table_5,,1,Cork urns,,Kurkurnen,Cork urns,,201,300,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"(Holwerda 1941, type 94). De latere exempla-ren (Holwerda 1941, type 75) komen in ver-schillende baksels voor. Kurkurnen dienden"
+table_5,,1,Cork urn,,kurkurn,Cork urn,,,,,uncertain,6,name from ware match,7,classified uncertain,0,no date stated,4,"Kurkurnen dienden
+waarschijnlijk als transportmiddel van ver-schillende producten, mogelijk delicatessen.18
+Van een ‘echte’ kurkurn (Holwerda 1941, type
+94) compleet met de typische versiering van
+borstelstrepen, is een mooi exemplaar aan-getroffen op de Holzkuil (afb. 6.7)."
+table_5,,1,Beakers,,bekers,Beakers,,,,,uncertain,6,name from ware match,7,classified uncertain,0,no date stated,4,"aar in Nijmegen uit 1941 als het type 66
+beschreven is.16 In de kelder zijn eveneens
+nog een paar ‘flinters’ aangetroffen die
+mogelijk tot deze late fijne, grijze terra nigra
+bekers behoort hebben."

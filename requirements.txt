@@ -1,8 +1,9 @@
 # Core runtime dependencies for the chronology pipeline.
 # Install into a virtualenv:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
-PyMuPDF==1.26.4     # PDF text extraction and page rendering (imported as `fitz`)
-requests==2.31.0    # HTTP client for the cloud LLM, Anthropic, and Google Vision REST APIs
+PyMuPDF==1.26.4       # PDF text extraction and page rendering (imported as `fitz`)
+requests==2.31.0      # HTTP client for the cloud LLM, Anthropic, and Google Vision REST APIs
+python-dotenv==1.2.2  # config.py auto-loads API keys from a local .env (no manual sourcing needed)
 
 # Optional: only needed when LLM_PROVIDER = "ollama" (local LLM backend) in config.py.
 ollama==0.6.1

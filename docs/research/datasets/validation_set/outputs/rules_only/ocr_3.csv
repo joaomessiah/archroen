@@ -1,0 +1,8 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+ocr_3,,1,Plates,,borden,Plates,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"dit hoogst gewichtige sociale werk
+sympathisceren millen, vragen om de volgende
+artikelen: lakens, kussensloopen, handdoeken;
+Op Woensdag 24 Jul wordt beginnen geblazen
+messen en vorken, koppen en borden, waar hon
+derden stuks noodig zijn, en enkele fietsen. en wel in een ochtendzitting."
+ocr_3,Hoensbroek,1,Pottery,,aardewerk,Pottery,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"gevonden van Romeinsch aardewerk, schijnlijk uit de 2e eeuw na Christus Een on-derzoek zal worden ingesteld door deskundigen"

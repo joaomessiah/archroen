@@ -1,0 +1,24 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+new_rep_5,,5,Bowl,,schaal,Bowl,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"• kaartblad topografische kaart Nederland, schaal 1:25.000: 62A"
+new_rep_5,,7,Pottery,,aardewerk,Pottery,,-15,270,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Tijdens de oppervlaktekartering is het oppervlak systematisch afgezocht, waarbij gelet is op
+aardewerkscherven, voorwerpen van vuursteen en metaal, etc."
+new_rep_5,,8,Pottery,,aardewerk,Pottery,,-800,-12,chron_vocab,absent,6,name from ware match,9,classified absent,8,named dated period/ware,8,"Neolithicum, Bronstijd en IJzertijd (eerste landbouwers)
+Prehistorisch aardewerk is nergens aangetroffen."
+new_rep_5,,8,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"Dit type (zacht) aardewerk verweert zeer snel als het aan de oppervlakte komt en is
+daardoor vaak lastig of niet te vinden tijdens een oppervlaktekartering."
+new_rep_5,,8,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,7,classified uncertain,8,named dated period/ware,7,"Romeinse tijd en Middeleeuwen
+In het zuidelijke deel van het plangebied is een relatief groot aantal fragmenten aardewerk uit de
+Romeinse tijd aangetroffen (zeker vijf, mogelijk acht fragmenten)."
+new_rep_5,,9,Pingsdorf ware,,Pingsdorf,Pingsdorf ware,,-12,1250,chron_vocab,uncertain,6,name from ware match,7,classified uncertain,8,named dated period/ware,7,waarschijnlijk Pingsdorf
+new_rep_5,,9,Andenne ware,,Andenne,Andenne ware,,-12,1250,chron_vocab,uncertain,6,name from ware match,7,classified uncertain,8,named dated period/ware,7,mogelijk Andenne (deels geglazuurd)
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,1250,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd t/m Volle Middeleeuwen
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,1250,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd t/m Volle Middeleeuwen
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,1250,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd t/m Volle Middeleeuwen
+new_rep_5,,9,Pottery,,aardewerk,Pottery,,-12,450,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,aardewerk Romeinse tijd
+new_rep_5,,9,geverfd aardewerk,,geverfd aardewerk,geverfd aardewerk,,-12,1250,chron_vocab,uncertain,6,name from ware match,3,classified uncertain,8,named dated period/ware,6,"geverfd aardewerk, techniek B, raadjesversiering"
+new_rep_5,,10,Pottery,,aardewerk,Pottery,,-5300,-12,chron_vocab,absent,6,name from ware match,9,classified absent,8,named dated period/ware,8,Prehistorisch aardewerk (Neolithicum t/m IJzertijd) is nergens aangetroffen.
+new_rep_5,,10,Pottery,,aardewerk,Pottery,,-5300,-12,chron_vocab,present,6,name from ware match,8,classified present,8,named dated period/ware,7,betekent niet dat dit nooit aanwezig is geweest. Dit type (zacht) aardewerk verweert zeer snel

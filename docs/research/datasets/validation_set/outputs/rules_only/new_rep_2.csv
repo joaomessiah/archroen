@@ -1,0 +1,213 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+new_rep_2,,1,--/89-0-0/8128,Dragendorff 29,Drag. 29,--/89-0-0/8128,,15,100,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"496
+XX.V Catalogue of decorations, stamps and graffiti
+22.6.1 Decorations
+South Gaul
+--/89-0-0/8128, Drag. 29 (Fig. 22.6)."
+new_rep_2,,1,304-1/20-5-8,Dragendorff 29,Drag. 29,304-1/20-5-8,,15,100,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, Celadus, AD 50-70.
+304-1/20-5-8, Drag. 29 (Fig. 22.6)."
+new_rep_2,,1,399-2/1953-2.8,Dragendorff 29,Drag. 29,399-2/1953-2.8,,15,100,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, AD 70-85.
+399-2/1953-2.8, Drag. 29 (Fig. 22.6)."
+new_rep_2,,2,--/95-1-19/10813,Dragendorff 37,Drag. 37,--/95-1-19/10813,,50,85,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Scale 1:2, position of decoration (o^en schematic) in relation to vessel profile 1:3.
+497
+--/95-1-19/10813, Drag. 37 (Fig. 22.6)."
+new_rep_2,,1,Terra sigillata,,terra sigillata,Terra sigillata,,50,85,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Decorated terra sigillata.
+new_rep_2,,2,--/1895-12.43/13072,Dragendorff 37,Drag. 37,--/1895-12.43/13072,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, Germanus II or III, AD 65-110.
+--/1895-12.43/13072, Drag. 37 (Fig. 22.6)."
+new_rep_2,,2,--/13-3-15/1588,Dragendorff 37,Drag. 37,--/13-3-15/1588,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, Germanus III, AD 80-110.
+--/13-3-15/1588, Drag. 37 (Fig. 22.6)."
+new_rep_2,,2,--/13-3-9/1571,Dragendorff 37,Drag. 37,--/13-3-9/1571,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, probably L. Cosius, AD 100-120.
+Central Gaul
+--/13-3-9/1571, Drag. 37 (Fig. 22.6)."
+new_rep_2,,2,--/95-1-18/10762,Dragendorff 37,Drag. 37,--/95-1-18/10762,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lezoux, Avitus and Vegetus, AD 120-140.
+--/95-1-18/10762, Drag. 37 (Fig. 22.6)."
+new_rep_2,,2,--/0-0-0/12972,Dragendorff 37,Drag. 37,--/0-0-0/12972,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lezoux, X-6 (style), AD 125-150.
+--/0-0-0/12972, Drag. 37 (Fig. 22.6)."
+new_rep_2,,2,--/27-4-7/5351,Dragendorff 37,Drag. 37,--/27-4-7/5351,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lezoux, Cinnamus, AD 135-170.
+Satto/Saturninus
+--/27-4-7/5351, Drag. 37 (Fig. 22.6)."
+new_rep_2,,3,302-6/100-1-6,Dragendorff 37,Drag. 37,302-6/100-1-6,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Amor Lutz P1 and siing gure Fölzer 152/Lutz P48, divided by palm ornament Lutz V30.
+Sao/Saturninus, AD 100-160.
+498
+La Madeleine
+302-6/100-1-6, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,--/95-1-18+95-1-60,Dragendorff 37,Drag. 37,--/95-1-18+95-1-60,,120,190,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Scale 1:2/1:3.
+499
+--/95-1-18+95-1-60, Drag. 37 (Fig. 22.7)."
+new_rep_2,,3,Terra sigillata,,terra sigillata,Terra sigillata,,120,190,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"Decorated terra sigillata, cont."
+new_rep_2,,4,--/27-2-24,Dragendorff 37,Drag. 37,--/27-2-24,,120,190,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Probably ware with ovolo A2, AD 120-190.
+--/27-2-24, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,--/68-2-6/6276,Dragendorff 37,Drag. 37,--/68-2-6/6276,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Possibly Virtus, AD 120-190.
+--/68-2-6/6276, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,--/96-2-1/8224,Dragendorff 30,Drag. 30,--/96-2-1/8224,,20,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware with ovolo H, J, AD 120-190.
+--/96-2-1/8224, Drag. 30 (Fig. 22.7)."
+new_rep_2,,4,--/1953-2.5/11413,Dragendorff 37,Drag. 37,--/1953-2.5/11413,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ware with ovolo A-D?, AD 120-190.
+Argonne
+--/1953-2.5/11413, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,413-2/94-4-3/10549,Dragendorff 37,Drag. 37,413-2/94-4-3/10549,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Argonne, ware with ovolo C, AD 120-220.
+413-2/94-4-3/10549, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,744-10/100-2-3/8440,Dragendorff 37,Drag. 37,744-10/100-2-3/8440,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Raepsaet XVIII, 90.
+Argonne, AD 120-220.
+744-10/100-2-3/8440, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,Probably ware,,Probably ware,Probably ware,,120,190,text_explicit,uncertain,6,name from ware match,7,classified uncertain,9,explicit date stated in the passage,7,"Probably ware with ovolo A2, AD 120-190.
+--/27-2-24, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,--/16-2-34/2381,Dragendorff 37,Drag. 37,--/16-2-34/2381,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Raepsaet XIX, 101, Raepsaet XX, 102, 103.
+Argonne, AD 120-220.
+--/16-2-34/2381, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,--/1895-12.42/14465,Dragendorff 37,Drag. 37,--/1895-12.42/14465,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Twisted semi-circular arch Chenet/Gaudron Pl. 57, I and Pl. 61, J, Zwammerdam pl. 66, 580.
+Lavoye, AD 120-220.
+--/1895-12.42/14465, Drag. 37 (Fig. 22.7)."
+new_rep_2,,4,744-9/100-1-10,Dragendorff 37,Drag. 37,744-9/100-1-10,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Arentsburg g. 18, 9, 13, 20, 25.
+Argonne, AD 120-220.
+744-9/100-1-10, Drag. 37 (not illustrated)."
+new_rep_2,,5,--/0-0-0/10406,Dragendorff 37,Drag. 37,--/0-0-0/10406,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Argonne?, AD 120-220.
+500
+Trier
+--/0-0-0/10406, Drag. 37 (Fig. 22.8)."
+new_rep_2,,5,--/15-0-0/2098,Dragendorff 37,Drag. 37,--/15-0-0/2098,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Basal wreath of S-shaped ornaments HZ-II O113 between plain borders, rosee HZ-II O98, spiral
+ornament HZ-II O116. Identical to HZ-II A14.
+Werksta II, decoration series A, AD 140-165/180.
+--/15-0-0/2098, Drag. 37 (Fig. 22.8)."
+new_rep_2,,5,334-2/107-3-62 + 737-11/68-4-25,Dragendorff 37,Drag. 37,334-2/107-3-62 + 737-11/68-4-25,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Identical to Zwammerdam pl. 71, 648.
+Dexter (or successors), AD 165-210.
+334-2/107-3-62 + 737-11/68-4-25, Drag. 37 (Fig. 22.8)."
+new_rep_2,,6,757-17/104-3-5,Dragendorff 37,Drag. 37,757-17/104-3-5,,165,210,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Scale 1:2/1:3.
+501
+757-17/104-3-5, Drag. 37 (Fig. 22.8)."
+new_rep_2,,6,--/16-0-0/2706 + 16-3-5/2395,Dragendorff 37,Drag. 37,--/16-0-0/2706 + 16-3-5/2395,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Ovolo F946 above very neat beaded border, arch F800.
+Censor/Dexter and successors, AD 165-210.
+--/16-0-0/2706 + 16-3-5/2395, Drag. 37 (Fig. 22.8)."
+new_rep_2,,6,--/18-1-2/2773,Dragendorff 37,Drag. 37,--/18-1-2/2773,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Fölzer XVII, 21, XVIII, 4, 18, XIX, 18.
+Successors Censor/Dexter, Afer, Dubitus/Dubitatus, AD 190-245.
+--/18-1-2/2773, Drag. 37 (Fig. 22.8)."
+new_rep_2,,5,Terra sigillata,,terra sigillata,Terra sigillata,,165,210,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"Decorated terra sigillata, cont."
+new_rep_2,,6,413-6/94-4-1/10531,Dragendorff 37,Drag. 37,413-6/94-4-1/10531,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"VII, 25.
+Afer (style)?, AD 205-245.
+413-6/94-4-1/10531, Drag. 37 (Fig. 22.8)."
+new_rep_2,,6,--/1895-12.46/13074,Dragendorff 37,Drag. 37,--/1895-12.46/13074,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Afer style?, AD 205-245.
+--/1895-12.46/13074, Drag. 37 (Fig. 22.8)."
+new_rep_2,,6,319-8/110-2-1,Dragendorff 37,Drag. 37,319-8/110-2-1,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Gard
+pl. 26, 19, 20, 29, Gard pl. 26, 9, 10, 31 and Zwammerdam pl. 60, 713.
+Primanus group, AD 230-250.
+Rheinzabern
+319-8/110-2-1, Drag. 37 (Fig. 22.9)."
+new_rep_2,,6,--/1895-12.45/13069,Dragendorff 37,Drag. 37,--/1895-12.45/13069,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"R/T pl. 200, 8b, pl. 201, 7F, 9F.
+Primitivus IV, AD 185-260.
+--/1895-12.45/13069, Drag. 37 (Fig. 22.9)."
+new_rep_2,,7,--/16-3-7/2427+2428,Dragendorff 37,Drag. 37,--/16-3-7/2427+2428,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Scale 1:2/1:3.
+502
+{z~ In the illustrations, the stamps are shown as
+initially observed by the
+draughtsman; in the text the
+author’s interpretation is
+given.
+{z} NoTS (Names on Terra Sigillata):
+Hartley & Dickinson 2008
+{z| Polak 2000, 291.
+{z{z Polak 2000, 207.
+{z{ Date of this specific die, according to Polak (Polak
+2000); Hartley and Dickinson
+(2008) date the pouer to
+AD 80-105.
+East Gaul, unidentified
+--/16-3-7/2427+2428, Drag. 37 (not illustrated)."
+new_rep_2,,7,--/27-3-17/5260,Dragendorff 37,Drag. 37,--/27-3-17/5260,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"East Gaul, AD 100-270.
+--/27-3-17/5260, Drag. 37.
+--/94-3-5/10503, Drag. 37.
+--/1895-12.44/13070, Drag. 37.
+These fragments represent three dierent bowls on which the decoration is so poorly preserved th"
+new_rep_2,,6,Terra sigillata,,terra sigillata,Terra sigillata,,80,105,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,"Decorated terra sigillata, cont."
+new_rep_2,,7,Terra sigillata,,Terra Sigillata,Terra sigillata,,80,105,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,{z} NoTS (Names on Terra Sigillata):
+new_rep_2,,7,--/1953-2.5/13052,Dragendorff 18,Drag. 18,--/1953-2.5/13052,,40,120,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, AD 65-85.
+OFC[.EN]
+--/1953-2.5/13052, Drag. 18 (Fig. 22.10)."
+new_rep_2,,7,--/21-3-5/3776,Dragendorff 27,Drag. 27,--/21-3-5/3776,,15,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"La Graufesenque, AD 85-100.2021
+[---]SF ?
+--/21-3-5/3776, Drag. 27 (Fig. 22.10)."
+new_rep_2,,7,--/1932-11.3/13043,Dragendorff 18R,Drag. 18R,--/1932-11.3/13043,,70,180,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"South Gaul, rst century-beginning second century AD.
+[---]ND or [---]NT ?
+--/1932-11.3/13043, Drag. 18R? (Fig. 22.10)."
+new_rep_2,,8,--/96-2-1/11698,Dragendorff 18/31,Drag. 18/31,--/96-2-1/11698,,110,145,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"South Gaul, rst century-beginning second century AD.
+Central Gaul
+AN[NIOSF]
+--/96-2-1/11698, Drag. 18/31 (Fig. 22.10)."
+new_rep_2,,9,730-2/27-5-1,Dragendorff 18/31,Drag. 18/31,730-2/27-5-1,,110,145,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"Scale vessels 1:3, stamps 1:1.
+504
+TAVRI[ANI], 730-2/27-5-1, Drag. 18/31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 18/31,Drag. 18/31,Terra sigillata plate,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lezoux, AD 140-170.
+Illiterate?
+--/95-1-19/10815, dish (probably Drag. 18/31)."
+new_rep_2,,8,Terra sigillata,,terra sigillata,Terra sigillata,,110,145,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Stamps on terra sigillata.
+new_rep_2,,9,Terra sigillata cup,Dragendorff 27,Drag. 27,Terra sigillata cup,,125,160,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"East Gaul
+IANVA[RIVS.F]
+--/95-2-9/10948, cup, probably Drag. 27 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 18/31,Drag. 18/31,Terra sigillata plate,,125,160,text_explicit,present,8,name from typology code,10,classified present,9,explicit date stated in the passage,9,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata cup,Dragendorff 27,Drag. 27,Terra sigillata cup,,15,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 18/31,Drag. 18/31,Terra sigillata plate,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 31,Drag. 31,Terra sigillata plate,,100,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,--/0-0-0/10402,Dragendorff 18/31,Drag. 18/31,--/0-0-0/10402,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Trier? AD 100-270.
+M[IIRCOF] (?)
+--/0-0-0/10402, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 31,Drag. 31,Terra sigillata plate,,100,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Trier? AD 100-270.
+M[IIRCOF] (?)
+--/0-0-0/10402, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,--/1932-11.3/13042,Dragendorff 18/31,Drag. 18/31,--/1932-11.3/13042,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lavoye, AD 150-165.
+TOCCIVS
+--/1932-11.3/13042, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,Terra sigillata plate,Dragendorff 31,Drag. 31,Terra sigillata plate,,100,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Lavoye, AD 150-165.
+TOCCIVS
+--/1932-11.3/13042, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,9,317-16/13-3-38,Dragendorff 31,Drag. 31,317-16/13-3-38,,100,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"AD 150-170.
+Unidentied
+317-16/13-3-38, Drag. 31.
+This stamp can possibly be read as V[---] or [---]M?
+East Gaulish, AD 140-270.
+22.6.3 Graffiti
+M
+812-2/27-3-7/5184, Drag. 18/31 (Fig. 22.11)."
+new_rep_2,,9,812-2/27-3-7/5184,Dragendorff 18/31,Drag. 18/31,812-2/27-3-7/5184,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"AD 150-170.
+Unidentied
+317-16/13-3-38, Drag. 31.
+This stamp can possibly be read as V[---] or [---]M?
+East Gaulish, AD 140-270.
+22.6.3 Graffiti
+M
+812-2/27-3-7/5184, Drag. 18/31 (Fig. 22.11)."
+new_rep_2,,9,21-3-5/3776,Dragendorff 27,Drag. 27,21-3-5/3776,,15,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"South Gaul, AD 90-120.
+P
+21-3-5/3776, Drag. 27 (Fig. 22.11)."
+new_rep_2,,9,Terra sigillata cup,Dragendorff 27,Drag. 27,Terra sigillata cup,,15,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,Gravto placed on the inside of the footring of a cup Drag. 27 with unidentied stamp.
+new_rep_2,,9,16-3-7/2427+2428,Dragendorff 37,Drag. 37,16-3-7/2427+2428,,70,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"South Gaul, rst century-beginning second century AD.
+X ?
+16-3-7/2427+2428, Drag. 37 (Fig. 22.11)
+Possible gravto, placed on the"
+new_rep_2,,10,69-2-8/7253,Dragendorff 18/31,Drag. 18/31,69-2-8/7253,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"East Gaul, AD 100-270.
+505
+[---] I I [---] ?
+69-2-8/7253, Drag. 18/31 (Fig 22.11)."
+new_rep_2,,10,27-2-27/5067,Dragendorff 18,Drag. 18,27-2-27/5067,,40,120,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"East Gaul, AD 100-270.
+[---]MA
+27-2-27/5067, Drag. 18 (Fig. 22.11)."
+new_rep_2,,10,East gaulish terra sigillata plate,Lud. Sb,Lud. Sb,East gaulish terra sigillata plate,,120,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"South Gaul, AD 70-120.
+[---]TVS (Fig. 22.11).
+742-3/95-5-8/11211, Drag. 31 (Lud. Sb)
+East Gaul, AD 140-270.
+?
+1932-11.3/13064, Drag. 32 (Fig. 22.11)."
+new_rep_2,,10,1932-11.3/13064,Dragendorff 32,Drag. 32,1932-11.3/13064,,150,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Sb)
+East Gaul, AD 140-270.
+?
+1932-11.3/13064, Drag. 32 (Fig. 22.11)."
+new_rep_2,,10,Terra sigillata,,terra sigillata,Terra sigillata,,160,270,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Graffiti on terra sigillata.

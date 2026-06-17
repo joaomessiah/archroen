@@ -1,0 +1,61 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+new_rep_1,,1,Gallic wine amphora,Gauloise 4,Gauloise 4,Gallic wine amphora,,75,300,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise
+4.7 Twee rode ruwwandige fragmenten en een sterk verweerd wit gladwandig fragment kunnen niet
+nader geduid worden."
+new_rep_1,,1,Pottery,,Aardewerk,Pottery,,-12,450,chron_vocab,present,6,name from ware match,8,classified present,8,named dated period/ware,7,"Links:zuidelijke gedeelte naar het noorden Rechts: noordelijke gedeelte naar het noorden 4.6.4 Aardewerk
+W.F. Reigersman-van Lidth de Jeude Uit de diverse beschreven sporen en de bovenlaag komen in totaal 13 fragmenten Romeins
+aardewerk."
+new_rep_1,,1,Pottery,,aardewerk,Pottery,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Het aardewerk is
+goed herkenbaar en redelijk goed geconserveerd."
+new_rep_1,,1,Pottery,,aardewerk,Pottery,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Het aardewerk uit de bovenlaag heeft meer te
+lijden gehad door bijvoorbeeld ploegen."
+new_rep_1,,1,Painted beaker,,geverfde beker,Painted beaker,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Beschrijving
+De vermoedelijke middenstaander S3 heeft de meest diverse fragmenten opgeleverd waaronder
+een stuk van een geverfde beker bestrooid met kleikorreltjes."
+new_rep_1,,1,Red rough-walled pottery,,rode ruwwandige,Red rough-walled pottery,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise
+4.7 Twee rode ruwwandige fragmenten en een sterk verweerd wit gladwandig fragment kunnen niet
+nader geduid worden."
+new_rep_1,,1,White smooth-walled pottery,,wit gladwandig,White smooth-walled pottery,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise
+4.7 Twee rode ruwwandige fragmenten en een sterk verweerd wit gladwandig fragment kunnen niet
+nader geduid worden."
+new_rep_1,,1,Beaker,,beker,Beaker,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,"Deze beker heeft een wit baksel met
+een zwarte verflaag."
+new_rep_1,,1,Baetican olive oil amphora,Dressel 20,Dressel 20,Baetican olive oil amphora,,101,200,text_century,present,8,name from typology code,10,classified present,9,century stated in the passage,9,"Ook S8 bevatte duidelijke aardewerkfragmenten: een oor van een olijfolieamfoor Dressel 20 en de
+rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren (afb. 4.6.10).8
+Tot slot heeft ook de bovenlaag S3000 fragmenten van zware aardewerkvormen opgeleverd: een
+wandfragment van een dolium versierd met gladde ribbels, een rand van een wrijfschaal met
+horizontale rand uit de 2e eeuw of later en een verploegd en niet herkenbaar fragment aardewerk."
+new_rep_1,,1,Dolium,,dolium,Dolium,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"In de sporen S5 en S6 die vlak bij elkaar liggen zijn respectievelijk een rand van een groot bolrond
+voorraadvat (dolium) en een fragment van een olijfolieamfoor aangetroffen."
+new_rep_1,,1,Pottery,,aardewerk,Pottery,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,Ook S8 bevatte duidelijke aardewerkfragmenten: een oor van een olijfolieamfoor Dressel 20 en de
+new_rep_1,,1,Grinding bowl,,wrijfschaal,Grinding bowl,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren (afb. 4.6.10).8
+new_rep_1,,1,Dolium,,dolium,Dolium,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"wandfragment van een dolium versierd met gladde ribbels, een rand van een wrijfschaal met"
+new_rep_1,,1,Grinding bowl,,wrijfschaal,Grinding bowl,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"wandfragment van een dolium versierd met gladde ribbels, een rand van een wrijfschaal met"
+new_rep_1,,1,Pottery,,aardewerk,Pottery,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,horizontale rand uit de 2e eeuw of later en een verploegd en niet herkenbaar fragment aardewerk. Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+new_rep_1,,1,amfoor,,amfoor,amfoor,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor en dolium) en twee van wrijfschalen."
+new_rep_1,,1,Dolium,,dolium,Dolium,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor en dolium) en twee van wrijfschalen."
+new_rep_1,,1,Grinding bowl,,wrijfschalen,Grinding bowl,,101,200,text_century,present,6,name from ware match,8,classified present,9,century stated in the passage,8,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor en dolium) en twee van wrijfschalen."
+new_rep_1,,1,Pottery,,aardewerk,Pottery,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk
+new_rep_1,,1,Beaker,,beker,Beaker,,,,,uncertain,6,name from ware match,3,classified uncertain,0,no date stated,3,Het bekerfragment is in de 2e eeuw te dateren.
+new_rep_1,,2,Baetican olive oil amphora,Dressel 20,Dressel 20,Baetican olive oil amphora,,-10,260,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk aangetroffen. 7 Voor determinatie amforen zie Peacock& Williams 1986.
+8 Voor de datering van de wrijfschalen: Van Vinckenroye 1991, 74.
+38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+Hoewel de hoeveelheid aangetroffen aardewerk gering is, is het wel mogelijk een voorzichtige
+interpretatie van het opgegraven terrein te geven."
+new_rep_1,,2,Mortarium,Brunsting 37,Brunsting 37,Mortarium,,70,200,typology,present,8,name from typology code,10,classified present,8,dated from typology code (only as certain as the identification),9,"In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk aangetroffen. 7 Voor determinatie amforen zie Peacock& Williams 1986.
+8 Voor de datering van de wrijfschalen: Van Vinckenroye 1991, 74.
+38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+Hoewel de hoeveelheid aangetroffen aardewerk gering is, is het wel mogelijk een voorzichtige
+interpretatie van het opgegraven terrein te geven."
+new_rep_1,,1,amforen,,amforen,amforen,,101,200,section_phase,present,6,name from ware match,8,classified present,6,inherited from the section/phase date,7,wrijven. In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk aangetroffen. 7 Voor determinatie amforen zie Peacock& Williams 1986.
+new_rep_1,,1,Grinding bowl,,wrijfschalen,Grinding bowl,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,"8 Voor de datering van de wrijfschalen: Van Vinckenroye 1991, 74."
+new_rep_1,,2,amfoor,,amfoor,amfoor,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+new_rep_1,,2,Grinding bowl,,wrijfschaal,Grinding bowl,,101,200,section_phase,uncertain,6,name from ware match,3,classified uncertain,6,inherited from the section/phase date,5,38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+new_rep_1,,2,Pottery,,aardewerk,Pottery,,101,200,section_phase,uncertain,6,name from ware match,7,classified uncertain,6,inherited from the section/phase date,6,"Hoewel de hoeveelheid aangetroffen aardewerk gering is, is het wel mogelijk een voorzichtige"
+new_rep_1,,2,Grinding bowl,,wrijfschalen,Grinding bowl,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De fragmenten van voorraadvaten en wrijfschalen wijzen op een omgeving met een opslagfunctie
+of waar een ambacht werd uitgeoefend."
+new_rep_1,,2,Pottery,,aardewerk,Pottery,,101,200,text_century,uncertain,6,name from ware match,3,classified uncertain,9,century stated in the passage,6,"De
+aanwezigheid van wat fijner aardewerk in een paalkuil spreekt dit vermoeden niet tegen."

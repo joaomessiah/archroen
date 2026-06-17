@@ -1,0 +1,12 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+table_3,,1,Arretina,,Arretina,Arretina,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Arretina
+table_3,,1,Fine ware,,Fine ware,Fine ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Fine ware
+table_3,,1,Gallo-Belgic ware,,Gallo-Belgic ware,Gallo-Belgic ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Gallo-Belgic ware
+table_3,,1,Pompeian red ware,,Pompeian red ware,Pompeian red ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Pompeian red ware
+table_3,,1,Smooth ware,,Smooth ware,Smooth ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Smooth ware
+table_3,,1,Amphorae,,Amphorae,Amphorae,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Amphorae
+table_3,,1,Dolia,,Dolia,Dolia,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Dolia
+table_3,,1,Mortaria,,Mortaria,Mortaria,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Mortaria
+table_3,,1,Coarse ware,,Coarse ware,Coarse ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Coarse ware
+table_3,,1,Cork ware,,Cork ware,Cork ware,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Cork ware
+table_3,,1,Handmade pottery,,Handmade pottery,Handmade pottery,,-19,-16,text_explicit,uncertain,6,name from ware match,3,classified uncertain,9,explicit date stated in the passage,6,Handmade pottery

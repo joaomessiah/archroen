@@ -1,0 +1,18 @@
+Bundled font: Liberation Serif
+==============================
+
+LiberationSerif-Regular.ttf, -Bold.ttf, -Italic.ttf, -BoldItalic.ttf
+
+Liberation Serif is a freely licensed serif typeface that is metrically compatible with
+Times New Roman (same character widths and spacing, near-identical appearance). It is
+bundled here so the thesis chart generator produces Times-New-Roman-style figures on any
+machine without requiring the user to install a font.
+
+License: SIL Open Font License, Version 1.1 (OFL-1.1).
+The OFL permits bundling and redistribution of the font with this project.
+Full license text: https://openfontlicense.org/
+
+Liberation fonts are © Red Hat, Inc., with portions © Google Corporation.
+
+The script prefers a real "Times New Roman" if the operating system already provides one;
+otherwise it uses this bundled Liberation Serif automatically.
