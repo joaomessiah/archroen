@@ -1,4 +1,4 @@
-# JM Thesis — Archaeology Chronology Workflow
+# ARCHROEN - Archaeological Chronology Extraction and Normalization 
 
 A **workflow** that reads archaeological excavation reports (PDFs) and produces, for each report, a
 per-report **pottery summary**: which pots a report says were found, with their typologies, dates, and
