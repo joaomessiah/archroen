@@ -18,18 +18,47 @@ per mode) and renders seven publication-ready charts. It is:
 
 ### The seven charts
 
-| # | Chart | Shows |
-|---|-------|-------|
-| 1 | Overall Correctness by Workflow Mode | Correct (Exact + Acceptable) share, Rules-only vs Claude vs Llama |
-| 2 | Extraction Performance by Source Type - Claude | 4 verdicts per source type |
-| 3 | Extraction Performance by Source Type - Llama | 4 verdicts per source type |
-| 4 | Correctness by Source Type - Claude vs Llama | Correct share per source type |
-| 5 | Extraction Performance by Field - Claude | 4 verdicts per field |
-| 6 | Extraction Performance by Field - Llama | 4 verdicts per field |
-| 7 | Per-Report Correctness Distribution - Claude vs Llama | Spread of per-report Correct scores |
-
 **Verdicts:** `Correct` (= Exact + Acceptable) / `Incorrect` / `Missing` / `Overclaim`.
 **Source types:** New reports / Old reports / OCR reports / Tables (inferred from the report id).
+The images below are the actual output of the tool (in `charts_output/`).
+
+**1. Overall Correctness by Workflow Mode** — the headline result: the Correct (Exact +
+Acceptable) share for each mode side by side, so you can see at a glance how Rules-only, Claude and
+Llama compare overall.
+
+![Overall Correctness by Workflow Mode](charts_output/1_overall_correctness_by_mode_grayscale.png)
+
+**2. Extraction Performance by Source Type - Claude** — for Claude, the breakdown into all four
+verdicts (Correct / Incorrect / Missing / Overclaim) for each source type, showing where Claude's
+errors concentrate (e.g. older vs OCR'd reports).
+
+![Extraction Performance by Source Type - Claude](charts_output/2_performance_by_source_type_claude_grayscale.png)
+
+**3. Extraction Performance by Source Type - Llama** — the same four-verdict breakdown by source
+type, for Llama, directly comparable to chart 2.
+
+![Extraction Performance by Source Type - Llama](charts_output/3_performance_by_source_type_llama_grayscale.png)
+
+**4. Correctness by Source Type - Claude vs Llama** — just the Correct share per source type, with
+Claude and Llama bars side by side, for a quick model-vs-model comparison across source types.
+
+![Correctness by Source Type - Claude vs Llama](charts_output/4_correctness_by_source_type_claude_vs_llama_grayscale.png)
+
+**5. Extraction Performance by Field - Claude** — Claude's four-verdict breakdown per extracted
+field (site_name, pot_name, typology, start_date, end_date), showing which fields are hardest.
+
+![Extraction Performance by Field - Claude](charts_output/5_performance_by_field_claude_grayscale.png)
+
+**6. Extraction Performance by Field - Llama** — the same per-field breakdown for Llama,
+comparable to chart 5.
+
+![Extraction Performance by Field - Llama](charts_output/6_performance_by_field_llama_grayscale.png)
+
+**7. Per-Report Correctness Distribution - Claude vs Llama** — a box plot (with one dot per report)
+of each model's per-report Correct score, showing not just the average but the spread and outliers
+across reports.
+
+![Per-Report Correctness Distribution - Claude vs Llama](charts_output/7_per_report_correctness_distribution_grayscale.png)
 
 ## Requirements
 
@@ -64,6 +93,15 @@ which summaries to chart.
 
 Seven PNG files. By default they are written to a `charts_output/` folder next to the script
 (`tools/scientific_report/generate_charts/charts_output/`). Override with `--output-dir`.
+
+**Size / placement.** Each PNG is exported at **300 DPI** with a figure width equal to the thesis
+text column — **6.3 in (16 cm)**, i.e. A4 with Google-Docs default 1-inch margins — so every file
+is 1890 px wide. Insert each image at that **16 cm** width and the chart text renders at a true
+**12 pt** on the page (matching 12 pt body text). This relies on the rule
+`on-page pt = matplotlib pt x (display width / figure width)`: because the figure width is set equal
+to the display width, the ratio is 1 and the 12 pt chart font lands at 12 pt on the page. The title
+is 14 pt and the dense grouped-chart bar labels are 8 pt, tilted 45° so adjacent labels never
+overlap at that size.
 
 ## Fonts
 

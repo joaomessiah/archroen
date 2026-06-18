@@ -32,6 +32,7 @@ import matplotlib
 matplotlib.use("Agg")
 from matplotlib import font_manager
 from matplotlib.patches import Patch
+from matplotlib.transforms import offset_copy
 import matplotlib.pyplot as plt
 import matplotlib.ticker
 import numpy as np
@@ -43,6 +44,19 @@ import pandas as pd
 
 FONT_SIZE = 12
 BACKGROUND_COLOR = "#ffffff"
+
+# --- True on-page typography ----------------------------------------------------------------
+# The charts are placed into a Google-Docs .docx at a fixed image width (the A4 text column:
+# 1-inch margins -> ~15.9 cm -> 6.3 in). Page font (pt) = matplotlib font (pt) x (display / figwidth).
+# By setting every figure's WIDTH equal to the display width, that ratio is exactly 1, so the
+# matplotlib FONT_SIZE (12) renders as a true 12 pt on the page. Heights vary per chart; only the
+# width is pinned. Export at 300 DPI. (This requires saving WITHOUT bbox_inches="tight", which would
+# trim the width and break the 1:1 ratio — see save_figure.)
+DISPLAY_WIDTH_IN = 6.3   # 16 cm text column = the width each PNG is placed at in Docs
+EXPORT_DPI = 300
+TITLE_PT = FONT_SIZE + 2         # 14 pt title (proportional to the 12 pt body)
+BAR_LABEL_PT = FONT_SIZE         # 12 pt for the simple charts (1, 4, 7)
+GROUPED_BAR_LABEL_PT = 8         # smaller + rotated for the dense 4-verdict grouped charts (2/3/5/6)
 
 # Fonts are resolved gracefully so the script always runs (no setup required). It prefers a real
 # "Times New Roman" if the operating system has one, then the bundled Liberation Serif (a freely
@@ -247,12 +261,15 @@ def report_level_accepted(df: pd.DataFrame) -> np.ndarray:
 # Figure helpers
 # ---------------------------------------------------------------------------
 
-def make_figure(title: str, subtitle: str, figsize: tuple[float, float]):
-    fig, ax = plt.subplots(figsize=figsize, facecolor=BACKGROUND_COLOR)
+def make_figure(title: str, height: float):
+    # Width is pinned to the display width so matplotlib pt == on-page pt (see DISPLAY_WIDTH_IN).
+    fig, ax = plt.subplots(figsize=(DISPLAY_WIDTH_IN, height), facecolor=BACKGROUND_COLOR)
     ax.set_facecolor(BACKGROUND_COLOR)
-    fig.suptitle(title, fontsize=FONT_SIZE + 2, fontweight="bold", y=0.97, color="#111111")
-    ax.set_title(subtitle, fontsize=FONT_SIZE, pad=12, color="#333333")
-    fig.subplots_adjust(top=0.84, bottom=0.12, left=0.10, right=0.96)
+    fig.suptitle(title, fontsize=TITLE_PT, fontweight="bold", y=0.985, color="#111111")
+    # No subtitle (removed); generous bottom room so the x-axis label clears the canvas-pinned
+    # horizontal legend below it. Margins are set manually (not bbox_inches="tight") so the saved
+    # width stays exactly 6.3 in.
+    fig.subplots_adjust(top=0.88, bottom=0.27, left=0.135, right=0.975)
     return fig, ax
 
 
@@ -264,31 +281,52 @@ def style_axis(ax) -> None:
     ax.tick_params(colors="#222222")
 
 
-def label_bars(ax, bars, fontsize: int = FONT_SIZE) -> None:
-    for bar in bars:
+def label_bars(ax, bars, fontsize: int = BAR_LABEL_PT, label_zeros: bool = False,
+               rotation: float = 0.0, y_offset=0.0, ha: str = "center",
+               x_shift_pts: float = 0.0) -> None:
+    # y_offset may be a scalar (same lift for every bar) or one value per bar (for staggering).
+    offsets = y_offset if np.ndim(y_offset) else [y_offset] * len(bars)
+    # x_shift_pts nudges labels horizontally by a fixed amount in points (dpi-independent), used to
+    # re-centre the left-anchored tilted labels over their bars. 1 pt ≈ 4.17 px at 300 DPI.
+    text_transform = ax.transData
+    if x_shift_pts:
+        text_transform = offset_copy(ax.transData, fig=ax.figure, x=x_shift_pts, y=0, units="points")
+    for bar, off in zip(bars, offsets):
         height = float(bar.get_height())
-        if not np.isfinite(height) or height < 0.05:   # skip values that round to 0.0%
+        if not np.isfinite(height):
+            continue
+        if height < 0.05 and not label_zeros:   # skip near-zero unless we explicitly label 0.0%
             continue
         ax.text(
             bar.get_x() + bar.get_width() / 2,
-            height + 1.2,
+            height + 1.2 + float(off),
             f"{height:.1f}%",
-            ha="center", va="bottom", fontsize=fontsize, fontweight="bold", color="#222222",
+            ha=ha, va="bottom", fontsize=fontsize, fontweight="bold", color="#222222",
+            rotation=rotation, rotation_mode="anchor", transform=text_transform,
         )
 
 
-def color_legend(ax, items, legend_title: str, ncol: int = 1, loc: str = "upper right") -> None:
-    """Legend with a colored (hatched) square per entry. items = [(label, color, hatch), ...]."""
+def color_legend(ax, items, legend_title: str, ncol: int = None) -> None:
+    """Horizontal colored-square legend centered along the BOTTOM of the figure canvas.
+
+    Anchored in figure coordinates (not axes coordinates) so it is always pinned just above the
+    canvas bottom and never clipped — important now that we save without bbox_inches="tight".
+    """
     handles = [
         Patch(facecolor=color, edgecolor="#333333", hatch=hatch, label=label)
         for label, color, hatch in items
     ]
-    ax.legend(handles=handles, title=legend_title, frameon=False, loc=loc, ncol=ncol)
+    ax.legend(handles=handles, title=legend_title, frameon=False, loc="lower center",
+              bbox_to_anchor=(0.5, 0.012), bbox_transform=ax.figure.transFigure,
+              ncol=ncol or len(items))
 
 
 def save_figure(fig, output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output_path, dpi=220, bbox_inches="tight", facecolor=fig.get_facecolor())
+    # No bbox_inches="tight": it would trim the canvas and change the saved width, breaking the
+    # figwidth == display-width identity that makes the on-page font a true 12 pt. Margins are
+    # handled in make_figure instead. Export at 300 DPI.
+    fig.savefig(output_path, dpi=EXPORT_DPI, facecolor=fig.get_facecolor())
     plt.close(fig)
     print(output_path.resolve())
 
@@ -306,12 +344,8 @@ def chart_overall_by_mode(all_stats: dict, modes: list[str], output_path: Path) 
         correct = float(overall["Exact match"] + overall["Acceptable match"])
         values.append(correct / total * 100 if total else 0.0)
 
-    fig, ax = make_figure(
-        "Overall Correctness by Workflow Mode",
-        "Correct values (Exact + Acceptable) as a share of all evaluated values "
-        "- Rules-only, Claude and Llama",
-        figsize=(10, 7),
-    )
+    fig, ax = make_figure("Overall Correctness by Workflow Mode", height=4.3)
+    fig.subplots_adjust(bottom=0.10)   # no legend: the x-axis already names each mode
     x = np.arange(len(modes), dtype=float)
     bars = []
     for i, mode in enumerate(modes):
@@ -326,13 +360,12 @@ def chart_overall_by_mode(all_stats: dict, modes: list[str], output_path: Path) 
     ax.set_ylabel("Correct performance (Exact + Acceptable)")
     ax.set_ylim(0, 105)
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(xmax=100))
-    color_legend(ax, [(m, *MODE_STYLE[m]) for m in modes], "Workflow mode")
     style_axis(ax)
     save_figure(fig, output_path)
 
 
-def chart_verdicts_grouped(by_table: pd.DataFrame, x_order: list[str], x_kind: str,
-                           title: str, subtitle: str, output_path: Path) -> None:
+def chart_verdicts_grouped(by_table: pd.DataFrame, x_order: list[str],
+                           title: str, output_path: Path) -> None:
     """2/3/5/6. Four verdicts (Correct/Incorrect/Missing/Overclaim) per category (single mode)."""
     grouped = to_group_counts(by_table).reindex(x_order).fillna(0)
     grouped = grouped.loc[grouped.sum(axis=1) > 0]
@@ -340,25 +373,29 @@ def chart_verdicts_grouped(by_table: pd.DataFrame, x_order: list[str], x_kind: s
     totals = grouped.sum(axis=1)
     pct = grouped.div(totals.replace(0, np.nan), axis=0).fillna(0) * 100
 
-    fig, ax = make_figure(title, subtitle, figsize=(13, 7))
+    fig, ax = make_figure(title, height=4.8)
     x = np.arange(len(x_order), dtype=float)
     width = 0.20
+
     for i, verdict in enumerate(GROUP_ORDER):
         color, hatch = VERDICT_STYLE[verdict]
         bars = ax.bar(
             x + (i - 1.5) * width, pct[verdict].to_numpy(dtype=float), width,
             color=color, edgecolor="#333333", linewidth=0.5, hatch=hatch,
         )
-        label_bars(ax, bars, fontsize=9)
+        # Label every bar, INCLUDING 0.0% — a flat zero has no visible bar, so the label is the
+        # only thing that distinguishes "0%" from a missing value. At a true 12 pt the four bars
+        # per group sit closer than a horizontal label is wide, so labels are tilted 45° (anchored
+        # at the bar, fanning up-right) to keep adjacent ones from overlapping.
+        label_bars(ax, bars, fontsize=GROUPED_BAR_LABEL_PT, label_zeros=True,
+                   rotation=45, ha="left", x_shift_pts=-3.6)   # ~15 px left, to re-centre
     ax.set_xticks(x)
     ax.set_xticklabels(x_order)
-    ax.set_xlabel(x_kind)
     ax.set_ylabel("Share of evaluated values")
-    ax.set_ylim(0, 122)   # headroom for the horizontal verdict legend above the (tall) Correct bars
+    ax.set_ylim(0, 116)   # headroom for the tilted labels above the tall "Correct" bars
     ax.set_yticks([0, 20, 40, 60, 80, 100])
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(xmax=100))
-    color_legend(ax, [(v, *VERDICT_STYLE[v]) for v in GROUP_ORDER], "Verdict",
-                 ncol=4, loc="upper center")
+    color_legend(ax, [(v, *VERDICT_STYLE[v]) for v in GROUP_ORDER], "Verdict")
     style_axis(ax)
     save_figure(fig, output_path)
 
@@ -369,11 +406,7 @@ def chart_correct_by_source(all_stats: dict, modes: list[str], output_path: Path
         t for t in REPORT_TYPE_ORDER
         if any(t in all_stats[m]["by_report_type"].index for m in modes)
     ]
-    fig, ax = make_figure(
-        "Correctness by Source Type - Claude vs Llama",
-        "Correct values (Exact + Acceptable) as a share of each source type",
-        figsize=(13, 7),
-    )
+    fig, ax = make_figure("Correctness by Source Type - Claude vs Llama", height=4.5)
     x = np.arange(len(present), dtype=float)
     width = 0.38
     for i, mode in enumerate(modes):
@@ -387,13 +420,11 @@ def chart_correct_by_source(all_stats: dict, modes: list[str], output_path: Path
         label_bars(ax, bars)
     ax.set_xticks(x)
     ax.set_xticklabels(present)
-    ax.set_xlabel("Source type")
-    ax.set_ylabel("Correct performance (Exact + Acceptable)")
-    ax.set_ylim(0, 118)   # headroom for the legend above the (tall) correctness bars
+    ax.set_ylabel("Correct performance (Exact + Acceptable)")  # source type is named in the title
+    ax.set_ylim(0, 108)
     ax.set_yticks([0, 20, 40, 60, 80, 100])
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(xmax=100))
-    color_legend(ax, [(m, *MODE_STYLE[m]) for m in modes], "Workflow mode",
-                 ncol=len(modes), loc="upper center")
+    color_legend(ax, [(m, *MODE_STYLE[m]) for m in modes], "Workflow mode")
     style_axis(ax)
     save_figure(fig, output_path)
 
@@ -402,11 +433,10 @@ def chart_report_distribution(raw_dfs: dict, modes: list[str], output_path: Path
     """7. Per-report correctness distribution, Claude vs Llama (box + jittered points)."""
     distributions = [report_level_accepted(raw_dfs[m]) for m in modes]
 
-    fig, ax = make_figure(
-        "Per-Report Correctness Distribution - Claude vs Llama",
-        "Spread of report-level Correct (Exact + Acceptable) scores across the 20 reports",
-        figsize=(10, 7),
-    )
+    fig, ax = make_figure("Per-Report Correctness Distribution - Claude vs Llama", height=4.6)
+    # Reserve canvas on the right for the "Median xx.x%" labels that sit beside the boxes; no legend
+    # (the x-axis already names each mode), so the bottom band can be tightened to the x-axis label.
+    fig.subplots_adjust(right=0.80, bottom=0.12)
     positions = np.arange(1, len(modes) + 1, dtype=float)
     box = ax.boxplot(
         distributions, positions=positions, widths=0.45, patch_artist=True, showfliers=False,
@@ -427,20 +457,21 @@ def chart_report_distribution(raw_dfs: dict, modes: list[str], output_path: Path
         ax.scatter(
             np.full(len(values), positions[i]) + jitter, values,
             s=38, color=color, edgecolor="#222222", linewidth=0.45, alpha=0.85, zorder=3,
+            clip_on=False,   # draw markers fully even when a point sits right at 0%
         )
         if len(values):
             median = float(np.median(values))
             ax.text(positions[i] + 0.30, median, f"Median {median:.1f}%", ha="left",
                     va="center", fontsize=FONT_SIZE, fontweight="bold", color="#222222")
 
+    ax.set_xlim(0.5, len(modes) + 0.5)   # keep boxes centered; median labels spill into the margin
     ax.set_xticks(positions)
     ax.set_xticklabels(modes)
     ax.set_xlabel("Workflow mode")
     ax.set_ylabel("Correct performance per report")
-    ax.set_ylim(0, 105)
+    ax.set_ylim(-4, 105)   # a touch below 0 so a marker sitting at 0% shows its full circle
+    ax.set_yticks([0, 20, 40, 60, 80, 100])
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(xmax=100))
-    color_legend(ax, [(m, *MODE_STYLE[m]) for m in modes], "Workflow mode",
-                 ncol=len(modes), loc="lower center")
     style_axis(ax)
     save_figure(fig, output_path)
 
@@ -485,24 +516,20 @@ def main() -> int:
 
     chart_overall_by_mode(all_stats, ["Rules-only", "Claude", "Llama"],
                           out / f"1_overall_correctness_by_mode_{STYLE_SUFFIX}.png")
-    chart_verdicts_grouped(all_stats["Claude"]["by_report_type"], REPORT_TYPE_ORDER, "Source type",
+    chart_verdicts_grouped(all_stats["Claude"]["by_report_type"], REPORT_TYPE_ORDER,
                            "Extraction Performance by Source Type - Claude",
-                           "Correct, Incorrect, Missing and Overclaim as a share of each source type",
                            out / f"2_performance_by_source_type_claude_{STYLE_SUFFIX}.png")
-    chart_verdicts_grouped(all_stats["Llama"]["by_report_type"], REPORT_TYPE_ORDER, "Source type",
+    chart_verdicts_grouped(all_stats["Llama"]["by_report_type"], REPORT_TYPE_ORDER,
                            "Extraction Performance by Source Type - Llama",
-                           "Correct, Incorrect, Missing and Overclaim as a share of each source type",
                            out / f"3_performance_by_source_type_llama_{STYLE_SUFFIX}.png")
     chart_correct_by_source(all_stats, ["Claude", "Llama"],
                             out / f"4_correctness_by_source_type_claude_vs_llama_{STYLE_SUFFIX}.png")
     field_order = [FIELD_LABELS[f] for f in FIELD_ORDER]
-    chart_verdicts_grouped(all_stats["Claude"]["by_field"], field_order, "Field",
+    chart_verdicts_grouped(all_stats["Claude"]["by_field"], field_order,
                            "Extraction Performance by Field - Claude",
-                           "Correct, Incorrect, Missing and Overclaim as a share of each field",
                            out / f"5_performance_by_field_claude_{STYLE_SUFFIX}.png")
-    chart_verdicts_grouped(all_stats["Llama"]["by_field"], field_order, "Field",
+    chart_verdicts_grouped(all_stats["Llama"]["by_field"], field_order,
                            "Extraction Performance by Field - Llama",
-                           "Correct, Incorrect, Missing and Overclaim as a share of each field",
                            out / f"6_performance_by_field_llama_{STYLE_SUFFIX}.png")
     chart_report_distribution(raw_dfs, ["Claude", "Llama"],
                               out / f"7_per_report_correctness_distribution_{STYLE_SUFFIX}.png")
