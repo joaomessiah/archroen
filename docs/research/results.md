@@ -40,7 +40,7 @@ Field-level correctness (exact + acceptable) by field:
 - **Rules-only massively over-claims** (470 overclaim field-slots, vs 10 for Claude). With no AI presence
   filtering, deduplication, or consolidation, it emits many findings the gold doesn't contain — inflating
   the find list. This is the single biggest driver of its low overall score.
-- **Llama mode's weak spot is recall** (185 missing field-slots): it omits more genuine findings than
+- **Llama mode's main gap is recall** (185 missing field-slots): it omits more genuine findings than
   Claude, while keeping over-claiming modest.
 - **Typology and pottery name are the strongest fields** even for Rules-only, because they rest on the
   deterministic vocabulary/typology tables; dates and especially site names benefit most from the AI.
