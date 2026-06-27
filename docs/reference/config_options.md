@@ -142,7 +142,7 @@ Layer 3b extraction + Layer 7 summary; see `src/pottery_summary.py`.
 
 ## Claude-hybrid full-report extraction (Layer 7)
 
-See `docs/design/design_notes.md`.
+See [design_notes.md](../design/design_notes.md).
 
 - `POTTERY_HYBRID_LLM_USE` — when True, a frontier LLM reads the WHOLE report and produces the
   pottery summary directly (one `<report>.csv` per report), with a verbatim-quote anti-hallucination
