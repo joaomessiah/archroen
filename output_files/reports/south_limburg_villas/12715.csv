@@ -1,0 +1,583 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
+12715,Heerlen,44,Terra sigillata,,terra sigillata,Terra sigillata,2,-12,450,claude_text,present,10,Name explicitly stated in the text.,10,Explicitly found during the investigation in Heerlen.,8,date read from the passage,9,Tijdens het onderzoek in Heerlen zijn twee scherven terra sigillata aangetroffen. Het betrof een bodem- en een wandfragment die te klein waren voor verdere analyse.
+12715,322200,44,Painted ware technique A,,geverfde waar techniek A,Painted ware technique A,46,-12,450,claude_text,present,9,Explicitly described as painted ware technique A.,10,Explicitly collected during the investigation.,8,date read from the passage,9,"Tijdens onderhavig onderzoek zijn 75 scherven geverfde waar verzameld, waarvan 46 stuks in techniek A zijn uitgevoerd"
+12715,322200,44,Painted ware technique B,,geverfde waar techniek B,Painted ware technique B,20,-12,450,claude_text,present,9,Explicitly described as painted ware technique B.,10,Explicitly collected during the investigation.,8,date read from the passage,9,twintig in techniek B
+12715,Heerlen,44,Painted ware with Pompeian red slip,,Pompejaans rode beschildering,Painted ware with Pompeian red slip,1,-12,450,claude_text,present,5,"Tentative identification, text says 'lijkt resten te hebben van'.",8,"A sherd was found, identification is hedged.",8,date read from the passage,7,Eén scherf lijkt resten te hebben van Pompejaans rode beschildering.
+12715,Heerlen,44,Painted ware,,geverfde waar,Painted ware,8,-12,450,claude_text,present,8,Identified as painted ware but technique undetermined.,10,"Explicitly found, technique undetermined due to missing slip.",8,date read from the passage,9,"Van acht stuks was de deklaag verdwenen, waardoor de techniek niet is achterhaald."
+12715,322200,45,Smooth-walled ware,,gladwandig aardewerk,Smooth-walled ware,341,-12,450,claude_text,present,10,Name explicitly stated in the text.,10,Explicitly found during the investigation.,8,date read from the passage,9,Er zijn tijdens het onderzoek 341 scherven gladwandig aardewerk aangetroffen
+12715,322200,45,Jug,,kruiken,Jug,85,-12,450,claude_text,present,10,Explicitly identified as jugs within the smooth-walled ware assemblage.,10,Explicitly assigned to jugs during analysis.,8,date read from the passage,9,waarvan 85 stuks aan kruiken konden worden toegewezen
+12715,Heerlen,45,Smooth-walled pot,,gladwandige pot,Smooth-walled pot,3,-12,450,claude_text,present,10,Explicitly identified as smooth-walled pots.,10,Explicitly found during the investigation.,8,date read from the passage,9,Drie scherven zijn van een gladwandige pot.
+12715,322200,45,Coarse ware,,ruwwandig aardewerk,Coarse ware,63,-12,450,claude_text,present,10,Name explicitly stated in the text.,10,Explicitly collected during the investigation.,8,date read from the passage,9,In Heerlen - De Nor zijn 63 scherven ruwwandig aardewerk verzameld
+12715,322200,45,Cooking pot or storage pot,,kook- of voorraadpotten,Cooking pot or storage pot,8,-12,450,claude_text,present,8,Identified as cooking or storage pots within coarse ware.,10,Explicitly found within the coarse ware assemblage.,8,date read from the passage,9,waaronder acht scherven van kook- of voorraadpotten
+12715,Heerlen,45,Lid,,deksel,Lid,1,-12,450,claude_text,present,10,Explicitly identified as a lid sherd.,10,Explicitly found within the coarse ware assemblage.,8,date read from the passage,9,één scherf van een deksel
+12715,Heerlen,45,Terra nigra,,terra nigra?,Terra nigra,4,-12,450,claude_text,present,3,"Tentative identification, text says 'kan het echter wel vermoed worden' and fragments are too weathered.",9,"Four sherds were found, identification is uncertain.",8,date read from the passage,7,"Van vier scherven kan het echter wel vermoed worden, maar deze fragmenten zijn te verweerd."
+12715,322200,45,Dolium,,dolium,Dolium,1,-12,450,claude_text,present,10,Explicitly identified as a dolium rim sherd.,10,Explicitly collected during the investigation.,8,date read from the passage,9,In Heerlen - De Nor is één randscherf van een groot dolium verzameld.
+12715,322200,45,Amphora,,amfoor,Amphora,4,-12,450,claude_text,present,10,Name explicitly stated in the text.,10,Explicitly found during the investigation.,8,date read from the passage,9,Tijdens het onderzoek in Heerlen zijn vier amfoorfragmenten aangetroffen.
+12715,322200,45,Medium-sized storage amphora,,standamforen,Medium-sized storage amphora,20,-12,450,claude_text,present,10,Explicitly identified as medium-sized storage amphorae.,10,Explicitly found during the investigation.,8,date read from the passage,9,Tijdens onderhavig onderzoek zijn twintig fragmenten van dergelijke standamforen aangetroffen.
+12715,322200,46,Mortarium,Stuart 149,wrijfschaal Stuart 149,Mortarium,1,40,260,claude+typology,present,10,Explicitly identified with typology code Stuart 149.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,één randfragment behorend tot het type Stuart 149
+12715,Heerlen,46,Mortarium,Brunsting 37,wrijfschaal Brunsting 37,Mortarium,1,70,200,claude+typology,present,10,Explicitly identified with typology code Brunsting 37.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,"één behorend tot het type Brunsting 37, die dateert vanaf 150 na Chr."
+12715,Heerlen,46,Mortarium,,wrijfschalen,Mortarium,2,-12,450,claude_text,present,9,Identified as mortaria but without typology.,10,Explicitly found during the investigation.,8,date read from the passage,9,De overige twee konden niet nader getypeerd worden.
+12715,322200,46,Low Lands ware,,Low Lands ware,Low Lands ware,3,-12,450,claude_text,present,7,"Identified as probably Low Lands ware, slight hedging with 'vermoedelijk'.",10,Three sherds explicitly found and identified.,8,date read from the passage,8,Binnen het assemblage uit Heerlen zijn drie scherven als vermoedelijk Low Lands ware gedetermineerd.
+12715,322200,46,Handmade ware,,handgevormd aardewerk,Handmade ware,2,-12,450,claude_text,present,9,Explicitly identified as handmade ware.,10,Explicitly found during the investigation.,8,date read from the passage,9,Tijdens het onderzoek in Heerlen zijn slechts twee scherven handgevormd aardewerk aangetroffen die met enige zekerheid in de Romeinse tijd te dateren zijn. Beide scherven zijn verbrand.
+12715,Heerlen,47,Coated ware beaker,Stuart 1,geverfde bekers type Stuart 1,Coated ware beaker,12,40,110,claude+typology,present,10,Explicitly identified as type Stuart 1 in technique A.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,"Het betreft in alle dertien gevallen type Stuart 1, waarvan twaalf stuks in techniek A en één exemplaar in techniek B. De fragmenten in techniek A dateren in de tweede helft van de 1e eeuw tot en met het begin van de 2e eeuw."
+12715,322200,47,Coarse ware cooking pot,Stuart 201,ruwwandige pot Stuart 201,Coarse ware cooking pot,,40,200,claude+typology,present,10,Explicitly identified with typology code Stuart 201.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,"zijn in het spectrum van de ruwwandige waar meerdere potvormen herkend: type Stuart 201, Stuart 210 en Niederbieber 89"
+12715,322200,47,Coarse ware bowl,Stuart 210,ruwwandige pot Stuart 210,Coarse ware bowl,,70,260,claude+typology,present,10,Explicitly identified with typology code Stuart 210.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,"type Stuart 201, Stuart 210 en Niederbieber 89"
+12715,322200,47,Coarse ware cooking pot,Niederbieber 89,ruwwandige pot Niederbieber 89,Coarse ware cooking pot,,150,300,claude+typology,present,10,Explicitly identified with typology code Niederbieber 89.,10,Explicitly found during the investigation.,10,dated from typology code (only as certain as the identification),10,"type Stuart 201, Stuart 210 en Niederbieber 89. Deze typen zijn grofweg in de eerste drie eeuwen van de jaartelling te dateren, met de aantekening dat het type Niederbieber 89 pas vanaf het tweede kwart van de 2e eeuw in gebruik kwam."
+12715,Heerlen,41,Coarse ware,,ruwwandig fragment,Coarse ware,1,-12,450,claude_text,present,9,Explicitly identified as a coarse ware fragment dating to the Roman period.,10,Explicitly found in waterput spoor 127.,8,date read from the passage,9,In de put zijn verder elf fragmenten aardewerk aangetroffen waarvan één ruwwandig fragment dateert in de Romeinse tijd.
+12715,322200,59,Zuid-Limburgs aardewerk (indet.),pi-,indet. pi-,Zuid-Limburgs aardewerk (indet.),,,,claude,present,5,"Indeterminate Zuid-Limburgs aardewerk, period I, no specific form identified.",9,"Listed in finds table for Heerlen, De Nor, period I.",0,no date stated,5,"indet.
+52
+517
+2
+-
+pi-
+52
+517
+2
+-"
+12715,322200,59,Beaker,pi-bek-(9),beker pi-bek-(9),Beaker,1,,,claude,present,8,Typology code pi-bek-(9) given in table for period I.,9,"Listed in finds table for Heerlen, De Nor, period I.",0,no date stated,6,"beker
+8
+47
+3
+0, 11
+pi-bek-(9)
+2
+2
+1
+0, 05
+pi-bek
+6
+45
+2
+0, 06"
+12715,322200,59,Globular pot,pi-kog-1,kogelpot pi-kog-1,Globular pot,14,,,claude,present,8,Typology code pi-kog-1 given in table for period vroeg/midden I.,9,"Listed in finds table for Heerlen, De Nor, period vroeg/midden I.",0,no date stated,6,"vroeg/midden I
+28
+499
+14
+2, 32
+kogelpot
+28
+499
+14
+2, 32
+pi-kog-1
+28
+499
+14
+2, 32"
+12715,322200,59,Pot,pi-pot-2,pot pi-pot-2,Pot,1,,,claude,present,8,Typology code pi-pot-2 given in table for period midden I.,9,"Listed in finds table for Heerlen, De Nor, period midden I.",0,no date stated,6,"pot
+3
+53
+1
+0, 12
+pi-pot-2
+3
+53
+1
+0, 12"
+12715,322200,61,Pot,pi-pot,pot pi-pot,Pot,1,,,claude,present,8,Typology code pi-pot given in table for period laat I/Ia.,9,"Listed in finds table for Heerlen, De Nor, period laat I/Ia.",0,no date stated,6,"pot
+1
+11
+1
+0, 15
+pi-pot
+1
+11
+1
+0, 15"
+12715,322200,61,Beaker,pi-bek-3,beker pi-bek-3,Beaker,1,,,claude,present,8,Typology code pi-bek-3 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pi-bek-3
+4
+64
+1
+0, 15"
+12715,322200,61,Beaker,pi-bek,beker pi-bek,Beaker,3,,,claude,present,8,Typology code pi-bek given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pi-bek
+8
+114
+3
+0, 94"
+12715,322200,61,Globular pot,pi-kog-1,kogelpot pi-kog-1,Globular pot,2,,,claude,present,8,Typology code pi-kog-1 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"kogelpot
+5
+109
+3
+0, 54
+pi-kog-1
+4
+30
+2
+0, 13"
+12715,322200,61,Globular pot,pi-kog-2,kogelpot pi-kog-2,Globular pot,1,,,claude,present,8,Typology code pi-kog-2 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pi-kog-2
+1
+79
+1
+0, 41"
+12715,322200,61,Bowl,pi-kom,kom pi-kom,Bowl,2,,,claude,present,8,Typology code pi-kom given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"kom
+6
+22
+2
+0, 06
+pi-kom
+6
+22
+2
+0, 06"
+12715,322200,61,Pot,pi-pot-4,pot pi-pot-4,Pot,1,,,claude,present,8,Typology code pi-pot-4 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pot
+12
+177
+5
+0, 90
+pi-pot-4
+1
+18
+1
+0, 15"
+12715,322200,61,Pot,pi-pot-12,pot pi-pot-12,Pot,2,,,claude,present,8,Typology code pi-pot-12 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pi-pot-12
+6
+68
+2
+0, 33"
+12715,322200,61,Pot,pi-pot-19,pot pi-pot-19,Pot,2,,,claude,present,8,Typology code pi-pot-19 given in table for period Ia.,9,"Listed in finds table for Heerlen, De Nor, period Ia.",0,no date stated,6,"pi-pot-19
+5
+91
+2
+0, 42"
+12715,322200,61,Beaker,pi-bek,beker pi-bek,Beaker,2,,,claude,present,8,Typology code pi-bek given in table for period Ia/II.,9,"Listed in finds table for Heerlen, De Nor, period Ia/II.",0,no date stated,6,"pi-bek
+3
+124
+2
+0, 15"
+12715,322200,61,Flagon,pi-kan-1,kan pi-kan-1,Flagon,5,,,claude,present,8,Typology code pi-kan-1 given in table for period Ia/II.,9,"Listed in finds table for Heerlen, De Nor, period Ia/II.",0,no date stated,6,"kan
+14
+515
+8
+1, 06
+pi-kan-1
+9
+367
+5
+0, 88"
+12715,322200,61,Flagon,pi-kan,kan pi-kan,Flagon,3,,,claude,present,8,Typology code pi-kan given in table for period Ia/II.,9,"Listed in finds table for Heerlen, De Nor, period Ia/II.",0,no date stated,6,"pi-kan
+5
+148
+3
+0, 18"
+12715,322200,61,Globular pot,pi-kog-1,kogelpot pi-kog-1,Globular pot,2,,,claude,present,8,Typology code pi-kog-1 given in table for period Ia/II.,9,"Listed in finds table for Heerlen, De Nor, period Ia/II.",0,no date stated,6,"kogelpot
+9
+65
+2
+0, 12
+pi-kog-1
+9
+65
+2
+0, 12"
+12715,322200,61,Pot,pi-pot,pot pi-pot,Pot,2,,,claude,present,8,Typology code pi-pot given in table for period Ia/II.,9,"Listed in finds table for Heerlen, De Nor, period Ia/II.",0,no date stated,6,"pot
+4
+32
+2
+-
+pi-pot
+4
+32
+2
+-"
+12715,322200,61,Flagon,pi-kan-1,kan pi-kan-1,Flagon,1,,,claude,present,8,Typology code pi-kan-1 given in table for period II.,9,"Listed in finds table for Heerlen, De Nor, period II.",0,no date stated,6,"kan
+19
+608
+2
+0, 46
+pi-kan-1
+18
+572
+1
+0, 28"
+12715,322200,61,Flagon,pi-kan,kan pi-kan,Flagon,1,,,claude,present,8,Typology code pi-kan given in table for period II.,9,"Listed in finds table for Heerlen, De Nor, period II.",0,no date stated,6,"pi-kan
+1
+36
+1
+0, 18"
+12715,322200,61,Pot,pi-pot-7,pot pi-pot-7,Pot,2,,,claude,present,8,Typology code pi-pot-7 given in table for period II.,9,"Listed in finds table for Heerlen, De Nor, period II.",0,no date stated,6,"pot
+2
+25
+2
+0, 28
+pi-pot-7
+2
+25
+2
+0, 28"
+12715,322200,62,Beaker,pi-bek-1,pi-bek-1,Beaker,1,,,claude,present,8,Typology code pi-bek-1 given in figure caption for period Ia.,9,"Catalogued find V203.01-0 from Heerlen, De Nor.",0,no date stated,6,"V203.01-0
+pi-bek-1"
+12715,322200,62,Pot,pi-pot-19,pi-pot-19,Pot,1,,,claude,present,8,Typology code pi-pot-19 given in figure caption for period Ia.,9,"Catalogued find V93.01-1 from Heerlen, De Nor.",0,no date stated,6,"V93.01-1
+pi-pot-19"
+12715,322200,62,Beaker,pi-bek,pi-bek,Beaker,1,,,claude,present,8,Typology code pi-bek given in figure caption for period Ia.,9,"Catalogued find V83.01-7 from Heerlen, De Nor.",0,no date stated,6,"V83.01-7
+pi-bek"
+12715,322200,62,Beaker,pi-bek,pi-bek,Beaker,1,,,claude,present,8,Typology code pi-bek given in figure caption for period Ia.,9,"Catalogued find V37.00-5 from Heerlen, De Nor.",0,no date stated,6,"V37.00-5
+pi-bek"
+12715,322200,62,Beaker,pi-bek-3,pi-bek-3,Beaker,1,,,claude,present,8,Typology code pi-bek-3 given in figure caption for period Ia.,9,"Catalogued find V137.01-5 from Heerlen, De Nor.",0,no date stated,6,"V137.01-5
+pi-bek-3"
+12715,322200,62,Pot,pi-pot-12,pi-pot-12,Pot,1,,,claude,present,8,Typology code pi-pot-12 given in figure caption for period Ia.,9,"Catalogued find V152.01-5 from Heerlen, De Nor.",0,no date stated,6,"V152.01-5
+pi-pot-12"
+12715,322200,62,Globular pot,pi-kog-2,pi-kog-2,Globular pot,1,,,claude,present,8,Typology code pi-kog-2 given in figure caption for period Ia.,9,"Catalogued find V200.01-3 from Heerlen, De Nor.",0,no date stated,6,"V200.01-3
+pi-kog-2"
+12715,322200,62,Pot,pi-pot-19,pi-pot-19,Pot,1,,,claude,present,8,Typology code pi-pot-19 given in figure caption for period Ia.,9,"Catalogued find V101.01-6 from Heerlen, De Nor.",0,no date stated,6,"V101.01-6
+pi-pot-19"
+12715,322200,62,Bowl,pi-kom,pi-kom,Bowl,1,,,claude,present,8,Typology code pi-kom given in figure caption for period Ia.,9,"Catalogued find V87.01-13 from Heerlen, De Nor.",0,no date stated,6,"V87.01-13
+pi-kom"
+12715,322200,63,Flagon,pi-kan-1,pi-kan-1,Flagon,1,,,claude,present,8,Typology code pi-kan-1 given in figure caption for period II.,9,"Catalogued find V200.01-1 from Heerlen, De Nor.",0,no date stated,6,"V200.01-1
+pi-kan-1"
+12715,322200,63,Pot,pi-pot-7,pi-pot-7,Pot,1,,,claude,present,8,Typology code pi-pot-7 given in figure caption for period II.,9,"Catalogued find V140.01-2 from Heerlen, De Nor.",0,no date stated,6,"V140.01-2
+pi-pot-7"
+12715,322200,64,Proto-stoneware (indet.),s5-,indet. s5-,Proto-stoneware (indet.),3,,,claude,present,7,Indeterminate proto-stoneware (s5) listed in table for period III.,9,"Listed in finds table for Heerlen, De Nor, period III.",0,no date stated,5,"III
+55
+1.064
+11
+0, 67
+indet.
+41
+440
+3
+-
+s5-
+41
+440
+3
+-"
+12715,322200,64,Grape,s5-gra-2,grape s5-gra-2,Grape,1,,,claude,present,8,Typology code s5-gra-2 given in table for period III.,9,"Listed in finds table for Heerlen, De Nor, period III.",0,no date stated,6,"grape
+2
+80
+1
+0, 07
+s5-gra-2
+2
+80
+1
+0, 07"
+12715,322200,64,Flagon,s5-kan-6,kan s5-kan-6,Flagon,1,,,claude,present,8,Typology code s5-kan-6 given in table for period III.,9,"Listed in finds table for Heerlen, De Nor, period III.",0,no date stated,6,"kan
+11
+529
+6
+0, 60
+s5-kan-6
+2
+41
+1
+0, 27"
+12715,322200,64,Flagon,s5-kan,kan s5-kan,Flagon,5,,,claude,present,8,Typology code s5-kan given in table for period III.,9,"Listed in finds table for Heerlen, De Nor, period III.",0,no date stated,6,"s5-kan
+9
+488
+5
+0, 33"
+12715,322200,64,Pot,s5-pot,pot s5-pot,Pot,1,,,claude,present,8,Typology code s5-pot given in table for period III.,9,"Listed in finds table for Heerlen, De Nor, period III.",0,no date stated,6,"pot
+1
+15
+1
+-
+s5-pot
+1
+15
+1
+-"
+12715,322200,64,Proto-stoneware (indet.),s5-,indet. s5-,Proto-stoneware (indet.),2,,,claude,present,7,Indeterminate proto-stoneware (s5) listed in table for period III/IV.,9,"Listed in finds table for Heerlen, De Nor, period III/IV.",0,no date stated,5,"III/IV
+37
+760
+5
+0, 24
+indet.
+15
+267
+2
+-
+s5-
+15
+267
+2
+-"
+12715,322200,64,Beaker,s5-bek,beker s5-bek,Beaker,1,,,claude,present,8,Typology code s5-bek given in table for period III/IV.,9,"Listed in finds table for Heerlen, De Nor, period III/IV.",0,no date stated,6,"beker
+6
+54
+1
+-
+s5-bek
+6
+54
+1
+-"
+12715,322200,64,Flagon,s5-kan-3,kan s5-kan-3,Flagon,1,,,claude,present,8,Typology code s5-kan-3 given in table for period III/IV.,9,"Listed in finds table for Heerlen, De Nor, period III/IV.",0,no date stated,6,"kan
+16
+439
+2
+0, 24
+s5-kan-3
+2
+32
+1
+0, 17"
+12715,322200,64,Flagon,s5-kan,kan s5-kan,Flagon,1,,,claude,present,8,Typology code s5-kan given in table for period III/IV.,9,"Listed in finds table for Heerlen, De Nor, period III/IV.",0,no date stated,6,"s5-kan
+14
+407
+1
+0, 07"
+12715,322200,64,Stoneware (indet.),s5-,indet. s5-,Stoneware (indet.),,,,claude,present,7,Indeterminate proto-stoneware (s5) listed in table for period IV.,9,"Listed in finds table for Heerlen, De Nor, period IV.",0,no date stated,5,"IV
+45
+1.040
+6
+1, 21
+indet.
+8
+95
+-
+-
+s5-
+2
+27
+-
+-"
+12715,322200,64,Stoneware (indet.),s2-,indet. s2-,Stoneware (indet.),,,,claude,present,7,Indeterminate stoneware (s2) listed in table for period IV.,9,"Listed in finds table for Heerlen, De Nor, period IV.",0,no date stated,5,"s2-
+6
+68
+-
+-"
+12715,322200,64,Flagon,s2-kan-23,kan s2-kan-23,Flagon,3,,,claude,present,8,Typology code s2-kan-23 given in table for period IV.,9,"Listed in finds table for Heerlen, De Nor, period IV.",0,no date stated,6,"kan
+37
+945
+6
+1, 21
+s2-kan-23
+26
+509
+3
+1, 11"
+12715,322200,64,Flagon,s2-kan,kan s2-kan,Flagon,3,,,claude,present,8,Typology code s2-kan given in table for period IV.,9,"Listed in finds table for Heerlen, De Nor, period IV.",0,no date stated,6,"s2-kan
+11
+436
+3
+0, 10"
+12715,322200,64,Stoneware (indet.),s5-,indet. s5-,Stoneware (indet.),,,,claude,present,7,Indeterminate proto-stoneware (s5) listed in table for period IV/V.,9,"Listed in finds table for Heerlen, De Nor, period IV/V.",0,no date stated,5,"IV/V
+25
+653
+5
+0, 23
+indet.
+10
+134
+-
+-
+s5-
+1
+4
+-
+-"
+12715,322200,64,Stoneware (indet.),s2-,indet. s2-,Stoneware (indet.),,,,claude,present,7,Indeterminate stoneware (s2) listed in table for period IV/V.,9,"Listed in finds table for Heerlen, De Nor, period IV/V.",0,no date stated,5,"s2-
+9
+130
+-
+-"
+12715,322200,64,Flagon,s2-kan,kan s2-kan,Flagon,5,,,claude,present,8,Typology code s2-kan given in table for period IV/V.,9,"Listed in finds table for Heerlen, De Nor, period IV/V.",0,no date stated,6,"kan
+15
+519
+5
+0, 23
+s2-kan
+15
+519
+5
+0, 23"
+12715,322200,64,Stoneware (indet.),s2-,indet. s2-,Stoneware (indet.),,,,claude,present,7,Indeterminate stoneware (s2) listed in table for period V.,9,"Listed in finds table for Heerlen, De Nor, period V.",0,no date stated,5,"V
+24
+1.170
+5
+0, 62
+indet.
+12
+252
+-
+-
+s2-
+11
+182
+-
+-"
+12715,322200,64,Stoneware (indet.),s1-,indet. s1-,Stoneware (indet.),1,,,claude,present,7,Indeterminate stoneware (s1) listed in table for period V.,9,"Listed in finds table for Heerlen, De Nor, period V.",0,no date stated,5,"s1-
+1
+70
+1
+0, 26"
+12715,322200,64,Flagon,s2-kan,kan s2-kan,Flagon,4,,,claude,present,8,Typology code s2-kan given in table for period V.,9,"Listed in finds table for Heerlen, De Nor, period V.",0,no date stated,6,"kan
+12
+918
+4
+0, 36
+s2-kan
+12
+918
+4
+0, 36"
+12715,322200,65,Flagon,s5-kan-6,s5-kan-6,Flagon,1,,,claude,present,8,Typology code s5-kan-6 given in figure caption for period III.,9,"Catalogued find V193.01-5 from Heerlen, De Nor.",0,no date stated,6,"V193.01-5
+s5-kan-6"
+12715,322200,65,Flagon,s2-kan-23,s2-kan-23,Flagon,1,,,claude,present,8,Typology code s2-kan-23 given in figure caption for period IV.,9,"Catalogued find V152.01-1 from Heerlen, De Nor.",0,no date stated,6,"V152.01-1
+s2-kan-23"
+12715,322200,65,Flagon,s2-kan-59,s2-kan-59,Flagon,1,,,claude,present,8,"Typology code s2-kan-59 given in figure caption, possibly from Langerwehe.",7,"Catalogued find V144.00-0 from Heerlen, De Nor, labelled Langerwehe?.",0,no date stated,5,"V144.00-0
+s2-kan-59"
+12715,322200,67,Stoneware (indet.),s5-,s5-,Stoneware (indet.),,,,claude,present,7,Indeterminate proto-stoneware (s5) listed in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"onbekend
+80
+3.868
+22
+2, 63
+s5-
+13
+103
+-
+-"
+12715,322200,67,Stoneware (indet.),s2-,s2-,Stoneware (indet.),5,,,claude,present,7,Indeterminate stoneware (s2) listed in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"s2-
+23
+1.172
+5
+-"
+12715,322200,67,Stoneware (indet.),s1-,s1-,Stoneware (indet.),1,,,claude,present,7,Indeterminate stoneware (s1) listed in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"s1-
+1
+106
+1
+-"
+12715,322200,67,Beaker,s5-bek,s5-bek,Beaker,2,,,claude,present,8,Typology code s5-bek given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s5-bek
+3
+116
+2
+-"
+12715,322200,67,Bottle,s2-fle-4,s2-fle-4,Bottle,1,,,claude,present,8,Typology code s2-fle-4 given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-fle-4
+1
+142
+1
+1, 00"
+12715,322200,67,Flagon,s5-kan-1,s5-kan-1,Flagon,2,,,claude,present,8,Typology code s5-kan-1 given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s5-kan-1
+6
+371
+2
+0, 40"
+12715,322200,67,Flagon,s5-kan,s5-kan,Flagon,1,,,claude,present,8,Typology code s5-kan given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s5-kan
+1
+59
+1
+-"
+12715,322200,67,Flagon,s2-kan-13,s2-kan-13,Flagon,1,,,claude,present,8,Typology code s2-kan-13 given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-13
+1
+108
+1
+1, 00"
+12715,322200,67,Flagon,s2-kan-59,s2-kan-59,Flagon,1,,,claude,present,8,Typology code s2-kan-59 given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-59
+1
+421
+1
+0, 07"
+12715,322200,67,Flagon,s2-kan,s2-kan,Flagon,4,,,claude,present,8,Typology code s2-kan given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan
+25
+461
+4
+-"
+12715,322200,67,Globular pot,s5-kog,s5-kog,Globular pot,1,,,claude,present,8,Typology code s5-kog given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s5-kog
+1
+21
+1
+0, 16"
+12715,322200,67,Pot,s2-pot,s2-pot,Pot,2,,,claude,present,8,Typology code s2-pot given in 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-pot
+3
+781
+2
+-"
+12715,322200,67,Stoneware spindle whorl,s2-spi-1,s2-spi-1,Stoneware spindle whorl,1,,,claude,present,7,Typology code s2-spi-1 given in 'overig steengoed' table; spi likely spindle whorl made of stoneware.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"s2-spi-1
+1
+7
+1
+-"
+12715,322200,67,"Stoneware (indet., Langerwehe)",s2-,s2-,"Stoneware (indet., Langerwehe)",2,,,claude,present,7,Indeterminate Langerwehe stoneware (s2) listed in table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"Langerwehe
+62
+1.916
+12
+0, 78
+s2-
+10
+295
+2
+-"
+12715,322200,67,Beaker (Langerwehe),s2-bek-7,s2-bek-7,Beaker (Langerwehe),1,,,claude,present,8,Typology code s2-bek-7 given in Langerwehe section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-bek-7
+1
+40
+1
+-"
+12715,322200,67,Flagon (Langerwehe),s2-kan-11,s2-kan-11,Flagon (Langerwehe),1,,,claude,present,8,Typology code s2-kan-11 given in Langerwehe section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-11
+1
+56
+1
+0, 16"
+12715,322200,67,Flagon (Langerwehe),s2-kan-23,s2-kan-23,Flagon (Langerwehe),1,,,claude,present,8,Typology code s2-kan-23 given in Langerwehe section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-23
+35
+702
+1
+0, 33"
+12715,322200,67,Flagon (Langerwehe),s2-kan-31,s2-kan-31,Flagon (Langerwehe),1,,,claude,present,8,Typology code s2-kan-31 given in Langerwehe section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-31
+4
+112
+1
+0, 15"
+12715,322200,67,Flagon (Langerwehe),s2-kan,s2-kan,Flagon (Langerwehe),6,,,claude,present,8,Typology code s2-kan given in Langerwehe section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan
+11
+711
+6
+0, 14"
+12715,322200,67,"Stoneware (indet., Langerwehe/Raeren)",s2-,s2-,"Stoneware (indet., Langerwehe/Raeren)",,,,claude,present,7,Indeterminate Langerwehe/Raeren stoneware (s2) listed in table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"Langerwehe/Raeren
+30
+572
+2
+-
+s2-
+12
+119
+-
+-"
+12715,322200,67,Flagon (Langerwehe/Raeren),s2-kan,s2-kan,Flagon (Langerwehe/Raeren),2,,,claude,present,8,Typology code s2-kan given in Langerwehe/Raeren section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan
+18
+453
+2
+-"
+12715,322200,67,"Stoneware (indet., Raeren)",s2-,s2-,"Stoneware (indet., Raeren)",,,,claude,present,7,Indeterminate Raeren stoneware (s2) listed in table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,5,"Raeren
+28
+1.056
+6
+1, 52
+s2-
+2
+16
+-"
+12715,322200,67,Flagon (Raeren),s2-kan-29,s2-kan-29,Flagon (Raeren),1,,,claude,present,8,Typology code s2-kan-29 given in Raeren section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-29
+3
+60
+1
+0, 37"
+12715,322200,67,Flagon (Raeren),s2-kan-63,s2-kan-63,Flagon (Raeren),1,,,claude,present,8,Typology code s2-kan-63 given in Raeren section of 'overig steengoed' table.,9,"Listed in finds table for Heerlen, De Nor.",0,no date stated,6,"s2-kan-63
+4
+260
+1
+1, 00"
+12715,322200,107,Pottery,,aardewerk,Pottery,,,,claude,present,0,"general mention that pottery occurs at the site, not a discrete object",8,Pottery sherds were documented as cultural artefacts in the botanical samples from the site.,0,no date stated,3,"De aanwezigheid van zoölogische resten (bot, insecten, mollusken, etc.) en eventuele culturele artefacten (aardewerk, metaal, glas, etc.) is ook gedocumenteerd."
+12715,322200,108,Pottery,,keramiekfragmenten,Pottery,,,,claude,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Pottery sherds explicitly found in all pit samples as settlement refuse.,0,no date stated,3,De waardering liet zien dat alle monsters uit de kuilen nederzettingsafval bevatten zoals keramiekfragmenten en stukken houtskool.
+12715,Heerlen,120,Pottery,,fragmenten aardewerk,Pottery,,,,claude,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Pottery fragments explicitly found in the upper layers of the barrel well fill.,0,no date stated,3,"Hetzelfde geldt voor onverbrand bot en de anorganische materialen zoals slak, fragmenten leisteen en fragmenten aardewerk."
+12715,Heerlen,126,Roman ware,,Romeins aardewerk,Roman ware,,-12,450,claude_text,present,7,Explicitly named as Romeins aardewerk found in pits 12 and 65.,9,Explicitly stated as found in two of the three pits (kuilen 12 en 65).,8,date read from the passage,8,"Hoewel er in twee van de drie kuilen (kuilen 12 en 65) een aantal fragmenten Romeins aardewerk is aangetroffen, geeft het overige aardewerk een vergelijkend beeld met de onderstaande dateringen."
+12715,322200,129,Pottery,,aardewerk,Pottery,,,,claude,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly described as the Roman finds material from the excavation area.,0,no date stated,3,"Het materiaal bestaat uit bouwkeramiek, natuursteen en aardewerk. Het aardewerk bestaat voor de overgrote meerderheid uit draaischijfaardewerk, waarbinnen de nadruk ligt op gladwandig, ruwwandig en geverfde waar."
+12715,322200,129,Wheel-thrown ware,,draaischijfaardewerk,Wheel-thrown ware,,50,150,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly stated as the predominant ware type in the Roman pottery assemblage.,8,date read from the passage,6,"Het aardewerk bestaat voor de overgrote meerderheid uit draaischijfaardewerk, waarbinnen de nadruk ligt op gladwandig, ruwwandig en geverfde waar."
+12715,322200,129,Smooth-walled ware,,gladwandig,Smooth-walled ware,,50,150,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly listed as one of the main ware types in the Roman pottery assemblage.,8,date read from the passage,6,"waarbinnen de nadruk ligt op gladwandig, ruwwandig en geverfde waar"
+12715,322200,129,Coarse ware,,ruwwandig,Coarse ware,,50,150,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly listed as one of the main ware types in the Roman pottery assemblage.,8,date read from the passage,6,"waarbinnen de nadruk ligt op gladwandig, ruwwandig en geverfde waar"
+12715,322200,129,Colour-coated ware,,geverfde waar,Colour-coated ware,,50,150,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly listed as one of the main ware types in the Roman pottery assemblage.,8,date read from the passage,6,"waarbinnen de nadruk ligt op gladwandig, ruwwandig en geverfde waar"
+12715,Heerlen,169,Pottery,,aardewerk uit de Romeinse tijd,Pottery,,-12,450,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",7,"Text states much Roman pottery was found, though it is described as intrusive/heavily weathered material.",8,date read from the passage,5,Het vele aardewerk uit de Romeinse tijd doet vermoeden dat ook archeologische sporen uit de Romeinse tijd in het plangebied aanwezig zijn
+12715,Heerlen,170,Pottery,,Romeinse aardewerk,Pottery,,-12,450,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",8,Explicitly stated as found but described as intrusive and heavily weathered.,8,date read from the passage,5,Het Romeinse aardewerk is sterk verweerd en dient als intrusief materiaal beschouwd te worden.
+12715,322200,68,Dolium,,Dolium,Dolium,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,"Van dit baksel is
+een kogelpot met een driehoekig verdikte rand aangetroffen (bg-kog-2) en een
+groot wandfragment van een dolium, dat aan de binnenzijde bedekt is met een
+groen aankoeksel (bg-pot)."
+12715,322200,68,Dolium,,Dolium,Dolium,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,"Daarnaast zijn fragmenten van een dolium met een driehoekig
+verdikte rand aangetroffen (bg-pot-4)."
+12715,322200,68,Globular pottery,,Globular pottery,Globular pottery,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,"Van dit baksel is
+een kogelpot met een driehoekig verdikte rand aangetroffen (bg-kog-2) en een
+groot wandfragment van een dolium, dat aan de binnenzijde bedekt is met een
+groen aankoeksel (bg-pot)."
+12715,322200,68,Globular pottery,,Globular pottery,Globular pottery,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,"Een wijdmondige
+kogelpot heeft een afgeplatte rand met een groef bovenop (bg-kog-3;
+afb. 3.18)."
+12715,322200,67,Siegburg stoneware,,Siegburg stoneware,Siegburg stoneware,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,Siegburg
