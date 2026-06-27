@@ -10,8 +10,8 @@ It reads two CSVs of villa locations and renders two publication-ready maps of S
 
 | Map | File basename | Shows |
 |-----|---------------|-------|
-| 1 | `roman_villa_locations_map` | The **target** villas as a numbered South Limburg detail map, with a locality list and a Netherlands inset. |
-| 2 | `roman_villa_sites_in_south_limburg` | **All** Roman villas as grey dots, with the target villas highlighted as numbered black markers, over the same area. |
+| 1 | `roman_villa_locations_map` | The **target** villas as a numbered map of South Limburg, with a toponym list and a Netherlands inset. |
+| 2 | `roman_villa_sites_in_south_limburg` | The **other** Roman villas as grey dots, with the target villas highlighted as numbered black markers, over the same area. |
 
 The script is:
 
@@ -38,16 +38,30 @@ run the script with no arguments. Override any of them if needed:
 | Flag | Default | What it is |
 |------|---------|------------|
 | `--target` | `data/target_roman_villas.csv` | the target villas (numbered on both maps) |
-| `--all` | `data/all_roman_villas.csv` | every Roman villa (grey dots on map 2) |
+| `--others` | `data/other_roman_villas.csv` | the other Roman villas (grey dots on map 2) |
 | `--boundaries` | `data/provinces_boundaries.geojson` | cached Dutch province boundaries |
 
-Each villa CSV has the columns `SiteID, Name, X-coordinate, Y-coordinate` (RD New metres).
+Both villa CSVs are read by the same loader. Only the coordinate columns are required; it accepts
+`X-coordinate`/`Y-coordinate` or the `_RD` suffixed variants (RD New metres). `SiteID`, `Name` and
+`Toponym` are optional (the others file has only IDs + coordinates — its dots are unlabelled).
+
+**About `other_roman_villas.csv`.** It holds **one row per `SiteID`**, each at its own recorded RD
+New coordinate (no centroiding — the dot is plotted exactly where the CSV says). It may also list
+the target villas; map 2 de-duplicates by `SiteID`, so a target is drawn only as a numbered
+analysed villa, never doubled as a grey dot. (`--all` is still accepted as an alias of `--others`.)
 
 ## Output
 
 By default, two PNG files (one per map) are written to a `maps_output/` folder next to the
 script (`tools/scientific_report/generate_maps_roman_villas/maps_output/`). Override with
 `--output-dir`.
+
+**Size / placement.** Both maps are exported at **300 DPI** with a figure width of 8.4 in
+(2520 px). They are tuned so that when each image is placed at the **16 cm (6.3 in)** thesis
+text-column width — the same width as the charts — the map text renders at a true **~12 pt**,
+matching 12 pt body text. (This uses `on-page pt = font pt × display width / figure width`; the
+figure is wider than 6.3 in only so the dense map detail rasterises sharply, while the on-page
+font stays 12 pt.) Insert each map at **16 cm** wide.
 
 ## Boundaries (offline by default)
 
@@ -111,7 +125,7 @@ or insert them into the thesis.
 ```bash
 # Generate only one of the two maps:
 ... generate_maps.py --which thesis      # only map 1 (target villas)
-... generate_maps.py --which all         # only map 2 (all villas)
+... generate_maps.py --which all         # only map 2 (other villas)
 
 # Save the maps elsewhere:
 ... generate_maps.py --output-dir my_maps
