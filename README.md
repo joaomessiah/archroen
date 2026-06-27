@@ -1,17 +1,18 @@
 # ARCHROEN
 
-> **Archaeological Chronology Extraction and Normalization** — *a workflow for Roman pottery chronology.*
+> **Archaeological Chronology Extraction and Normalization**: *a workflow for Roman pottery chronology.*
 
 **ARCHROEN** reads excavation reports (PDFs) and turns the pottery finds they describe into
-structured, comparable data. It is built for processing messy real-world grey literature — modern or
-decades-old, born-digital or scanned — with finds buried in prose, tables, and figure captions.
+structured, comparable data. It is built for processing messy real-world grey literature in Dutch and
+English, and is extensible to other languages. The reports may be modern or decades-old, born-digital
+or scanned, with finds buried in prose, tables, and figure captions.
 
-For each report ARCHROEN produces a single tidy table — the **pottery summary** — with one row per
+For each report ARCHROEN produces a single tidy table, the **pottery summary**, with one row per
 Roman-period pottery find: the find's name, typology, date range, and site, plus the exact sentence
 it was drawn from.
 
-In evaluation against hand-made gold standards, its best mode (Claude) is **95.6% correct overall** —
-see [Research](docs/research/).
+In evaluation against hand-made gold standards, its best mode (Claude) is **95.6% correct overall**
+(see [Research](docs/research/)).
 
 ![Bar chart of overall correctness by mode: Rules-only 47.9%, Claude 95.6%, Llama 77.3%](docs/research/charts/1_overall_correctness_by_mode_grayscale.png)
 
@@ -33,8 +34,9 @@ becomes one row of the pottery summary:
 | Heerlen | Terra sigillata plate | Dragendorff 18/31 | 70 | 200 |
 
 The colloquial Dutch *schaaltje* and the form code `Drag. 18/31` are normalized to a standard English
-pottery name and typology, and the date range comes from that typology. Each row also records the find context, a confidence level, and the verbatim source text — the full 20-column schema
-is in [output_schema.md](docs/reference/output_schema.md).
+pottery name and typology, and the date range comes from that typology. Each row also records the
+find context, a confidence level, and the verbatim source text. The full 20-column schema is in
+[output_schema.md](docs/reference/output_schema.md).
 
 ## How it works
 
@@ -52,17 +54,17 @@ The workflow runs as a chain of **layers**, each doing one job and passing its r
 | 8 · Evaluation | *(Research only)* Scores the results against hand-checked answers. |
 
 By default an AI model reads the whole report while the rules ground and check it; it can also run
-with **no AI at all** (Rules-only). Layers 1–7 produce the summary; Layer 8 is a separate research tool.
+with **no AI at all** (Rules-only). Layers 1-7 produce the summary; Layer 8 is a separate research tool.
 Full detail: [architecture](docs/workflow/architecture.md) and the [layer specs](docs/workflow/specs/).
 
 ## Getting started
 
 The full, step-by-step guide is in **[Getting started](docs/getting_started/)**:
 
-1. [Prerequisites](docs/getting_started/prerequisites.md) — what you need first
-2. [Installation](docs/getting_started/installation.md) — set it up
-3. [Quick start](docs/getting_started/quickstart.md) — run your first report
-4. [How to run](docs/getting_started/how_to_run.md) — batches, modes, and scoring
+1. [Prerequisites](docs/getting_started/prerequisites.md): what you need first
+2. [Installation](docs/getting_started/installation.md): set it up
+3. [Quick start](docs/getting_started/quickstart.md): run your first report
+4. [How to run](docs/getting_started/how_to_run.md): batches, modes, and scoring
 
 ## Find what you need
 
@@ -70,17 +72,17 @@ Everything is in **[docs/](docs/)**. Pick by what you want to do:
 
 | I want to… | Go to |
 |---|---|
-| **Run it on my own reports** | [Install and run it](docs/getting_started/) — from installing Python to your first run |
-| **See the full workflow** | [Workflow](docs/workflow/) — architecture and the per-layer specs |
-| **See the research & results** | [Research](docs/research/) — methodology, datasets, evaluation, and the accuracy results |
-| **Look something up** | [Reference](docs/reference/) — output columns, data files, glossary |
-| **Know why it's built this way** | [Design](docs/design/) — the rationale and the AI/rules "modes" |
+| **Run it on my own reports** | [Install and run it](docs/getting_started/): from installing Python to your first run |
+| **See the full workflow** | [Workflow](docs/workflow/): architecture and the per-layer specs |
+| **See the research & results** | [Research](docs/research/): methodology, datasets, evaluation, and the accuracy results |
+| **Look something up** | [Reference](docs/reference/): output columns, data files, glossary |
+| **Know why it's built this way** | [Design](docs/design/): the rationale and the AI/rules "modes" |
 
 ## Repository layout
 
 ```
 .
-├── src/                   # the workflow itself — one module per processing layer
+├── src/                   # the workflow itself, one module per processing layer
 ├── tools/                 # offline maintenance scripts
 │   └── scientific_report/ # python scripts that produce the charts and maps
 ├── data/                  # the controlled archaeological domain knowledge
@@ -126,7 +128,9 @@ BibTeX:
 
 ## Support
 
-For questions or problems, please open an issue on the repository.
+Have a question, or something not working? Please post it on the
+[**Issues page**](../../issues), a simple web form for
+reporting problems or asking questions. (You'll need a free GitHub account to post.)
 
 ## License
 
