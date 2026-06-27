@@ -4,8 +4,8 @@
 Merges the former map_thesis_roman_villas/map.py and map_all_roman_villas/map_all_roman_villas_final.py
 into a single, self-contained tool that reads the two villa CSVs and produces BOTH maps:
 
-  1. "roman_villa_locations_map"          — South Limburg detail of the TARGET villas (numbered
-                                            markers + locality list + Netherlands inset).
+  1. "roman_villa_locations_map"          — map of South Limburg showing the TARGET villas (numbered
+                                            markers + toponym list + Netherlands inset).
   2. "roman_villa_sites_in_south_limburg" — the other Roman villas (grey) with the target villas
                                             highlighted (numbered black) over the same area.
 
@@ -280,7 +280,7 @@ def save_map(figure, output_dir: Path, basename: str) -> Path:
 
 
 # ===========================================================================
-# MAP 1 — Target villas, South Limburg detail ("roman_villa_locations_map")
+# MAP 1 — Target villas over South Limburg ("roman_villa_locations_map")
 # ===========================================================================
 
 THESIS_COLOR_PALETTE = {
@@ -347,7 +347,7 @@ def _thesis_draw_list(axis, villas: pd.DataFrame) -> None:
 
 def build_thesis_map(target_villas: pd.DataFrame, boundaries: gpd.GeoDataFrame,
                      output_dir: Path, style: str = "grayscale") -> Path:
-    """Map 1: South Limburg detail of the target villas."""
+    """Map 1: the target villas over South Limburg (same frame as map 2)."""
     colors = THESIS_GRAYSCALE_PALETTE if style == "grayscale" else THESIS_COLOR_PALETTE
     villas = assign_map_numbers(target_villas)
 
