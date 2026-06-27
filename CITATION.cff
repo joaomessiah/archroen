@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use ARCHROEN in your work, please cite the associated master's thesis below."
+title: "ARCHROEN — Archaeological Chronology Extraction and Normalization"
+authors:
+  - family-names: "Sousa da Silva"
+    given-names: "João Messias"
+preferred-citation:
+  type: thesis
+  title: "Developing a Reproducible Workflow for AI-Assisted Chronological Data Extraction: A Case Study from Roman Villas in South Limburg"
+  authors:
+    - family-names: "Sousa da Silva"
+      given-names: "João Messias"
+  year: 2026
+  institution:
+    name: "University of Amsterdam"
