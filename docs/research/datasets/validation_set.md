@@ -8,8 +8,9 @@ three modes (Rules-only / Claude / Llama) are compared.
 
 | Item | Location |
 |---|---|
-| Report PDFs (20) | `input_files/reports/workflow_evaluation_sample/` |
-| Gold standards (20) | `input_files/gold_standards/workflow_evaluation_sample/` |
+| Report PDFs (20, frozen snapshot) | [validation_set/input_reports/](validation_set/input_reports/) |
+| Live report PDFs | [input_files/reports/workflow_evaluation_sample/](../../../input_files/reports/workflow_evaluation_sample/) |
+| Gold standards (20) | [input_files/gold_standards/workflow_evaluation_sample/](../../../input_files/gold_standards/workflow_evaluation_sample/) |
 | Outputs per mode (frozen) | [validation_set/outputs/](validation_set/outputs/) — `claude/`, `llama/`, `rules_only/` |
 | Scores per mode (frozen) | [validation_set/scores/](validation_set/scores/) — `<mode>/granular_summary.csv` + `granular_detail.csv` |
 | Live output of a run | `output_files/reports/workflow_evaluation_sample/` (mirrors the shared input folder) |

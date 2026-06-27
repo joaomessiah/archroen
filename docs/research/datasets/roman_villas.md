@@ -9,7 +9,8 @@ standards** for this set — it is the real-world task, not the accuracy-measure
 
 | Item | Location |
 |---|---|
-| Report PDFs (30) | `input_files/reports/south_limburg_villas/` |
+| Report PDFs (30, frozen snapshot) | [roman_villas/input_reports/](roman_villas/input_reports/) |
+| Live report PDFs | [input_files/reports/south_limburg_villas/](../../../input_files/reports/south_limburg_villas/) |
 | Outputs (frozen snapshot) | [roman_villas/outputs/](roman_villas/outputs/) |
 | Live outputs (regenerated) | `output_files/reports/south_limburg_villas/` |
 

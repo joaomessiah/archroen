@@ -14,12 +14,14 @@ after the live outputs are regenerated.
 
 | Item | Location |
 |---|---|
-| Roman-villa report PDFs | `input_files/reports/south_limburg_villas/` |
-| Roman-villa outputs (frozen) | `docs/research/datasets/roman_villas/outputs/` |
-| Validation report PDFs | `input_files/reports/workflow_evaluation_sample/` |
-| Validation gold standards | `input_files/gold_standards/workflow_evaluation_sample/` |
-| Validation outputs (frozen, per mode) | `docs/research/datasets/validation_set/outputs/<mode>/` |
-| Validation scores (frozen, per mode) | `docs/research/datasets/validation_set/scores/<mode>/` |
+| Roman-villa report PDFs (frozen) | [roman_villas/input_reports/](roman_villas/input_reports/) |
+| Roman-villa report PDFs (live) | [input_files/reports/south_limburg_villas/](../../../input_files/reports/south_limburg_villas/) |
+| Roman-villa outputs (frozen) | [roman_villas/outputs/](roman_villas/outputs/) |
+| Validation report PDFs (frozen) | [validation_set/input_reports/](validation_set/input_reports/) |
+| Validation report PDFs (live) | [input_files/reports/workflow_evaluation_sample/](../../../input_files/reports/workflow_evaluation_sample/) |
+| Validation gold standards | [input_files/gold_standards/workflow_evaluation_sample/](../../../input_files/gold_standards/workflow_evaluation_sample/) |
+| Validation outputs (frozen, per mode) | [validation_set/outputs/](validation_set/outputs/) (`<mode>/`) |
+| Validation scores (frozen, per mode) | [validation_set/scores/](validation_set/scores/) (`<mode>/`) |
 
 `<mode>` is one of `claude`, `llama`, `rules_only`. The copies here are a **snapshot** of the results
 reported in the thesis. A live run writes to `output_files/reports/workflow_evaluation_sample/` (the
