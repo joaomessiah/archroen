@@ -2,7 +2,7 @@
 
 This is the end-to-end data flow. Each layer consumes the previous layer's output and adds one kind of
 information, until a report becomes a clean table of dated pottery finds. For the *why*, see
-[overview.md](overview.md); for each layer in depth, see [specs/](specs/).
+[overview.md](overview.md). For each layer in depth, see [specs/](specs/).
 
 ## Data flow
 
@@ -10,7 +10,7 @@ information, until a report becomes a clean table of dated pottery finds. For th
 flowchart TD
     PDF([Report PDF]) --> L12
 
-    subgraph PIPE["run_pipeline.py  —  Layers 1–7"]
+    subgraph PIPE["run_pipeline.py (Layers 1-7)"]
         direction TB
         L1["**Layer 1** · Extraction<br/><sub>extractor.py</sub><br/>PDF → per-page text (OCR for scans)"]
         L2["**Layer 2** · Cleaning<br/><sub>cleaner.py · structure.py</sub><br/>clean text → sections + overlapping chunks"]
@@ -35,7 +35,7 @@ flowchart TD
 
 ## Reading the flow
 
-- **Layers 1–7 run in sequence inside `run_pipeline.py`.** A report PDF goes in; one pottery-summary
+- **Layers 1-7 run in sequence inside `run_pipeline.py`.** A report PDF goes in; one pottery-summary
   CSV comes out. `main(pdf_path)` runs one report; `run_batch()` runs every PDF in a folder.
 - **Layer 7 is where most of the work happens.** Getting from many raw mentions to *one row per
   physical find* is a long, conservative cascade: deduplication, coreference consolidation, enrichment
@@ -50,8 +50,10 @@ flowchart TD
 
 Every AI-assisted step is governed by `WORKFLOW_MODE` (see
 [../design/workflow_modes.md](../design/workflow_modes.md)). In **Rules-only mode** the AI-gated steps
-in Layers 3, 5, 6, and 7 are all switched off and the whole flow is deterministic. The rule-based
-detection, normalization, and typology/period date lookups run identically in every mode.
+in Layers 3, 5, 6, and 7 are all switched off, and the whole flow is deterministic. The rule-based
+detection, normalization, and typology/period date lookups run identically in every mode. Note that
+Layer 3's AI gate `POTTERY_EXTRACT_LLM_USE` is off by default (`False`), so its trigger-based pottery
+extraction is rule-only even outside Rules-only mode.
 
 ## Inputs and outputs at a glance
 

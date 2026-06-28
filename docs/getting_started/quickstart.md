@@ -15,6 +15,9 @@ WORKFLOW_MODE = "rules-only"
 
 This runs the workflow with no AI, so you don't need any API key to try it.
 
+The single-report run in step 2 reads `WORKFLOW_MODE` straight from `config.py`, so **save this change
+before running step 2** (there's no command-line flag for the mode).
+
 ## 2. Run it on one report
 
 In the terminal (from the project folder), run the workflow on a single report:
@@ -28,16 +31,16 @@ it finishes, it prints where it saved the result.
 
 ## 3. Open the result
 
-The workflow writes **one CSV file** — a spreadsheet you can open in Excel, LibreOffice, or Google
+The workflow writes **one CSV file**, a spreadsheet you can open in Excel, LibreOffice, or Google
 Sheets:
 
 ```
 output_files/reports/workflow_evaluation_sample/new_rep_1.csv
 ```
 
-Each row is **one pottery find** the report mentioned. Among the columns you'll see the pottery name,
-how much was found, the find site, and the date range (`start_date` / `end_date`). The full list of
-columns is documented in [../reference/output_schema.md](../reference/output_schema.md).
+Each row is **one pottery find** the report mentioned. The columns include the pottery name, how much
+was found, the find site, and the date range (`start_date` / `end_date`). The full list of columns is
+documented in [../reference/output_schema.md](../reference/output_schema.md).
 
 ## What next?
 

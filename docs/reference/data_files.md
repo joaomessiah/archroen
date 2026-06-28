@@ -1,7 +1,7 @@
 # Data files
 
 The workflow reads two kinds of data from `data/`: **generated detection patterns** (`data/patterns/`)
-and **source vocabularies + reference maps** (`data/vocabularies/`). All paths are wired through
+and **source vocabularies plus reference maps** (`data/vocabularies/`). All paths are wired through
 `config.py`.
 
 ## How they relate
@@ -16,7 +16,7 @@ data/vocabularies/*.csv  ──(tools/*.py generators)──▶  data/patterns/*
             (these are read directly at runtime, too)
 ```
 
-## `data/patterns/` — generated, loaded at runtime
+## `data/patterns/`: generated, loaded at runtime
 
 | File | Used by | What it is |
 |---|---|---|
@@ -25,13 +25,13 @@ data/vocabularies/*.csv  ──(tools/*.py generators)──▶  data/patterns/*
 | `chronology_patterns.json` | Layer 6 dating | Chronological period patterns. |
 | `century_patterns.json` | Layer 6 dating | Century-reference patterns. |
 
-## `data/vocabularies/` — source of truth + reference maps
+## `data/vocabularies/`: source of truth plus reference maps
 
 **Read directly at runtime:**
 
 | File | Used by | What it is |
 |---|---|---|
-| `pottery_vocab_normalized.csv` | Layer 7 (and pattern generation) | Canonical pottery typologies with dates — the runtime reference list. |
+| `pottery_vocab_normalized.csv` | Layer 7 (and pattern generation) | Canonical pottery typologies with dates: the runtime reference list. |
 | `period_vocab.json` | `src/periods.py` (Layer 6) | ABR/ARCHIS period codes + EN/NL synonyms with their date ranges. |
 | `emperor_vocab.json` | `src/periods.py` (Layer 6) | Emperor reigns and named dynasties (canonical). |
 
@@ -47,7 +47,7 @@ data/vocabularies/*.csv  ──(tools/*.py generators)──▶  data/patterns/*
 ## Updating the vocabularies
 
 To add or correct pottery types, edit the source CSVs (or the master), then re-run the relevant
-generator and the pipeline. The pottery patterns are regenerated with:
+generator and the pipeline. The pottery patterns are regenerated with this command:
 
 ```bash
 .venv/bin/python3 tools/csv_to_patterns.py \
@@ -56,5 +56,5 @@ generator and the pipeline. The pottery patterns are regenerated with:
 ```
 
 Re-running the generators is safe and idempotent. To add a **trigger word**, add an entry to
-`data/patterns/pottery_triggers.json` with a `language` (`en`/`nl`/`la`) and a `strength` (`strong` for
-unambiguous pottery words, `weak` for words that need nearby context).
+`data/patterns/pottery_triggers.json` with a `language` (`en`/`nl`/`la`) and a `strength`. Use
+`strong` for unambiguous pottery words and `weak` for words that need nearby context.

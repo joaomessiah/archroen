@@ -1,6 +1,6 @@
 # Workflow
 
-How the pipeline actually works — the layer-by-layer processing that turns a report PDF into a
+How the pipeline actually works: the layer-by-layer processing that turns a report PDF into a
 pottery summary.
 
 | File | What it covers |
@@ -10,7 +10,7 @@ pottery summary.
 
 | Folder | What's inside |
 |---|---|
-| [specs/](specs/) | The detailed specification of each layer (Layers 1–8), one file per layer. |
+| [specs/](specs/) | The detailed specification of each layer (Layers 1-8), one file per layer. |
 
 For *why* it is built this way, see [../design/](../design/); for the measured results, see
 [../research/](../research/).

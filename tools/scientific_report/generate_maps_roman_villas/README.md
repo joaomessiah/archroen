@@ -13,6 +13,9 @@ It reads two CSVs of villa locations and renders two publication-ready maps of S
 | 1 | `roman_villa_locations_map` | The **target** villas as a numbered map of South Limburg, with a toponym list and a Netherlands inset. |
 | 2 | `roman_villa_sites_in_south_limburg` | The **other** Roman villas as grey dots, with the target villas highlighted as numbered black markers, over the same area. |
 
+`--which` selects which map(s) to render: `thesis` (map 1 only), `all` (map 2 only), or `both`
+(the default). Map 1 can be drawn in colour with `--style color`; **map 2 is always grayscale**.
+
 The script is:
 
 - **Self-contained.** It carries its own input data (`data/`), its own bundled font (`fonts/`),
@@ -32,7 +35,7 @@ The script is:
 
 ## Inputs
 
-Three files, all with sensible defaults pointing at the bundled `data/` folder — so you can just
+Three files, all with sensible defaults pointing at the bundled `data/` folder, so you can just
 run the script with no arguments. Override any of them if needed:
 
 | Flag | Default | What it is |
@@ -43,11 +46,11 @@ run the script with no arguments. Override any of them if needed:
 
 Both villa CSVs are read by the same loader. Only the coordinate columns are required; it accepts
 `X-coordinate`/`Y-coordinate` or the `_RD` suffixed variants (RD New metres). `SiteID`, `Name` and
-`Toponym` are optional (the others file has only IDs + coordinates — its dots are unlabelled).
+`Toponym` are optional (the others file has only IDs + coordinates, so its dots are unlabelled).
 
 **About `other_roman_villas.csv`.** It holds **one row per `SiteID`**, each at its own recorded RD
-New coordinate (no centroiding — the dot is plotted exactly where the CSV says). It may also list
-the target villas; map 2 de-duplicates by `SiteID`, so a target is drawn only as a numbered
+New coordinate (no centroiding, so the dot is plotted exactly where the CSV says). It may also list
+the target villas. Map 2 de-duplicates by `SiteID`, so a target is drawn only as a numbered
 analysed villa, never doubled as a grey dot. (`--all` is still accepted as an alias of `--others`.)
 
 ## Output
@@ -58,15 +61,15 @@ script (`tools/scientific_report/generate_maps_roman_villas/maps_output/`). Over
 
 **Size / placement.** Both maps are exported at **300 DPI** with a figure width of 8.4 in
 (2520 px). They are tuned so that when each image is placed at the **16 cm (6.3 in)** thesis
-text-column width — the same width as the charts — the map text renders at a true **~12 pt**,
-matching 12 pt body text. (This uses `on-page pt = font pt × display width / figure width`; the
-figure is wider than 6.3 in only so the dense map detail rasterises sharply, while the on-page
+text-column width (the same width as the charts), the map text renders at a true **~12 pt**,
+matching 12 pt body text. (This uses `on-page pt = font pt × display width / figure width`. The
+figure is wider than 6.3 in only so that the dense map detail rasterises sharply, while the on-page
 font stays 12 pt.) Insert each map at **16 cm** wide.
 
 ## Boundaries (offline by default)
 
 The province outlines come from the Dutch national geodata service (**PDOK**). A full-resolution
-copy is cached in `data/provinces_boundaries.geojson` (~3.7 MB), so the script runs **fully
+copy is cached in `data/provinces_boundaries.geojson` (~3.8 MB), so the script runs **fully
 offline**. If that file is ever missing, the script automatically falls back to the **live PDOK
 WFS** (which needs internet). A `[boundaries]` line on each run states which source was used.
 

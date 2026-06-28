@@ -1,4 +1,4 @@
-# Layer 6 — Chronology assignment
+# Layer 6: Chronology assignment
 
 **Modules:** `src/chronology.py` (orchestration), `src/date_parser.py` (date extraction),
 `src/periods.py` (period/emperor date tables)
@@ -19,20 +19,21 @@ order, and detect and reconcile conflicts between the date signals.
    from the surrounding context (English and Dutch ordinals, `n.Chr.`/`v.Chr.`).
 4. **Then period / century terms.** Broad period and emperor names map to year ranges via
    `periods.py`. Patterns are applied in priority order (compound before single, explicit before
-   century before broad) with span tracking so the same text isn't counted twice.
+   century before broad), with span tracking so the same text isn't counted twice.
 5. *(Optional)* **AI date fallback.** When `CHRONO_DATE_LLM_USE` is on, an AI step reads dates from
-   context as a last resort. Off by default — it is more error-prone.
+   context as a last resort. Off by default, as it is more error-prone.
 6. **Conflict detection and reconciliation.** When the typology date and the context date disagree, the
    conflict is detected and reconciled into a single range, with the method recorded.
 
 ## Periods as a single source of truth (`periods.py`)
 
 All period/emperor → year-range mappings derive from one table, so they can't drift apart. ABR/ARCHIS
-period codes and their EN/NL synonyms come from `data/vocabularies/period_vocab.json`; emperor reigns
-and named pre-Roman periods are literals. **Emperor reigns win** over period-code terms (so "Augustan"
-→ 27 BC–14 AD, not the broader Roman-period code).
+period codes and their EN/NL synonyms come from `data/vocabularies/period_vocab.json`, emperor reigns
+from `data/vocabularies/emperor_vocab.json`, and the named pre-Roman periods are literals in
+`periods.py`. **Emperor reigns win** over period-code terms, so "Augustan"
+maps to 27 BC to 14 AD rather than the broader Roman-period code.
 
-## Input → output
+## Input and output
 
 - **In:** interpreted candidates from [Layer 5](layer_5.md).
 - **Out:** the same candidates, each with `start_date`, `end_date`, the `date_method` used, and a
@@ -42,8 +43,8 @@ and named pre-Roman periods are literals. **Emperor reigns win** over period-cod
 
 | Setting | Default | Role |
 |---|---|---|
-| `CHRONO_PROCESS_UNCERTAIN` | — | Whether `uncertain` finds are dated |
-| `CHRONO_UNCERTAIN_THRESHOLD` | — | Confidence an `uncertain` find must clear |
+| `CHRONO_PROCESS_UNCERTAIN` | `True` | Whether `uncertain` finds are dated |
+| `CHRONO_UNCERTAIN_THRESHOLD` | `0.6` | Confidence an `uncertain` find must clear |
 | `CHRONO_LLM_USE` | `True`* | Allow AI help in chronology |
 | `CHRONO_DATE_LLM_USE` | `False` | Allow AI to read dates straight from context |
 

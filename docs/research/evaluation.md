@@ -18,7 +18,10 @@ The frozen `granular_summary.csv` / `granular_detail.csv` for each mode are unde
 
 Each gold find is paired to at most one workflow row, in priority order: **typology code** → **exact /
 catalogue-number name** → **ware family** (granularity- and synonym-aware) → **alias-normalised token
-overlap**. Unpaired findings become `missing` (gold-only) or `overclaim` (workflow-only).
+overlap**. The token-overlap step accepts a pair at a Jaccard overlap of **0.34** or above (or when one
+token set is wholly contained in the other). Unpaired findings become `missing` (gold-only) or
+`overclaim` (workflow-only).
+
 
 ## Field verdicts
 
@@ -27,23 +30,29 @@ For each matched pair, every field gets one verdict:
 | Verdict | Meaning |
 |---|---|
 | `exact` | Identical after normalisation (two blanks count as exact agreement). |
-| `acceptable` | Not identical but archaeologically tolerable — ware-family/token overlap for pottery; site-name token containment; a date endpoint within tolerance **only** when the gold find has no typology (with a typology, the date must be exact). |
+| `acceptable` | Not identical but archaeologically tolerable: ware-family/token overlap for pottery; site-name token containment; a date endpoint within tolerance **only** when the gold find has no typology (with a typology, the date must be exact). |
 | `incorrect` | Matched pair, but this field disagrees (both present and different, or one side blank). |
+
+**Typology is the exception:** it is scored exact-or-incorrect only (it never receives an `acceptable`
+verdict); a typology code either matches exactly or it counts as incorrect.
 
 `missing` and `overclaim` are record-level (a whole finding unmatched on one side).
 
 ## The headline metric used in [results.md](results.md)
 
 **Field-level correctness** = (`exact` + `acceptable`) ÷ all field verdicts, computed over the union of
-gold and workflow findings (so unmatched findings count against the score through their `missing` /
-`overclaim` field slots). It is reported overall and per field (site, pottery, typology, start date, end
-date). Five fields are scored per finding.
+gold and workflow findings. Unmatched findings therefore count against the score through their `missing` /
+`overclaim` field slots. The metric is reported both overall and per field (site, pottery, typology, start
+date, end date). Five fields are scored per finding. This headline metric uses the `exact` + `acceptable`
+verdicts; it is **not** the date-overlap metric described below, which is a separate diagnostic.
+
 
 ## Date accuracy
 
-Dates are scored two ways — **exact-endpoint** agreement and **overlap with the gold range** — because a
-range that partially overlaps the truth is still archaeologically useful. The granular audit treats a
-within-tolerance endpoint as `acceptable` only when the gold find carries no typology.
+Dates are scored two ways: **exact-endpoint** agreement and **overlap with the gold range**. The overlap
+measure is included because a range that partially overlaps the truth is still archaeologically useful. The
+granular audit treats a within-tolerance endpoint as `acceptable` only when the gold find carries no
+typology.
 
 ## Running it
 

@@ -1,11 +1,11 @@
 # Configuration
 
 Everything that changes the workflow's behaviour lives in **`config.py`** at the top of the project.
-You change settings by editing that file — no other code needs to be touched. This page covers the
-settings you're most likely to change; `config.py` itself is grouped into sections and commented if you
-want the full list.
+To change a setting, edit that file. No other code needs to be touched. This page covers the settings
+you're most likely to change. `config.py` itself is grouped into sections and commented, if you want
+the full list.
 
-After editing `config.py`, just re-run the workflow — there's nothing to "reload".
+After editing `config.py`, just re-run the workflow. There's nothing to "reload".
 
 ## The settings you'll change most often
 
@@ -17,10 +17,11 @@ After editing `config.py`, just re-run the workflow — there's nothing to "relo
 
 ## Mode is the master switch
 
-`WORKFLOW_MODE` is the important one: it decides whether the workflow uses AI and which provider, for
-**every** AI-assisted step at once. The more detailed flags below (`POTTERY_HYBRID_LLM_USE`,
-`CHRONO_LLM_USE`, …) only take effect in the AI modes — in `"rules-only"` they are all switched off
-automatically, so the run is fully deterministic.
+`WORKFLOW_MODE` is the important one. It decides, for **every** AI-assisted step at once, whether the
+workflow uses AI and which provider. The more detailed flags below (`POTTERY_HYBRID_LLM_USE`,
+`CHRONO_LLM_USE`, and so on) only take effect in the AI modes. In `"rules-only"` `config.py` forces
+every detailed `*_LLM_USE` flag off automatically, so the run is fully deterministic no matter how
+those flags are set.
 
 You normally do **not** need to touch the detailed flags; `WORKFLOW_MODE` is enough. They exist for
 fine-tuning and experiments:
@@ -30,13 +31,13 @@ fine-tuning and experiments:
 | `POTTERY_HYBRID_LLM_USE` | `True` | Let the AI read the *whole* report and produce the find list directly. |
 | `POTTERY_CONTEXT_LLM_USE` | `True` | Use AI to judge whether a pottery mention is actually a find (vs a comparison/citation). |
 | `CHRONO_LLM_USE` | `True` | Allow AI help when assigning date ranges (Layer 6). |
-| `CHRONO_DATE_LLM_USE` | `False` | Let AI read dates straight from the text (off by default — more error-prone). |
+| `CHRONO_DATE_LLM_USE` | `False` | Let AI read dates straight from the text (off by default, since it is more error-prone). |
 | `POTTERY_ROMAN_ONLY` | `True` | Keep only finds that are undated or overlap the Roman period. |
-| `OCR_ENABLED` | `True` | Use OCR to read scanned / image-only PDFs (needs `GOOGLE_VISION_API_KEY`). |
+| `OCR_ENABLED` | `True` | Use OCR to read scanned / image-only PDFs. Needs `GOOGLE_VISION_API_KEY` in **every** mode, including `"rules-only"`. |
 
 ## API keys are not in here
 
-Keys are **not** set in `config.py` — they're read from your environment. See
+Keys are **not** set in `config.py`. They're read from your environment. See
 [api_keys.md](api_keys.md).
 
 ## Where to go deeper

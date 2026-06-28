@@ -1,4 +1,4 @@
-# Layer 4 — Normalization
+# Layer 4: Normalization
 
 **Module:** `src/normalization.py`
 
@@ -11,10 +11,10 @@ layers reason over a stable vocabulary.
 
 - Adopts the pattern's `canonical_hint` as the candidate's `term_canonical` (or `UNMAPPED` when there
   is no hint), and records the normalization method used.
-- Computes a **surface form** — lowercased, punctuation stripped, and common abbreviations unified
+- Computes a **surface form**: lowercased, with punctuation stripped and common abbreviations unified
   (e.g. `Dragendorff` / `Dr.` / `Drag.` all collapse to `drag`).
 
-## Input → output
+## Input and output
 
 - **In:** the candidate list from [Layer 3](layer_3.md).
 - **Out:** the same candidates, each annotated with `term_canonical`, a surface form, and the method.

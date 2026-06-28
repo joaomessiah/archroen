@@ -1,7 +1,7 @@
 # Validation set (accuracy-measurement corpus)
 
 The **20 reports** used to measure the workflow's accuracy, each with a hand-made **gold standard**.
-Because the correct answers are known, this set is where the workflow's output is scored — and where the
+Because the correct answers are known, this set is where the workflow's output is scored, and where the
 three modes (Rules-only / Claude / Llama) are compared.
 
 ## Files
@@ -11,22 +11,22 @@ three modes (Rules-only / Claude / Llama) are compared.
 | Report PDFs (20, frozen snapshot) | [validation_set/input_reports/](validation_set/input_reports/) |
 | Live report PDFs | [input_files/reports/workflow_evaluation_sample/](../../../input_files/reports/workflow_evaluation_sample/) |
 | Gold standards (20) | [input_files/gold_standards/workflow_evaluation_sample/](../../../input_files/gold_standards/workflow_evaluation_sample/) |
-| Outputs per mode (frozen) | [validation_set/outputs/](validation_set/outputs/) — `claude/`, `llama/`, `rules_only/` |
-| Scores per mode (frozen) | [validation_set/scores/](validation_set/scores/) — `<mode>/granular_summary.csv` + `granular_detail.csv` |
+| Outputs per mode (frozen) | [validation_set/outputs/](validation_set/outputs/): `claude/`, `llama/`, `rules_only/` |
+| Scores per mode (frozen) | [claude granular_summary.csv](validation_set/scores/claude/granular_summary.csv) ([detail](validation_set/scores/claude/granular_detail.csv)) · [llama granular_summary.csv](validation_set/scores/llama/granular_summary.csv) ([detail](validation_set/scores/llama/granular_detail.csv)) · [rules_only granular_summary.csv](validation_set/scores/rules_only/granular_summary.csv) ([detail](validation_set/scores/rules_only/granular_detail.csv)) |
 | Live output of a run | `output_files/reports/workflow_evaluation_sample/` (mirrors the shared input folder) |
 | Live scores of a run | `output_files/evaluation/<output-folder-name>/` |
 
 > **On the `_mode_<mode>` names.** The three modes share one input folder, so a pipeline run always
-> writes to `output_files/reports/workflow_evaluation_sample/`. To keep the three runs side by side,
-> each mode's output folder was renamed to `…_mode_<mode>` after its run, and the evaluation was pointed
-> at the renamed folder — which is why the frozen copies here carry the `_mode_<mode>` names.
+> writes to `output_files/reports/workflow_evaluation_sample/`. To keep the three runs side by side, each
+> mode's output folder was renamed to `…_mode_<mode>` after its run, and the evaluation was then pointed
+> at the renamed folder. That is why the frozen copies here carry the `_mode_<mode>` names.
 
-The 20 reports span four groups (`old_rep_1–5`, `table_1–5`, `ocr_1–5`, `new_rep_1–5`), mixing prose,
-finds-tables, and scanned/OCR'd reports so the workflow is tested across the formats real reports take.
+The 20 reports span four groups (`old_rep_1-5`, `table_1-5`, `ocr_1-5`, `new_rep_1-5`). They mix prose,
+finds-tables, and scanned/OCR'd reports, so the workflow is tested across the formats real reports take.
 
 ## Gold standard format
 
-Each gold standard is a hand-made CSV — one row per find a correct reading should yield — with these
+Each gold standard is a hand-made CSV, one row per find a correct reading should yield, with these
 columns:
 
 | Column | Meaning |
@@ -40,7 +40,7 @@ columns:
 | `Page` | The page it appears on |
 | `Reference_File_Name` | The source report |
 
-The Layer 8 harness pairs each gold row to a workflow row and scores them field-by-field — see
+The Layer 8 harness pairs each gold row to a workflow row and scores them field-by-field. See
 [../evaluation.md](../evaluation.md). The gold standards are intentionally conservative; see
 [../limitations.md](../limitations.md).
 

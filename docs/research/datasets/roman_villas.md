@@ -2,7 +2,7 @@
 
 The **30 Roman-villa excavation reports** that are the subject of the thesis. This is the *application*
 corpus: the reports the workflow was actually built to read and summarise. There are **no gold
-standards** for this set — it is the real-world task, not the accuracy-measurement set (for that, see
+standards** for this set; it is the real-world task, not the accuracy-measurement set (for that, see
 [validation_set.md](validation_set.md)).
 
 ## Files
@@ -19,6 +19,9 @@ Each output is one `<report>.csv` pottery summary; the columns are documented in
 
 > The frozen `outputs/` here are a **snapshot** of the thesis run. Re-running the workflow regenerates
 > the live versions under `output_files/`.
+
+Because there are no gold standards, **this set has no scores or evaluation**: the artifacts here are
+outputs only. The site locations of this corpus are shown on the villa maps at [../maps/](../maps/).
 
 ## Reproducing
 

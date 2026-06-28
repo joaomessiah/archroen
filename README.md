@@ -55,7 +55,7 @@ The workflow runs as a chain of **layers**, each doing one job and passing its r
 
 By default an AI model reads the whole report while the rules ground and check it; it can also run
 with **no AI at all** (Rules-only). Layers 1-7 produce the summary; Layer 8 is a separate research tool.
-Full detail: [architecture](docs/workflow/architecture.md) and the [layer specs](docs/workflow/specs/).
+Full detail: the [run modes](docs/design/workflow_modes.md), [architecture](docs/workflow/architecture.md), and the [layer specs](docs/workflow/specs/).
 
 ## Getting started
 

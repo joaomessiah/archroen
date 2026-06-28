@@ -1,4 +1,4 @@
-# Validation set — frozen reports, outputs & scores
+# Validation set: frozen reports, outputs & scores
 
 The **accuracy-measurement** corpus: 20 reports with hand-made gold standards, used to measure the
 workflow's accuracy in the thesis. This folder keeps **frozen copies** of the source reports and the

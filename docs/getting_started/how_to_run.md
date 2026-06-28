@@ -1,11 +1,13 @@
 # How to run the workflow
 
-This is the full guide to running the workflow: choosing a mode, running one report or a whole folder,
-where the results go, and how to score them against gold standards. If you just want a quick first
-result, start with [quickstart.md](quickstart.md).
+This is the full guide to running the workflow. It covers choosing a mode, running one report or a
+whole folder, where the results go, and how to score them against gold standards. If you just want a
+quick first result, start with [quickstart.md](quickstart.md).
 
-All commands are run from the project folder, in the terminal. If you're using an AI mode, first load
-your keys (see [api_keys.md](api_keys.md)):
+Run all commands from the project folder, in the terminal. If you're using an AI mode, your keys in
+`.env` are loaded automatically (`config.py` reads `.env` on its own), so this preamble is **optional**.
+Run it only if you want to load the keys into your terminal session yourself (see
+[api_keys.md](api_keys.md)):
 
 ```bash
 set -a && . ./.env && set +a
@@ -14,11 +16,11 @@ set -a && . ./.env && set +a
 ## 1. Choose a mode
 
 The workflow has one master switch, `WORKFLOW_MODE` in `config.py`, that decides whether and how it
-uses AI. Each mode is "pure" — there is no mixing between them.
+uses AI. Each mode is "pure": there is no mixing between them.
 
 | `WORKFLOW_MODE` | In this documentation | What it does | Key needed |
 |---|---|---|---|
-| `"rules-only"` | **Rules-only mode** | No AI at all — fully deterministic | none |
+| `"rules-only"` | **Rules-only mode** | No AI at all: fully deterministic | none |
 | `"claude"` | **Claude mode** | Everything via Claude (Anthropic) | `ANTHROPIC_API_KEY` |
 | `"cloud-llama"` | **Llama mode** | Everything via the cloud Llama-3.3-70B model (Together) | `LLM_API_KEY` |
 | `"local-llama"` | *(local Llama)* | Everything via a local model through [Ollama](https://ollama.com) | none (runs locally) |
@@ -40,8 +42,8 @@ This is the normal way to run. The workflow processes **every PDF** in the folde
 ```
 
 It writes one result CSV per report (see [where results go](#4-where-results-go)). `BATCH_WORKERS` in
-`config.py` controls how many reports run in parallel (default `2`; set `1` for slower runs with live
-per-report output). Every other `config.py` setting is explained flag-by-flag in
+`config.py` controls how many reports run in parallel. The default is `2`; set it to `1` for slower
+runs that show live per-report output. Every other `config.py` setting is explained flag-by-flag in
 [../reference/config_options.md](../reference/config_options.md).
 
 ### Running on your own reports
@@ -66,14 +68,14 @@ Useful for a quick test:
 
 ## 4. Where results go
 
-Each report produces **one CSV** — the pottery summary, the workflow's single deliverable:
+Each report produces **one CSV**, the pottery summary, which is the workflow's single deliverable:
 
 ```
 output_files/reports/<folder>/<report>.csv
 ```
 
 `<folder>` mirrors the input folder name, and `<report>` matches the PDF's filename (so
-`new_rep_1.pdf` → `new_rep_1.csv`). Batch runs also write a per-report log to
+`new_rep_1.pdf` becomes `new_rep_1.csv`). Batch runs also write a per-report log to
 `output_files/reports/<folder>/logs/<report>.log`. The columns of the CSV are documented in
 [../reference/output_schema.md](../reference/output_schema.md).
 
@@ -86,7 +88,9 @@ If a folder has matching **gold standards** (hand-checked answers) under
 .venv/bin/python3 evaluation/evaluate.py
 ```
 
-This reports detection precision/recall/F1, date accuracy, and site accuracy — per report and overall.
+This reports detection precision/recall/F1, date accuracy, and site accuracy, per report and overall.
+By default it scores the folder set in `config.py`; pass `--folder <name>` to score a different batch
+folder (it compares `output_files/reports/<folder>/` against `input_files/gold_standards/<folder>/`).
 For the research details and the thesis numbers, see [../research/evaluation.md](../research/evaluation.md)
 and [../research/results.md](../research/results.md).
 

@@ -1,11 +1,11 @@
-# Layer 5 — Context interpretation
+# Layer 5: Context interpretation
 
 **Module:** `src/interpretation.py`
 
 ## Purpose
 
-Decide *how the report refers to* each detected term — because a pottery name appearing in the text
-does not mean that pot was found at the site. This label gates whether the term gets a date in
+Decide *how the report refers to* each detected term. A pottery name appearing in the text does not
+mean that pot was found at the site. This label gates whether the term gets a date in
 [Layer 6](layer_6.md).
 
 ## The labels
@@ -28,7 +28,7 @@ Each candidate is classified as one of:
 2. **AI fallback for low-confidence cases.** Where the rules aren't confident, an AI step makes the
    call. This fallback runs only in the AI modes.
 
-## Input → output
+## Input and output
 
 - **In:** normalized candidates from [Layer 4](layer_4.md).
 - **Out:** the same candidates, each with a `context_label` and a `context_confidence`.
@@ -38,6 +38,7 @@ Each candidate is classified as one of:
 | Setting | Role |
 |---|---|
 | `LLM_USE` (via `WORKFLOW_MODE`) | Gates the AI fallback. In **Rules-only mode** only the deterministic cue rules run. |
+| `CHRONO_LLM_USE` | Gates the LLM context-interpretation fallback specifically (default `True`; forced off in **Rules-only mode**). |
 
 ## Notes
 

@@ -7,14 +7,14 @@ mechanics are in [evaluation.md](evaluation.md).
 ## The research question
 
 Can an automated workflow read archaeological excavation reports and produce an accurate, usable table
-of dated pottery finds — and how much does using an AI model help, compared with rules alone?
+of dated pottery finds, and how much does using an AI model help, compared with rules alone?
 
 ## Two corpora, two purposes
 
 The thesis uses two distinct sets of reports (see [datasets/](datasets/)):
 
-- **The validation set** (20 reports, with hand-made gold standards) — used to **measure accuracy**.
-- **The Roman-villa set** (30 reports, no gold standards) — the **real-world application**: running the
+- **The validation set** (20 reports, with hand-made gold standards), used to **measure accuracy**.
+- **The Roman-villa set** (30 reports, no gold standards): the **real-world application**, running the
   workflow on the actual reports the thesis is about.
 
 Keeping them separate matters: accuracy is measured on the set with ground truth, while the villa set
@@ -23,22 +23,28 @@ demonstrates the workflow doing the job it was built for.
 ## Comparing modes
 
 To isolate the contribution of the AI model, the workflow was run on the validation set in three
-"pure" [modes](../design/workflow_modes.md) — **Rules-only mode**, **Claude mode**, and **Llama mode** —
-with no mixing within a run. This makes each result attributable to exactly one approach:
+"pure" [modes](../design/workflow_modes.md): **Rules-only mode**, **Claude mode**, and **Llama mode**.
+No mixing was allowed within a run, so each result is attributable to exactly one approach:
 
 - **Rules-only** is the deterministic baseline (what rules alone achieve).
 - **Claude** and **Llama** show what frontier and open cloud models add on top.
 
+Each mode is selected by `WORKFLOW_MODE` in `config.py`, whose literal values are `claude`,
+`cloud-llama`, and `rules-only`.
+
 ## How accuracy is measured
 
 Each workflow output is scored against its gold standard by the **Layer 8** harness
-([../workflow/specs/layer_8.md](../workflow/specs/layer_8.md)). The methodology is deliberately explicit
-so it is defensible:
+([../workflow/specs/layer_8.md](../workflow/specs/layer_8.md)), implemented in `evaluation/evaluate.py`
+(report-level detection scores) and `evaluation/evaluate_granular.py` (the per-field audit). The
+methodology is deliberately explicit so it is defensible:
 
 1. **One-to-one matching.** Each gold find is paired to at most one workflow row, in a stated priority
    order (typology code → exact/catalogue name → ware family → alias-normalised token overlap). The
-   ware-family step credits archaeologically equivalent answers across different granularity and
-   language (e.g. gold "Amphorae" ↔ workflow "Dressel 20").
+   last-resort token-overlap step accepts a pair when the Jaccard overlap of their tokens is at least
+   **0.34** (or one token set is contained in the other). The ware-family step credits answers that are
+   archaeologically equivalent even when they differ in granularity or language (e.g. gold "Amphorae" ↔
+   workflow "Dressel 20").
 2. **Field-by-field verdicts.** For each matched pair, every field (site, pottery, typology, start
    date, end date) is judged `exact`, `acceptable`, or `incorrect`. Findings with no match are recorded
    as `missing` (in the gold but not produced) or `overclaim` (produced but not in the gold).
@@ -50,10 +56,10 @@ the details of each find correct?).
 
 ## Why this is defensible
 
-- The **matching rules are stated, not hidden** — anyone can see why two finds were considered the same.
-- **"Acceptable" is defined narrowly** — a date is only tolerated within a margin when the gold find has
-  no typology; if it has a typology, the date must be exact (the typology is authoritative).
+- The **matching rules are stated, not hidden**: anyone can see why two finds were considered the same.
+- **"Acceptable" is defined narrowly**: a date is tolerated within a margin only when the gold find has
+  no typology. If it has a typology, the date must be exact, because the typology is authoritative.
 - The **gold standards are conservative** (see [limitations.md](limitations.md)), so reported recall is
   a floor, not an inflated figure.
-- Every run is **reproducible from the shipped inputs** — the reports and gold standards are in the
+- Every run is **reproducible from the shipped inputs**: the reports and gold standards are in the
   repository, and the exact outputs scored are frozen under [datasets/](datasets/).

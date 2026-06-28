@@ -1,6 +1,6 @@
 # Reference
 
-Look-up material — the details you check rather than read end to end: every setting, every data
+Look-up material: the details you check rather than read end to end. Every setting, every data
 file, every output column, and the project's vocabulary.
 
 | File | What it covers |
