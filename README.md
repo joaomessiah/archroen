@@ -97,7 +97,8 @@ Everything is in **[docs/](docs/)**. Pick by what you want to do:
 │   └── research/          # study write-ups (methodology, evaluation, results, limitations)
 │       ├── datasets/      # the corpora used, with their per-report outputs and scores
 │       ├── maps/          # the map figures used in the study
-│       └── charts/        # the chart figures used in the study
+│       ├── charts/        # the chart figures used in the study
+│       └── claude_variance/  # repeatability check on the Claude result across repeated runs
 ├── evaluation/            # evaluates the workflow output against the gold standards
 ├── input_files/           # everything fed into the workflow
 │   ├── reports/           # the source report PDFs, grouped into batch folders
