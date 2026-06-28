@@ -23,7 +23,7 @@ VOCAB_DIR = DATA_DIR / "vocabularies"         # source vocabularies (CSV) + refe
 # Batch input: the workflow processes EVERY PDF in this folder (a sub-folder of input_files/reports/)
 # and writes one <report>.csv per report to output_files/reports/<folder>/.
 DEFAULT_REPORTS_DIR = BASE_DIR / "input_files" / "reports" / "workflow_evaluation_sample"
-BATCH_WORKERS = 2    # reports processed in parallel (1 = sequential with live console output)
+BATCH_WORKERS = 4    # reports processed in parallel (1 = sequential with live console output)
 # Single-report path (used by `main(pdf_path)` for one-off dev runs; the batch above is the default).
 DEFAULT_PDF_PATH = BASE_DIR / "test_sandbox" / "reports" / "test_sentences_en.pdf"
 
@@ -51,6 +51,7 @@ try:
     load_dotenv(BASE_DIR / ".env")
 except ImportError:
     pass
+
 # Keys are read from the environment / .env. Never commit real keys (config.py is git-tracked; the
 # .env is gitignored). STRIP any literal fallbacks and ROTATE the keys before this repo goes public.
 GOOGLE_VISION_API_KEY = os.environ.get("GOOGLE_VISION_API_KEY", "")     # OCR (Google Cloud Vision)
