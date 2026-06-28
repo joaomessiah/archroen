@@ -1,0 +1,21 @@
+report,type,pottery,typology,start,end,n_runs,runs_present,verdict_TODO,paired_with_TODO
+new_rep_2,MISSING,Terra sigillata,Dragendorff 27g,60,90,4,"1,3,4,5",real_miss,
+new_rep_2,OVERCLAIM,Terra sigillata decorated bowl,Dragendorff 37,70,300,1,2,real_extra,
+new_rep_4,OVERCLAIM,Terra sigillata,,101,500,3,"1,3,4",real_extra,
+new_rep_4,OVERCLAIM,Terra sigillata,,,,2,"2,5",real_extra,
+old_rep_1,MISSING,Roman ware,,-12,450,5,"1,2,3,4,5",match,Pottery / Romani ware
+old_rep_1,OVERCLAIM,Pottery,,-12,450,4,"1,2,3,4",match,Roman ware
+old_rep_1,OVERCLAIM,Romani ware,,-12,450,1,5,match,Roman ware
+old_rep_2,MISSING,Pottery,,1,50,1,2,real_miss,
+old_rep_2,MISSING,Terra sigillata,,-27,20,4,"1,3,4,5",real_miss,
+old_rep_3,MISSING,Handmade pottery,,270,400,3,"2,3,5",match,Bowl (undated) / Handmade ware bowl
+old_rep_3,MISSING,Terra sigillata ,,350,420,2,"1,5",match,Bowl (301..400)
+old_rep_3,MISSING,Terra sigillata ,Hübener Group 3,340,370,5,"1,2,3,4,5",real_miss,
+old_rep_3,OVERCLAIM,Bowl,,301,400,2,"1,5",match,Terra sigillata (350..420)
+old_rep_3,OVERCLAIM,Bowl,,,,2,"2,3",match,Handmade pottery
+old_rep_3,OVERCLAIM,Handmade ware bowl,,301,400,1,5,match,Handmade pottery
+table_4,MISSING,Pot,,-20,-10,5,"1,2,3,4,5",real_miss,
+table_4,MISSING,Spanish fish sauce amphora,Dressel 7-11,-20,90,4,"1,2,3,5",real_miss,
+table_5,MISSING,Indeterminate,,1,300,5,"1,2,3,4,5",match,Cork urn
+table_5,OVERCLAIM,Cork urn,,,,5,"1,2,3,4,5",match,Indeterminate
+table_5,OVERCLAIM,Terra nigra beaker,,201,400,1,4,real_extra,
