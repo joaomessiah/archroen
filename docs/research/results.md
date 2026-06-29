@@ -58,5 +58,5 @@ run the workflow in that mode on the validation set and then the evaluation harn
 [datasets/validation_set.md](datasets/validation_set.md). The frozen
 [scores/](datasets/validation_set/scores/) let you compare a fresh run against these figures.
 
-> These figures should be read together with [limitations.md](limitations.md): the gold standards are
-> deliberately conservative, so the AI modes' recall is, if anything, understated.
+> These figures should be read together with [limitations.md](limitations.md): some finds are open to
+> interpretation, so the exact numbers carry a small margin of annotator judgment.

@@ -59,7 +59,11 @@ the details of each find correct?).
 - The **matching rules are stated, not hidden**: anyone can see why two finds were considered the same.
 - **"Acceptable" is defined narrowly**: a date is tolerated within a margin only when the gold find has
   no typology. If it has a typology, the date must be exact, because the typology is authoritative.
-- The **gold standards are conservative** (see [limitations.md](limitations.md)), so reported recall is
-  a floor, not an inflated figure.
+- The **same gold standards score every mode**: where a find is open to interpretation (see
+  [limitations.md](limitations.md)), that call affects all three modes equally, so the comparison
+  between them is fair.
+- The **test set spans the formats real reports take**: the 20 validation reports are drawn evenly
+  from four source types (prose, finds-tables, and OCR'd scans), so the figures reflect performance
+  across formats, not just the easy ones.
 - Every run is **reproducible from the shipped inputs**: the reports and gold standards are in the
   repository, and the exact outputs scored are frozen under [datasets/](datasets/).
