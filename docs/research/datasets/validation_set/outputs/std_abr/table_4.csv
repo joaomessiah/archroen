@@ -1,0 +1,79 @@
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text,std_vocabulary,std_ware_code,std_ware_label,std_form_code,std_form_label,std_combined_code,std_combined_label
+table_4,Nijmegen,1,pottery,Oberaden 83,Oberaden 83,pottery,2,-11,-7,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Oberaden 83 olive oil 2,ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.OB83,"amfoor, dikwandig aardewerk - Oberaden 83"
+table_4,Nijmegen,1,Amphora,,globular,Amphora,8,-20,-10,claude_text,present,7,Described as globular amphora for olive oil in the table.,9,Listed in finds table from the youngest Augustan fortress.,8,date read from the passage,8,globular olive oil 8,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Baetica defrutum amphora,Haltern 70,Haltern 70,Baetica defrutum amphora,1,-50,100,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,"Haltern 70 sapa, defrutum or olives conserved in those products 1",ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.HAL70,"amfoor, dikwandig aardewerk - Haltern 70"
+table_4,Nijmegen,1,Amphora,,cylindrical,Amphora,4,-20,-10,claude_text,present,7,Described as cylindrical amphora for olive oil in the table.,9,Listed in finds table from the youngest Augustan fortress.,8,date read from the passage,8,cylindrical olive oil 4,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Spanish fish sauce amphora,Dressel 7,Dressel 7,Spanish fish sauce amphora,4,-30,60,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Dressel 7 fish sauce 4,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11 (fig. 2.18),Spanish fish sauce amphora,15,-20,90,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Dressel 7-11 (fig. 2.18) fish sauce 15,ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.DRES7/11,"amfoor, dikwandig aardewerk - Dressel 7-11"
+table_4,Nijmegen,1,Spanish fish sauce amphora,Dressel 12,Dressel 12,Spanish fish sauce amphora,1,-20,80,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Dressel 12 fish sauce 1,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Tarraconensian wine amphora,Pascual 1,Pascual 1,Tarraconensian wine amphora,4,-100,-20,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Pascual 1 wine 4,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Italian wine amphora,Dressel 1B,Dressel 1B,Italian wine amphora,1,-130,-10,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Dressel 1B wine 1,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Adriatic wine amphora,Lamboglia 2/Dressel 6A,Lamboglia 2/Dressel 6A (fig. 2.17),Adriatic wine amphora,4,-130,70,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Lamboglia 2/Dressel 6A (fig. 2.17) (cf. Lindhagen 2009; Carre et al. 2014) wine 4,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Italian/Spanish wine amphora,Dressel 2-5,Dressel 2-5,Italian/Spanish wine amphora,7,-30,250,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Dressel 2-5 wine 7,ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.DRES2/5,"amfoor, dikwandig aardewerk - Dressel 2-5"
+table_4,Nijmegen,1,Coarse ware vessel,Camulodunum 184,Camulodunum 184,Coarse ware vessel,6,43,250,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Camulodunum 184 wine 6,ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.CAM184,"amfoor, dikwandig aardewerk - Camulodunum 184"
+table_4,Nijmegen,1,Knidian wine amphora,Pompeii 38,Pompeii 38,Knidian wine amphora,1,-50,100,claude+typology,present,9,Typology code explicitly stated in table.,9,Listed in finds table from the youngest Augustan fortress.,9,dated from typology code (only as certain as the identification),9,Pompeii 38 wine 1,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Amphora,,unknown,Amphora,1,-20,-10,claude_text,present,5,"Type unknown, listed as amphora from Lyon in the table.",9,Listed in finds table from the youngest Augustan fortress.,8,date read from the passage,7,Gaul Lyon unknown wine 1,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,Amphora,,unknown,Amphora,1,-20,-10,claude_text,present,5,"Type unknown, listed as amphora from Languedoc/Marseille in the table.",9,Listed in finds table from the youngest Augustan fortress.,8,date read from the passage,7,Languedoc/Marseille unknown wine 1,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,jug,Stuart 103/Oberaden 43,Flagon Stuart 103/Oberaden 43,jug,,70,250,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly described as found and best represented among flagons.,9,dated from typology code (only as certain as the identification),9,Flagon Stuart 103/ Oberaden 43 (fig. 2.13) is the best represented.,,,,MKKRUIK,kruik,,
+table_4,Nijmegen,1,jug,Stuart 133/Oberaden 52,flagons Stuart 133/Oberaden 52,jug,,70,250,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly described as common among finds.,9,dated from typology code (only as certain as the identification),9,flagons Stuart 133/Oberaden 52 (fig. 2.14),,,,MKKRUIK,kruik,,
+table_4,Nijmegen,1,Smooth-walled jug,Stuart 131/Oberaden 48-49,Stuart 131/Oberaden 48-49,Smooth-walled jug,,120,300,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly described as common among finds.,9,dated from typology code (only as certain as the identification),9,Stuart 131/ Oberaden 48-49 (fig. 2.15),,,,KAN,kan,,
+table_4,Nijmegen,1,Smooth-walled honey pot,Stuart 146,'honey pots' Stuart 146,Smooth-walled honey pot,,100,300,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly described as common among finds.,9,dated from typology code (only as certain as the identification),9,the so-called 'honey pots' Stuart 146 were also common,ABR,GLD,gladwandig Romeins aardewerk,POT,pot,GLDPOT,gladwandig Romeins aardewerk:pot
+table_4,Nijmegen,1,pottery,Oberaden 21,Oberaden 21 plates in Pompeian red ware,pottery,,-11,-7,claude+typology,present,9,Name and typology explicitly stated in the text.,9,"Explicitly described as found, though rare.",9,dated from typology code (only as certain as the identification),9,"Rare are the Oberaden 21 plates in Pompeian red ware (Niemeijer 2017, 17), which were used to bake or heat food in an oven.",,,,POT,pot,,
+table_4,Nijmegen,1,Amphora,Haltern 59,mortaria with vertical rim Haltern 59,Amphora,,-15,25,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly stated as found.,9,dated from typology code (only as certain as the identification),9,sherds of mortaria with vertical rim Haltern 59 (fig. 5.10). produced in Lyon and nearby Saint-Romain-en-Gal have been found,ABR,AMFOOR,amfoor aardewerk,AMFOOR.VERZ,amfoor,AMFOOR.AMFOOR,amfoor aardewerk:amfoor
+table_4,Nijmegen,1,pottery,Stuart 147,large handmade dolia Stuart 147,pottery,,70,250,claude+typology,present,9,Name and typology explicitly stated in the text.,9,Explicitly stated as found.,9,dated from typology code (only as certain as the identification),9,several fragments of large handmade dolia Stuart 147 with a wheelthrown rim with a black coating. (fig. 5.11) have been found.,,,,POT,pot,,
+table_4,Nijmegen,1,Dolium,,dolia with a small twisted Wulstrand,Dolium,,-20,-10,claude_text,present,9,Vessel type explicitly named in the text.,9,Explicitly stated as found.,8,date read from the passage,9,"several sherds of dolia with a small twisted Wulstrand were found (fig. 2.19-20), which can be specifically dated to this early period.",ABR,DOLIUM,dolium aardewerk,DOLIUM,dolium,DOLIUM.DOLIUM,dolium aardewerk:dolium
+table_4,Nijmegen,1,Terra sigillata,,terra sigillata,Terra sigillata,,-20,-10,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly mentioned as part of the tableware assemblage found.,8,date read from the passage,6,"Among the tableware, the low proportion of terra sigillata is striking",ABR,TS,terra sigillata,,,,
+table_4,Nijmegen,1,Beaker,,fine ware beakers,Beaker,,-20,-10,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly described as dominating the tableware assemblage.,8,date read from the passage,6,the tableware is strongly dominated by the fine ware beakers,,,,BEKER,beker,,
+table_4,Nijmegen,1,Cooking pot,,cooking pots,Cooking pot,,-20,-10,claude_text,present,0,"general mention that pottery occurs at the site, not a discrete object",9,Explicitly described as found among the assemblage.,8,date read from the passage,6,"The small wheelthrown vessels (cf. figs 2.11, 3.1-6, 5.12-14) are often called cooking pots.",,,,POT,pot,,
+table_4,Nijmegen,1,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11,Spanish fish sauce amphora,,-20,90,rules+claude_confirmed,present,8,rule candidate; name from typology code,8,rule candidate confirmed present by claude (5c),8,dated from typology code (only as certain as the identification),8,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia Minor)
+Rhodes (Asia Minor)
+Knidos
+Gaul
+Lyon
+Languedoc/Marseille
+total N
+Type
+Oberaden 83
+globular
+Haltern 70
+Content
+MaxNI
+olive oil
+2
+olive oil
+8
+sapa, defrutum or olives
+conserved in those products
+1
+cylindrical
+Dressel 7-11
+olive oil
+4
+fish sauce
+2
+Dressel 7
+fish sauce
+4
+Dressel 7-11 (fig. 2.18)
+fish sauce
+15
+Dressel 12
+fish sauce
+1
+Pascual 1
+wine
+4
+Dressel 1B
+wine
+1
+Lamboglia 2/Dressel 6A (fig. 2.17) (cf.",ABR,AMFOOR,amfoor aardewerk,PUNTAMF,puntamfoor,AMFOOR.DRES7/11,"amfoor, dikwandig aardewerk - Dressel 7-11"
