@@ -1,8 +1,8 @@
-report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text
-12748,Heythuysen,1,Urn,,dubbclkonischc gladwandigc urn,Urn,1,,,claude,present,9,Explicitly described as a double-conical smooth-walled urn.,10,Explicitly stated as found near the farm Budschop.,0,no date stated,6,werd nabij de boerderij Budschop een urn gevonden. Deze dubbclkonischc gladwandigc urn dient nog gerekend te worden tot de inventaris van het urnenveld
+report_id,site_name,page,pottery,typology,term_found,term_found_normalized_en,quantity,start_date,end_date,date_method,context_label,pot_name_certainty_level,pot_name_llm_reasoning,pot_presence_certainty_level,pot_presence_llm_reasoning,dates_certainty_level,date_llm_reasoning,overall_certainty_level,original_text,std_vocabulary,std_ware_code,std_ware_label,std_form_code,std_form_label,std_combined_code,std_combined_label
+12748,Heythuysen,1,Urn,,dubbclkonischc gladwandigc urn,Urn,1,,,claude,present,9,Explicitly described as a double-conical smooth-walled urn.,10,Explicitly stated as found near the farm Budschop.,0,no date stated,6,werd nabij de boerderij Budschop een urn gevonden. Deze dubbclkonischc gladwandigc urn dient nog gerekend te worden tot de inventaris van het urnenveld,ABR,GLD,gladwandig Romeins aardewerk,,,,
 12748,Heythuysen,1,Indigenous pottery,,Indigenous pottery,Indigenous pottery,,,,rules+claude_confirmed,present,6,rule candidate; name from ware match,8,rule candidate confirmed present by claude (5c),0,no date stated,5,"Voor
 liet overige werden in dit terrein scherven
 aangetroflcn van inheems aardewerk, o.a. in
 een put, gevormd van
 zoden, welke op een
-wagcnwiel waren opgestapeld."
+wagcnwiel waren opgestapeld.",,,,,,,
