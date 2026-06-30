@@ -70,22 +70,23 @@ def load_graph() -> rdflib.Graph:
     return g
 
 
+# rdflib iterates multi-valued properties in an unstable order, so every "take one value" below
+# sorts first: the build is then byte-reproducible (the chosen label/category/notation never depends
+# on iteration order). Nodes normally carry a single value here; sorting only fixes the rare node
+# that carries several.
 def pref_label(g, s):
-    for o in g.objects(s, SKOS.prefLabel):
-        return str(o)
-    return ""
+    labels = sorted(str(o) for o in g.objects(s, SKOS.prefLabel))
+    return labels[0] if labels else ""
 
 
 def notation(g, s):
-    for o in g.objects(s, SKOS.notation):
-        return str(o)
-    return ""
+    vals = sorted(str(o) for o in g.objects(s, SKOS.notation))
+    return vals[0] if vals else ""
 
 
 def ceramic_category(g, s):
-    for o in g.objects(s, RNCE.hasCeramicCategoryAbr):
-        return o
-    return None
+    cats = sorted(g.objects(s, RNCE.hasCeramicCategoryAbr), key=str)
+    return cats[0] if cats else None
 
 
 def is_definitief(g, s):
@@ -97,12 +98,10 @@ def form_of(g, s):
     cur, seen = s, set()
     while cur is not None and cur not in seen:
         seen.add(cur)
-        nxt = None
-        for o in g.objects(cur, SKOS.broader):
-            nxt = o
-            break
-        if nxt is None:
+        broaders = sorted(g.objects(cur, SKOS.broader), key=str)
+        if not broaders:
             return None
+        nxt = broaders[0]
         if ceramic_category(g, nxt) is None:
             return nxt
         cur = nxt
@@ -144,14 +143,16 @@ def build_rows(g):
     Generic open-vessel "bak"/"vaatwerk" forms are refined to the specific shape (kom/bord/kop) the
     combiterm's own label names.
     """
+    # iterate subjects in a stable (sorted) order so the build is reproducible
+    subjects = sorted(g.subjects(RDF.type, RNCE.ArtefactAbr), key=str)
     ceramic = [
-        s for s in g.subjects(RDF.type, RNCE.ArtefactAbr)
+        s for s in subjects
         if ceramic_category(g, s) is not None and is_definitief(g, s)
     ]
     # index every category-less form node by its plain label, so a generic-BAK combiterm can be
     # refined to the specific open shape (kom/bord/kop) its own label names.
     form_by_label = {}
-    for s in g.subjects(RDF.type, RNCE.ArtefactAbr):
+    for s in subjects:
         if ceramic_category(g, s) is None:
             l = pref_label(g, s).lower().strip()
             if l:
