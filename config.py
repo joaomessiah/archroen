@@ -41,6 +41,15 @@ POTTERY_CSV_REF_PATH = VOCAB_DIR / "pottery_vocab_normalized.csv"
 # mirrors the input batch folder. (Legacy results.json/csv/review sidecars are no longer written.)
 OUTPUT_REPORTS_DIR = BASE_DIR / "output_files" / "reports"
 
+# --- Standard-vocabulary mapping (Layer 7 tail) ---
+# When on, each find is mapped to a standard controlled vocabulary and the std_* columns
+# (ware/form/combiterm code+label) are appended to the summary CSV — interoperability only,
+# deterministic, mode-independent, and unscored by Layer 8. Maps live under
+# data/vocabularies/standards/<style>/ (see tools/build_abr_maps.py).
+# Only "abr" is implemented at the moment.
+STANDARD_VOCAB_USE = True
+STANDARD_VOCAB_STYLE = "abr"
+
 # ========================= Secrets / credentials =========================
 # Auto-load a .env file (if present) so the keys below are picked up WITHOUT manually sourcing it.
 # A real environment variable (e.g. an explicit `export`/`set -a && . ./.env`) takes precedence —
