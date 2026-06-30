@@ -18,6 +18,7 @@ import tempfile
 import time
 from pathlib import Path
 
+import config
 from config import (
     DEFAULT_PDF_PATH,
     DEFAULT_REPORTS_DIR,
@@ -181,6 +182,13 @@ def main(pdf_path: Path = DEFAULT_PDF_PATH) -> None:
                 shutil.copyfile(rule_tmp, output_csv)
     else:
         _write_pottery_summary(output_csv)
+
+    # Layer 7 tail: append standard-vocabulary (ABR) columns. Deterministic, mode-independent,
+    # runs on the final rows regardless of which path produced them; unscored by Layer 8.
+    if getattr(config, "STANDARD_VOCAB_USE", False):
+        from src.standard_vocab import enrich_csv
+        n_std = enrich_csv(output_csv, getattr(config, "STANDARD_VOCAB_STYLE", "abr"))
+        print(f"[std-vocab] mapped {n_std} find(s) to {getattr(config, 'STANDARD_VOCAB_STYLE', 'abr').upper()}")
     _stage("Export", t)
 
     total = time.time() - run_start
