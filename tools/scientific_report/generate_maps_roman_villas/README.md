@@ -11,10 +11,10 @@ It reads two CSVs of villa locations and renders two publication-ready maps of S
 | Map | File basename | Shows |
 |-----|---------------|-------|
 | 1 | `roman_villa_locations_map` | The **target** villas as a numbered map of South Limburg, with a toponym list and a Netherlands inset. |
-| 2 | `roman_villa_sites_in_south_limburg` | The **other** Roman villas as grey dots, with the target villas highlighted as numbered black markers, over the same area. |
+| 2 | `roman_villa_sites_in_south_limburg` | The **other** Roman villas as gray dots, with the target villas highlighted as numbered black markers, over the same area. |
 
 `--which` selects which map(s) to render: `thesis` (map 1 only), `all` (map 2 only), or `both`
-(the default). Map 1 can be drawn in colour with `--style color`; **map 2 is always grayscale**.
+(the default). Map 1 can be drawn in color with `--style color`; **map 2 is always grayscale**.
 
 The script is:
 
@@ -41,17 +41,17 @@ run the script with no arguments. Override any of them if needed:
 | Flag | Default | What it is |
 |------|---------|------------|
 | `--target` | `data/target_roman_villas.csv` | the target villas (numbered on both maps) |
-| `--others` | `data/other_roman_villas.csv` | the other Roman villas (grey dots on map 2) |
+| `--others` | `data/other_roman_villas.csv` | the other Roman villas (gray dots on map 2) |
 | `--boundaries` | `data/provinces_boundaries.geojson` | cached Dutch province boundaries |
 
 Both villa CSVs are read by the same loader. Only the coordinate columns are required; it accepts
-`X-coordinate`/`Y-coordinate` or the `_RD` suffixed variants (RD New metres). `SiteID`, `Name` and
-`Toponym` are optional (the others file has only IDs + coordinates, so its dots are unlabelled).
+`X-coordinate`/`Y-coordinate` or the `_RD` suffixed variants (RD New meters). `SiteID`, `Name` and
+`Toponym` are optional (the others file has only IDs + coordinates, so its dots are unlabeled).
 
 **About `other_roman_villas.csv`.** It holds **one row per `SiteID`**, each at its own recorded RD
 New coordinate (no centroiding, so the dot is plotted exactly where the CSV says). It may also list
 the target villas. Map 2 de-duplicates by `SiteID`, so a target is drawn only as a numbered
-analysed villa, never doubled as a grey dot. (`--all` is still accepted as an alias of `--others`.)
+analyzed villa, never doubled as a gray dot. (`--all` is still accepted as an alias of `--others`.)
 
 ## Output
 
@@ -133,7 +133,7 @@ or insert them into the thesis.
 # Save the maps elsewhere:
 ... generate_maps.py --output-dir my_maps
 
-# Use a colour palette for map 1 instead of grayscale:
+# Use a color palette for map 1 instead of grayscale:
 ... generate_maps.py --style color
 ```
 

@@ -22,7 +22,7 @@ output_files/reports/<folder>/<report>.csv
 This pottery summary is **the** output. Its columns are documented in
 [../reference/output_schema.md](../reference/output_schema.md).
 
-## How it's organised: layers
+## How it's organized: layers
 
 The workflow is a sequence of **layers**, each doing one well-defined job and passing its result to the
 next. This makes each step independently understandable and testable.
@@ -35,7 +35,7 @@ next. This makes each step independently understandable and testable.
 | 4 | **Normalization**: collapse each detected term to a canonical label |
 | 5 | **Context interpretation**: is the find *present*, *absent*, a *comparison*, *uncertain*, or *irrelevant*? |
 | 6 | **Chronology assignment**: attach a date range by a strict priority order |
-| 7 | **Output assembly, validation, deduplication, and consolidation**: build the per-find records and collapse repeats into the pottery summary |
+| 7 | **Output assembly, validation, deduplication, and consolidation**: build the per-find records and collapse repeats into the pottery summary, then append the ABR standard-vocabulary `std_*` columns |
 | 8 | **Evaluation**: score the summaries against hand-made gold standards (separate harness) |
 
 Layers 1-7 run inside `run_pipeline.py`. **Layer 8 (evaluation)** is a standalone harness used for the
@@ -46,7 +46,7 @@ flow and [specs/](specs/) for each layer in detail.
 
 The workflow is **LLM-led**. In its default and best-performing mode, a frontier model (Claude) reads
 the *whole report* and produces the find list directly. This whole-report read is the hybrid step in
-Layer 7. An earlier rules-only design did not generalise to the messiness of real grey literature, so
+Layer 7. An earlier rules-only design did not generalize to the messiness of real grey literature, so
 the language model became the primary reader.
 
 The deterministic rules remain essential, in a **supporting** role: they *ground and check* the model.

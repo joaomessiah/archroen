@@ -5,7 +5,7 @@ each layer does, see [../workflow/specs/](../workflow/specs/).
 
 ## 1. LLM-led, with deterministic grounding
 
-The workflow is **LLM-led**. An early rules-first build did not generalise to the variety of real grey
+The workflow is **LLM-led**. An early rules-first build did not generalize to the variety of real grey
 literature, so a frontier model reading the whole report became the primary approach (the **hybrid**
 extractor; see §8). The deterministic rules remain essential, but in a **supporting** role.
 
@@ -22,7 +22,7 @@ pipeline becomes a fully deterministic, free baseline. This is also the comparis
 
 Each layer does one well-defined job and hands a clear intermediate result to the next. **Why:** each
 step is independently understandable and testable, problems are easy to localise, and the same chain
-supports very different runs (deterministic vs AI-assisted) just by toggling per-layer behaviour.
+supports very different runs (deterministic vs AI-assisted) just by toggling per-layer behavior.
 
 ## 3. Vocabularies are the source of truth; patterns are generated
 
@@ -65,7 +65,7 @@ them.
 ## 8. The hybrid full-report extractor
 
 This is the **primary path in the AI modes**: rather than relying on the rule-based
-detect→interpret→date→summarise chain alone, a frontier model reads the **whole report** and returns the
+detect→interpret→date→summarize chain alone, a frontier model reads the **whole report** and returns the
 find list directly (`src/hybrid_extractor.py`, gated by `POTTERY_HYBRID_LLM_USE`). The rule pipeline
 still runs underneath, grounding and cross-checking the model's output.
 
@@ -91,3 +91,17 @@ run. **Why:** a thesis comparing approaches needs each run to be attributable to
 A "claude" run never quietly calls a Llama model, and "rules-only" calls no model at all. This makes the
 mode comparison ([../research/results.md](../research/results.md)) clean and defensible. The trade-offs
 of each mode are in [workflow_modes.md](workflow_modes.md).
+
+## 10. Standard-vocabulary interoperability (ABR)
+
+A deterministic tail step (`src/standard_vocab.py`) maps each find to a national standard, currently the
+Dutch **ABR** (Archeologisch Basisregister / Archis), appending the seven `std_*` columns. **Why:** a
+summary in the project's own English vocabulary is hard to reuse, whereas emitting the national codes
+lets the output drop into the Dutch heritage ecosystem without manual re-coding. The step is
+deterministic and mode-independent (no model), so the codes are identical in every run mode, and it is
+**unscored** (an interoperability layer, separate from the accuracy figures). The maps are built offline
+from a frozen ABR snapshot by `tools/build_abr_maps.py` (the only place rdflib is used); the runtime
+reads plain CSVs. The design is standard-agnostic (`STANDARD_VOCAB_STYLE`), with ABR the first standard
+implemented, and finds too generic to place are left blank rather than guessed. See
+[../workflow/specs/layer_7.md](../workflow/specs/layer_7.md) and
+[../reference/data_files.md](../reference/data_files.md).

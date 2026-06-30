@@ -21,6 +21,7 @@ after the live outputs are regenerated.
 | Validation report PDFs (live) | [input_files/reports/workflow_evaluation_sample/](../../../input_files/reports/workflow_evaluation_sample/) |
 | Validation gold standards | [input_files/gold_standards/workflow_evaluation_sample/](../../../input_files/gold_standards/workflow_evaluation_sample/) |
 | Validation outputs (frozen, per mode) | [validation_set/outputs/](validation_set/outputs/) (`<mode>/`, 20 CSVs each) |
+| Validation ABR demonstration (frozen) | [validation_set/outputs/std_abr/](validation_set/outputs/std_abr/) (20 CSVs: Claude output with the ABR `std_*` columns; a separate capability demo, not a scored mode) |
 | Validation scores (frozen, per mode) | [validation_set/scores/](validation_set/scores/) (`<mode>/`) |
 
 Scores exist **only for the validation set**; the Roman-villa set has no gold standards and therefore no

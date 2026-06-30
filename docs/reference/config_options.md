@@ -97,7 +97,7 @@ NON-serverless on Together (they need a paid dedicated endpoint); the cheap serv
 - `LLM_CONFIDENCE_THRESHOLD`: records below this go to LLM fallback.
 - `LLM_BATCH_SIZE`: Layer 5 batching, how many low-confidence records to classify per LLM call.
   `0` = auto per backend (Claude 30 / Llama-70B 20 / small 3B-8B 10 / Ollama 8); `1` = one call per
-  record (the old behaviour, for an A/B comparison); `N` = fixed batch size.
+  record (the old behavior, for an A/B comparison); `N` = fixed batch size.
 - `ANTHROPIC_MODEL`: the Claude model for the REST API path (default `claude-sonnet-4-6`).
   Roughly deterministic (temperature=0), about 3× cheaper, and roughly on par with opus on findings.
   This is the model used in **Claude mode** by default (the CLI path's `CLAUDE_CLI_MODEL` only applies
@@ -124,7 +124,7 @@ specific stages in the summary cascade), not config values.
 - `POTTERY_DATE_LLM_USE`: LLM typological date fallback (P4, last resort).
 - `POTTERY_LLM_DATE_OVERRIDE`: C2 (experimental, off), passage-grounded LLM date override.
   Forward-focused context fixes findings 2/3 but regresses finding 1, whose date precedes it in a
-  shared sentence. Resolving all of them would need a context bounded by the neighbouring finds; this
+  shared sentence. Resolving all of them would need a context bounded by the neighboring finds; this
   is not worth the complexity for now.
 - `POTTERY_DEDUP_LLM_USE`: LLM fallback for ambiguous prose-vs-table-reference dedup (deterministic
   markers run first).
@@ -138,10 +138,10 @@ specific stages in the summary cascade), not config values.
   level, with hyphenated names kept). Strictly additive: it only fills an all-blank report and never
   overrides an extracted site. It is immune to chunking because it works on focused input, not the
   whole report.
-- `POTTERY_REGNUM_UNION`: deterministic stabiliser for registration-numbered catalogues. It keys
-  reg#-bearing finds by their reg#, collapses duplicate LLM emissions, and recovers catalogue entries
-  the LLM dropped (from the rule layer), so the catalogue count == the distinct reg# set on every run.
-  It is a no-op for finds without a registration number (non-catalogue reports are unaffected).
+- `POTTERY_REGNUM_UNION`: deterministic stabilizer for registration-numbered catalogs. It keys
+  reg#-bearing finds by their reg#, collapses duplicate LLM emissions, and recovers catalog entries
+  the LLM dropped (from the rule layer), so the catalog count == the distinct reg# set on every run.
+  It is a no-op for finds without a registration number (non-catalog reports are unaffected).
 - `POTTERY_CAI_SITE_CODES`: deterministic site key for Flemish CAI inventory extracts. It overrides
   `site_name` with the standalone 6-digit inventory code heading each find block (the authoritative
   location id), rather than the toponym the model grabs from a "Bron:" citation. It is gated on a
@@ -202,6 +202,23 @@ apply `ROMAN_WINDOW` live in `src/periods.py` (logic), keeping `config.py` decla
   that mentions Roman, is always kept.
 - `ROMAN_MARKERS`: veto, any present means never flag as non-Roman.
 - `NONROMAN_PERIOD_MARKERS`: period names (multilingual) that mark a find as non-Roman when undated.
+
+## Standard-vocabulary mapping (Layer 7 tail)
+
+Maps each find to an external standard controlled vocabulary, appending the `std_*` columns to the
+summary CSV (see [output_schema.md](output_schema.md)). It is a deterministic, mode-independent
+standards layer: each find is mapped to the Dutch national ABR vocabulary, so the results are reusable
+alongside Archis and other national heritage data. It is separate from the scored evaluation (Layer 8
+scores the find list and dates, not these mappings).
+
+- `STANDARD_VOCAB_USE`: master toggle (default ON). When OFF, the `std_*` columns are not emitted and
+  the output is byte-identical to the pre-feature schema.
+- `STANDARD_VOCAB_STYLE`: which standard to use (default `"abr"`). Only `abr` (Dutch Archeologisch
+  Basisregister) is implemented; a new style is a drop-in folder under
+  `data/vocabularies/standards/<style>/`.
+
+The maps are plain CSVs (no `rdflib` at runtime); regenerate them from the frozen ABR snapshot with
+`tools/build_abr_maps.py`. See [data_files.md](data_files.md).
 
 ## rules-only enforcement
 

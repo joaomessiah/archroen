@@ -16,5 +16,5 @@ picture, then dive into any layer below.
 | [layer_4.md](layer_4.md) | 4. Normalization | `src/normalization.py` |
 | [layer_5.md](layer_5.md) | 5. Context interpretation | `src/interpretation.py` |
 | [layer_6.md](layer_6.md) | 6. Chronology assignment | `src/chronology.py`, `src/date_parser.py`, `src/periods.py` |
-| [layer_7.md](layer_7.md) | 7. Output assembly, validation, deduplication, and consolidation | `src/pottery_summary.py` (Layer 7 orchestrator), with helpers `src/output_builder.py`, `src/validator.py`, `src/site_norm.py`, `src/consolidation.py`, `src/hybrid_extractor.py` |
+| [layer_7.md](layer_7.md) | 7. Output assembly, validation, deduplication, and consolidation | `src/pottery_summary.py` (Layer 7 orchestrator), with helpers `src/output_builder.py`, `src/validator.py`, `src/site_norm.py`, `src/consolidation.py`, `src/hybrid_extractor.py`, `src/standard_vocab.py` |
 | [layer_8.md](layer_8.md) | 8. Evaluation (standalone harness, not part of `run_pipeline.py`) | `evaluation/evaluate.py`, `evaluation/evaluate_granular.py` |

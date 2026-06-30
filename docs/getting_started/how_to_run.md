@@ -79,6 +79,11 @@ output_files/reports/<folder>/<report>.csv
 `output_files/reports/<folder>/logs/<report>.log`. The columns of the CSV are documented in
 [../reference/output_schema.md](../reference/output_schema.md).
 
+By default each CSV also carries seven **ABR standard-vocabulary** columns (`std_*`) that map every find
+to the Dutch national standard (ABR/Archis), for interoperability with Archis. Toggle them with
+`STANDARD_VOCAB_USE`; the standard is selected by `STANDARD_VOCAB_STYLE` (only `abr` implemented so far).
+See [../reference/output_schema.md](../reference/output_schema.md).
+
 ## 5. Score the results against gold standards
 
 If a folder has matching **gold standards** (hand-checked answers) under

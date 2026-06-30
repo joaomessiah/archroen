@@ -15,14 +15,16 @@ three modes (Rules-only / Claude / Llama) are compared.
 | Scores per mode (frozen) | [claude granular_summary.csv](validation_set/scores/claude/granular_summary.csv) ([detail](validation_set/scores/claude/granular_detail.csv)) · [llama granular_summary.csv](validation_set/scores/llama/granular_summary.csv) ([detail](validation_set/scores/llama/granular_detail.csv)) · [rules_only granular_summary.csv](validation_set/scores/rules_only/granular_summary.csv) ([detail](validation_set/scores/rules_only/granular_detail.csv)) |
 | Live output of a run | `output_files/reports/workflow_evaluation_sample/` (mirrors the shared input folder) |
 | Live scores of a run | `output_files/evaluation/<output-folder-name>/` |
+| ABR demonstration (frozen) | [validation_set/outputs/std_abr/](validation_set/outputs/std_abr/): the Claude output mapped to the **ABR** (Dutch national standard) through the `std_*` columns, so it can feed straight into Archis. A separate capability demonstration, not a scored mode. |
 
 > **On the `_mode_<mode>` names.** The three modes share one input folder, so a pipeline run always
 > writes to `output_files/reports/workflow_evaluation_sample/`. To keep the three runs side by side, each
 > mode's output folder was renamed to `…_mode_<mode>` after its run, and the evaluation was then pointed
 > at the renamed folder. That is why the frozen copies here carry the `_mode_<mode>` names.
 
-The 20 reports span four groups (`old_rep_1-5`, `table_1-5`, `ocr_1-5`, `new_rep_1-5`). They mix prose,
-finds-tables, and scanned/OCR'd reports, so the workflow is tested across the formats real reports take.
+The 20 reports span four source-type buckets, five each (`new_rep_1-5`, `old_rep_1-5`, `ocr_1-5`,
+`table_1-5`): new reports and old reports (both running text/prose, modern and decades-old),
+finds-tables, and OCR'd scans, so the workflow is tested across the formats real reports take.
 
 ## Gold standard format
 

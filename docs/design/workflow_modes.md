@@ -21,7 +21,8 @@ local-Llama option exists for offline experimentation.
 ## What changes between modes
 
 In **every** mode, the deterministic backbone runs identically: regex detection, normalization, the
-typology/period date tables, and the string-based site resolution. What the mode changes is the set of
+typology/period date tables, the string-based site resolution, and the ABR standard-vocabulary mapping
+(so the `std_*` columns are the same in every mode). What the mode changes is the set of
 **AI-assisted fallbacks**: context interpretation (Layer 5), date reading (Layer 6), and the
 deduplication, consolidation, and hybrid full-report extraction (Layer 7). In **Rules-only mode** all of
 these fallbacks are switched off automatically, and the run is fully reproducible.
@@ -32,7 +33,7 @@ these fallbacks are switched off automatically, and the run is fully reproducibl
 |---|---|---|---|---|
 | **Cost** | free | paid API | paid API | free (your hardware) |
 | **Internet** | not needed | required | required | not needed |
-| **Reproducibility** | fully deterministic | low-temperature, not exact | low-temperature, not exact | low-temperature, not exact |
+| **Reproducibility** | fully deterministic | **near-deterministic** (≤0.6 percentage-point drift across reruns, measured) | low temperature, not measured | low temperature, not measured |
 | **Accuracy** | floor (rules only): 47.9% | highest in the thesis: 95.6% | mid: 77.3% | depends on local model |
 | **Setup** | none | an Anthropic key | a Together key | install Ollama + pull a model |
 
@@ -40,7 +41,7 @@ these fallbacks are switched off automatically, and the run is fully reproducibl
   with no key and no cost.
 - **Claude mode** gave the best results in the thesis.
 - **Llama mode** is the cloud open-model comparison point.
-- **local-Llama** prioritises running entirely offline and free over accuracy.
+- **local-Llama** prioritizes running entirely offline and free over accuracy.
 
 The **measured comparison** of these modes on the validation set is in
 [../research/results.md](../research/results.md).

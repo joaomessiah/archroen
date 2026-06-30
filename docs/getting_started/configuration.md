@@ -1,6 +1,6 @@
 # Configuration
 
-Everything that changes the workflow's behaviour lives in **`config.py`** at the top of the project.
+Everything that changes the workflow's behavior lives in **`config.py`** at the top of the project.
 To change a setting, edit that file. No other code needs to be touched. This page covers the settings
 you're most likely to change. `config.py` itself is grouped into sections and commented, if you want
 the full list.
@@ -34,6 +34,7 @@ fine-tuning and experiments:
 | `CHRONO_DATE_LLM_USE` | `False` | Let AI read dates straight from the text (off by default, since it is more error-prone). |
 | `POTTERY_ROMAN_ONLY` | `True` | Keep only finds that are undated or overlap the Roman period. |
 | `OCR_ENABLED` | `True` | Use OCR to read scanned / image-only PDFs. Needs `GOOGLE_VISION_API_KEY` in **every** mode, including `"rules-only"`. |
+| `STANDARD_VOCAB_USE` | `True` | Append the seven ABR standard-vocabulary `std_*` interoperability columns. Deterministic and unscored; set off to omit them. (`STANDARD_VOCAB_STYLE` picks the standard; only `"abr"` is implemented.) |
 
 ## API keys are not in here
 

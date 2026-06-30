@@ -18,11 +18,18 @@ end date). See [evaluation.md](evaluation.md) for the definitions.
 
 *Claude strongest, Llama mid, Rules-only the deterministic baseline.*
 
-The Claude figure is stable across repeated runs (within 0.6 percentage points over five identical
-runs); see [claude_variance/](claude_variance/).
+Run-to-run, the Claude figure is **stable**. This is a stability check, how little the output drifts
+when a run is repeated, not a bit-for-bit reproducibility test (LLM services vary slightly even at
+temperature 0). Across five identical runs it moves within 0.6 percentage points (SD 0.26 pp), so a
+single run is representative; see [claude_variance/](claude_variance/). Those runs average about 94.9%,
+a little under the 95.6% headline, but that difference is a **scoring-tool artifact, not a workflow
+difference**: the external scorer pairs finds by name, so a correctly-extracted find labeled
+differently from the gold can be counted as both `missing` and `overclaim`, and the reported run had
+more of these false mismatches manually reconciled than the variance runs did. The study measures
+drift, not the absolute level.
 
 **Claude mode is clearly the strongest**, Llama mode is a solid mid-point, and Rules-only is the
-deterministic baseline. The AI modes' main advantage is on the context-dependent judgements that rules
+deterministic baseline. The AI modes' main advantage is on the context-dependent judgments that rules
 alone can't make.
 
 ## Per field

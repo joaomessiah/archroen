@@ -30,12 +30,12 @@ Catches pottery mentions the pattern list misses:
 1. **Trigger words.** A list in English, Dutch, and Latin (`data/patterns/pottery_triggers.json`) flags
    candidate sentences. Each trigger has a *strength*: `strong` triggers fire on their own, while `weak`
    ones need supporting cues nearby.
-2. **Naming-convention patterns.** Common structured names are recognised directly: typology codes
+2. **Naming-convention patterns.** Common structured names are recognized directly: typology codes
    (`Drag. 37`, `Stuart 201`, `Dressel 20`, …) and `"… ware"` forms (`Samian ware`,
    `Gallo-Belgic ware`, …).
 3. **Optional AI fallback.** For flagged sentences the deterministic cues can't confirm, an AI step can
    decide whether a real pottery name is present (gated by `POTTERY_EXTRACT_LLM_USE`).
-4. **Figure catalogues.** Extracts figure plates of vessel drawings labelled only by find/catalogue
+4. **Figure catalogs.** Extracts figure plates of vessel drawings labeled only by find/catalog
    numbers, gated on a figure marker plus a vessel/pottery word in the caption.
 
 ## Input and output

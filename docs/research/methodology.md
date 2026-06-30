@@ -40,7 +40,7 @@ Each workflow output is scored against its gold standard by the **Layer 8** harn
 methodology is deliberately explicit so it is defensible:
 
 1. **One-to-one matching.** Each gold find is paired to at most one workflow row, in a stated priority
-   order (typology code → exact/catalogue name → ware family → alias-normalised token overlap). The
+   order (typology code → exact/catalog name → ware family → alias-normalized token overlap). The
    last-resort token-overlap step accepts a pair when the Jaccard overlap of their tokens is at least
    **0.34** (or one token set is contained in the other). The ware-family step credits answers that are
    archaeologically equivalent even when they differ in granularity or language (e.g. gold "Amphorae" ↔
@@ -54,6 +54,9 @@ methodology is deliberately explicit so it is defensible:
 This produces both **detection** quality (did it find the right finds?) and **per-field accuracy** (are
 the details of each find correct?).
 
+The output's ABR `std_*` standard-vocabulary columns are a deterministic interoperability layer and are
+not part of this scored set; see [../reference/output_schema.md](../reference/output_schema.md).
+
 ## Why this is defensible
 
 - The **matching rules are stated, not hidden**: anyone can see why two finds were considered the same.
@@ -63,7 +66,8 @@ the details of each find correct?).
   [limitations.md](limitations.md)), that call affects all three modes equally, so the comparison
   between them is fair.
 - The **test set spans the formats real reports take**: the 20 validation reports are drawn evenly
-  from four source types (prose, finds-tables, and OCR'd scans), so the figures reflect performance
-  across formats, not just the easy ones.
+  from four source-type buckets (five each): new reports and old reports (both running text/prose,
+  modern and decades-old), finds-tables, and OCR'd scans, so the figures reflect performance across
+  formats, not just the easy ones.
 - Every run is **reproducible from the shipped inputs**: the reports and gold standards are in the
   repository, and the exact outputs scored are frozen under [datasets/](datasets/).

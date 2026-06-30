@@ -20,7 +20,7 @@ The two corpora are the **validation set** (20 reports, scored against gold stan
 | [charts/](charts/) | The seven evaluation figures used in the thesis (PNGs). |
 | [maps/](maps/) | The Roman-villa location maps (PNGs). |
 | [datasets/](datasets/) | The two corpora, with frozen copies of their outputs and scores. |
-| [claude_variance/](claude_variance/) | Repeatability check: how much the Claude result varies across 5 identical runs (near-deterministic). |
+| [claude_variance/](claude_variance/) | Stability check: how much the Claude result drifts across 5 identical runs (near-deterministic). |
 
 The charts and maps are produced by the tools under
 [`tools/scientific_report/`](../../tools/scientific_report/).

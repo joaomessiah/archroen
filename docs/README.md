@@ -16,6 +16,7 @@ Pick the path that matches what you want to do.
 | **See the thesis research** (data, method, and results) | [research/](research/) |
 | **Look something up** (output columns, data files, terms) | [reference/](reference/) |
 | **Understand why it's built this way** | [design/](design/) |
+| **Reuse the output in the Dutch ABR/Archis standard** | [reference/output_schema.md](reference/output_schema.md) (the `std_*` columns) |
 
 ## New here? Read these in order
 
@@ -29,8 +30,8 @@ Pick the path that matches what you want to do.
 
 The workflow can run in different **modes**. **Rules-only mode** uses no AI at all and is completely
 free, a good way to try it first. **Claude mode** and **Llama mode** call a cloud AI
-model to improve the results and need an API key, while **local-Llama mode** (`local-llama`) runs a
-model locally through Ollama and needs no key. See
+model to improve the results and need an API key, while **local-Llama mode** (`local-llama`, not
+evaluated in the thesis) runs a model locally through Ollama and needs no key. See
 [getting_started/api_keys.md](getting_started/api_keys.md),
 [getting_started/configuration.md](getting_started/configuration.md), and
 [design/workflow_modes.md](design/workflow_modes.md).

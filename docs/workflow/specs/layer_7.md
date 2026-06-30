@@ -1,7 +1,7 @@
 # Layer 7: Output assembly, validation, deduplication, and consolidation
 
 **Modules:** `src/output_builder.py`, `src/validator.py`, `src/pottery_summary.py`, `src/site_norm.py`,
-`src/consolidation.py`, `src/hybrid_extractor.py`
+`src/consolidation.py`, `src/hybrid_extractor.py`, `src/standard_vocab.py`
 
 ## Purpose
 
@@ -50,7 +50,7 @@ conservative** (keep-when-unsure, so a duplicate survives rather than a real fin
 
 - Only groups containing a finds-**table** cell consolidate; pure-prose groups are left alone.
 - **Typed** finds (a specific code) never consolidate: repeats are distinct.
-- **Generic** wares ("Pottery" / "aardewerk") consolidate on AI judgement.
+- **Generic** wares ("Pottery" / "aardewerk") consolidate on AI judgment.
 - **Named** wares consolidate only when their own text carries an explicit recap marker (e.g. a
   "vondstnummer N" citation, "fig.", "zie", "dit type"); an AI-judged recap alone is not enough to drop
   a named ware.
@@ -61,7 +61,7 @@ Gated by `POTTERY_CONSOLIDATE_LLM_USE`.
 ### Hybrid full-report extraction (`hybrid_extractor.py`): the primary path in the AI modes
 
 The workflow is LLM-led. In the AI modes, rather than relying on the rule-based
-detect→interpret→date→summarise chain alone, an AI model reads the **whole report** and returns the find
+detect→interpret→date→summarize chain alone, an AI model reads the **whole report** and returns the find
 list directly. The rule pipeline still runs underneath to ground and cross-check it. (In Rules-only
 mode this step is off, and the rule-based summary is the output.) Two guardrails make it usable for
 research:
@@ -75,11 +75,32 @@ It is model-agnostic (Claude when an Anthropic key is set, otherwise the configu
 gated by `POTTERY_HYBRID_LLM_USE`. If the hybrid step fails (e.g. a rate-limit storm on a huge report),
 the pipeline falls back to the rule-based summary so the report still completes.
 
+### Standard-vocabulary mapping (`standard_vocab.py`)
+
+A deterministic tail step, run on the finished rows regardless of which path produced them (gated by
+`STANDARD_VOCAB_USE`, default on). It maps each find to a standard controlled vocabulary (currently
+the Dutch **ABR**, `STANDARD_VOCAB_STYLE = "abr"`) and appends seven columns: `std_vocabulary`,
+`std_ware_code`, `std_ware_label`, `std_form_code`, `std_form_label`, `std_combined_code`, and
+`std_combined_label` (ware, vessel form, and the combined ware+form+typology combiterm, each as an ABR
+code + label). `std_vocabulary` is set to `ABR` whenever any of the ware, form, or combined codes
+resolves.
+
+Resolution follows two paths: when ABR recognizes the find's typology, its ware, form, and combined
+term are read from the authoritative combiterm (preferring a region-agnostic term, else the region the
+text names, else the sole variant); otherwise the ware and form come from the find's typology (via the
+master vocab) or a multilingual text fallback, and the combined term is filled only when that ware+form
+pair matches an ABR combiterm. It reads plain CSV maps under `data/vocabularies/standards/<style>/`
+(never rdflib), leaves columns blank rather than guessing when a find or the maps don't resolve (the
+combined column stays blank whenever no combiterm matches), and is **unscored by Layer 8** (a
+standards-interoperability layer, separate from any accuracy figure). See
+[../../reference/data_files.md](../../reference/data_files.md).
+
 ## Output
 
 A single `output_files/reports/<folder>/<report>.csv`, the pottery summary, the one deliverable. Its
 columns (pottery name, typology, quantity, site, `start_date`/`end_date`, `date_method`, the per-aspect
-certainty levels, the AI reasoning fields, and the original text) are documented in
+certainty levels, the AI reasoning fields, the original text, and, by default, the trailing ABR
+`std_*` columns) are documented in
 [../../reference/output_schema.md](../../reference/output_schema.md).
 
 ## Reading the output
@@ -88,7 +109,7 @@ certainty levels, the AI reasoning fields, and the original text) are documented
   consolidation, and the Roman-period filter).
 - **Dates** come from the typology table and/or the find's context; `date_method` says which.
 - **Certainty columns** record how confident each aspect is (name, presence, dates, overall), and the
-  `*_llm_reasoning` columns explain the AI's judgement where one was used.
+  `*_llm_reasoning` columns explain the AI's judgment where one was used.
 - A blank date range usually means the find is genuine but **undated** in the report. It is kept under
   the Roman scope filter as undated.
 
@@ -103,5 +124,8 @@ certainty levels, the AI reasoning fields, and the original text) are documented
 | `POTTERY_CONSOLIDATE_LLM_USE` | `True`* | Find consolidation (coreference) |
 | `POTTERY_ROMAN_ONLY` | `True` | Keep only Roman-window / undated finds |
 | `POTTERY_CAI_SITE_CODES` | `True` | Use the 6-digit CAI inventory code as the site key for Flemish CAI extracts |
+| `STANDARD_VOCAB_USE` | `True` | Append the standard-vocabulary `std_*` columns (deterministic, all modes) |
+| `STANDARD_VOCAB_STYLE` | `"abr"` | Which standard to map to (only `abr` implemented) |
 
-\* AI-gated settings are forced off in **Rules-only mode**.
+\* AI-gated settings are forced off in **Rules-only mode**. The `STANDARD_VOCAB_*` settings are
+mode-independent (deterministic) and not affected by Rules-only mode.

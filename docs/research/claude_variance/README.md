@@ -58,6 +58,6 @@ reliably reflects its performance.
 
 *Note: these numbers are reconciled by hand. The separate scoring tool matches each find to the
 reference (gold standard) by name, so it sometimes cannot pair up a correctly extracted find that
-the workflow labelled differently but equivalently, counting it as both "missing" and "extra". This
+the workflow labeled differently but equivalently, counting it as both "missing" and "extra". This
 is a difficulty with the scoring tool rather than a workflow error, and it is what the manual
 reconciliation corrects.*

@@ -1,7 +1,7 @@
 # South Limburg villas: thesis corpus (input PDFs)
 
 This folder holds the **30 Roman-villa excavation reports** that are the *application* corpus of the
-thesis: the reports the workflow was actually used to read and summarise.
+thesis: the reports the workflow was actually used to read and summarize.
 
 - **These files:** the 30 source report PDFs.
 - **Results (generated):** `output_files/reports/south_limburg_villas/`, one `<report>.csv` per PDF.

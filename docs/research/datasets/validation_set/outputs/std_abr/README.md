@@ -27,7 +27,7 @@ national standard's vocabulary, ready for use in the Archis ecosystem without ma
 The mapping is a deterministic, mode-independent step: the same input row always yields the same
 codes, in any run mode. Two paths produce the values:
 
-- When a find's typology is one that ABR recognises, its ware, form, and combined term are read from
+- When a find's typology is one that ABR recognizes, its ware, form, and combined term are read from
   ABR's own definition of that typology (the authoritative combiterm), so they are fixed by the
   standard rather than inferred.
 - Otherwise, the ware and form are resolved from the find's typology and terms via a controlled

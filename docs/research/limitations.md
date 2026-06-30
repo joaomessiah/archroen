@@ -15,9 +15,11 @@ to the last find.
 
 In Claude mode and Llama mode the AI-assisted steps are near-deterministic: they are not bit-for-bit
 reproducible, so exact numbers can shift slightly on re-run, but the drift is tiny. For Claude mode it
-was measured directly: across five identical runs, field-level correctness stayed within 0.6 percentage
-points, so a single run is representative (see [claude_variance/](claude_variance/)). The reported
-AI-mode figures come from one run per mode. **Rules-only mode is fully deterministic**; use it when you need byte-for-byte
+was measured directly: across five identical runs, field-level correctness drifted by at most 0.6
+percentage points, so a single run is representative (see [claude_variance/](claude_variance/)).
+The 95.6% Claude headline comes from a run whose scorer name-matching mismatches were more fully
+reconciled than the variance set's (a scoring-tool correction, not a workflow difference), which is why
+it sits just above their 0.6 pp band; see [results.md](results.md). **Rules-only mode is fully deterministic**; use it when you need byte-for-byte
 reproducibility. The rule-based backbone (detection, normalization, typology/period date tables, site
 normalization) is deterministic in every mode.
 
@@ -32,13 +34,13 @@ the produced summaries.
 The rule-based detection is bounded by `data/vocabularies/`, but in Claude mode this is only a floor:
 the model reads the full report and extracts finds the vocabulary never lists, so coverage is far
 wider. Full recall is still not guaranteed (a type that neither the vocabulary, a trigger, nor the
-model surfaces can be missed), but that is a residual limit, not the main behaviour. See
+model surfaces can be missed), but that is a residual limit, not the main behavior. See
 [../reference/data_files.md](../reference/data_files.md) for how to extend the vocabulary.
 
 ## OCR introduces noise
 
 Scanned/image-only reports are read by OCR, which can mis-read characters. Cleaning (Layer 2) repairs
-common artefacts, and the validation set includes OCR'd reports on which the workflow still scores
+common artifacts, and the validation set includes OCR'd reports on which the workflow still scores
 well, so this is largely handled in practice.
 
 ## Site over-merging is possible

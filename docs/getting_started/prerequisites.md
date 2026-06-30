@@ -10,7 +10,8 @@ before you install the workflow. If you already work with Python, skip ahead to
 - About **20 minutes** for the one-time setup.
 - **Python 3.12** (a free programming language the workflow is written in). See below.
 - *(Optional)* an **AI model API key**, only if you want to run the AI-assisted modes. The workflow
-  also runs with no key at all in *Rules-only mode*. See [api_keys.md](api_keys.md).
+  also runs with no key at all in *Rules-only mode*, except for OCR of scanned PDFs (a Google Vision
+  key). See [api_keys.md](api_keys.md).
 
 You do **not** need to know how to program. You'll copy and paste a handful of commands.
 

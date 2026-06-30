@@ -16,26 +16,41 @@ In evaluation against hand-made gold standards, its best mode (Claude) is **95.6
 
 ![Bar chart of overall correctness by mode: Rules-only 47.9%, Claude 95.6%, Llama 77.3%](docs/research/charts/1_overall_correctness_by_mode_grayscale.png)
 
-*Overall correctness on the 20 validation reports, by mode: Rules-only (47.9%) vs Claude (95.6%) vs Llama (77.3%).*
+*Overall field-level correctness on the 20 validation reports, one bar per run mode.*
 
 ## From report to structured data
 
 ARCHROEN turns each pottery find into one structured, dated row. Here, one find from an OCR'd report
 on Heerlen (the original is Dutch):
 
-> "Een terra sigillata **schaaltje** in fragment type **Drag. 18/31**, met de pottenbakkersstempel: COSI. RVTIN."
+> "Uit kuil 12 kwam een randfragment van een versierde terra sigillata kom van het type **Dragendorff 37**, met een eierlijst en een fries van jachttaferelen."
 >
-> *(English: "A fragmentary terra sigillata dish of type Drag. 18/31, with the potter's stamp COSI. RVTIN.")*
+> *(English: "From pit 12, a rim fragment of a decorated terra sigillata bowl of type Dragendorff 37, with an ovolo and a frieze of hunting scenes.")*
 
-becomes one row of the pottery summary:
+becomes **one row** of the pottery summary. The row has many columns, so it is split into two parts
+here (it is still a single row):
 
 | Site | Pottery | Typology | Start | End |
 |---|---|---|---:|---:|
-| Heerlen | Terra sigillata plate | Dragendorff 18/31 | 70 | 200 |
+| Heerlen | Terra sigillata decorated bowl | Dragendorff 37 | 70 | 300 |
 
-The colloquial Dutch *schaaltje* and the form code `Drag. 18/31` are normalized to a standard English
-pottery name and typology, and the date range comes from that typology. Each row also records the
-find context, a confidence level, and the verbatim source text. The full 20-column schema is in
+The same row also carries the Dutch national **ABR** standard-vocabulary columns (shown here one
+column per row to keep it readable, still part of the same row):
+
+| ABR column | Value |
+|---|---|
+| `std_vocabulary` | `ABR` |
+| `std_ware_code` | `TS` |
+| `std_ware_label` | `terra sigillata` |
+| `std_form_code` | `KOM.KOM` |
+| `std_form_label` | `kom` |
+| `std_combined_code` | `TSKOM.DR37` |
+| `std_combined_label` | `Terra sigillata kom - Dragendorff 37` |
+
+The Dutch *versierde terra sigillata kom* and the form code `Dragendorff 37` are normalized to a
+standard English pottery name and typology, and the date range comes from that typology; the ABR
+columns map the find to the Dutch national standard. Each row further records the find context, a
+confidence level, and the verbatim source text. The full column schema is in
 [output_schema.md](docs/reference/output_schema.md).
 
 ## How it works
@@ -98,7 +113,7 @@ Everything is in **[docs/](docs/)**. Pick by what you want to do:
 │       ├── datasets/      # the corpora used, with their per-report outputs and scores
 │       ├── maps/          # the map figures used in the study
 │       ├── charts/        # the chart figures used in the study
-│       └── claude_variance/  # repeatability check on the Claude result across repeated runs
+│       └── claude_variance/  # stability check on the Claude result across repeated runs
 ├── evaluation/            # evaluates the workflow output against the gold standards
 ├── input_files/           # everything fed into the workflow
 │   ├── reports/           # the source report PDFs, grouped into batch folders

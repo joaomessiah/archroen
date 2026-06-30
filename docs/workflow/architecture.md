@@ -18,7 +18,7 @@ flowchart TD
         L4["**Layer 4** · Normalization<br/><sub>normalization.py</sub><br/>surface form → canonical label"]
         L5["**Layer 5** · Context interpretation<br/><sub>interpretation.py</sub><br/>present / absent / comparison / uncertain / irrelevant"]
         L6["**Layer 6** · Chronology assignment<br/><sub>chronology.py · date_parser.py · periods.py</sub><br/>assign start/end date range"]
-        L7["**Layer 7** · Output + consolidation<br/><sub>output_builder · validator · pottery_summary<br/>site_norm · consolidation · hybrid_extractor</sub><br/>dedup + consolidate + scope-filter → one row per find"]
+        L7["**Layer 7** · Output + consolidation<br/><sub>output_builder · validator · pottery_summary<br/>site_norm · consolidation · hybrid_extractor · standard_vocab</sub><br/>dedup + consolidate + scope-filter → one row per find (+ ABR std_ columns, unscored)"]
         L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7
     end
 

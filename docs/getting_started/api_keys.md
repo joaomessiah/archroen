@@ -5,7 +5,9 @@ an **API key**. A key is a private, password-like string. It identifies your acc
 provider and lets the workflow make requests on your behalf.
 
 > **You can skip this entirely.** In **Rules-only mode** the workflow uses no AI and needs no key. It
-> runs fully offline and free. Set this up only if you want to run **Claude mode** or **Llama mode**.
+> runs fully offline and free. (One exception: OCR of scanned PDFs uses the Google Vision API, so it
+> needs a key; turn it off with `OCR_ENABLED=False`.) Set this up only if you want to run **Claude
+> mode** or **Llama mode**.
 > See [how_to_run.md](how_to_run.md) for choosing a mode.
 
 ## Which key for which mode
@@ -61,7 +63,7 @@ means your keys are never written into the project files.
 
 ## Cost
 
-- **Rules-only mode is free:** no AI, no key, no charge.
+- **Rules-only mode is free:** no AI, no key, no charge (apart from OCR of scanned PDFs, which uses the paid Google Vision API).
 - **Claude mode** and **Llama mode** call a paid cloud service. Costs are usage-based: you pay the AI
   provider for the amount of text processed. For a small batch of reports the cost is typically modest,
   but check your provider's pricing before running large batches.

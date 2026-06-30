@@ -38,9 +38,10 @@ Sheets:
 output_files/reports/workflow_evaluation_sample/new_rep_1.csv
 ```
 
-Each row is **one pottery find** the report mentioned. The columns include the pottery name, how much
-was found, the find site, and the date range (`start_date` / `end_date`). The full list of columns is
-documented in [../reference/output_schema.md](../reference/output_schema.md).
+Each row is **one pottery find** the report mentioned, with columns for the pottery name, its typology,
+how much was found, the find site, and the date range (`start_date` / `end_date`); by default it also
+ends with seven ABR standard-vocabulary `std_*` columns (interoperability). The full list of columns is
+in [../reference/output_schema.md](../reference/output_schema.md).
 
 ## What next?
 

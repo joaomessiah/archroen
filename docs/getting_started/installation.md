@@ -66,6 +66,7 @@ This installs the packages in `requirements.txt`. The highlights (not the full l
 | **requests** | talks to the cloud AI models and OCR service over the internet |
 | **python-dotenv** | auto-loads your API keys from a local `.env` file (see [api_keys.md](api_keys.md)) |
 | **ollama** *(optional)* | only needed if you run a local AI model (*local-llama* mode) |
+| **rdflib** *(maintenance only)* | used by `tools/build_abr_maps.py` to rebuild the ABR maps; the workflow runtime never imports it |
 
 It also installs the figure tools (**matplotlib**, **numpy**, **pandas**, **geopandas**, **shapely**,
 **pyproj**) used to produce the thesis charts and maps. See `requirements.txt` for the complete set.

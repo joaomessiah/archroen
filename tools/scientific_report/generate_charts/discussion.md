@@ -3,8 +3,8 @@
 This note interprets the seven charts produced by `generate_charts.py` (shown in `README.md` and
 saved in `charts_output/`). All numbers are the **Correct** share, where *Correct = Exact +
 Acceptable*, scored against the hand-made gold standards on the evaluation sample (20 reports). The
-three modes compared are **Rules-only** (Layers 1-6 with no LLM summary), **Claude** (the
-frontier-LLM hybrid path) and **Llama** (the local-LLM path).
+three modes compared are **Rules-only** (the full deterministic pipeline, every AI step off), **Claude**
+(the frontier-LLM hybrid path) and **Llama** (the cloud open-model path).
 
 > **Read this first: caveats.** The sample is 20 reports and the gold standards are hand-built and
 > deliberately conservative, so treat the figures as *relative* comparisons between modes rather
@@ -36,7 +36,7 @@ Aggregated over everything:
 Llama's main gap is **Missing** values (14.9% vs Claude's 1.2%); it *omits* values far more
 than it gets them *wrong*. Outright wrong answers (Incorrect) and invented ones (Overclaim) are
 low for both models. This distinction matters: Llama is mostly a **recall** problem (things
-it should have reported but didn't), not a hallucination problem. That is encouraging for a local
+it should have reported but didn't), not a hallucination problem. That is encouraging for an open
 model, and it suggests the gap is partly closeable with better prompting and coverage rather than
 reflecting a model that is fundamentally unreliable.
 
@@ -109,6 +109,6 @@ spread matters as much as the average: Claude stays high even on its most challe
 - **Use an LLM summary**: it roughly doubles the rules-only baseline (Chart 1).
 - **Claude is the clear choice for accuracy and reliability** (95.6% overall, tight per-report
   spread). It is robust across source types and fields, with dates its most challenging (still ~92%+).
-- **Llama is a viable local fallback but with caveats**: ~77% overall, its gap is mostly *missing*
+- **Llama is a viable open-model alternative but with caveats**: ~77% overall, its gap is mostly *missing*
   values (a recall problem, not hallucination), it is most challenged on old/unstructured reports, and
   it is far less consistent report-to-report, so it benefits most from human review.

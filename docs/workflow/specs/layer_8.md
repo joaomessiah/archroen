@@ -25,12 +25,12 @@ explicit enough to be defensible as thesis methodology.
 Each gold find is paired one-to-one with a workflow row, in **priority order**. The order is stated
 explicitly so the scoring is defensible:
 
-1. **Typology code** (exact, after normalisation).
-2. **Exact / catalogue-number name.**
+1. **Typology code** (exact, after normalization).
+2. **Exact / catalog-number name.**
 3. **Ware family**, granularity- and synonym-aware, because golds mix granularity and language (gold
    "Amphorae" vs workflow "Baetican olive oil amphora / Dressel 20"; gold "Belgian ware" vs workflow
    "terra rubra"/"terra nigra"). Family matches are credited as found.
-4. **Alias-normalised token overlap** (Dutch→English) as a last resort.
+4. **Alias-normalized token overlap** (Dutch→English) as a last resort.
 
 ## `evaluate.py`: report-level scores
 
@@ -53,7 +53,7 @@ to the workflow value, so results can be audited field-by-field. Each field gets
 
 | Verdict | Meaning |
 |---|---|
-| `exact` | Gold and workflow values identical (after normalisation); two blanks also count as exact agreement |
+| `exact` | Gold and workflow values identical (after normalization); two blanks also count as exact agreement |
 | `acceptable` | Not identical but archaeologically tolerable: ware family / token overlap; site-name containment; or a date endpoint within tolerance, but **only** when the gold find has no typology. If it has one, the date must be exact, the typology being authoritative |
 | `incorrect` | The pair is matched but this field disagrees (both present and different, or exactly one side blank) |
 
@@ -71,3 +71,7 @@ where `<stem>` is the name of the scored output set (e.g. `workflow_evaluation_s
 The gold standards are intentionally conservative. See
 [../../research/limitations.md](../../research/limitations.md) for what that means for interpreting the
 recall and precision figures.
+
+The trailing ABR `std_*` standard-vocabulary columns are an interoperability layer and are **not
+scored** by this harness: no precision, recall, or accuracy is computed for them, and they do not
+enter any reported figure.

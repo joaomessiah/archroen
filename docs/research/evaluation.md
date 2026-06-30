@@ -17,7 +17,7 @@ The frozen `granular_summary.csv` / `granular_detail.csv` for each mode are unde
 ## Matching (one-to-one)
 
 Each gold find is paired to at most one workflow row, in priority order: **typology code** → **exact /
-catalogue-number name** → **ware family** (granularity- and synonym-aware) → **alias-normalised token
+catalog-number name** → **ware family** (granularity- and synonym-aware) → **alias-normalized token
 overlap**. The token-overlap step accepts a pair at a Jaccard overlap of **0.34** or above (or when one
 token set is wholly contained in the other). Unpaired findings become `missing` (gold-only) or
 `overclaim` (workflow-only).
@@ -29,7 +29,7 @@ For each matched pair, every field gets one verdict:
 
 | Verdict | Meaning |
 |---|---|
-| `exact` | Identical after normalisation (two blanks count as exact agreement). |
+| `exact` | Identical after normalization (two blanks count as exact agreement). |
 | `acceptable` | Not identical but archaeologically tolerable: ware-family/token overlap for pottery; site-name token containment; a date endpoint within tolerance **only** when the gold find has no typology (with a typology, the date must be exact). |
 | `incorrect` | Matched pair, but this field disagrees (both present and different, or one side blank). |
 
@@ -45,6 +45,9 @@ gold and workflow findings. Unmatched findings therefore count against the score
 `overclaim` field slots. The metric is reported both overall and per field (site, pottery, typology, start
 date, end date). Five fields are scored per finding. This headline metric uses the `exact` + `acceptable`
 verdicts; it is **not** the date-overlap metric described below, which is a separate diagnostic.
+
+The output's ABR `std_*` standard-vocabulary columns are an interoperability layer and are not part of
+this scoring.
 
 
 ## Date accuracy
