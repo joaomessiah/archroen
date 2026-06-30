@@ -3,7 +3,8 @@
 A **frozen snapshot** of the workflow's output for the Roman-villa application set: 30 CSVs, one per
 report, named by its report id (e.g. `12703.csv`). Each file is the **pottery summary**: one row per
 pottery find, with its site, typology, quantity, date range, certainty, and the original text it came
-from.
+from. Each row also carries the seven **ABR standard-vocabulary** (`std_*`) columns, a deterministic
+interoperability layer; see [output_schema.md](../../../../reference/output_schema.md).
 
 The columns are defined in
 [../../../../reference/output_schema.md](../../../../reference/output_schema.md). These are a preserved
