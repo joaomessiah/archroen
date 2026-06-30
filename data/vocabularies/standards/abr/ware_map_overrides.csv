@@ -1,0 +1,38 @@
+ware_label_nl,abr_ware_code,en_aliases,needs_review,notes
+terra sigillata,TS,terra sigillata,0,SIKB Leidraad 4 concordance
+terra nigra,TNIGRA,terra nigra,0,SIKB Leidraad 4 concordance
+terra rubra,TRUBRA,terra rubra,0,SIKB Leidraad 4 concordance
+ruwwandig Romeins aardewerk,RUW,coarse ware,0,coarse ware = ruwwandig
+gladwandig Romeins aardewerk,GLD,smooth-walled ware,0,smooth-walled = gladwandig
+geverfd aardewerk,GEVERFD,color-coated ware,0,color-coated = geverfd
+dunwandig aardewerk,DUN,thin-walled ware,0,thin-walled = dunwandig
+amfoor aardewerk,AMFOOR,amphora,0,
+wrijfschaal aardewerk,WRIJFSCHAAL,mortarium,0,mortarium as a ware/fabric
+dolium aardewerk,DOLIUM,dolium,0,
+kurkurnaardewerk,KURKURN,kurkurn|cork-tempered ware|cork urn|cork ware,0,SIKB kurkurnen (handmade import ware)
+dolium aardewerk,DOLIUM,dolia,0,Latin plural of dolium
+terra sigillata,TS,arretina,0,Arretine/Italian terra sigillata (spelling variant of arretine)
+gladwandig Romeins aardewerk,GLD,smooth ware,0,smooth ware = gladwandig (shorter synonym of smooth-walled ware)
+"Aardewerk, handgevormd",AWH,handmade ware|handmade pottery,0,
+Belgisch/Gallo-Belgisch aardewerk,BELG,belgic ware,0,parent of terra nigra + terra rubra
+Belgisch grijs aardewerk,BGRS,belgic grey ware,0,Belgisch grijs / terra nigra-achtig (user-confirmed)
+terra sigillata,TS,arretine ware,0,arretine = early/Italian terra sigillata (user-confirmed)
+geverfd aardewerk,GEVERFD,painted ware,0,"corpus uses 'painted' for geverfd/color-coated (e.g. 'geverfde beker') (user-confirmed)"
+"Aardewerk, handgevormd",AWH,native ware,0,native/inheems ware = handmade (user-confirmed)
+gladwandig Romeins aardewerk,GLD,white-clay ware,0,Roman white-fabric = gladwandig (ABR witbakkend is mostly medieval) (user-confirmed)
+"ruwwandig aardewerk, Eifel (Mayen, Speicher)",RUWEIFEL,Eifel ware,0,artefact ware-level code; Eifel = Mayen/Speicher ruwwandig (user-confirmed)
+mayenaardewerk,MAYEN,Mayen ware,0,mayenaardewerk (late-Roman/Frankish coarse ware) (user-confirmed)
+"metaalglanswaar, Trier (techniek d)",METAALGLTRIE,Trier ware,0,Trier Roman fine ware = metallic-glaze/color-coated (user-confirmed)
+"ruwwandig aardewerk, Rijnland",RUWRIJN,Rhineland ware,0,Rhineland narrowed to coarse-ware Rijnland (user-confirmed)
+"geverfd aardewerk, African red slip ware",GEVERFDARS,African Red Slip,0,ARS = African red slip ware (user-confirmed)
+terra sigillata,TS,samian|samian ware|sigillée|sigillata,0,common EN/FR synonyms for terra sigillata
+geverfd aardewerk,GEVERFD,colour-coated ware|colour coated,0,British spelling synonym
+ruwwandig Romeins aardewerk,RUW,rough-walled ware|rough walled,0,synonym of coarse ware
+gladwandig Romeins aardewerk,GLD,glattwandig,0,German synonym (gladwandig)
+"Aardewerk, handgevormd",AWH,hand-made|handgemaakt,0,EN/NL synonyms of handmade
+wrijfschaal aardewerk,WRIJFSCHAAL,mortaria,0,plural of mortarium
+amfoor aardewerk,AMFOOR,amphorae|amphore,0,plural / FR-DE synonym
+,,late Roman ware,1,chronological grouping - no clean ABR ware; leave blank?
+,,early Roman ware,1,chronological grouping - no clean ABR ware; leave blank?
+,,fine ware,1,too generic for a single ABR ware
+,,oil lamp,1,NOT a ware - this is a form (olielamp); drop from ware

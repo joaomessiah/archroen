@@ -1,0 +1,20 @@
+abr_form_code,en_aliases,needs_review,notes
+KOM.KOM,bowl,0,
+BORD,plate,0,
+BEKER,beaker,0,
+KOP,cup,0,
+FLES,flask,0,
+DEKSEL,lid,0,
+AMFOOR.VERZ,amphora,0,
+OLIELAMP,oil lamp|lamp,0,
+POT,jar,0,jar = pot (user-confirmed)
+POT,cooking pot,0,no dedicated kookpot form in ABR; pot is the generic (user-confirmed)
+MKKRUIK,jug,0,jug = kruik (the Roman jug form; agrees with the Dutch 'kruik' in source quotes) (user-confirmed)
+MKKRUIK,flagon,0,flagon = kruik (user-confirmed)
+ROOKSCHAAL,incense dish|incense bowl,0,incense dish = rookschaal (keep over generic bord) (user-confirmed)
+BORD,dish,0,dish = bord (user-confirmed)
+BORD,platter,0,platter = bord (user-confirmed)
+TSWRIJF,mortarium,0,only ABR wrijfschaal form node (user-confirmed)
+BEELD,figurine|statuette,0,figurine = beeld (name-only non-vessel form; never inferred from context)
+VRPOT,storage vessel,0,storage vessel = voorraadpot (corrected from SCHAAL)
+,tazza,1,no clean ABR form - left blank
