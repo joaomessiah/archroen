@@ -150,5 +150,7 @@ reporting problems or asking questions. (You'll need a free GitHub account to po
 
 ## License
 
-Code is released under the [MIT License](LICENSE). Note that the excavation report PDFs and the
-pottery vocabularies may carry separate third-party terms.
+Code is released under the [MIT License](LICENSE). The excavation report PDFs carry mixed licenses
+(CC BY 4.0, open access, public domain, and some still in copyright); see each dataset's README for
+per-report sources and terms. The standard vocabulary used for normalization (ABR, by the RCE) is
+released under CC0.
