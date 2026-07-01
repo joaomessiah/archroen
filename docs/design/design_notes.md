@@ -36,7 +36,7 @@ idempotent.
 Every period/emperor → year-range mapping derives from a single table in `src/periods.py`. **Why:** the
 same period word is used by the rule pipeline, the date parser, and the AI prompt, so deriving all of
 them from one table guarantees they can never disagree. Emperor reigns deliberately win over broad
-period-codes (so "Augustan" maps to 27 BC to 14 AD).
+period-codes (so "Augustan" maps to 27 BCE to 14 CE).
 
 ## 5. Conservative deduplication and consolidation
 
