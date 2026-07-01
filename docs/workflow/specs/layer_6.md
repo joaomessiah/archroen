@@ -31,7 +31,7 @@ All period/emperor → year-range mappings derive from one table, so they can't 
 period codes and their EN/NL synonyms come from `data/vocabularies/period_vocab.json`, emperor reigns
 from `data/vocabularies/emperor_vocab.json`, and the named pre-Roman periods are literals in
 `periods.py`. **Emperor reigns win** over period-code terms, so "Augustan"
-maps to 27 BC to 14 AD rather than the broader Roman-period code.
+maps to 27 BCE to 14 CE rather than the broader Roman-period code.
 
 ## Input and output
 
