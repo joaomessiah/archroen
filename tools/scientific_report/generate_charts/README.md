@@ -1,13 +1,13 @@
-# Thesis chart generator
+# Chart generator
 
-`generate_charts.py` produces the seven figures used in the thesis evaluation chapter,
+`generate_charts.py` produces the evaluation figures,
 comparing the three workflow modes - **Rules-only**, **Claude** and **Llama** - on the
 granular evaluation results.
 
 ## What it does
 
 The script reads the per-report granular evaluation summaries (one `granular_summary.csv`
-per mode) and renders seven publication-ready charts. It is:
+per mode) and renders the publication-ready charts. It is:
 
 - **Read-only.** It never runs the pipeline and never regenerates or modifies `granular_detail.csv` or
   `granular_summary.csv`; it only reads existing summaries.
@@ -16,7 +16,7 @@ per mode) and renders seven publication-ready charts. It is:
 - **Self-contained.** It carries its own copies of the helpers it needs (font setup, palette,
   summary loading, statistics, figure helpers), so it has no dependency on any other script.
 
-### The seven charts
+### The charts
 
 **Verdicts:** `Correct` (= Exact + Acceptable) / `Incorrect` / `Missing` / `Overclaim`.
 **Source types:** New reports / Old reports / OCR reports / Tables (inferred from the report id).
@@ -91,11 +91,11 @@ which summaries to chart.
 
 ## Output
 
-Seven PNG files. By default they are written to a `charts_output/` folder next to the script
+The PNG files are written to a `charts_output/` folder next to the script
 (`tools/scientific_report/generate_charts/charts_output/`). Override with `--output-dir`.
 
-**Size / placement.** Each PNG is exported at **300 DPI** with a figure width equal to the thesis
-text column, **6.3 in (16 cm)**, i.e. A4 with Google-Docs default 1-inch margins, so every file
+**Size / placement.** Each PNG is exported at **300 DPI** with a figure width of **6.3 in (16 cm)**
+(an A4 text column with default 1-inch margins), so every file
 is 1890 px wide. Insert each image at that **16 cm** width and the chart text renders at a true
 **12 pt** on the page (matching 12 pt body text). This follows the rule
 `on-page pt = matplotlib pt x (display width / figure width)`: because the figure width is set equal
@@ -188,13 +188,13 @@ When it finishes you will see lines like:
 ```
 [fonts] using Times New Roman.
 .../tools/scientific_report/generate_charts/charts_output/1_overall_correctness_by_mode_grayscale.png
-... (seven files) ...
-Done: 7 thesis charts generated.
+... (files) ...
+Done: charts generated.
 ```
 
-The seven `.png` images are now in the **`charts_output/`** folder next to the script
+The `.png` images are now in the **`charts_output/`** folder next to the script
 (`tools/scientific_report/generate_charts/charts_output/`). Open that folder to view or insert them
-into the thesis.
+into a report.
 
 To save the charts in a different folder, add `--output-dir` at the end, e.g.:
 

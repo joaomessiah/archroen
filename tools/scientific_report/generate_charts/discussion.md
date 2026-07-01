@@ -1,6 +1,6 @@
 # Discussion of the evaluation charts
 
-This note interprets the seven charts produced by `generate_charts.py` (shown in `README.md` and
+This note interprets the evaluation charts produced by `generate_charts.py` (shown in `README.md` and
 saved in `charts_output/`). All numbers are the **Correct** share, where *Correct = Exact +
 Acceptable*, scored against the hand-made gold standards on the evaluation sample (20 reports). The
 three modes compared are **Rules-only** (the full deterministic pipeline, every AI step off), **Claude**

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the seven thesis figures from granular evaluation summaries.
+"""Generate the evaluation figures from granular evaluation summaries.
 
 This script is intentionally SELF-CONTAINED: it copies the small set of helpers it needs
 (font setup, palette, summary loading, statistics, figure helpers) so it has no dependency on
@@ -7,7 +7,7 @@ any other chart script. It NEVER regenerates the granular_detail.csv / granular_
 files — it only reads existing summaries.
 
 It reads three granular_summary.csv files (one each for Rules-only, Claude and Llama — all
-required, passed via --rules_only / --claude / --llama) and writes seven charts into a
+required, passed via --rules_only / --claude / --llama) and writes the charts into a
 "charts_output" folder (default: <script_dir>/charts_output/; override with --output-dir):
 
   1. Overall Correctness by Workflow Mode            (Rules-only vs Claude vs Llama)
@@ -46,7 +46,7 @@ FONT_SIZE = 12
 BACKGROUND_COLOR = "#ffffff"
 
 # --- True on-page typography ----------------------------------------------------------------
-# The charts are placed into a Google-Docs .docx at a fixed image width (the A4 text column:
+# The charts are placed at a fixed image width (the A4 text column:
 # 1-inch margins -> ~15.9 cm -> 6.3 in). Page font (pt) = matplotlib font (pt) x (display / figwidth).
 # By setting every figure's WIDTH equal to the display width, that ratio is exactly 1, so the
 # matplotlib FONT_SIZE (12) renders as a true 12 pt on the page. Heights vary per chart; only the
@@ -332,7 +332,7 @@ def save_figure(fig, output_path: Path) -> None:
 
 
 # ---------------------------------------------------------------------------
-# The seven thesis charts
+# The evaluation charts
 # ---------------------------------------------------------------------------
 
 def chart_overall_by_mode(all_stats: dict, modes: list[str], output_path: Path) -> None:
@@ -482,7 +482,7 @@ def chart_report_distribution(raw_dfs: dict, modes: list[str], output_path: Path
 
 def parse_args() -> argparse.Namespace:
     script_dir = Path(__file__).resolve().parent
-    p = argparse.ArgumentParser(description="Generate the seven thesis figures from granular summaries.")
+    p = argparse.ArgumentParser(description="Generate the evaluation figures from granular summaries.")
     p.add_argument("--claude", type=Path, required=True,
                    help="Path to the Claude granular_summary.csv (required).")
     p.add_argument("--llama", type=Path, required=True,
@@ -512,7 +512,7 @@ def main() -> int:
     raw_dfs = {"Claude": claude_df, "Llama": llama_df}
 
     out = args.output_dir
-    print("Writing thesis charts to:", out.resolve())
+    print("Writing charts to:", out.resolve())
 
     chart_overall_by_mode(all_stats, ["Rules-only", "Claude", "Llama"],
                           out / f"1_overall_correctness_by_mode_{STYLE_SUFFIX}.png")
@@ -533,7 +533,7 @@ def main() -> int:
                            out / f"6_performance_by_field_llama_{STYLE_SUFFIX}.png")
     chart_report_distribution(raw_dfs, ["Claude", "Llama"],
                               out / f"7_per_report_correctness_distribution_{STYLE_SUFFIX}.png")
-    print("\nDone: 7 thesis charts generated.")
+    print("\nDone: charts generated.")
     return 0
 
 
