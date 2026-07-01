@@ -188,7 +188,7 @@ apply `ROMAN_WINDOW` live in `src/periods.py` (logic), keeping `config.py` decla
 - `ROMAN_WINDOW`: POSITIVE-WIDTH overlap test (see `roman_overlaps`). A find is kept if it is
   undated or its date range genuinely overlaps this window. A mere boundary touch does NOT count, so
   a Medieval find dated 450..1500 (which only meets the window at the single point 450) is dropped,
-  while a late-Roman find ending at 450 (starting earlier) is kept. Lower bound −52 = 52 BC, the
+  while a late-Roman find ending at 450 (starting earlier) is kept. Lower bound −52 = 52 BCE, the
   Battle of Alesia (Caesar's decisive victory over the Gauls), taken as the onset of Roman presence;
   upper bound 450 = end of the Roman period. Deliberately wider on the early side than `ROMAN_PERIOD`.
 - `ROMAN_PERIOD`: conventional Roman period, used ONLY to FILL missing date endpoints from context
