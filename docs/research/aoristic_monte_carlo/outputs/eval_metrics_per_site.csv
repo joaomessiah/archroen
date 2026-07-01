@@ -1,0 +1,17 @@
+site_id,site,orig_dominant,arch_dominant,dominant_match,orig_Early Roman,orig_Middle Roman,orig_Late Roman,arch_Early Roman,arch_Middle Roman,arch_Late Roman,diff_Early Roman,diff_Middle Roman,diff_Late Roman
+11927,Schaesberg-Leenderhof,Middle Roman,Middle Roman,True,0.113,0.748,0.139,0.284,0.606,0.111,0.17,-0.142,-0.028
+12010,Kerkrade-De Locht,Middle Roman,Middle Roman,True,0.16,0.686,0.154,0.174,0.656,0.17,0.014,-0.029,0.016
+12019,Bemelen-Bemelerweg,Middle Roman,Middle Roman,True,0.116,0.684,0.2,0.214,0.674,0.112,0.098,-0.01,-0.088
+12034,Kerkrade-Winckelen,Middle Roman,Early Roman,False,0.152,0.616,0.232,0.419,0.396,0.185,0.267,-0.22,-0.047
+12105,Kerkrade-Kaalheide,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.127,0.533,0.34,-0.051,0.09,-0.038
+12118,Landgraaf-Overstehof,Middle Roman,Middle Roman,True,0.162,0.494,0.344,0.335,0.665,0.0,0.173,0.171,-0.344
+12120,Gulpen-Kampborn,Middle Roman,Middle Roman,True,0.158,0.506,0.336,0.094,0.708,0.198,-0.065,0.202,-0.138
+12135,Huls-Schanternelbosje,Middle Roman,Middle Roman,True,0.143,0.702,0.154,0.027,0.91,0.064,-0.116,0.207,-0.091
+12148,Kerkrade-Rolduc,Middle Roman,Middle Roman,True,0.191,0.495,0.314,0.0,0.912,0.088,-0.191,0.417,-0.225
+12168,Rijckholt-Bij het Savelsbosch,Middle Roman,Middle Roman,True,0.018,0.68,0.303,0.0,1.0,0.0,-0.018,0.32,-0.303
+12172,Lemiers-Platte Bend,Middle Roman,Middle Roman,True,0.149,0.536,0.315,0.172,0.559,0.269,0.023,0.023,-0.046
+12225,Gronsveld-Veldhoff,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.178,0.443,0.378,0.0,0.0,0.0
+12282,Waubach-Sportpark,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.144,0.856,0.0,-0.034,0.412,-0.378
+12362,Nieuwenhagen-Koelweg,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.262,0.735,0.003,0.084,0.292,-0.375
+12403,Bocholtz-Orsbacherweg,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.178,0.443,0.378,0.0,0.0,0.0
+12628,Berg-Pannestuk,Middle Roman,Middle Roman,True,0.178,0.443,0.378,0.135,0.686,0.18,-0.044,0.242,-0.198
