@@ -1,8 +1,10 @@
 # Roman-villa reports (frozen source PDFs)
 
-A **frozen copy of the source report PDFs** for the Roman-villa application set: the 30 South-Limburg
-excavation and literature reports the workflow was run on. One PDF per report (30 PDFs), named by its
-report id (e.g. `12703.pdf`), the same ids used by the [outputs/](../outputs/) pottery summaries.
+A **frozen copy of the source report PDFs** for the Roman-villa application set: the 30 South Limburg
+excavation and literature reports the workflow was run on. One PDF per report; **27 of the 30 are
+included** here (3 are link-only for copyright — see the licensing table in the
+[parent README](../README.md#source-reports--licensing)). PDFs are named by their report id (e.g.
+`12703.pdf`), the same ids used by the [outputs/](../outputs/) pottery summaries.
 
 These PDFs are the pipeline's input: Layers 1-2 extract and clean their text, and the rest of the
 workflow turns each into the per-report pottery summary in [../outputs/](../outputs/). A live copy of
