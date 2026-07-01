@@ -13,7 +13,7 @@ see [../getting_started/how_to_run.md](../getting_started/how_to_run.md).
 | `"rules-only"` | **Rules-only mode** | No AI, fully deterministic | none |
 | `"claude"` | **Claude mode** | Claude (Anthropic API) | `ANTHROPIC_API_KEY` |
 | `"cloud-llama"` | **Llama mode** | Cloud Llama-3.3-70B (Together, OpenAI-compatible) | `LLM_API_KEY` |
-| `"local-llama"` | *(local Llama)* | A local model via [Ollama](https://ollama.com) | none (runs on your machine) |
+| `"local-llama"` | **local-Llama mode** | A local model via [Ollama](https://ollama.com) | none (runs on your machine) |
 
 The thesis evaluated three of them: **Rules-only mode**, **Claude mode**, and **Llama mode**. The
 local-Llama option exists for offline experimentation.
