@@ -18,6 +18,9 @@ geopandas==1.1.3    # geospatial dataframes for the province boundaries + villa 
 shapely==2.1.2      # geometry ops (study-area box / intersection in the inset)
 pyproj==3.7.2       # CRS handling (RD New / EPSG:28992)
 
+# Aoristic & Monte Carlo case study (docs/research/aoristic_monte_carlo/).
+seaborn==0.13.2     # statistical plotting for the aoristic/Monte Carlo figures
+
 # Build-time only: regenerating the ABR standard-vocabulary maps (tools/build_abr_maps.py) from the
 # frozen RDF snapshot. The pipeline runtime reads the generated CSVs and never imports rdflib.
 rdflib==7.6.0
