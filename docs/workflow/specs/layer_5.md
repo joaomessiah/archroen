@@ -38,7 +38,6 @@ Each candidate is classified as one of:
 | Setting | Role |
 |---|---|
 | `LLM_USE` (via `WORKFLOW_MODE`) | Gates the AI fallback. In **Rules-only mode** only the deterministic cue rules run. |
-| `CHRONO_LLM_USE` | Gates the LLM context-interpretation fallback specifically (default `True`; forced off in **Rules-only mode**). |
 
 ## Notes
 
