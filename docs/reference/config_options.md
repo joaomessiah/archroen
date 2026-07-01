@@ -90,7 +90,7 @@ Used when `LLM_PROVIDER == "cloud"`. Pick a host's `LLM_API_BASE_URL` + `LLM_API
 
 70B is serverless on Together and gives the best soft columns (`context_label`/`find_status`).
 The gradeable columns are regex/rule-driven, and so model-independent, which leaves cost as the only
-tradeoff, and it is negligible here (~cents/sweep). NOTE: Llama 3.1-8B/3.2-3B Turbo are
+trade-off, and it is negligible here (~cents/sweep). NOTE: Llama 3.1-8B/3.2-3B Turbo are
 NON-serverless on Together (they need a paid dedicated endpoint); the cheap serverless options are
 `meta-llama/Meta-Llama-3-8B-Instruct-Lite` or `Qwen/Qwen2.5-7B-Instruct-Turbo`.
 
@@ -99,7 +99,7 @@ NON-serverless on Together (they need a paid dedicated endpoint); the cheap serv
   `0` = auto per backend (Claude 30 / Llama-70B 20 / small 3B-8B 10 / Ollama 8); `1` = one call per
   record (the old behavior, for an A/B comparison); `N` = fixed batch size.
 - `ANTHROPIC_MODEL`: the Claude model for the REST API path (default `claude-sonnet-4-6`).
-  Roughly deterministic (temperature=0), about 3× cheaper, and roughly on par with opus on findings.
+  Roughly deterministic (temperature=0), about 3× cheaper, and roughly on par with Opus on findings.
   This is the model used in **Claude mode** by default (the CLI path's `CLAUDE_CLI_MODEL` only applies
   when `HYBRID_USE_CLAUDE_CLI`).
 - `ANTHROPIC_ENDPOINT` / `ANTHROPIC_VERSION`: the Anthropic REST endpoint URL and API version header

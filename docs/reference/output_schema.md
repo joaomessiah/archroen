@@ -1,7 +1,7 @@
 # Output schema: the pottery summary CSV
 
 The workflow's one deliverable is a CSV per report at `output_files/reports/<folder>/<report>.csv`.
-**Each row is one distinct pottery find** that the report reports as present, after deduplication,
+**Each row is one distinct pottery find** that the report records as present, after deduplication,
 consolidation, and the Roman-period scope filter. Open it in any spreadsheet program.
 
 The columns, in order:
@@ -16,8 +16,8 @@ The columns, in order:
 | `term_found` | The term as it was actually detected in the report text. |
 | `term_found_normalized_en` | That term normalized to its canonical English label. |
 | `quantity` | How many were reported, when a count is stated. |
-| `start_date` | Start of the date range, as a year (negative = BC). Blank if undated. |
-| `end_date` | End of the date range, as a year (negative = BC). Blank if undated. |
+| `start_date` | Start of the date range, as a year (negative = BCE). Blank if undated. |
+| `end_date` | End of the date range, as a year (negative = BCE). Blank if undated. |
 | `date_method` | How the date was derived (a finite set of tags; see below). Blank when the find is undated. |
 | `context_label` | How the report referred to the find (`present`, `comparison`, …); see [../workflow/specs/layer_5.md](../workflow/specs/layer_5.md). |
 | `pot_name_certainty_level` | Confidence in the pottery name, an integer 0-10 (10 = highest). |
@@ -46,7 +46,7 @@ the tail of Layer 7 (`src/standard_vocab.py`), gated by `STANDARD_VOCAB_USE` /
 - **Standards interoperability.** These codes map each find to the Dutch national standard (ABR/Archis),
   so the output can be reused directly alongside national heritage data. They form a deterministic layer
   separate from the scored evaluation (Layer 8 scores the find list and dates, not these mappings), so
-  they never affect the accuracy metrics; spot-checks consistently confirm the codes resolve correctly.
+  they never affect the accuracy metrics; spot-checks confirm the codes resolve correctly.
 - **Standard-agnostic by design.** The target standard is chosen by `STANDARD_VOCAB_STYLE`; ABR is the
   first one implemented, and another vocabulary (e.g. a different country's) is a drop-in addition under
   `data/vocabularies/standards/<style>/`.

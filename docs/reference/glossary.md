@@ -13,8 +13,7 @@ Terms used in this documentation, both archaeological and workflow-specific.
 | **Find** | A distinct physical object the report says was found, one row in the summary. |
 | **Mode (`WORKFLOW_MODE`)** | The master switch for how much AI is used: Rules-only / Claude / Llama / local-Llama (see [../design/workflow_modes.md](../design/workflow_modes.md)). |
 | **Gold standard** | A hand-made CSV of the finds a report *should* yield, used to score the workflow. |
-| **Hybrid extraction** | An AI path where the model reads the whole report and returns the find list directly. |
-| **Hybrid / rules-only ensemble** | The Layer 7 path where an LLM reads the whole report while the deterministic rules ground and check it (dates, names, sites, verbatim-quote checks). |
+| **Hybrid extraction (rules-LLM ensemble)** | The Layer 7 path where an LLM reads the whole report and returns the find list directly, while the deterministic rules ground and check it (dates, names, sites, verbatim-quote checks). |
 | **Verbatim-quote contract** | The anti-hallucination rule that every model-produced find must carry a quote that actually appears in the report; finds whose quote cannot be located are dropped. |
 | **Layer 3b** | Trigger-based extraction of pottery names not in the pattern list, plus figure/catalog finds (see `src/pottery_extractor.py`). |
 | **Consolidation / coreference** | Collapsing several mentions that refer to the *same* physical find into one row. |
