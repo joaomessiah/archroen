@@ -9,17 +9,17 @@ standards** for this set; it is the real-world task, not the accuracy-measuremen
 
 | Item | Location |
 |---|---|
-| Report PDFs (30, frozen snapshot) | [roman_villas/input_reports/](roman_villas/input_reports/) |
+| Report PDFs (27 of 30; 3 link-only for copyright) | [roman_villas/input_reports/](roman_villas/input_reports/) |
 | Live report PDFs | [input_files/reports/south_limburg_villas/](../../../input_files/reports/south_limburg_villas/) |
 | Outputs (frozen snapshot) | [roman_villas/outputs/](roman_villas/outputs/) |
 | Live outputs (regenerated) | `output_files/reports/south_limburg_villas/` |
 
-Each output is one `<report>.csv` pottery summary; the columns are documented in
+Each output is one `<report_id>.csv` pottery summary; the columns are documented in
 [../../reference/output_schema.md](../../reference/output_schema.md).
 
 Each output also carries the seven **ABR standard-vocabulary** columns (`std_*`): every find in this
 application corpus is mapped to the Dutch national standard (Archeologisch Basisregister / Archis), so
-the South-Limburg villa data comes out ready to feed into the national heritage infrastructure without
+the South Limburg villa data comes out ready to feed into the national heritage infrastructure without
 manual re-coding. Most finds (about 86%) resolve to a standard code; the mapping is deterministic, and
 spot-checks consistently confirm the codes resolve correctly.
 
