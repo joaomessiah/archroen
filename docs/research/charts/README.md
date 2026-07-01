@@ -1,6 +1,6 @@
 # Evaluation charts
 
-The seven figures used in the thesis evaluation chapter, the frozen copies referenced in
+The evaluation figures, the frozen copies referenced in
 [../results.md](../results.md). They compare the three workflow modes (Rules-only, Claude, Llama)
 on the 20-report validation set. Headline overall correctness: Claude 95.6%, Llama 77.3%,
 Rules-only 47.9%.
