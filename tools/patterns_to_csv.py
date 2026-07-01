@@ -41,7 +41,7 @@ def extract_terms(regex: str) -> list[str]:
 def format_date(value: int) -> str:
     if value < 0:
         return f"{abs(value)} BCE"
-    return f"AD {value}"
+    return f"{value} CE"
 
 
 def main():
