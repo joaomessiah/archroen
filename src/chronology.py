@@ -230,7 +230,7 @@ def _reconcile(
 
 def _format_year(value: int) -> str:
     value = int(value)
-    return f"{abs(value)} BCE" if value < 0 else f"AD {value}"
+    return f"{abs(value)} BCE" if value < 0 else f"{value} CE"
 
 
 def _date_label(start: int, end: int) -> str:

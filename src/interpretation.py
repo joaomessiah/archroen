@@ -123,7 +123,7 @@ _RULES: List[Tuple[re.Pattern, str, float]] = [
 _VALID_LABELS = {"present", "absent", "comparison", "uncertain", "irrelevant"}
 
 _LLM_PROMPT_TEMPLATE = """\
-You are an archaeological text analyst. A term was detected in a Roman-period excavation report from the Netherlands (ca. 12 BC – 450 AD). Pottery types, construction phases, coin finds, and site features from this period are archaeologically relevant.
+You are an archaeological text analyst. A term was detected in a Roman-period excavation report from the Netherlands (ca. 12 BCE – 450 CE). Pottery types, construction phases, coin finds, and site features from this period are archaeologically relevant.
 Your task: classify whether this mention represents actual archaeological evidence at the site.
 
 Term: {term}
@@ -160,7 +160,7 @@ Sentence: {sentence}
 # model echoes each item's index so results map back unambiguously (alignment is the key safety
 # property — validated by count, with per-item fallback for any missing/invalid index).
 _LLM_BATCH_PROMPT_TEMPLATE = """\
-You are an archaeological text analyst. Terms were detected in a Roman-period excavation report from the Netherlands (ca. 12 BC – 450 AD). Pottery types, construction phases, coin finds, and site features from this period are archaeologically relevant.
+You are an archaeological text analyst. Terms were detected in a Roman-period excavation report from the Netherlands (ca. 12 BCE – 450 CE). Pottery types, construction phases, coin finds, and site features from this period are archaeologically relevant.
 Your task: classify, for EACH numbered item below, whether its mention represents actual archaeological evidence at the site.
 
 Each "context_label" MUST be exactly one of: present | absent | comparison | uncertain | irrelevant

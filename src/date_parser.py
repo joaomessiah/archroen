@@ -405,7 +405,7 @@ def extract_date_signals(text: str) -> List[Dict]:
 # ---------------------------------------------------------------------------
 
 _LLM_DATE_PROMPT = """\
-You are an archaeological date parser for Roman-period excavation reports from the Netherlands (ca. 12 BC – 450 AD). Read the context sentence below.
+You are an archaeological date parser for Roman-period excavation reports from the Netherlands (ca. 12 BCE – 450 CE). Read the context sentence below.
 
 Term found: {term}
 Context sentence: {context}
