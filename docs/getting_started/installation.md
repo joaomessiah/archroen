@@ -38,7 +38,7 @@ The remaining steps are the same for both options.
 folder onto the terminal window to fill in its path, and press Enter. For example:
 
 ```bash
-cd ~/Desktop/JM-Thesis/Workflow
+cd path/to/Workflow
 ```
 
 **2. Create a "virtual environment".** This is an isolated Python setup just for this project. It keeps

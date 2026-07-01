@@ -42,7 +42,7 @@ This is the normal way to run. The workflow processes **every PDF** in the folde
 ```
 
 It writes one result CSV per report (see [where results go](#4-where-results-go)). `BATCH_WORKERS` in
-`config.py` controls how many reports run in parallel. The default is `2`; set it to `1` for slower
+`config.py` controls how many reports run in parallel. The default is `4`; set it to `1` for slower
 runs that show live per-report output. Every other `config.py` setting is explained flag-by-flag in
 [../reference/config_options.md](../reference/config_options.md).
 

@@ -13,7 +13,7 @@ After editing `config.py`, just re-run the workflow. There's nothing to "reload"
 |---|---|---|
 | `WORKFLOW_MODE` | `"claude"` | The master AI switch: `"rules-only"`, `"claude"`, `"cloud-llama"`, or `"local-llama"`. See [how_to_run.md](how_to_run.md#1-choose-a-mode). |
 | `DEFAULT_REPORTS_DIR` | `…/workflow_evaluation_sample` | Which folder of PDFs to process. Point it at your own folder under `input_files/reports/`. |
-| `BATCH_WORKERS` | `2` | How many reports to process at the same time. `1` = one at a time, with live progress. |
+| `BATCH_WORKERS` | `4` | How many reports to process at the same time. `1` = one at a time, with live progress. |
 
 ## Mode is the master switch
 
