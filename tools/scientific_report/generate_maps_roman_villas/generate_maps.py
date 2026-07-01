@@ -39,7 +39,7 @@ from shapely.geometry import box
 # Fonts (graceful: never errors; prefers Times New Roman, else bundled Liberation Serif)
 # ---------------------------------------------------------------------------
 
-# On-page typography. The maps are placed in the thesis / Google Doc at the 16 cm text-column
+# On-page typography. The maps are sized for the 16 cm text-column
 # width (6.3 in), the same as the charts, so their text should read at a true ~12 pt there. By the
 # rule on-page pt = font pt x (display width / figure width), both maps use a fixed figure WIDTH of
 # MAP_FIGURE_WIDTH_IN and FONT_SIZE is derived so the text lands at TARGET_ON_PAGE_PT at 16 cm.

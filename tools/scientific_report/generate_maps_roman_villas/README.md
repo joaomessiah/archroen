@@ -13,7 +13,7 @@ It reads two CSVs of villa locations and renders two publication-ready maps of S
 | 1 | `roman_villa_locations_map` | The **target** villas as a numbered map of South Limburg, with a toponym list and a Netherlands inset. |
 | 2 | `roman_villa_sites_in_south_limburg` | The **other** Roman villas as gray dots, with the target villas highlighted as numbered black markers, over the same area. |
 
-`--which` selects which map(s) to render: `thesis` (map 1 only), `all` (map 2 only), or `both`
+`--which` selects which map(s) to render: `thesis` (map 1 only), `all` (the all-villas map; map 2 only), or `both`
 (the default). Map 1 can be drawn in color with `--style color`; **map 2 is always grayscale**.
 
 The script is:
