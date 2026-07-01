@@ -113,7 +113,8 @@ Everything is in **[docs/](docs/)**. Pick by what you want to do:
 │       ├── datasets/      # the corpora used, with their per-report outputs and scores
 │       ├── maps/          # the map figures used in the study
 │       ├── charts/        # the chart figures used in the study
-│       └── claude_variance/  # stability check on the Claude result across repeated runs
+│       ├── claude_variance/       # stability check on the Claude result across repeated runs
+│       └── aoristic_monte_carlo/  # case study: aoristic and Monte Carlo temporal analysis of the villa ceramics
 ├── evaluation/            # evaluates the workflow output against the gold standards
 ├── input_files/           # everything fed into the workflow
 │   ├── reports/           # the source report PDFs, grouped into batch folders
