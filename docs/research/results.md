@@ -16,8 +16,6 @@ end date). See [evaluation.md](evaluation.md) for the definitions.
 | **Llama mode** (cloud Llama-3.3-70B) | 962 | 58 | 185 | 40 | 1245 | **77.3%** |
 | **Rules-only mode** | 803 | 317 | 85 | 470 | 1675 | **47.9%** |
 
-*Claude strongest, Llama mid, Rules-only the deterministic baseline.*
-
 Run-to-run, the Claude figure is **stable**. This is a stability check, how little the output drifts
 when a run is repeated, not a bit-for-bit reproducibility test (LLM services vary slightly even at
 temperature 0). Across five identical runs it moves within 0.6 percentage points (SD 0.26 pp), so a

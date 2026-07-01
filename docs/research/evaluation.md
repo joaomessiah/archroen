@@ -42,8 +42,8 @@ verdict); a typology code either matches exactly or it counts as incorrect.
 
 **Field-level correctness** = (`exact` + `acceptable`) ÷ all field verdicts, computed over the union of
 gold and workflow findings. Unmatched findings therefore count against the score through their `missing` /
-`overclaim` field slots. The metric is reported both overall and per field (site, pottery, typology, start
-date, end date). Five fields are scored per finding. This headline metric uses the `exact` + `acceptable`
+`overclaim` field slots. The metric is reported both overall and per field: the five scored per finding are site, pottery, typology, start
+date, and end date. This headline metric uses the `exact` + `acceptable`
 verdicts; it is **not** the date-overlap metric described below, which is a separate diagnostic.
 
 The output's ABR `std_*` standard-vocabulary columns are an interoperability layer and are not part of

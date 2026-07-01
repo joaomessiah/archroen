@@ -17,10 +17,11 @@ The two corpora are the **validation set** (20 reports, scored against gold stan
 
 | Folder | What's inside |
 |---|---|
-| [charts/](charts/) | The seven evaluation figures used in the thesis (PNGs). |
+| [charts/](charts/) | The evaluation figures (PNGs). |
 | [maps/](maps/) | The Roman-villa location maps (PNGs). |
 | [datasets/](datasets/) | The two corpora, with frozen copies of their outputs and scores. |
 | [claude_variance/](claude_variance/) | Stability check: how much the Claude result drifts across 5 identical runs (near-deterministic). |
+| [aoristic_monte_carlo/](aoristic_monte_carlo/) | Case study: aoristic and Monte Carlo temporal analysis of the villa ceramics, benchmarked against the SGRE reference (dominant period agrees on 15/16 sites). |
 
 The charts and maps are produced by the tools under
 [`tools/scientific_report/`](../../tools/scientific_report/).

@@ -15,7 +15,8 @@ The thesis uses two distinct sets of reports (see [datasets/](datasets/)):
 
 - **The validation set** (20 reports, with hand-made gold standards), used to **measure accuracy**.
 - **The Roman-villa set** (30 reports, no gold standards): the **real-world application**, running the
-  workflow on the actual reports the thesis is about.
+  workflow on the actual reports the thesis is about. Its outputs feed the
+  [aoristic and Monte Carlo case study](aoristic_monte_carlo/).
 
 Keeping them separate matters: accuracy is measured on the set with ground truth, while the villa set
 demonstrates the workflow doing the job it was built for.
