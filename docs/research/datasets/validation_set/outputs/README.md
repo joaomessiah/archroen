@@ -18,5 +18,4 @@ It is the same Claude output with the seven **ABR standard-vocabulary** (`std_*`
 map every find to the Dutch national standard (Archeologisch Basisregister / Archis) so the results are
 directly reusable in the national heritage data ecosystem without manual re-coding. The mapping is
 deterministic and standard-agnostic by design (the target is chosen by `STANDARD_VOCAB_STYLE`; only
-`abr` is implemented so far). It sits outside the scored evaluation, but spot-checks consistently
-confirm the codes resolve correctly.
+`abr` is implemented so far). It sits outside the scored evaluation, but spot-checks confirm the codes resolve correctly.
