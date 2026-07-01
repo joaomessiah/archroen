@@ -21,13 +21,17 @@ Each output also carries the seven **ABR standard-vocabulary** columns (`std_*`)
 application corpus is mapped to the Dutch national standard (Archeologisch Basisregister / Archis), so
 the South Limburg villa data comes out ready to feed into the national heritage infrastructure without
 manual re-coding. Most finds (about 86%) resolve to a standard code; the mapping is deterministic, and
-spot-checks consistently confirm the codes resolve correctly.
+spot-checks confirm the codes resolve correctly.
 
 > The frozen `outputs/` here are a **snapshot** of the thesis run. Re-running the workflow regenerates
 > the live versions under `output_files/`.
 
 Because there are no gold standards, **this set has no scores or evaluation**: the artifacts here are
 outputs only. The site locations of this corpus are shown on the villa maps at [../maps/](../maps/).
+
+**Downstream use:** these outputs are the input to the
+[aoristic and Monte Carlo case study](../aoristic_monte_carlo/), which analyzes their chronological
+signal and benchmarks it against an independent reference dataset.
 
 ## Reproducing
 
