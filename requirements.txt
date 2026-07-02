@@ -1,4 +1,5 @@
 # Core runtime dependencies for the chronology pipeline.
+# Developed and tested on Python 3.12.3 (any 3.12.x works); the pinned dependencies require Python 3.11 or newer.
 # Install into a virtualenv:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 PyMuPDF==1.26.4       # PDF text extraction and page rendering (imported as `fitz`)

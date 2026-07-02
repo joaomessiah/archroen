@@ -20,11 +20,11 @@ PATTERNS_DIR = DATA_DIR / "patterns"          # generated regex detection patter
 VOCAB_DIR = DATA_DIR / "vocabularies"         # source vocabularies (CSV) + reference maps (JSON)
 
 # --- Input reports ---
-# Batch input: the workflow processes EVERY PDF in this folder (a sub-folder of input_files/reports/)
-# and writes one <report>.csv per report to output_files/reports/<folder>/.
-DEFAULT_REPORTS_DIR = BASE_DIR / "input_files" / "reports" / "workflow_evaluation_sample"
+# The batch folder is given on the command line: `run_pipeline.py input_files/reports/<folder>`.
+# The workflow processes EVERY PDF in that folder, writing one <report>.csv per report to
+# output_files/reports/<folder>/.
 BATCH_WORKERS = 4    # reports processed in parallel (1 = sequential with live console output)
-# Single-report path (used by `main(pdf_path)` for one-off dev runs; the batch above is the default).
+# Single-report path used by `main(pdf_path)` when it is called with no argument (one-off dev runs).
 DEFAULT_PDF_PATH = BASE_DIR / "test_sandbox" / "reports" / "test_sentences_en.pdf"
 
 # --- Detection pattern files (generated from the master vocab CSVs; see tools/csv_to_patterns.py) ---

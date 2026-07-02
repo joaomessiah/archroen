@@ -9,11 +9,13 @@ Runs all layers in sequence on a single PDF report and writes the outputs:
   6    assign chronology     (chronology)
   7    build/validate + summary (output_builder, validator, pottery_summary)
 
-Behaviour is driven entirely by the toggles in config.py. Run with:
-    .venv/bin/python3 run_pipeline.py
-which processes config.DEFAULT_PDF_PATH; or call main(Path(...)) for another report.
+Behavior is driven entirely by the toggles in config.py. A folder or PDF argument is required:
+    .venv/bin/python3 run_pipeline.py <folder>       # batch: every PDF in <folder>
+    .venv/bin/python3 run_pipeline.py report.pdf     # a single report
+or call run_batch(Path(...)) / main(Path(...)) directly.
 """
 import shutil
+import sys
 import tempfile
 import time
 from pathlib import Path
@@ -21,7 +23,6 @@ from pathlib import Path
 import config
 from config import (
     DEFAULT_PDF_PATH,
-    DEFAULT_REPORTS_DIR,
     BATCH_WORKERS,
     CHRONOLOGY_PATTERNS_PATH,
     POTTERY_PATTERNS_PATH,
@@ -78,7 +79,7 @@ def main(pdf_path: Path = DEFAULT_PDF_PATH) -> None:
     then runs Layers 1-7 in sequence (extract+clean → structure → detect → pottery extract →
     normalize → interpret → chronology → output/validate), writes the per-record exports and the
     pottery summary, and — when `POTTERY_HYBRID_LLM_USE` is on — the optional Claude-hybrid summary.
-    Each layer's behaviour is driven by config.py toggles; timings are printed per stage."""
+    Each layer's behavior is driven by config.py toggles; timings are printed per stage."""
     run_start = time.time()
     print(f"PDF: {pdf_path}")
 
@@ -217,10 +218,11 @@ def _run_one(pdf_path_str: str):
             return (pdf.stem, f"ERROR {type(e).__name__}: {e}", time.time() - t0)
 
 
-def run_batch(reports_dir: Path = DEFAULT_REPORTS_DIR, workers: int = BATCH_WORKERS) -> None:
+def run_batch(reports_dir: Path, workers: int = BATCH_WORKERS) -> None:
     """Process every PDF in `reports_dir` (a folder under input_files/reports/), writing one
-    `<report>.csv` per report to `output_files/reports/<folder>/`. Runs `workers` reports in
-    parallel (1 = sequential with live console output; >1 redirects each report to logs/<report>.log)."""
+    `<report>.csv` per report to `output_files/reports/<folder>/`. `workers` = 1 runs sequentially
+    with full live console output; >1 runs in parallel, showing a progress bar on a terminal and
+    writing each report's detailed output to logs/<report>.log."""
     pdfs = sorted(reports_dir.glob("*.pdf"))
     if not pdfs:
         print(f"No PDFs found in {reports_dir}")
@@ -239,16 +241,113 @@ def run_batch(reports_dir: Path = DEFAULT_REPORTS_DIR, workers: int = BATCH_WORK
                 print(f"  ERROR {type(e).__name__}: {e}")
                 results.append((pdf.stem, "ERROR"))
     else:
-        from multiprocessing import Pool
+        from multiprocessing import Pool, TimeoutError as _MPTimeout
+        live = sys.stdout.isatty()      # real terminal -> updating bar; redirected -> plain lines
+        spinner = "|/-\\"
+        done = tick = 0
+        last = status = secs = None
+
+        def _draw():
+            cols = shutil.get_terminal_size((80, 20)).columns
+            spin = spinner[tick % len(spinner)] if done < len(pdfs) else None
+            bar = _progress_bar(done, len(pdfs), time.time() - t0, last, status, secs, spin)
+            print("\r" + bar[:cols - 1].ljust(cols - 1), end="", flush=True)   # fit width + overwrite
+
         with Pool(workers) as pool:
-            for stem, status, secs in pool.imap_unordered(_run_one, [str(p) for p in pdfs]):
-                print(f"  {stem}: {status} ({secs:.0f}s)", flush=True)
-                results.append((stem, status))
+            it = pool.imap_unordered(_run_one, [str(p) for p in pdfs])
+            if live:
+                _draw()                 # initial 0/N bar (spinner), shown immediately
+            while done < len(pdfs):
+                try:
+                    stem, status, secs = it.next(0.1)   # wait up to 0.1s for the next completion
+                    done += 1
+                    last = stem
+                    results.append((stem, status))
+                    if not live:
+                        print(f"  {stem}: {status} ({secs:.0f}s)", flush=True)
+                except _MPTimeout:
+                    pass                 # nothing finished this tick: just animate the spinner
+                if live:
+                    tick += 1
+                    _draw()
+        if live:
+            print()                     # end the progress-bar line
     ok = sum(1 for _, s in results if s == "ok")
     elapsed = time.time() - t0
     print(f"\nBatch done: {ok}/{len(pdfs)} ok in {elapsed:.0f}s ({elapsed/60:.1f} min)."
           f"  Per-report logs: output_files/reports/{reports_dir.name}/logs/")
 
 
+def _progress_bar(done: int, total: int, elapsed: float, last: str = None,
+                  status: str = None, secs: float = None, spin: str = None) -> str:
+    """One-line ASCII progress bar for the parallel batch (redrawn in place with a carriage return).
+    ASCII-only so it renders on any terminal; the caller fits it to the terminal width so each redraw
+    fully overwrites the previous line. `spin` is an optional spinner char shown while work is ongoing,
+    to signal liveness between completions; with no `last` report yet (done == 0), the tail is
+    'starting...'."""
+    width = 24
+    filled = round(width * done / total) if total else 0
+    bar = "#" * filled + "-" * (width - filled)
+    mm, ss = divmod(int(elapsed), 60)
+    if last is None:
+        tail = "starting..."
+    else:
+        tag = "ok" if status == "ok" else "FAIL"
+        tail = f"last: {last} {secs:.0f}s ({tag})"
+    lead = f"{spin} " if spin else ""
+    return f"{lead}[{bar}] {done}/{total}  {mm:02d}:{ss:02d} elapsed  {tail}"
+
+
+def _warn(msg: str) -> None:
+    """Print a warning that stands out in a terminal (bold yellow), staying plain text when the
+    output is redirected to a file or log (so batch logs don't collect ANSI escape codes)."""
+    if sys.stdout.isatty():
+        print(f"\033[1;33mWARNING: {msg}\033[0m")   # bold yellow on interactive terminals
+    else:
+        print(f"WARNING: {msg}")                     # plain when piped/redirected
+
+
+def _preflight() -> None:
+    """Check the current WORKFLOW_MODE's requirements once, before processing, so a missing key
+    aborts immediately with a clear message instead of failing per-report at the first API call.
+    OCR is only needed for scanned PDFs, so a missing Vision key is a warning, not a stop."""
+    import os
+    if config.LLM_USE:
+        if config.LLM_PROVIDER == "cloud" and not (config.LLM_API_KEY or os.environ.get("LLM_API_KEY")):
+            sys.exit("Cannot start: Llama mode (WORKFLOW_MODE='cloud-llama') needs LLM_API_KEY.\n"
+                     "Set it in .env (or config.py). See docs/getting_started/api_keys.md.")
+        if config.LLM_PROVIDER == "anthropic" and not config.HYBRID_USE_CLAUDE_CLI \
+                and not (config.ANTHROPIC_API_KEY or os.environ.get("ANTHROPIC_API_KEY")):
+            sys.exit("Cannot start: Claude mode (WORKFLOW_MODE='claude') needs ANTHROPIC_API_KEY.\n"
+                     "Set it in .env (or config.py), or set HYBRID_USE_CLAUDE_CLI=True to use the\n"
+                     "Claude CLI instead. See docs/getting_started/api_keys.md.")
+        # local-llama (ollama) needs no key; the Ollama server/model is checked with a clear
+        # message at the first call (see src/llm_client._call_ollama).
+    if config.OCR_ENABLED and not (config.GOOGLE_VISION_API_KEY or os.environ.get("GOOGLE_VISION_API_KEY")):
+        _warn("OCR_ENABLED is on but GOOGLE_VISION_API_KEY is not set. Scanned/image-only PDFs "
+              "will fail; set the key or set OCR_ENABLED=False for a text-only run.")
+
+
 if __name__ == "__main__":
-    run_batch()
+    if len(sys.argv) < 2:
+        # A folder or PDF argument is required (there is no implicit default folder).
+        sys.exit(
+            "Usage: run_pipeline.py <path>\n\n"
+            "A folder or PDF path is required. <path> can be either:\n"
+            "  - a folder of PDFs:   batches every PDF in it\n"
+            "  - a single PDF file:  runs just that one report\n\n"
+            "Examples:\n"
+            "  run_pipeline.py input_files/reports/workflow_evaluation_sample\n"
+            "  run_pipeline.py input_files/reports/workflow_evaluation_sample/new_rep_1.pdf\n\n"
+            "The run mode (rules-only / claude / cloud-llama / local-llama) is set separately\n"
+            "by WORKFLOW_MODE in config.py."
+        )
+    arg = Path(sys.argv[1])
+    if not (arg.is_dir() or arg.is_file()):
+        # Typo or missing path: fail clearly instead of a cryptic downstream error.
+        sys.exit(f"Error: '{arg}' is not an existing file or folder.")
+    _preflight()                     # validate the mode's key requirement before any work
+    if arg.is_dir():
+        run_batch(arg)               # a folder: batch every PDF in it
+    else:
+        main(arg)                    # a single PDF: run just that report
