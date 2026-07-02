@@ -12,8 +12,10 @@ After editing `config.py`, just re-run the workflow. There's nothing to "reload"
 | Setting | Default | What it does |
 |---|---|---|
 | `WORKFLOW_MODE` | `"claude"` | The master AI switch: `"rules-only"`, `"claude"`, `"cloud-llama"`, or `"local-llama"`. See [how_to_run.md](how_to_run.md#1-choose-a-mode). |
-| `DEFAULT_REPORTS_DIR` | `…/workflow_evaluation_sample` | Which folder of PDFs to process. Point it at your own folder under `input_files/reports/`. |
 | `BATCH_WORKERS` | `4` | How many reports to process at the same time. `1` = one at a time, with live progress. |
+
+The folder of PDFs to process is not a `config.py` setting; you pass it to the workflow on the command
+line (see [how_to_run.md](how_to_run.md#2-run-a-whole-folder-batch)).
 
 ## Mode is the master switch
 
@@ -22,6 +24,9 @@ workflow uses AI and which provider. The more detailed flags below (`POTTERY_HYB
 `CHRONO_LLM_USE`, and so on) only take effect in the AI modes. In `"rules-only"` `config.py` forces
 every detailed `*_LLM_USE` flag off automatically, so the run is fully deterministic no matter how
 those flags are set.
+
+> The shipped default is `"claude"`, which needs `ANTHROPIC_API_KEY`. For a key-free trial, set it to
+> `"rules-only"` (see [quickstart.md](quickstart.md)).
 
 You normally do **not** need to touch the detailed flags; `WORKFLOW_MODE` is enough. They exist for
 fine-tuning and experiments:

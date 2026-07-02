@@ -16,9 +16,9 @@ provider and lets the workflow make requests on your behalf.
 |---|---|---|
 | **Rules-only mode** | *none* | *not applicable* |
 | **Claude mode** | `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com) |
-| **Llama mode** | `LLM_API_KEY` | [Together AI](https://api.together.xyz) (the host used in the thesis) |
+| **Llama mode** | `LLM_API_KEY` | [Together AI](https://api.together.xyz) (the host used in the research) |
 
-There is also an optional key for reading **scanned** (image-only) PDFs:
+There is also an optional key for reading **scanned** (OCR) PDFs:
 
 | Purpose | Key | Where to get it |
 |---|---|---|
@@ -29,36 +29,38 @@ There is also an optional key for reading **scanned** (image-only) PDFs:
 The workflow reads keys from your computer's **environment variables**, not from inside the code. This
 means your keys are never written into the project files.
 
-1. In the project folder there's a template called **`.env.example`**. Make a copy named **`.env`**:
+1. In the project folder there's a template called **`.env.example`**. Make a copy of that file and name it **`.env`**:
+
+   **macOS / Linux:**
 
    ```bash
    cp .env.example .env
    ```
 
-2. Open `.env` in any text editor and fill in the key(s) you have. It looks like this. Paste your key
-   after the `=` sign (no quotes, no spaces):
+   **Windows (PowerShell):**
 
-   ```
-   GOOGLE_VISION_API_KEY=your-google-vision-key-here
-   ANTHROPIC_API_KEY=your-anthropic-key-here
-   LLM_API_KEY=your-together-key-here
+   ```powershell
+   Copy-Item .env.example .env
    ```
 
-   Leave blank any key you don't need.
+2. Open `.env` in any text editor and fill in the key(s) you have. It looks like this. Paste each key
+   between the quotes, after the `=` sign:
+
+   ```
+   GOOGLE_VISION_API_KEY="your-google-vision-key-here"
+
+   ANTHROPIC_API_KEY="your-anthropic-key-here"
+
+   LLM_API_KEY="your-together-key-here"
+   ```
+
+   Leave any key you don't need as the empty `""`.
 
 3. That's usually all you need: `config.py` **auto-loads** the `.env` file (via python-dotenv), so the
-   keys are picked up automatically when you run the workflow. The manual load step below is therefore
-   **optional**. If you'd rather load the keys into your terminal session yourself (for example to
-   override what's in `.env`), run:
-
-   ```bash
-   set -a && . ./.env && set +a
-   ```
-
-   (You'd do this once per terminal window, before running the workflow.)
+   keys are picked up automatically when you run the workflow.
 
 > **Claude mode without an API key:** if you set `HYBRID_USE_CLAUDE_CLI=True` in `config.py`, Claude
-> mode runs through the Claude Code CLI (using your subscription) and does **not** need
+> mode runs through the Claude Code CLI (using your Claude subscription) and does **not** need
 > `ANTHROPIC_API_KEY`.
 
 ## Cost

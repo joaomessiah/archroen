@@ -7,8 +7,8 @@ before you install the workflow. If you already work with Python, skip ahead to
 ## What you'll need
 
 - A computer running **Windows, macOS, or Linux**.
-- About **20 minutes** for the one-time setup.
-- **Python 3.12** (a free programming language the workflow is written in). See below.
+- About **20 minutes** total for the one-time setup (this page plus [installation.md](installation.md)).
+- **Python 3.12** (a free programming language the workflow is written in; 3.11 or newer also works). See below.
 - *(Optional)* an **AI model API key**, only if you want to run the AI-assisted modes. The workflow
   also runs with no key at all in *Rules-only mode*, except for OCR of scanned PDFs (a Google Vision
   key). See [api_keys.md](api_keys.md).
@@ -24,25 +24,35 @@ instead of clicking buttons. You'll use it both to set things up and to run the 
 - **macOS:** press `Cmd + Space`, type `Terminal`, and press Enter.
 - **Linux:** press `Ctrl + Alt + T`, or search for `Terminal` in your applications.
 
-When this documentation shows a box like the one below, it means *"type (or paste) this into the
-terminal and press Enter"*:
+When you see a box like the one below, copy the command inside it into the terminal and press Enter to
+run it:
 
 ```bash
 python3 --version
 ```
+
+(On Windows, the command is `py --version` instead.)
 
 ## Python 3.12
 
 **Python** is the language the workflow is written in; you need it installed to run anything.
 
-Check whether you already have it. Paste this into the terminal:
+Check whether you already have it. Paste this into the terminal.
+
+**macOS / Linux:**
 
 ```bash
 python3 --version
 ```
 
-If it prints `Python 3.12.x` (or any 3.12 version), you're ready. If it says the command was not
-found, or shows an older version, you need to install Python 3.12:
+**Windows (PowerShell):**
+
+```powershell
+py --version
+```
+
+If it prints `Python 3.12.x` (or 3.11 or newer), you're ready. If it says the command was not
+found, or shows an older version (3.10 or below), install Python 3.12:
 
 - **Windows / macOS:** download the installer from [python.org/downloads](https://www.python.org/downloads/).
   On Windows, tick **"Add Python to PATH"** during installation.
