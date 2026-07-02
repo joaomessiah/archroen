@@ -37,12 +37,11 @@ signal and benchmarks it against an independent reference dataset.
 
 ```python
 # in config.py:
-DEFAULT_REPORTS_DIR = BASE_DIR / "input_files" / "reports" / "south_limburg_villas"
 WORKFLOW_MODE = "claude"   # the mode used for the application run
 ```
 
 ```bash
-.venv/bin/python3 run_pipeline.py
+.venv/bin/python3 run_pipeline.py input_files/reports/south_limburg_villas
 ```
 
 See [../../getting_started/how_to_run.md](../../getting_started/how_to_run.md) for details.

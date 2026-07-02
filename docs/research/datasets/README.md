@@ -34,8 +34,8 @@ run to keep the three apart, which is why the frozen copies carry those names.
 
 ## Reproducing
 
-To regenerate any of these, set `WORKFLOW_MODE` and `DEFAULT_REPORTS_DIR` in `config.py` and run the
-workflow, then the evaluation. See [../../getting_started/how_to_run.md](../../getting_started/how_to_run.md).
+To regenerate any of these, set `WORKFLOW_MODE` in `config.py`, run the workflow on the batch folder,
+then the evaluation. See [../../getting_started/how_to_run.md](../../getting_started/how_to_run.md).
 Each run overwrites `output_files/reports/workflow_evaluation_sample/`, so to keep all three modes (as
 the thesis did) rename that folder to `…_mode_<mode>` between runs and point the evaluation at it. The
 frozen copies here let you compare your fresh run against the thesis results.

@@ -54,11 +54,10 @@ The measured accuracy of each mode on this set is in [../results.md](../results.
 
 ```python
 # in config.py:
-DEFAULT_REPORTS_DIR = BASE_DIR / "input_files" / "reports" / "workflow_evaluation_sample"
 WORKFLOW_MODE = "claude"   # or "cloud-llama" (Llama mode) / "rules-only"
 ```
 
 ```bash
-.venv/bin/python3 run_pipeline.py            # produce the summaries
-.venv/bin/python3 evaluation/evaluate.py     # score them
+.venv/bin/python3 run_pipeline.py input_files/reports/workflow_evaluation_sample   # produce the summaries
+.venv/bin/python3 evaluation/evaluate.py                                           # score them
 ```
