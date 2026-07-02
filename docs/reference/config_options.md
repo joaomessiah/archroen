@@ -1,9 +1,7 @@
 # config.py option reference
 
 The full per-flag rationale for `config.py`. `config.py` itself keeps short one-line
-comments and points here for the detail. For the everyday settings (`WORKFLOW_MODE`,
-`DEFAULT_REPORTS_DIR`, `BATCH_WORKERS`), see [../getting_started/configuration.md](../getting_started/configuration.md).
-`DEFAULT_REPORTS_DIR` currently points to `workflow_evaluation_sample`.
+comments and points here for the detail. For the everyday settings (`WORKFLOW_MODE`, `BATCH_WORKERS`), see [../getting_started/configuration.md](../getting_started/configuration.md).
 For keys, see [../getting_started/api_keys.md](../getting_started/api_keys.md).
 
 Sections below mirror the section banners in `config.py`.
