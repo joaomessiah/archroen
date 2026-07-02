@@ -63,3 +63,7 @@ typology.
 .venv/bin/python3 evaluation/evaluate.py                 # detection + agreement, console
 .venv/bin/python3 evaluation/evaluate_granular.py        # per-field audit → output_files/evaluation/<stem>/
 ```
+
+On a fresh clone these fall back to the frozen reference outputs, so the numbers reproduce out of the
+box; the automated scores differ slightly from the reported headline (see [results.md](results.md) for
+why).

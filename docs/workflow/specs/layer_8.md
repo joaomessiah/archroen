@@ -44,7 +44,13 @@ Scores every output against its gold standard and prints, per report and in aggr
 .venv/bin/python3 evaluation/evaluate.py                 # console report, all reports
 .venv/bin/python3 evaluation/evaluate.py --csv eval.csv  # also dump per-find matched/missed/spurious rows
 .venv/bin/python3 evaluation/evaluate.py --report table_5 # restrict to one report
+.venv/bin/python3 evaluation/evaluate.py --summary-dir <dir>  # score an alternate output set
 ```
+
+With nothing to score (a fresh clone with no live outputs), it falls back to the frozen reference
+outputs that ship with the repo; if the folder or outputs are genuinely missing it stops with a clear
+message rather than scoring nothing. Its numbers are the automated scores, not the manually-adjudicated
+headline figures (see [../../research/results.md](../../research/results.md)).
 
 ## `evaluate_granular.py`: per-field audit
 

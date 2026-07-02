@@ -24,8 +24,6 @@ VOCAB_DIR = DATA_DIR / "vocabularies"         # source vocabularies (CSV) + refe
 # The workflow processes EVERY PDF in that folder, writing one <report>.csv per report to
 # output_files/reports/<folder>/.
 BATCH_WORKERS = 4    # reports processed in parallel (1 = sequential with live console output)
-# Single-report path used by `main(pdf_path)` when it is called with no argument (one-off dev runs).
-DEFAULT_PDF_PATH = BASE_DIR / "test_sandbox" / "reports" / "test_sentences_en.pdf"
 
 # --- Detection pattern files (generated from the master vocab CSVs; see tools/csv_to_patterns.py) ---
 CHRONOLOGY_PATTERNS_PATH = PATTERNS_DIR / "chronology_patterns.json"

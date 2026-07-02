@@ -125,6 +125,12 @@ If a folder has matching **gold standards** (hand-checked answers) under
 This reports detection precision/recall/F1, date accuracy, and site accuracy, per report and overall.
 By default it scores `workflow_evaluation_sample`; pass `--folder <name>` to score a different batch
 folder (it compares `output_files/reports/<folder>/` against `input_files/gold_standards/<folder>/`).
+
+On a fresh clone (before you've run the pipeline), it falls back to the frozen reference outputs that
+ship with the repo, so you see the numbers right away. Note that these automated scores are not
+identical to the reported headline figures (which use a per-field metric plus a manual adjudication);
+the tool prints a one-line reminder, and [results.md](../research/results.md) explains the difference.
+
 For the research details and the thesis numbers, see [../research/evaluation.md](../research/evaluation.md)
 and [../research/results.md](../research/results.md).
 

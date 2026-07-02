@@ -339,6 +339,47 @@ def reports(only=None):
     return [n for n in names if not only or n == only]
 
 
+def _no_output_hint(folder: str) -> str:
+    """Actionable next steps to show when there are no output CSVs to score for `folder`."""
+    hint = ("Produce them first by running the pipeline:\n"
+            f"    run_pipeline.py input_files/reports/{folder}")
+    if folder == "workflow_evaluation_sample":
+        hint += ("\nor score the frozen outputs that ship with the repo by adding:\n"
+                 "    --summary-dir docs/research/datasets/validation_set/outputs/claude")
+    return hint
+
+
+def _resolve_dirs(folder, summary_dir=None):
+    """Resolve (gold_dir, out_dir) for a scoring run: honour --summary-dir, apply the fresh-clone
+    fallback to the frozen reference outputs, and run the fail-clearly guards. Shared by evaluate.py
+    and evaluate_granular.py so both behave identically; exits with a clear message if there is
+    nothing to score."""
+    gold = BASE / "input_files" / "gold_standards" / folder
+    out = Path(summary_dir) if summary_dir else BASE / "output_files" / "reports" / folder
+
+    # Fresh-clone convenience: with no --summary-dir and no live outputs yet, fall back to the frozen
+    # reference outputs that ship with the repo, so the numbers reproduce out of the box. Live outputs,
+    # once you have run the pipeline, always take precedence.
+    frozen = BASE / "docs" / "research" / "datasets" / "validation_set" / "outputs" / "claude"
+    if (not summary_dir and folder == "workflow_evaluation_sample" and frozen.is_dir()
+            and not any((out / f"{g.stem}.csv").exists() for g in gold.glob("*.csv"))):
+        out = frozen
+        print(f"[note] No live outputs in output_files/reports/{folder}/; scoring the frozen "
+              "'claude' reference outputs that ship with the repo.\n"
+              "       Run the pipeline and re-run to score your own output.\n")
+
+    # Fail clearly (like run_pipeline.py) rather than silently scoring nothing.
+    if not gold.is_dir() or not any(gold.glob("*.csv")):
+        sys.exit(f"Error: no gold standards found in {gold}\n"
+                 "Pass --folder <name> for a batch folder that has gold standards under "
+                 "input_files/gold_standards/.")
+    if not out.is_dir():
+        sys.exit(f"Error: output folder not found: {out}\n" + _no_output_hint(folder))
+    if not any((out / f"{g.stem}.csv").exists() for g in gold.glob("*.csv")):
+        sys.exit(f"Error: no output CSVs to score in {out}\n" + _no_output_hint(folder))
+    return gold, out
+
+
 def main():
     """CLI entry point: score every report's pottery summary against its gold standard and print
     per-report + aggregate detection P/R/F1, per-field agreement, and date accuracy. Flags:
@@ -358,10 +399,7 @@ def main():
                          "of an alternate Claude-vs-Ollama run). Takes precedence over --folder.")
     args = ap.parse_args()
     global OUT_DIR, GOLD_DIR
-    GOLD_DIR = BASE / "input_files" / "gold_standards" / args.folder
-    OUT_DIR = BASE / "output_files" / "reports" / args.folder
-    if args.summary_dir:
-        OUT_DIR = Path(args.summary_dir)
+    GOLD_DIR, OUT_DIR = _resolve_dirs(args.folder, args.summary_dir)
     print(f"[scoring summaries in] {OUT_DIR}\n")
     if args.present_only:
         print("[present-only] grading only rows with context_label == present\n")
@@ -438,6 +476,10 @@ def main():
                         "pipe_pot", "pipe_typ", "pipe_date"])
             w.writerows(detail_rows)
         print(f"\nPer-find detail ({len(detail_rows)} rows) -> {args.csv}")
+
+    print("\nNote: these are automated detection/per-field scores. The reported headline")
+    print("(e.g. Claude 95.6% field-level correctness) comes from evaluate_granular.py plus a manual")
+    print("adjudication of borderline cases, so it will not match exactly. See docs/research/results.md.")
 
 
 if __name__ == "__main__":

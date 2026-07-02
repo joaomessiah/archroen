@@ -223,10 +223,7 @@ def main():
     args = ap.parse_args()
     TOLERANCE = args.tolerance
 
-    ev.GOLD_DIR = ev.BASE / "input_files" / "gold_standards" / args.folder
-    ev.OUT_DIR = ev.BASE / "output_files" / "reports" / args.folder
-    if args.summary_dir:
-        ev.OUT_DIR = Path(args.summary_dir)
+    ev.GOLD_DIR, ev.OUT_DIR = ev._resolve_dirs(args.folder, args.summary_dir)
 
     # Default CSV location: output_files/evaluation/<stem>/, <stem> = name of the scored output set.
     out_base = EVAL_OUTPUT_BASE / ev.OUT_DIR.name
@@ -327,6 +324,10 @@ def main():
 
     print(f"\nDetail  ({len(detail_rows)} rows) -> {detail_csv}")
     print(f"Summary ({len(summary_rows)} reports) -> {summary_csv}")
+
+    print("\nNote: these are the raw (un-adjudicated) per-field verdicts. The reported headline")
+    print("(e.g. Claude 95.6% field-level correctness) applies a manual adjudication of borderline")
+    print("cases on top of these, so it will not match exactly. See docs/research/results.md.")
 
 
 if __name__ == "__main__":

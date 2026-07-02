@@ -22,7 +22,6 @@ from pathlib import Path
 
 import config
 from config import (
-    DEFAULT_PDF_PATH,
     BATCH_WORKERS,
     CHRONOLOGY_PATTERNS_PATH,
     POTTERY_PATTERNS_PATH,
@@ -74,7 +73,7 @@ def _stage(name: str, t0: float) -> float:
     return t1
 
 
-def main(pdf_path: Path = DEFAULT_PDF_PATH) -> None:
+def main(pdf_path: Path) -> None:
     """Run the full pipeline on one PDF and write all outputs. Loads the pattern/vocabulary files,
     then runs Layers 1-7 in sequence (extract+clean → structure → detect → pottery extract →
     normalize → interpret → chronology → output/validate), writes the per-record exports and the
