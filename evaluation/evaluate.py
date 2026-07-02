@@ -32,9 +32,9 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent   # project root (this script lives in evaluation/)
 sys.path.insert(0, str(BASE))
 try:
-    from config import POTTERY_ROMAN_ONLY as _ROMAN_ONLY, DEFAULT_REPORTS_DIR as _RDIR
+    from config import POTTERY_ROMAN_ONLY as _ROMAN_ONLY
     from src.periods import roman_in_scope as _roman_in_scope
-    _FOLDER = _RDIR.name
+    _FOLDER = "workflow_evaluation_sample"    # the bundled gold-standard set; override with --folder
 except ImportError:                       # config not importable -> no period filter
     _ROMAN_ONLY = False
     _FOLDER = "workflow_evaluation_sample"
