@@ -56,11 +56,18 @@ def _call_ollama(prompt: str, model: str, max_tokens: int = None) -> str:
     options = {"temperature": 0, "seed": 0}
     if max_tokens:
         options["num_predict"] = max_tokens   # cap output length (Ollama's max_tokens equivalent)
-    response = _ollama.chat(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        options=options,
-    )
+    try:
+        response = _ollama.chat(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            options=options,
+        )
+    except Exception as e:                     # server down, or model not pulled: make it actionable
+        raise RuntimeError(
+            f"local-llama mode could not reach Ollama ({type(e).__name__}: {e}). Make sure the "
+            f"Ollama server is running and the model is pulled: `ollama pull {model}`. "
+            f"See https://ollama.com."
+        ) from e
     return response["message"]["content"].strip()
 
 
